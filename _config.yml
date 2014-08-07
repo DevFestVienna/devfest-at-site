@@ -1,0 +1,71 @@
+﻿# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
+
+
+# Site settings
+title: DevFest Vienna 2014
+email: team@devfest.at
+description: "DevFest Vienna is part of the GDG DevFest event series all around the world"
+baseurl: ""
+url: "http://test.devfest.at"
+permalink: /blog/:title
+googleAnalyticsTrackingId: "UA-21611117-6"
+googleAnalyticsSiteUrl: "test.devfest.at"
+
+# Location block
+eventLocationName: "TU Wien"
+eventLocationAddress: "Gußhausstraße 27-29, 1040 Wien"
+eventStartTime: "2014-10-18T10:00"
+eventStartTimeHumanReadable: "10:00"
+eventEndTime: "2014-10-18T19:00"
+eventEndTimeHumanReadable: "19:00"
+eventPlaceCoordinates: "48.1964423,16.369645"
+mapCenterCoordinates: "48.1964423,16.369645"
+mapMobileCenterCoordinates: "48.1964423,16.369645"
+
+# Logistics Location Block
+logisticsMapCenterCoordinates: "48.1964423,16.369645"
+logisticsMapMobileCenterCoordinates: "48.1964423,16.369645"
+
+#Tweets feed
+twitterHashTag: "devfestvienna"
+twitterFeed: "/tweetledee/favoritesjson.php?c=10&cache_interval=900"
+
+# Subscribe
+subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+
+# Documents
+c4pUrl: "http://bit.ly/dfua-c4p"
+c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+# Head
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+twitterAccount: "@DevFestVienna"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Header
+eventDate: "18 - 19 October 2014"
+typeoutTextValues: '"", "2012", "2013", "2014"'
+
+# About Event Block
+eventName: "DevFest Vienna"
+
+# Team Block
+aboutUs: Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences.
+
+# Speakers List Block
+showSessions: true
+thumbnailsFolder: /img/speakers/
+
+# Footer
+gplusFollowUsUrl: "https://plus.google.com/+DevFestVienna"
+twitterFollowUsUrl: "https://twitter.com/intent/user?screen_name=DevFestVienna"
+fbFollowUsUrl: "https://facebook.com/DevFestVienna"
+
+# Blog
+blogCommentsEnabled: false
+discusShortName: "devfestvie"
