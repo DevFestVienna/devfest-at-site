@@ -21,13 +21,13 @@ eventStartTime: "2014-10-18T10:00"
 eventStartTimeHumanReadable: "10:00"
 eventEndTime: "2014-10-18T19:00"
 eventEndTimeHumanReadable: "19:00"
-eventPlaceCoordinates: "48.1964423,16.369645"
-mapCenterCoordinates: "48.1964423,16.369645"
-mapMobileCenterCoordinates: "48.1964423,16.369645"
+eventPlaceCoordinates: "47.6964719,13.3457347"
+mapCenterCoordinates: "47.6964719,13.3457347"
+mapMobileCenterCoordinates: "47.6964719,13.3457347"
 
 # Logistics Location Block
-logisticsMapCenterCoordinates: "48.1964423,16.369645"
-logisticsMapMobileCenterCoordinates: "48.1964423,16.369645"
+logisticsMapCenterCoordinates: "47.6964719,13.3457347"
+logisticsMapMobileCenterCoordinates: "47.6964719,13.3457347"
 
 #Tweets feed
 twitterHashTag: "devfestvienna"
