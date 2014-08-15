@@ -58,3 +58,12 @@
     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+GerwinSturm"}
+- 
+  id: "harald-kuhr"
+  name: "Harald"
+  surname: "Kuhr"
+  company:
+  title:
+  bio: "Creator of the famous twelve-monkey library."
+  thumbnailUrl: HaraldKuhr.jpg
+  rockstar: true
