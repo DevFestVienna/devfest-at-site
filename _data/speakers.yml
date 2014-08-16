@@ -21,30 +21,6 @@
   social: 
     - {name: "twitter", link: "https://twitter.com/seraandroid"}
 - 
-  id: "joanna-chwastowska"
-  name: "Joanna"
-  surname: "Chwastowska"
-  company: "Google"
-  title: "Software Engineer"
-  bio: "For last couple of years I've been working as a Software Engineer at Google. I've been on many different projects ranging from web applications, through second screen / tablets, up to the GoogleTv core apps development.<br><br>The variety of technologies and screen sizes got me interested in basic design principals one can use when designing cross-screen applications."
-  thumbnailUrl: JoannaChwastowska.jpg
-  rockstar: true
-  ribbon: 
-    - {abbr: "G", title: "Google Engineer", url: "http://www.google.com/"}
-  social: 
-- 
-  id: "siegfried-goeschl"
-  name: "Siegfried"
-  surname: "Goeschl"
-  company: "Willhaben"
-  title: "Java Developer"
-  bio: "Java Developer at willhaben.at. ASF member. Mostly sober."
-  thumbnailUrl: SiegfriedGoeschl.jpg
-  rockstar: true
-  ribbon:
-    - {abbr: "ASF", title: "Apache Software Foundation", url: "http://people.apache.org/~sgoeschl"}
-  social: 
-- 
   id: "gerwin-sturm"
   name: "Gerwin"
   surname: "Sturm"
