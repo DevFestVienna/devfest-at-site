@@ -355,7 +355,7 @@
 
             var mapOptions = {
                 zoom: 18,
-                minZoom: 14,
+                minZoom: 2,
                 scrollwheel: false,
                 panControl: false,
                 draggable: true,
@@ -376,7 +376,7 @@
                 mapOptions.center = mobileCenterMap;
             }
             if (googleMaps == 'logistics') {
-                mapOptions.zoom = 15;
+                mapOptions.zoom = 6;
                 mapOptions.zoomControl = true;
             }
 

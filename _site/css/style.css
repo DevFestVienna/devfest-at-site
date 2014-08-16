@@ -639,6 +639,7 @@ nav ul {
     -webkit-transition: all .3s;
     transition: all .3s;
     text-align: left;
+    width:70%;
 }
 #top-header.sticky ul {
     line-height: 50px;
