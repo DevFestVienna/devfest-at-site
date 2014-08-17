@@ -1590,6 +1590,10 @@ nav ul > li > a.current, nav ul > li > a:hover {
     top: -.4em;
     left: .8em;
     color: #fff;
+    height: 60px;
+    width: 700px;
+    background-color: rgba(3, 169, 244, 0.61);
+    text-align: center;
 }
 .map-card {
     font-size: 1.2em;
