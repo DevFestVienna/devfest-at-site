@@ -9,10 +9,10 @@ title: DevFest Vienna 2014
 email: team@devfest.at
 description: "DevFest Vienna is part of the GDG DevFest event series all around the world"
 baseurl: ""
-url: "http://test.devfest.at"
+url: "http://www.devfest.at"
 permalink: /blog/:title
 googleAnalyticsTrackingId: "UA-21611117-6"
-googleAnalyticsSiteUrl: "test.devfest.at"
+googleAnalyticsSiteUrl: "www.devfest.at"
 
 # Location block
 eventLocationName: "TU Wien"
