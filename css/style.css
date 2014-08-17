@@ -1590,8 +1590,8 @@ nav ul > li > a.current, nav ul > li > a:hover {
     top: -.4em;
     left: .8em;
     color: #fff;
-    height: 60px;
-    width: 700px;
+    padding: 5px;
+    width: 55%;
     background-color: rgba(3, 169, 244, 0.61);
     text-align: center;
 }
