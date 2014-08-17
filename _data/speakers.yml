@@ -34,12 +34,16 @@
     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+GerwinSturm"}
-- 
-  id: "harald-kuhr"
-  name: "Harald"
-  surname: "Kuhr"
+-
+  id: "marc-edem"
+  name: "Marc Edem"
+  surname: "Aziahome"
   company:
   title:
-  bio: "Creator of the famous twelve-monkey library."
-  thumbnailUrl: HaraldKuhr.jpg
+  bio: "My full name is Ayi Edem Segniagbeto Aziahome (but call me Edem just to make it short). I am a Student in Business Informatics (Wirtschaftsinformatik) at the Vienna University of Technology (TU Wien). I'm part of the GDG Vienna, JSUG and an enthusiast about Google technologies. Moreover, i'm interested in Usability Engineering of apps and software. I'm now currently front-end developer but also interested in Data-Mining and writing my bachelor thesis in Sentiment analysis, a new trend by using some data-mining algorithms and techniques."
+  thumbnailUrl: MarcEdem.jpg
   rockstar: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+MarcEdem"}
