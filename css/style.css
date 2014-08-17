@@ -717,6 +717,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
     transform: translateY(-50%);
     color: #fff;
     background: none;
+    text-shadow: -1px 0 rgba(0,0,0,0.5), 0 1px rgba(0,0,0,0.5), 1px 0 rgba(0,0,0,0.5), 0 -1px rgba(0,0,0,0.5);
 }
 #top-section-hero .jumbotron p {
     font-size: 25px;
