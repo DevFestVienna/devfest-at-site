@@ -354,8 +354,8 @@
             }];
 
             var mapOptions = {
-                zoom: 17,
-                minZoom: 2,
+                zoom: 27,
+                minZoom: 9,
                 scrollwheel: false,
                 panControl: false,
                 draggable: true,
