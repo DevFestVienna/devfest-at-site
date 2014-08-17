@@ -724,6 +724,9 @@ nav ul > li > a.current, nav ul > li > a:hover {
     font-weight: 200;
     margin-bottom: 15px;
 }
+#top-section-hero .jumbotron .contrast {
+    background-color: rgba(0,0,0,0.1);
+}
 .explore {
     position: absolute;
     bottom: 4em;
