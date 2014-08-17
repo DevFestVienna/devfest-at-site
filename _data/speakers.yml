@@ -41,6 +41,7 @@
   company:
   title:
   bio: "My full name is Ayi Edem Segniagbeto Aziahome (but call me Edem just to make it short). I am a Student in Business Informatics (Wirtschaftsinformatik) at the Vienna University of Technology (TU Wien). I'm part of the GDG Vienna, JSUG and an enthusiast about Google technologies. Moreover, i'm interested in Usability Engineering of apps and software. I'm now currently front-end developer but also interested in Data-Mining and writing my bachelor thesis in Sentiment analysis, a new trend by using some data-mining algorithms and techniques."
+  thumbnailUrl: MarcEdem.jpg
   rockstar: true
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
