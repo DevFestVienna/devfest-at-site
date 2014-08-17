@@ -115,17 +115,17 @@ h6 {
     fill: #464646;
 }
 .logo-dark {
-    background-image: url('../img/sprites/logos.svg');
+    background-image: url('../img/sprites/logos.png');
     background-repeat: no-repeat;
     background-position: 0 -1px;
 }
 .logo-gray {
-    background-image: url('../img/sprites/logos.svg');
+    background-image: url('../img/sprites/logos.png');
     background-repeat: no-repeat;
     background-position: 0 -63px;
 }
 .logo-light {
-    background-image: url('../img/sprites/logos.svg');
+    background-image: url('../img/sprites/logos.png');
     background-repeat: no-repeat;
     background-position: 0 -127px;
 }
@@ -639,6 +639,7 @@ nav ul {
     -webkit-transition: all .3s;
     transition: all .3s;
     text-align: left;
+    width:70%;
 }
 #top-header.sticky ul {
     line-height: 50px;
@@ -741,7 +742,7 @@ nav ul > li > a.current, nav ul > li > a:hover {
 
 #top-section {
     position: relative;
-    min-height: 600px;
+    min-height: 250px;
     padding-top: 0;
     background: #03a9f4;
     background-repeat: no-repeat;
