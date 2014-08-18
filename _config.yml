@@ -5,7 +5,7 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
 
 # Site settings
-title: DevFest Vienna 2014
+title: DevFest Vienna
 email: team@devfest.at
 description: "DevFest Vienna is part of the GDG DevFest event series all around the world"
 baseurl: ""
@@ -43,9 +43,9 @@ c4sponsorsUrl: "/sponsor"
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, Vienna"
 twitterAccount: "@DevFestVienna"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus-2014.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter-2014.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook-2014.png"
 
 # Header
 eventDate: "18 - 19 October 2014"
