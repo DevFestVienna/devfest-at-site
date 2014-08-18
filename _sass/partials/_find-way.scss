@@ -13,6 +13,10 @@ $location-card-highlight-color: #333;
         top: -26px;
         left: 52px;
         color: #fff;
+        background-color: rgba(3, 169, 244, 0.61);
+        text-align: center;
+        padding: 5px;
+        width: 55%;
         @media (max-width: 767px) {
             top: 4px;
             left: 0;
