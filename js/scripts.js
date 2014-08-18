@@ -13,17 +13,32 @@
             }
             $('body').css('overflow', 'auto');
             hidePreloader();
+            initGooglePlus();
             generateSameHeight();
+            setTimeout(function() {
+                $('.explore').removeClass('hidden');
+            }, 1000);
         });
 
+    
+        $('.track-header').each(function() {
+            var slot = $(this).closest('.schedule-table').find('.slot').first();
+            var scheduleFirstSlotText;
+            while(scheduleFirstSlotText === undefined) {
+                scheduleFirstSlotText = slot.data('slotDetail');
+                slot = slot.next();
+            }
+            $(this).find('.slot-detail').html(scheduleFirstSlotText);
+        });
+
+
         if ($(window).width() > 1500) {
-            $('.team-item-wrapper').each(function() {
-                $(this).addClass('col-lg-3');
-            });
+            $('.effect-wrapper').addClass('col-lg-3');
         }
         if ($(window).width() < 768) {
             $('.animated').removeClass('animated').removeClass('hiding');
             $('.stat span').removeClass('timer');
+            $('.timeslot-label').addClass('stick-label');
         }
         if ($(window).height() < 512) {
             $('#bottom-navlinks').removeClass('bottom-navlinks').addClass('bottom-navlinks-small');
@@ -37,44 +52,32 @@
             var scroll = $(this).scrollTop();
             var header = $('#top-header');
             var logo = $('#logo-header .logo');
-            var src = logo.attr('src');
-            var buyButton = $('#buy-tickets-button');
+            var buyButton = $('.right-nav-button');
+            var topOffset = header.height() + $('.track-header').height();
 
             if (scroll >= 100) {
                 header.addClass('after-scroll');
                 logo.removeClass('logo-light').addClass('logo-dark');
             } else {
                 header.removeClass('after-scroll');
-                if (!header.hasClass('dark-header')) {
-                    logo.removeClass('logo-dark').addClass('logo-light');
-                }
+                logo.removeClass('logo-dark').addClass('logo-light');
             }
 
-            if (scroll >= $(window).height()) {
-                buyButton.fadeIn(400);
-                buyButton.removeClass('hidden');
+            if (scroll >= $('.top-section').height()) {
+                buyButton.removeClass('right-nav-button-hidden');
             } else {
-                buyButton.fadeOut(400, function() {
-                    buyButton.addClass('hidden');
-                });
+                buyButton.addClass('right-nav-button-hidden');
             }
-        });
 
-        $(function() {
-            var idArray = [];
-            $('.top-speakers-item').each(function() {
-                idArray[idArray.length] = $(this).attr('data-id');
+            $('.slot').each(function() {
+                var currentPosition = $(this).offset().top - scroll;
+                var offsetActivator = topOffset + $(this).find('.slot-title').height();
+
+                if(currentPosition <=  offsetActivator && currentPosition >= 0) {
+                    $('.track-header.sticky').find('.slot-detail').html($(this).data('slotDetail'));
+                }
             });
-            idArray = shuffleArray(idArray);
-            for (var i = 0; i < 4; i++) {
-                $('#top-speaker-' + idArray[i]).removeClass('hidden');
-            }
         });
-
-        function shuffleArray(o) {
-            for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-            return o;
-        };
 
         var delay = parseInt($('.increment-animation').attr('data-delay'));
         $('.increment-animation').not('hidden').each(function(index) {
@@ -102,6 +105,23 @@
             }
         }, {
             accY: -150
+        });
+
+        $(function() {
+            var appear, delay, i, offset, _i, _len, _ref;
+            _ref = $(".appear-animation");
+            for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+                i = _ref[_i];
+                offset = i.offsetLeft + i.offsetTop;
+                delay = offset / 1000;
+                $(i).css('transition-delay', '' + (delay * 0.47) + 's');
+                $(i).css('transition-duration', '' + 0.2 + 's');
+            }
+        });
+        $('.appear-animation-trigger').appear(function() {
+            setTimeout(function() {
+                $('.appear-animation-trigger').parent('div').find('.appear-animation').addClass('visible');
+            }, 1000);
         });
 
         $(function() {
@@ -192,11 +212,11 @@
 
         $(window).resize(function() {
             if ($(window).width() > 1500) {
-                $('.team-item-wrapper').each(function() {
+                $('.effect-wrapper').each(function() {
                     $(this).addClass('col-lg-3');
                 });
             } else {
-                $('.team-item-wrapper').each(function() {
+                $('.effect-wrapper').each(function() {
                     $(this).removeClass('col-lg-3');
                 });
             }
@@ -205,8 +225,8 @@
                     container.removeClass('st-menu-open');
                     $('body').css('overflow', 'auto');
                 }
-                generateSameHeight()
-            }
+                generateSameHeight();
+            } 
             var bottomNavLinks = $('#bottom-navlinks');
             if ($(window).height() < 512) {
                 bottomNavLinks.removeClass('bottom-navlinks').addClass('bottom-navlinks-small');
@@ -215,6 +235,9 @@
             }
             if ($(window).width() < 768) {
                 $('.same-height').css('height', '100%');
+                $('.timeslot-label').addClass('stick-label');
+            } else {
+                $('.timeslot-label').removeClass('stick-label');
             }
         });
 
@@ -262,17 +285,15 @@
         }
     });
 
-
-    $(document).ready(function() {
     //Google plus
-    (function() {
+    function initGooglePlus() {
         var po = document.createElement('script');
         po.type = 'text/javascript';
         po.async = true;
         po.src = 'https://apis.google.com/js/platform.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(po, s);
-    })();
+    }
 
     //Google maps
     if (typeof googleMaps !== 'undefined') {
@@ -306,7 +327,7 @@
             }, {
                 elementType: 'labels',
                 stylers: [{
-                    visibility: 'off'
+                    visibility: 'on'
                 }]
             }, {
                 featureType: 'water',
@@ -376,7 +397,7 @@
                 mapOptions.center = mobileCenterMap;
             }
             if (googleMaps == 'logistics') {
-                mapOptions.zoom = 6;
+                mapOptions.zoom = 5;
                 mapOptions.zoomControl = true;
             }
 
@@ -567,6 +588,5 @@
 
         google.maps.event.addDomListener(window, 'load', initialize);
     }
-    });
 
 })(jQuery);
