@@ -1,0 +1,89 @@
+- 
+  date: "2014-10-18"
+  dateReadable: "18 October"
+  tracks: 
+    - {title: "EI9", color: "#90be4e"}
+    - {title: "EI10", color: "#03a9f4"}
+  timeslots:
+    - {
+        startTime: "09:30",
+        endTime: "10:00",
+        sessionIds: [100]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "10:55",
+    	sessionIds: [001, 002]
+    }
+    - {
+        startTime: "11:00",
+        endTime: "11:55",
+        sessionIds: [005, 006]
+    }
+    - {
+    	startTime: "12:00",
+    	endTime: "12:25",
+    	sessionIds: [007]
+    }
+    - {
+        startTime: "12:30",
+        endTime: "14:00",
+        sessionIds: [101]
+    }
+    - {
+        startTime: "14:00",
+        endTime: "14:25"
+    }
+    - {
+        startTime: "14:30",
+        endTime: "14:55"
+    }
+    - {
+        startTime: "15:00",
+        endTime: "16:00",
+        sessionIds: [102]
+    }
+    - {
+        startTime: "16:00",
+        endTime: "16:55"
+    }
+    - {
+        startTime: "17:00",
+        endTime: "17:55"
+    }
+    - {
+        startTime: "18:00",
+        endTime: "22:00",
+        sessionIds: [103]
+    }
+- 
+  date: "2014-10-19"
+  dateReadable: "19 October"
+  tracks: 
+    - {title: "Raum D / quartier 21"}
+  timeslots: 
+    - {
+    	startTime: "10:00",
+    	endTime: "10:45",
+    	sessionIds: [200]
+    }
+    - {
+    	startTime: "10:45",
+    	endTime: "12:30",
+    	sessionIds: [201]
+    }
+    - {
+        startTime: "12:30",
+        endTime: "13:30",
+        sessionIds: [202]
+    }
+    - {
+    	startTime: "13:30",
+    	endTime: "18:00",
+    	sessionIds: [203]
+    }
+    - {
+        startTime: "18:00",
+        endTime: "19:00",
+        sessionIds: [204]
+    }

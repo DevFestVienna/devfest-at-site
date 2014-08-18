@@ -1,50 +1,80 @@
 -
+  id: 100
+  title: "Welcome and Registration"
+  place: "Hall"
+  service: true
+-
+  id: 101
+  title: "Lunch Break"
+  place: "Hall"
+  service: true
+-
+  id: 102
+  title: "Coffee Break"
+  place: "Hall"
+  service: true
+-
+  id: 103
+  title: "After Party"
+  place: "To be announced"
+  service: true
+-
   id: 001
   title: "(kick-ass) Documentation Driven Development"
   description: "We often only start writing documentation for our apps and app functionality after we have developed them. Instead, when you start with writing down the requirements (BDD), intended usage and example use cases, documentation writing not only moves away from being a painful last-minute kind of thing, but actually becomes a vital part in the decision making process - making sure we don't feature-freak and built unnecessary stuff. Which translates to smarter software development, less killing darlings and more time for the important stuff in life: coding ALL the rubies (yes, I am one of those people)."
-  track: coding
+  track: "Coding"
   subtype: presentation
   speakers: ["floor-drees"]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
   language: English
 -
   id: 002
   title: "Death to Passwords"
   description: "User authentication in mobile applications is a very common and integral use case. Implementing regular passwords is an easy solution for developers but comes with several pitfalls that impair user experience like (re-)entering passwords, the need to create a new unique password or even just the input of personal data on a flaky keyboard while registering a new account.<br><br>In this talk the security flaws and UX implications of passwords will be discussed and highlighted which different techniques exist that are able to offer a more mobile friendly flow. Highlighting authorization and authentication techniques like OAuth, OpenID Connect and even hardware features like Bluetooth Low Energy this talk will be interesting for anyone who's facing a situation where creating and storing user accounts matters."
-  track: cloud
+  track: "Cloud"
   subtype: presentation
   speakers: ["tim-messerschmidt"]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
   language: English
 -
   id: 005
   title: "Keeping your secrets secret in an Open Source world"
   description: "While open source is great there are some things you can't publish together with your source, like client secrets or database access passwords. In this talk I will discuss this problem and present several solutions, with a focus on the Google Cloud Platform."
-  track: cloud
+  track: "Cloud"
   subtype: presentation
   speakers: ["gerwin-sturm"]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
   language: English
 -
   id: 006
   title: "Sentiment analysis with Google Prediction API"
   description: "Sentiment analysis is a new trend when it comes to data-mining, in its ability to better analyze end user's opinions about different products, via the use of social media. Sentiment analysis have been done with different Data-mining algorithms and techniques. Since Google API also provides the same pattern of development, experimenting such technology with this API can help us got following result:<br>-Given a user's past viewing habits, predict what other movies or products a user might like.<br>- Categorize emails as spam or non-spam.<br>- Analyze posted comments about your product to determine whether they have a positive or negative tone.<br>- Guess how much a user might spend on a given day, given his spending history."
-  track: cloud
+  track: "Cloud"
   subtype: presentation
   speakers: ["marc-edem"]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
   language: English
 -
   id: 007
   title: "Cloud Backend for Mobile Apps - Azure Mobile Services"
   description: "Microsoft Azure offers with Mobile Services a number of services that mobile developers can use to quickly implemented often-used scenarios in apps. In this talk we will see an introduction of Azure Mobile Services and how you can use them to quickly build yourself backend in the cloud on a sample (platform-independent) phone app."
-  track: cloud
+  track: "Cloud"
   subtype: presentation
   speakers: ["rina-ahmed"]
-  startTimeStamp: 1382774400
-  endTimestamp: 1382796000
   language: German or English as requested
+-
+  id: 200
+  title: "Breakfast"
+  service: true
+-
+  id: 201
+  title: "Hacking Time"
+  service: true
+-
+  id: 202
+  title: "Lunch Break"
+  service: true
+-
+  id: 203
+  title: "Hacking Time"
+  service: true
+-
+  id: 204
+  title: "Presentation"
+  service: true
