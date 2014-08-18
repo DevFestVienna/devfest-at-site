@@ -20,6 +20,17 @@
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/seraandroid"}
+-
+  id: "rina-ahmed"
+  name: "Rina"
+  surname: "Ahmed"
+  company: "Microsoft"
+  title: "Technical Evangelist"
+  bio: "Rina Ahmed is a Technical Evangelist for Windows Phone in the Developer and Evangelism Group at Microsoft Austria. As such, she spreads her passion for Windows Phone and supports developers with app development. Before joining Microsoft in 2012, she worked as a software developer at UNIDO. Rina studied Business Informatics at the Vienna University of Technology and University of Vienna."
+  thumbnailUrl: RinaAhmed.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/rinaahm"}
 - 
   id: "gerwin-sturm"
   name: "Gerwin"

@@ -38,3 +38,13 @@
   startTimeStamp: 1382774400
   endTimestamp: 1382796000
   language: English
+-
+  id: 007
+  title: "Cloud Backend for Mobile Apps - Azure Mobile Services"
+  description: "Microsoft Azure offers with Mobile Services a number of services that mobile developers can use to quickly implemented often-used scenarios in apps. In this talk we will see an introduction of Azure Mobile Services and how you can use them to quickly build yourself backend in the cloud on a sample (platform-independent) phone app."
+  track: cloud
+  subtype: presentation
+  speakers: ["rina-ahmed"]
+  startTimeStamp: 1382774400
+  endTimestamp: 1382796000
+  language: German or English as requested
