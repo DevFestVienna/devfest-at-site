@@ -62,12 +62,12 @@
 
         $(function() {
             var idArray = [];
-            $('.rockstar-speakers-item').each(function() {
+            $('.top-speakers-item').each(function() {
                 idArray[idArray.length] = $(this).attr('data-id');
             });
             idArray = shuffleArray(idArray);
             for (var i = 0; i < 4; i++) {
-                $('#rockstar-speaker-' + idArray[i]).removeClass('hidden');
+                $('#top-speaker-' + idArray[i]).removeClass('hidden');
             }
         });
 
