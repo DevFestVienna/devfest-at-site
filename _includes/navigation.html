@@ -1,9 +1,9 @@
-<header id="top-header" class="col-lg-10 col-sm-12">
-    <svg id="menu-trigger" class="icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
+<header class="top-header" id="top-header" class="col-lg-10 col-sm-12">
+    <svg class="menu-trigger" id="menu-trigger" class="icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
         <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-menu"></use>
     </svg>
-    <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header logo-light"></a>
-    <nav class="st-menu st-effect" id="menu">
+    <a href="{{ site.baseurl }}/" class="logo-header" id="logo-header" class="logo-header logo-light"></a>
+    <nav class="st-menu st-effect" class="menu" id="menu">
         <div class="logo-navbar logo-dark visible-xs"></div>
         <ul>
             <li><a {% if page.permalink == '/' %} class="current" {% endif %} href="{{ site.baseurl }}/">Home</a>
