@@ -30,13 +30,13 @@
         }
         if ($(window).scrollTop() >= 100) {
             $('#top-header').addClass('after-scroll');
-            $('#logo-header').removeClass('logo-light').addClass('logo-dark');
+            $('#logo-header .logo').removeClass('logo-light').addClass('logo-dark');
         }
 
         $(window).scroll(function() {
             var scroll = $(this).scrollTop();
             var header = $('#top-header');
-            var logo = $('#logo-header');
+            var logo = $('#logo-header .logo');
             var src = logo.attr('src');
             var buyButton = $('#buy-tickets-button');
 
