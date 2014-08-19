@@ -51,7 +51,7 @@
   description: "If you are ever asked to convert, process and scale millions of real-world images using Java it will be a painful experience - at least it was for me. I came across unexpected problems ranging from CMYK, alpha-channel handling, multi-page TIFF, image compression algorithms, setting DPIs, PDF preview generation, decompression bombs to efficient image scaling. At hindsight I wished there was some single resource of information to guide me through my problems - and this is exactly the reason for this presentation. It provides real-life experience in replacing an ImageMagick/JMagick image conversion & scaling with a pure Java implementation covering Apache PDFBox, Java Advanced Imaging API (JAI), TwelveMonkeys ImageIO plugins, Sanselan (aks Commons Imaging) and different Java-based image-scaling libraries."
   track: "Java"
   subtype: presentation
-  speakers: ["harald-kuhr"]
+  speakers: ["siegfried-goeschl","harald-kuhr"]
   language: English
 -
   id: 005

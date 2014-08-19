@@ -101,4 +101,16 @@
   company: "CTBTO PrepCom"
   title: "Information Systems Specialist"
   bio: "Helmuth has studied Mathematics at the TU Vienna, likes gadgets and is busy as one of GDG Vienna's organizers."
-  thumbnailUrl: Helmuth Breitenfellner.jpg
+  thumbnailUrl: HelmuthBreitenfellner.jpg
+-
+  id: "siegfried-goeschl"
+  name: "Siegfried"
+  surname: "Goeschl"
+  company: "Willhaben"
+  title: "Java Developer"
+  bio: "Java Developer at willhaben.at. ASF member. Mostly sober."
+  thumbnailUrl: MissingSiegfriedGoeschl.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "ASF", title: "Apache Software Foundation", url: "http://people.apache.org/~sgoeschl"}
+  social:
