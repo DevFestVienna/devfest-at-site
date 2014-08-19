@@ -3,17 +3,19 @@
         $('body').css('overflow', 'hidden');
         var hasPreloader = true;
         function hidePreloader() {
+            var preloaderDelay = 350,
+                preloaderFadeOutTime = 800,
+                loadingAnimation,
+                preloader;
             if (hasPreloader) {
-                var loadingAnimation = $('#loading-animation'),
-                    preloader = $('#preloader');
                 hasPreloader = false;
+                loadingAnimation = $('#loading-animation');
+                preloader = $('#preloader');
                 loadingAnimation.fadeOut();
                 preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);                
             }
         }
         $(window).load(function() {
-            var preloaderDelay = 350,
-                preloaderFadeOutTime = 800;
             $('body').css('overflow', 'auto');
             hidePreloader();
             initGooglePlus();
