@@ -102,6 +102,10 @@
   title: "Information Systems Specialist"
   bio: "Helmuth has studied Mathematics at the TU Vienna, likes gadgets and is busy as one of GDG Vienna's organizers."
   thumbnailUrl: MissingHelmuthBreitenfellner.jpg
+  social:
+    - {name: "google-plus", url: "https://google.com/+HelmuthBreitenfellner"}
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
 -
   id: "siegfried-goeschl"
   name: "Siegfried"
@@ -113,4 +117,16 @@
   rockstar: true
   ribbon:
     - {abbr: "ASF", title: "Apache Software Foundation", url: "http://people.apache.org/~sgoeschl"}
+  social:
+-
+  id: "joanna-chwastowska"
+  name: "Joanna"
+  surname: "Chwastowska"
+  company: "Google"
+  title: "Software Engineer"
+  bio: "For last couple of years I've been working as a Software Engineer at Google. I've been on many different projects ranging from web applications, through second screen / tablets, up to the GoogleTv core apps development.<br><br>The variety of technologies and screen sizes got me interested in basic design principals one can use when designing cross-screen applications."
+  thumbnailUrl: JoannaChwastowska.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "G", title: "Google Engineer", url: "http://www.google.com/"}
   social:
