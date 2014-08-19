@@ -58,3 +58,15 @@
     - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+MarcEdem"}
+-
+  id: "harald-kuhr"
+  name: "Harald"
+  surname: "Kuhr"
+  company:
+  title:
+  bio: "Harald has been a professional Java developer since 1998, and has a long experience developing Java based solutions. Since 2009 he's been a consultant at Bouvet. Harald likes to keep things simple, and will soon get tired  of bad user experiences and overly complex UIs (even though he must confess that he might have helped creating such things in the past, if he is to be completely honest).<br>Over the years, Harald has been an active member of the Norwegian JUG;  javaBin. He has given various presentations at local user meetups and participating in the planning and execution,  as well as speaking at the JavaZone conference.<br>In addition to building Lego, bicycling and listening to jazz, Harald is interested in photography and digital image processing. He has developed  a strange affection for obscure file formats. Even though it's getting ever harder to find time to program for fun in his spare time, every once in a while he gets to use these skills for something useful, and write beautiful code. That makes him happy. :-)"
+  thumbnailUrl: HaraldKuhr.jpg
+  rockstar: 
+  ribbon:
+  social: 
+    - {name: "github", link: "https://github.com/haraldk"}
