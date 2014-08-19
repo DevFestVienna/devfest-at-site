@@ -24,7 +24,7 @@ Then install all dependency by calling bundle install while in the source direct
 
 To compile the files call rake while in the source tree:
 ```bash
-    rake
+    bundle exec rake
 ```
 
 This will minify the JS, compile the CSS from SASS, and build the jekyll site.
