@@ -11,17 +11,16 @@
                 preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);                
             }
         }
-        $(window).load(function(){
+        $(window).load(function() {
             var preloaderDelay = 350,
                 preloaderFadeOutTime = 800;
-                $('body').css('overflow', 'auto');
-                hidePreloader();
-                initGooglePlus();
-                generateSameHeight();
-                setTimeout(function() {
-                    $('.explore').removeClass('hidden');
-                }, 1000);
-            }
+            $('body').css('overflow', 'auto');
+            hidePreloader();
+            initGooglePlus();
+            generateSameHeight();
+            setTimeout(function() {
+                $('.explore').removeClass('hidden');
+            }, 1000);
         });
         // show the page when loaded or latest after 3 seconds
         setTimeout(hidePreloader, 3000);
