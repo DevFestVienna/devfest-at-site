@@ -11,13 +11,9 @@
                 preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);                
             }
         }
-        $(window).load({
+        $(window).load(function(){
             var preloaderDelay = 350,
                 preloaderFadeOutTime = 800;
-            if (!isLoaded) {
-                isLoaded = true;
-    
-                }
                 $('body').css('overflow', 'auto');
                 hidePreloader();
                 initGooglePlus();
