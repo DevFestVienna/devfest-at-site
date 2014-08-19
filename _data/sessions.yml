@@ -38,6 +38,14 @@
   speakers: ["tim-messerschmidt"]
   language: English
 -
+  id: 003
+  title: "Responsive Layout"
+  description: "In the talk I will touch on new trends in designing cross-devices applications. I'll share some tips and tricks on how, with minimal effort, to make a huge difference for the users. And how to design applications that simply &quot;feel right&quot; in the mobile era."
+  track: "Web"
+  subtype: presentation
+  speakers: ["joanna-chwastowska"]
+  language: English
+-
   id: 004
   title: "Java Image Processing Survival Guide"
   description: "If you are ever asked to convert, process and scale millions of real-world images using Java it will be a painful experience - at least it was for me. I came across unexpected problems ranging from CMYK, alpha-channel handling, multi-page TIFF, image compression algorithms, setting DPIs, PDF preview generation, decompression bombs to efficient image scaling. At hindsight I wished there was some single resource of information to guide me through my problems - and this is exactly the reason for this presentation. It provides real-life experience in replacing an ImageMagick/JMagick image conversion & scaling with a pure Java implementation covering Apache PDFBox, Java Advanced Imaging API (JAI), TwelveMonkeys ImageIO plugins, Sanselan (aks Commons Imaging) and different Java-based image-scaling libraries."
@@ -68,7 +76,31 @@
   track: "Cloud"
   subtype: presentation
   speakers: ["rina-ahmed"]
-  language: German or English as requested
+  language: "German or English as requested"
+-
+  id: 008
+  title: "Developing a SDK for Android"
+  description: "We (woohoo) provide a solution for mobile app developers to improve their retention rate by providing user rewards. Those rewards are possible via the collection of in app achievements. Those virtual earnings can then be converted to coupons for actual products. This solution is provided to developers as Android library project and static library for iOS. In this talk we want to share our experiences we made throughout the development of these SDKs."
+  track: "Android"
+  subtype: presentation
+  speakers: ["peter-riegler", "bernd-bergler"]
+  language: "English or German as requested"
+-
+  id: 009
+  title: "GIS with Open Source"
+  description: "A geographic information system (GIS) is a computer system designed to capture, store, manipulate, analyze, manage, and present all types of geographical data. I will present some of the major open source tools and give examples how they can be used to create solutions based on geographic information."
+  track: "Code"
+  subtype: presentation
+  speakers: ["riccardo-rubini"]
+  language: "English"
+-
+  id: 010
+  title: "Ionic framework for hybrid mobile apps"
+  description: "I will give a short introduction into the Ionic framework and its usage to create great looking mobile apps, with modern design, based on AngularJS and performance obsessed"
+  track: "Mobile"
+  subtype: presentation
+  speakers: ["helmuth-breitenfellner"]
+  language: "German or English as requested"
 -
   id: 200
   title: "Breakfast"

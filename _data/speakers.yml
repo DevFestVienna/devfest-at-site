@@ -68,3 +68,37 @@
   thumbnailUrl: HaraldKuhr.jpg
   social: 
     - {name: "github", link: "https://github.com/haraldk"}
+-
+  id: "riccardo-rubini"
+  name: "Riccardo"
+  surname: "Rubini"
+  company: "IAEA"
+  title: "System Engineer"
+  bio: "Computer Science Engineer, with a minor in Systems Automation and Master's degree in Geospatial Information Systems (GIS). He has been working in the field of Information Technology for over ten years, both in the private and public sector. His career record includes international organizations such as the World Food Programme (WFP), the United Nations Logistics Base (UNLB), the Comprehensive Nuclear-Test-Ban Treaty Organization (CTBTO) and the International Atomic Energy Agency (IAEA). Either for work or for passion, his main goal in hosting a session is not simply telling, explaining or demonstrating a topic, but rather that of inspiring listeners, by providing them with the conditions to learn independently."
+  thumbnailUrl: RiccardoRubini.jpg
+-
+  id: "peter-riegler"
+  name: "Peter"
+  surname: "Riegler"
+  company: "woohoo mobile marketing GmbH"
+  title: "Software Developer"
+  bio: "Peter studied Telematics at the University of technology in Graz and is currently Android and Rails developer at woohoo mobile marketing. He is also freelancer and develops apps for fun :)"
+  thumbnailUrl: PeterRiegler.jpg
+  social:
+    - {name: "google-plus", link: "https://google.com/+PeterRiegler1"}
+-
+  id: "bernd-bergler"
+  name: "Bernd"
+  surname: "Bergler"
+  company: "woohoo mobile marketing GmbH"
+  title: "Software Developer"
+  bio: "Bernd studied Telematics at the University of technology in Graz and is currently Android and Rails developer at woohoo mobile marketing. He is also freelancer and develops apps for fun :)"
+  thumbnailUrl: BerndBergler.jpg
+-
+  id: "helmuth-breitenfellner"
+  name: "Helmuth"
+  surname: "Breitenfellner"
+  company: "CTBTO PrepCom"
+  title: "Information Systems Specialist"
+  bio: "Helmuth has studied Mathematics at the TU Vienna, likes gadgets and is busy as one of GDG Vienna's organizers."
+  thumbnailUrl: Helmuth Breitenfellner.jpg
