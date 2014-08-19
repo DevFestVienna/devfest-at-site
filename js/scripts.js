@@ -1,24 +1,32 @@
 (function($) {
     $(document).ready(function() {
         $('body').css('overflow', 'hidden');
-        $(window).load(function() {
+        var isLoaded = false;
+        function onLoaded {
             var preloaderDelay = 350,
                 preloaderFadeOutTime = 800;
-
-            function hidePreloader() {
-                var loadingAnimation = $('#loading-animation'),
-                    preloader = $('#preloader');
-                loadingAnimation.fadeOut();
-                preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);
+            if (!isLoaded) {
+                isLoaded = true;
+    
+                function hidePreloader() {
+                    var loadingAnimation = $('#loading-animation'),
+                        preloader = $('#preloader');
+                    loadingAnimation.fadeOut();
+                    preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);
+                }
+                $('body').css('overflow', 'auto');
+                hidePreloader();
+                initGooglePlus();
+                generateSameHeight();
+                setTimeout(function() {
+                    $('.explore').removeClass('hidden');
+                }, 1000);
             }
-            $('body').css('overflow', 'auto');
-            hidePreloader();
-            initGooglePlus();
-            generateSameHeight();
-            setTimeout(function() {
-                $('.explore').removeClass('hidden');
-            }, 1000);
-        });
+        };
+        // show the page when loaded or latest after 3 seconds
+        $(window).load(onLoaded);
+        setTimeout(onLoaded, 3000);
+
 
     
         $('.track-header').each(function() {
