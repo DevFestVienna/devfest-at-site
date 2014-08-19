@@ -5,7 +5,7 @@ permalink: /cod/
 isStaticPost: true
 ---
 
-DevFest Vienna is dedicated to being open to everyone and making the conference a safe place for all. We do not discriminate based on ethnic background, religion, gender, sexuality, body shape, or disability. We do not tolerate harassment based on discrimination.
+DevFest Vienna is dedicated to being open to everyone and making the conference a safe place for all. We do not discriminate based on ethnic background, religion, gender, sexuality, body shape, or disability. We do not tolerate any harassment.
 
 We insist that all participants and attendees adhere to a civil demeanor at all times. This includes refraining from inappropriate language, comments and behaviour. This includes, but is not limited to: sexually oriented language and images, unwanted attention, threatening behaviour, physical assault, theft.
 
