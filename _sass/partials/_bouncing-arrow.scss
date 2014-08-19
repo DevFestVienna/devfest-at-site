@@ -55,5 +55,5 @@ body {
 }
 
 .bounce {
-  @include animation(bounce 2s 10);
+  @include animation(bounce 2s 3);
 }
