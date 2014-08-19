@@ -86,7 +86,7 @@
             });
             idArray = shuffleArray(idArray);
             for (var i = 0; i < 4; i++) {
-                $('#rockstar-speaker-' + idArray[i]).removeClass('hidden');
+                $('#top-speaker-' + idArray[i]).removeClass('hidden');
             }
         });
 
