@@ -148,6 +148,7 @@ $small-label-width: 80px;
         cursor: default;
     }
     &.service-slot {
+        text-align: center;
         @extend .blank-col;
     }
 }

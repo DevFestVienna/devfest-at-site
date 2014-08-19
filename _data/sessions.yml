@@ -19,6 +19,9 @@
   place: "To be announced"
   service: true
 -
+  id: 000
+  title: "To be announced"
+-
   id: 001
   title: "(kick-ass) Documentation Driven Development"
   description: "We often only start writing documentation for our apps and app functionality after we have developed them. Instead, when you start with writing down the requirements (BDD), intended usage and example use cases, documentation writing not only moves away from being a painful last-minute kind of thing, but actually becomes a vital part in the decision making process - making sure we don't feature-freak and built unnecessary stuff. Which translates to smarter software development, less killing darlings and more time for the important stuff in life: coding ALL the rubies (yes, I am one of those people)."
