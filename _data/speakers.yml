@@ -114,7 +114,7 @@
   title: "Java Developer"
   bio: "Java Developer at willhaben.at. ASF member. Mostly sober."
   thumbnailUrl: MissingSiegfriedGoeschl.jpg
-  rockstar: true
+  rockstar:
   ribbon:
     - {abbr: "ASF", title: "Apache Software Foundation", url: "http://people.apache.org/~sgoeschl"}
   social:
