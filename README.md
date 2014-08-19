@@ -12,31 +12,23 @@ The template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 4. Drink a cup of coffee while [codeship.io](https://codeship.io) will publish the site on [test.devfest.at](http://test.devfest.at)
 
 ## Local development
-Check if you have [all requirments for local environment](http://jekyllrb.com/docs/installation/), install [Jekyll server](http://jekyllrb.com/docs/quickstart/) gem and run this command from project root folder:
-
+To develop locally you need ruby gems & bundler installed.
 ```bash
-    jekyll serve -w
-```
-Site will be available at http://127.0.0.1:4000/zeppelin/
-
-**NOTE:** in this mode all changes to html and data files will be automatically regenerated, but after changing ```_config.yml``` you have to restart server.
-
-
-### Resource optimizations (optional)
-
-You can optimize images and minify css and javascript (image optimization for now only on Windows).
-Optimize all images by running this script from `/automation/images/` folder:
-```bash
-    all_image_optimization.bat -d -jtran -pout -pquant -optip -gsicle -svgo
+    sudo gem install bundler
 ```
 
-To minify CSS and JS run `minify_all.bat` or `minify_all.sh` from `/automation/minifying/` folder:
+Then install all dependency by calling bundle install while in the source directory:
 ```bash
-    minify_all.bat
+    bundle install
 ```
+
+To compile the files call rake while in the source tree:
 ```bash
-    sh minify_all.sh
+    rake
 ```
+
+This will minify the JS, compile the CSS from SASS, and build the jekyll site.
+
 ### Used libraries
 * [Bootstrap](https://github.com/twbs/bootstrap)
 * [Animate.css](https://github.com/daneden/animate.css)
