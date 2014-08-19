@@ -125,7 +125,7 @@
   company: "Google"
   title: "Software Engineer"
   bio: "For last couple of years I've been working as a Software Engineer at Google. I've been on many different projects ranging from web applications, through second screen / tablets, up to the GoogleTv core apps development.<br><br>The variety of technologies and screen sizes got me interested in basic design principals one can use when designing cross-screen applications."
-  thumbnailUrl: JoannaChwastowska.jpg
+  thumbnailUrl: MissingJoannaChwastowska.jpg
   rockstar: true
   ribbon:
     - {abbr: "G", title: "Google Engineer", url: "http://www.google.com/"}
