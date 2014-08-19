@@ -81,7 +81,7 @@
 
         $(function() {
             var idArray = [];
-            $('.rockstar-speakers-item').each(function() {
+            $('.top-speakers-item').each(function() {
                 idArray[idArray.length] = $(this).attr('data-id');
             });
             idArray = shuffleArray(idArray);
