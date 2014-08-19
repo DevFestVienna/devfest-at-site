@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    {% if page.modal != null %} 
+    {% if page.modal != null or page.permalink == '/schedule/' %} 
     	{% include speakers-modals.html %} 
     {% endif %} 
 

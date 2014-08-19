@@ -3,8 +3,7 @@
     <div class="content-wrapper">
         {% for day in site.data.schedule %}
         <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
-            <h4 class="schedule-table-heading">{{ day.dateReadable }}
-              {% if day.dateDescription != null %}: <span>{{ day.dateDescription }}
+            <h4 class="schedule-table-heading">{{ day.dateReadable }}{% if day.dateDescription != null %}: <span>{{ day.dateDescription }}
                 {% if day.location != null %}@
                   {% if day.locationLink != null %}<a href="{{ day.locationLink }}">{{ day.location }}</a>{% else %}{{ day.location }}{% endif %}
                 {% endif %}
