@@ -3,6 +3,9 @@
     min-height: 250px;
     padding-top: 0;
     background: $base-section-background-color;
+    &.top-section-green {
+      background: #83f4a9;
+    }
     @media (max-width: 767px) {
         min-height: 200px;
         padding: 0;

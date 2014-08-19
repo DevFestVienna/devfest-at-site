@@ -1,5 +1,5 @@
 <!-- Begin Top Section -->
-<section id="top-section" class="top-section">
+<section id="top-section" class="top-section{% if page.color != null %} top-section-{{page.color}}{% endif %}">
     <div class="gradient-overlay"></div>
 
     {% include navigation.html %}
