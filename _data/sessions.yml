@@ -96,7 +96,7 @@
 -
   id: 010
   title: "Ionic framework for hybrid mobile apps"
-  description: "I will give a short introduction into the Ionic framework and its usage to create great looking mobile apps, with modern design, based on AngularJS and performance obsessed"
+  description: "In this talk I will give a short introduction into the Ionic framework and its usage to create great looking mobile apps, with modern design, based on AngularJS and performance obsessed"
   track: "Mobile"
   subtype: presentation
   speakers: ["helmuth-breitenfellner"]
