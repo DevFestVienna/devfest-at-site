@@ -1,18 +1,22 @@
 (function($) {
     $(document).ready(function() {
         $('body').css('overflow', 'hidden');
-        var isLoaded = false;
-        function onLoaded {
+        var hasPreloader = true;
+        function hidePreloader() {
+            if (hasPreloader) {
+                var loadingAnimation = $('#loading-animation'),
+                    preloader = $('#preloader');
+                hasPreloader = false;
+                loadingAnimation.fadeOut();
+                preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);                
+            }
+        }
+        $(window).load({
             var preloaderDelay = 350,
                 preloaderFadeOutTime = 800;
             if (!isLoaded) {
                 isLoaded = true;
     
-                function hidePreloader() {
-                    var loadingAnimation = $('#loading-animation'),
-                        preloader = $('#preloader');
-                    loadingAnimation.fadeOut();
-                    preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);
                 }
                 $('body').css('overflow', 'auto');
                 hidePreloader();
@@ -22,10 +26,9 @@
                     $('.explore').removeClass('hidden');
                 }, 1000);
             }
-        };
+        });
         // show the page when loaded or latest after 3 seconds
-        $(window).load(onLoaded);
-        setTimeout(onLoaded, 3000);
+        setTimeout(hidePreloader, 3000);
 
 
     
