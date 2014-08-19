@@ -2,8 +2,8 @@
   id: "floor-drees"
   name: "Floor"
   surname: "Drees"
-  company: ""
-  title: ""
+  company:
+  title:
   bio: "Future Neelie Kroes. I like non-metaphorical bridges. And I do a *lot* of Rails Girls stuff in my spare time."
   thumbnailUrl: FloorDrees.jpg
   rockstar: true
