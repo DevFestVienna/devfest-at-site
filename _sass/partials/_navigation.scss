@@ -19,7 +19,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     background: rgba(0, 0, 0, 0.2);
     transition: $base-transition;
     @media (min-width: 768px) and (max-width: 991px) {
-        padding: 13px 0 0 34px;
+        padding: 13px 0 35px 34px;
     }
     &.after-scroll {
         padding-top: 0;
