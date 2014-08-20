@@ -1,5 +1,5 @@
 $nav-color: #fff;
-$nav-color-hover: #cfcfcf;
+$nav-color-hover: rgba(0, 0, 0, .5);
 $nav-scroll-color: rgba(0, 0, 0, .5);
 $nav-scroll-color-hover: rgba(0, 0, 0, .8);
 
@@ -104,8 +104,8 @@ nav {
             display: block;
         }
         a {
-            font-size: $base-font-size;
-            font-weight: $regular;
+            font-size: $base-nav-font-size;
+            font-weight: $extra-bold;
             transition: $base-transition;
             text-transform: uppercase;
             color: $nav-color;
