@@ -60,7 +60,9 @@
                     backDelay: 900,
                     loop: false,
                     callback: function () {
-                    	$("#typed-cursor").css("visibility", "hidden");
+                        window.setTimeout(function () {
+                            $("#typed-cursor").css("visibility", "hidden");
+                        }, 1000);
                     }
                 });
             });
