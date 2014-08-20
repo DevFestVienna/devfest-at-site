@@ -43,8 +43,15 @@
     </script>
     <script src="{{ "/js/jquery.appear.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/waves.min.js" | prepend: site.baseurl }}"></script>
+    <script>Waves.displayEffect();</script>
+    <script src="{{ "/js/jquery.sticky-kit.min.js" | prepend: site.baseurl }}"></script>
     <script>
-    $(document).ready(function() {
+    $(document).ready(function() {	
+        var navHeight = $('#top-header').height();
+        var headerHeight = $('.track-header').first().height();
+        $('.stick-header').stick_in_parent({sticky_class: 'sticky', offset_top: navHeight});
+        $('.stick-label').stick_in_parent({offset_top: navHeight + headerHeight});
+    
         var bodyColor = $('body').css('color');
         if (bodyColor != 'rgb(51, 51, 51)') {
             $("head").prepend('<link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">');
