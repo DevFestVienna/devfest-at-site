@@ -13,7 +13,7 @@
             </li>
             <!-- <li><a href="#">Schedule</a>
             </li> -->
-            <li><a {% if page.permalink == '/speakers/' %} class="current" href="{{ site.baseurl }}/speakers/" {% else %} href="{{ site.baseurl }}/#top-speakers" {% endif %} ">Speakers</a>
+            <li><a {% if page.permalink == '/speakers/' %} class="current" {% endif %}{% if page.permalink == '/' %} href="{{ site.baseurl }}/#top-speakers" {% else %} href="{{ site.baseurl }}/speakers" {% endif %}>Speakers</a>
             </li>
             </li>
             <!-- <li><a href="#">Hackathon</a>
