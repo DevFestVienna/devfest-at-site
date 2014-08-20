@@ -58,7 +58,12 @@
                     strings: [{{site.typeoutTextValues}}],
                     typeSpeed: 150,
                     backDelay: 900,
-                    loop: false
+                    loop: false,
+                    callback: function () {
+                        window.setTimeout(function () {
+                            $("#typed-cursor").css("visibility", "hidden");
+                        }, 1000);
+                    }
                 });
             });
         });
