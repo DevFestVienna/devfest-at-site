@@ -3,6 +3,7 @@ layout: post
 title: Thank you!
 permalink: /thankyou/
 isStaticPost: true
+hideTitle: true
 ---
 
 Thank you for registering to DevFest Vienna!
