@@ -5,7 +5,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
 
 .top-section-hero {
     .top-header {
-        background: rgba(160, 160, 160, 0.4);
+        background: rgba(160, 160, 160, 0.85);
         &.after-scroll {
             background: rgba(255, 255, 255, .9);
         }
@@ -127,6 +127,9 @@ nav {
                 @media (max-width: 767px) {
                     color: $main-color;
                 }
+            }
+            &.current{
+                font-weight: $extra-xbold;
             }
             .top-header.after-scroll & {
                 color: $nav-scroll-color;
