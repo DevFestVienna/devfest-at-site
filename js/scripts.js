@@ -28,6 +28,13 @@
         setTimeout(hidePreloader, 3000);
 
 
+        // show modal from URL when loaded
+        $(window).load(function() {
+            var hash = window.location.hash;
+            if (hash) {
+                $(hash).modal('show');
+            }
+        });
     
         $('.track-header').each(function() {
             var slot = $(this).closest('.schedule-table').find('.slot').first();
