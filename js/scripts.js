@@ -32,7 +32,7 @@
         $(window).load(function() {
             var hash = window.location.hash;
             if (hash) {
-                $(hash).modal('show');
+                $(".modal" + hash).modal('show');
             }
         });
     
