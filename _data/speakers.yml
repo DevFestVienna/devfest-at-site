@@ -9,17 +9,6 @@
   rockstar: true
   social: 
     - {name: "twitter", link: "http://www.twitter.com/floordrees"}
-- 
-  id: "tim-messerschmidt"
-  name: "Tim"
-  surname: "Messerschmidt"
-  company: "PayPal"
-  title: "Lead Developer Evangelist"
-  bio: "As a long time mobile and web developer, Tim channels his knowledge and experience as PayPal's Lead Developer Evangelist in EMEA. He is passionate about startups and serves as mentor at multiple incubators and accelerators. Prior joining PayPal Tim used to work with Neofonie Mobile and Samsung focussing on several mobile projects. In his spare time, he leads and creates training classes in all sorts of developer-oriented topics, contributes to Open Source projects and is one of the authors of the Mobile Developer's Guide to the Galaxy, as well as numerous articles published in print magazines."
-  thumbnailUrl: TimMesserschmidt.jpg
-  rockstar: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/seraandroid"}
 -
   id: "rina-ahmed"
   name: "Rina"
@@ -118,3 +107,46 @@
   ribbon:
     - {abbr: "ASF", title: "Apache Software Foundation", url: "http://people.apache.org/~sgoeschl"}
   social:
+-
+  id: "andreas-hubmer"
+  name: "Andreas"
+  surname: "Hubmer"
+  company: "Cenarion"
+  title: "Software Architect"
+  bio: "Andreas Hubmer is software architect at Cenarion Information Systems GmbH. He works a lot with GWT and Spring, but also with EJB3."
+  thumbnailUrl: AndreasHubmer.jpg
+  rockstar:
+  ribbon:
+  social:
+-
+  id: "nicolas-bevacqua"
+  name: "Nicolas"
+  surname: "Bevacqua"
+  company:
+  title:
+  bio: "Nico is an enthusiastic JavaScript hacker based in Buenos Aires, Argentina, where he spends his days with the love of his life. When he's not hacking as the VP of Engineering for <a href='http://print.io' target='_blank'>print.io</a>, or contributing to the open source community as <a href='https://github.com/bevacqua' target='_blank'>@bevacqua</a>, Nico spends his time writing content for <a href='http://blog.ponyfoo.com' target='_blank'>Pony Foo</a>; or his upcoming book, <a href='http://bevacqua.io/bf' target='_blank'>JavaScript Application Design</a>. Nico is a happy pony, and you can find him as <a href='https://twitter.com/nzgb' target='_blank'>@nzgb</a> on Twitter, because <a href='http://xkcd.com' target='_blank'>http://xkcd.com</a>."
+  thumbnailUrl: NicolasBevacqua.jpg
+  rockstar:
+  ribbon:
+  social:
+    - { name: "twitter", url: "https://twitter.com/nzgb" }
+-
+  id: "alexander-peters"
+  name: "Alexander"
+  surname: "Peters"
+  company: "Flatout Technologies"
+  bio: "Graduated from technical high school for mechanical engineering and studied Electrical Engineering at TU Wien. Started at Flatout in October 2012 focusing on database. Occasionally enjoys giving basic oracle trainings and is an avid motorcycle fan."
+  thumbnailUrl: AlexanderPeters.jpg
+  rockstar:
+  ribbon:
+-
+  id: "gabriel-grill"
+  name: "Gabriel"
+  surname: "Grill"
+  company:
+  bio: "Master-Student at TU Wien in 'Computational Intelligence'. Has been programming for ~10 years and worked at several research institutions. JSUG member and has held talks at various user groups in Vienna."
+  thumbnailUrl: GabrielGrill.jpg
+  rockstar:
+  ribbon:
+  social:
+    - { name: "about", url: "http://about.me/ggrill" }
