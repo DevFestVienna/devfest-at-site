@@ -50,6 +50,7 @@
   description: "Wie können große Datenmengen am Client angezeigt und durchsuchbar gemacht werden? Es werden zwei konkrete Beispiele anhand von GWT präsentiert:<ul><li>Tabellenkomponente: Tausende Einträge mittels Paging am Client darstellen und eine beliebige Sortierung und Filterung ermöglichen.</li><li>SuggestBox: Eine schnelle Auswahl aus Tausenden Elementen ermöglichen.</li></ul>"
   track: "Web"
   subtype: presentation
+  speakers: ["andreas-hubmer"]
   language: Deutsch, auf Wunsch gerne Englisch
 -
   id: 004
