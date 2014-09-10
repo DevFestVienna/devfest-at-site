@@ -119,18 +119,6 @@
   ribbon:
   social:
 -
-  id: "nicolas-bevacqua"
-  name: "Nicolas"
-  surname: "Bevacqua"
-  company:
-  title:
-  bio: "Nico is an enthusiastic JavaScript hacker based in Buenos Aires, Argentina, where he spends his days with the love of his life. When he's not hacking as the VP of Engineering for <a href='http://print.io' target='_blank'>print.io</a>, or contributing to the open source community as <a href='https://github.com/bevacqua' target='_blank'>@bevacqua</a>, Nico spends his time writing content for <a href='http://blog.ponyfoo.com' target='_blank'>Pony Foo</a>; or his upcoming book, <a href='http://bevacqua.io/bf' target='_blank'>JavaScript Application Design</a>. Nico is a happy pony, and you can find him as <a href='https://twitter.com/nzgb' target='_blank'>@nzgb</a> on Twitter, because <a href='http://xkcd.com' target='_blank'>http://xkcd.com</a>."
-  thumbnailUrl: NicolasBevacqua.jpg
-  rockstar:
-  ribbon:
-  social:
-    - { name: "twitter", url: "https://twitter.com/nzgb" }
--
   id: "alexander-peters"
   name: "Alexander"
   surname: "Peters"

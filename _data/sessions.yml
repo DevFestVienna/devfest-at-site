@@ -109,14 +109,6 @@
   speakers: ["helmuth-breitenfellner"]
   language: "German or English as requested"
 -
-  id: 011
-  title: "Front End Ops Tooling"
-  description: "The presentation covers the reasons why we need to be automating our front-end processes, and the tools you can use to achieve that. We'll take a look at Grunt, Gulp, bower, npm, and browserify.<br>To begin with, we'll look at what automation does for us, why it is important, and how to make it work for us. We'll consider the option to build first, before we do anything else in the project, and analyze the trade-offs in doing that.<br>We'll look at specific tasks such compiling static assets, as well as minifying them, and generating spritesheets or icon fonts. We'll go into more advanced topics such as testing, continuous integration, deployments, and continuous development, as well.<br>Later on, we'll go over package managers, how these play with build systems and how to use bower or npm to automate asset management and optimization, while keeping our code-base succinct."
-  track: "Code"
-  subtype: presentation
-  speakers: ["nicolas-bevacqua"]
-  language: English
--
   id: 012
   title: "Developer Community at Flatout"
   description: "Flatout has developed an Operating System for the Home and we will soon launch the product. But, in order to improve it, we want to talk to the developer community and to gather their feedback so we can improve. We also want to give them support by providing our frontend and backend API, which we shall present here a bit more in detail, and in the near future the developers will be able to sell their Apps on our store."
