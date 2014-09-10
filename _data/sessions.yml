@@ -46,12 +46,12 @@
   language: English or German as requested
 -
   id: 003
-  title: "UI-Komponenten für große Datenmengen"
-  description: "Wie können große Datenmengen am Client angezeigt und durchsuchbar gemacht werden? Es werden zwei konkrete Beispiele anhand von GWT präsentiert:<ul><li>Tabellenkomponente: Tausende Einträge mittels Paging am Client darstellen und eine beliebige Sortierung und Filterung ermöglichen.</li><li>SuggestBox: Eine schnelle Auswahl aus Tausenden Elementen ermöglichen.</li></ul>"
+  title: "UI components for large amounts of data"
+  description: "How do you present large amounts of data on the client? How do you make it searchable? We present two concrete examples using GWT (Google Web Toolkit):<ul><li>A table component: Thousands of entries are displayed to the user, using paging, sorting and filtering.</li><li>A suggest box: It enables the user to quickly select a value from a multitude of possible values.</li></ul>To deliver fast results paging, sorting and filtering are performed in the database."
   track: "Web"
   subtype: presentation
   speakers: ["andreas-hubmer"]
-  language: Deutsch, auf Wunsch gerne Englisch
+  language: German or English as requested
 -
   id: 004
   title: "Java Image Processing Survival Guide"
