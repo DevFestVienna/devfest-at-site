@@ -10,7 +10,7 @@
         <ul>
             <li><a {% if page.permalink == '/' %} class="current" {% endif %} href="{{ site.baseurl }}/">Home</a>
             </li>
-            <li><a href="#">Schedule</a>
+            <li><a {% if page.permalink == '/schedule/' %} class="current" {% endif %} href="{{ site.baseurl }}/schedule/">Schedule</a>
             </li>
             <li><a {% if page.permalink == '/speakers/' %} class="current" {% endif %}{% if page.permalink == '/' %} href="{{ site.baseurl }}/#top-speakers" {% else %} href="{{ site.baseurl }}/speakers" {% endif %}>Speakers</a>
             </li>
