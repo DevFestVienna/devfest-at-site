@@ -92,7 +92,7 @@
   bio: "Helmuth has studied Mathematics at the TU Vienna, likes gadgets and is busy as one of GDG Vienna's organizers."
   thumbnailUrl: HelmuthBreitenfellner.jpg
   social:
-    - {name: "google-plus", url: "https://google.com/+HelmuthBreitenfellner"}
+    - {name: "google-plus", link: "https://google.com/+HelmuthBreitenfellner"}
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
 -
@@ -137,7 +137,7 @@
   rockstar:
   ribbon:
   social:
-    - { name: "about", url: "http://about.me/ggrill" }
+    - { name: "about", link: "http://about.me/ggrill" }
 -
   id: "peter-lieber"
   name: "Peter"
@@ -147,6 +147,6 @@
   thumbnailUrl: PeterLieber.jpg
   ribbon:
   social:
-    - { name: "facebook", url: "https://www.facebook.com/peter.lieber" }
-    - { name: "linkedin", url: "https://at.linkedin.com/in/plieber" }
-    - { name: "xing", url: "https://www.xing.com/profile/peter_lieber" }
+    - { name: "facebook", link: "https://www.facebook.com/peter.lieber" }
+    - { name: "linkedin", link: "https://at.linkedin.com/in/plieber" }
+    - { name: "xing", link: "https://www.xing.com/profile/peter_lieber" }
