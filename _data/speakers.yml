@@ -137,20 +137,20 @@
   rockstar:
   ribbon:
   social:
-    - { name: "about", link: "http://about.me/ggrill" }
+    - { name: "site", link: "http://about.me/ggrill" }
 -
   id: "peter-lieber"
   name: "Peter"
   surname: "Lieber"
   company: "SparxSystems"
-  title: "Enterprice Architect"
-  bio: "I am an extrovert promoter and results-oriented controller and director. It like creating new partnerships and relations. I like people that are talking with me and it is important for me to help and motivate others. I'm very self-motivated and I prefer doing thinks I really like. I need a lot of creative and open space. But I also need people doing the administrative tasks and people realizing the ideas.<br>My highest motivation is doing creative work with and around <a href='http://www.sparxsystems.de' target='_blank'>Enterprise Architect</a>."
+  title: "Enterprise Architect"
+  bio: "I am an extrovert promoter and results-oriented controller and director. I like creating new partnerships and relations. I like people that are talking with me and it is important for me to help and motivate others. I'm very self-motivated and I prefer doing thinks I really like. I need a lot of creative and open space. But I also need people doing the administrative tasks and people realizing the ideas.<br>My highest motivation is doing creative work with and around <a href='http://www.sparxsystems.de' target='_blank'>Enterprise Architect</a>."
   thumbnailUrl: PeterLieber.jpg
   ribbon:
   social:
     - { name: "facebook", link: "https://www.facebook.com/peter.lieber" }
     - { name: "linkedin", link: "https://at.linkedin.com/in/plieber" }
-    - { name: "xing", link: "https://www.xing.com/profile/peter_lieber" }
+    - { name: "site", link: "https://www.xing.com/profile/peter_lieber" }
 -
   id: "david-pichsenmeister"
   name: "David"
@@ -159,7 +159,7 @@
   bio: "I'm co-founder and code-ninja at orat.io, a simple PRO and CON discussion plugin for bloggers and publishers. I'm also founder of the sharedspaces.at platform, where creatives can find workplaces in austria. Before that, I was a software service provider with my company dimocom e.U."
   thumbnailUrl: DavidPichsenmeister.jpg
   social:
-    - { name: "web", link: "http://www.pichsenmeister.com" }
+    - { name: "site", link: "http://www.pichsenmeister.com" }
 -
   id: "philipp-kalenda"
   name: "Philipp"
