@@ -143,6 +143,7 @@
   name: "Peter"
   surname: "Lieber"
   company: "SparxSystems"
+  title: "Enterprice Architect"
   bio: "I am an extrovert promoter and results-oriented controller and director. It like creating new partnerships and relations. I like people that are talking with me and it is important for me to help and motivate others. I'm very self-motivated and I prefer doing thinks I really like. I need a lot of creative and open space. But I also need people doing the administrative tasks and people realizing the ideas.<br>My highest motivation is doing creative work with and around <a href='http://www.sparxsystems.de' target='_blank'>Enterprise Architect</a>."
   thumbnailUrl: PeterLieber.jpg
   ribbon:
@@ -159,3 +160,12 @@
   thumbnailUrl: DavidPichsenmeister.jpg
   social:
     - { name: "web", link: "http://www.pichsenmeister.com" }
+-
+  id: "philipp-kalenda"
+  name: "Philipp"
+  surname: "Kalenda"
+  company: "LieberLieber Software GmbH"
+  title: "Software Developer"
+  bio: "I graduated from technical high school for computer science in Wiener Neustadt (HTBLuVA Wiener Neustadt, Abteilung für Informatik) in 2014. Within the school leaving examination, I managed a diploma thesis project with the subject area AAL (Ambient Assisted Living). In August 2014 I started to work as a software developer for LieberLieber Software GmbH."
+  thumbnailUrl: "PhilippKalenda.jpg"
+  social:
