@@ -125,6 +125,14 @@
   speakers: ["peter-lieber"]
   language: English or German as requested
 -
+  id: 014
+  title: "Development and Deployment of a polyglot system"
+  description: "At orat.io we are developing a comment plugin for online bloggers and publishers. Since the uptime of our software is very important, we try to apply best practices to our development and deployment workflow. Our system is based on different stacks, which includes the use of different languages like PHP, Scala and TypeScript. This talk is about how we manage the consistency of our data-models through the different stacks, how the connection of our services is done through APIs and the deployment strategy of our system to get a nearly zero-downtime continous integration pipeline. I'll also show, how we use code generators and shell scripts to automate code creation and tasks. Last, I'll show how we handle our database migrations."
+  track: "Code"
+  subtype: "presentation"
+  speakers: ["david-pichsenmeister"]
+  language: "English or German as requested"
+-
   id: 200
   title: "Breakfast"
   service: true

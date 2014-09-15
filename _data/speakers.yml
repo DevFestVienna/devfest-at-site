@@ -150,3 +150,12 @@
     - { name: "facebook", link: "https://www.facebook.com/peter.lieber" }
     - { name: "linkedin", link: "https://at.linkedin.com/in/plieber" }
     - { name: "xing", link: "https://www.xing.com/profile/peter_lieber" }
+-
+  id: "david-pichsenmeister"
+  name: "David"
+  surname: "Pichsenmeister"
+  company: "orat.io"
+  bio: "I'm co-founder and code-ninja at orat.io, a simple PRO and CON discussion plugin for bloggers and publishers. I'm also founder of the sharedspaces.at platform, where creatives can find workplaces in austria. Before that, I was a software service provider with my company dimocom e.U."
+  thumbnailUrl: DavidPichsenmeister.jpg
+  social:
+    - { name: "web", link: "http://www.pichsenmeister.com" }
