@@ -122,7 +122,7 @@
   description: "Our developers work continuously on different challenges in various projects. To provide a fast overview on the live status on our TeamCity buildserver, they adapted a flipchart as a build signal light. The lights are operated by a Tiva C microcontroller supervised by a Raspberry Pi, the code was generated from a UML model using enar uml2code. An easy going solution for a perfect overview."
   track: "Code"
   subtype: presentation
-  speakers: ["peter-lieber", "philipp-kalenda"]
+  speakers: ["peter-lieber", "philipp-kalenda", "dominik-sumer"]
   language: English or German as requested
 -
   id: 014

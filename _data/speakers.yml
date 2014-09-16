@@ -169,3 +169,12 @@
   bio: "I graduated from technical high school for computer science in Wiener Neustadt (HTBLuVA Wiener Neustadt, Abteilung für Informatik) in 2014. Within the school leaving examination, I managed a diploma thesis project with the subject area AAL (Ambient Assisted Living). In August 2014 I started to work as a software developer for LieberLieber Software GmbH."
   thumbnailUrl: "PhilippKalenda.jpg"
   social:
+-
+  id: "dominik-sumer"
+  name: "Dominik"
+  surname: "Sumer"
+  company: "LieberLieber Software GmbH"
+  title: "Software Developer"
+  bio: "I graduated from the technical high school in Ottakring, Vienna (HTL Ottakring, Informationstechnologie) in 2013. Developing simple apps and html5 games on modern bases is what I like to do. I am a software developer at LieberLieber Software GmbH where I am developing Add-Ins for the Enterprise Architect."
+  thumbnailUrl: "DominikSumer.jpg"
+  social:
