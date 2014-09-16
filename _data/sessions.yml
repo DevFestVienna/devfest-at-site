@@ -30,7 +30,7 @@
   language: "English or German - whatever you want"
 -
   id: 001
-  title: "(kick-ass) Documentation Driven Development"
+  title: "(Kick-ass) Documentation Driven Development"
   description: "We often only start writing documentation for our apps and app functionality after we have developed them. Instead, when you start with writing down the requirements (BDD), intended usage and example use cases, documentation writing not only moves away from being a painful last-minute kind of thing, but actually becomes a vital part in the decision making process - making sure we don't feature-freak and built unnecessary stuff. Which translates to smarter software development, less killing darlings and more time for the important stuff in life: coding ALL the rubies (yes, I am one of those people)."
   track: "Coding"
   subtype: presentation
@@ -70,7 +70,7 @@
   language: English
 -
   id: 006
-  title: "Sentiment Analysis with Google Prediction API"
+  title: "Sentiment Analysis with the Google Prediction API"
   description: "Sentiment analysis is a new trend when it comes to data-mining, in its ability to better analyze end user's opinions about different products, via the use of social media. Sentiment analysis have been done with different Data-mining algorithms and techniques. Since Google API also provides the same pattern of development, experimenting such technology with this API can help us got following result:<br>-Given a user's past viewing habits, predict what other movies or products a user might like.<br>- Categorize emails as spam or non-spam.<br>- Analyze posted comments about your product to determine whether they have a positive or negative tone.<br>- Guess how much a user might spend on a given day, given his spending history."
   track: "Cloud"
   subtype: presentation
@@ -110,7 +110,7 @@
   language: "German or English as requested"
 -
   id: 012
-  title: "Developer Community at Flatout"
+  title: "The Developer Community at Flatout"
   description: "Flatout has developed an Operating System for the Home and we will soon launch the product. But, in order to improve it, we want to talk to the developer community and to gather their feedback so we can improve. We also want to give them support by providing our frontend and backend API, which we shall present here a bit more in detail, and in the near future the developers will be able to sell their Apps on our store."
   track: "Code"
   subtype: presentation
