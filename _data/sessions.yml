@@ -62,7 +62,7 @@
   language: English
 -
   id: 005
-  title: "Keeping your Secrets Secret in an Open Source World"
+  title: "Keeping Your Secrets Secret in an Open Source World"
   description: "While open source is great there are some things you can't publish together with your source, like client secrets or database access passwords. In this talk I will discuss this problem and present several solutions, with a focus on the Google Cloud Platform."
   track: "Cloud"
   subtype: presentation
