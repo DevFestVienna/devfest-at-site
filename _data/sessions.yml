@@ -46,7 +46,7 @@
   language: English or German as requested
 -
   id: 003
-  title: "UI components for large amounts of data"
+  title: "UI Components for Large Amounts of Data"
   description: "How do you present large amounts of data on the client? How do you make it searchable? We present two concrete examples using GWT (Google Web Toolkit):<ul><li>A table component: Thousands of entries are displayed to the user, using paging, sorting and filtering.</li><li>A suggest box: It enables the user to quickly select a value from a multitude of possible values.</li></ul>To deliver fast results paging, sorting and filtering are performed in the database."
   track: "Web"
   subtype: presentation
@@ -62,7 +62,7 @@
   language: English
 -
   id: 005
-  title: "Keeping your secrets secret in an Open Source world"
+  title: "Keeping your Secrets Secret in an Open Source World"
   description: "While open source is great there are some things you can't publish together with your source, like client secrets or database access passwords. In this talk I will discuss this problem and present several solutions, with a focus on the Google Cloud Platform."
   track: "Cloud"
   subtype: presentation
@@ -70,7 +70,7 @@
   language: English
 -
   id: 006
-  title: "Sentiment analysis with Google Prediction API"
+  title: "Sentiment Analysis with Google Prediction API"
   description: "Sentiment analysis is a new trend when it comes to data-mining, in its ability to better analyze end user's opinions about different products, via the use of social media. Sentiment analysis have been done with different Data-mining algorithms and techniques. Since Google API also provides the same pattern of development, experimenting such technology with this API can help us got following result:<br>-Given a user's past viewing habits, predict what other movies or products a user might like.<br>- Categorize emails as spam or non-spam.<br>- Analyze posted comments about your product to determine whether they have a positive or negative tone.<br>- Guess how much a user might spend on a given day, given his spending history."
   track: "Cloud"
   subtype: presentation
@@ -86,7 +86,7 @@
   language: "German or English as requested"
 -
   id: 008
-  title: "Developing a SDK for Android"
+  title: "Developing an SDK for Android"
   description: "We (woohoo) provide a solution for mobile app developers to improve their retention rate by providing user rewards. Those rewards are possible via the collection of in app achievements. Those virtual earnings can then be converted to coupons for actual products. This solution is provided to developers as Android library project and static library for iOS. In this talk we want to share our experiences we made throughout the development of these SDKs."
   track: "Android"
   subtype: presentation
@@ -102,7 +102,7 @@
   language: "English"
 -
   id: 010
-  title: "Ionic framework for hybrid mobile apps"
+  title: "Ionic Framework for Hybrid Mobile Apps"
   description: "In this talk I will give a short introduction into the Ionic framework and its usage to create great looking mobile apps, with modern design, based on AngularJS and performance obsessed"
   track: "Mobile"
   subtype: presentation
@@ -126,7 +126,7 @@
   language: English or German as requested
 -
   id: 014
-  title: "Development and Deployment of a polyglot system"
+  title: "Development and Deployment of a Polyglot System"
   description: "At orat.io we are developing a comment plugin for online bloggers and publishers. Since the uptime of our software is very important, we try to apply best practices to our development and deployment workflow. Our system is based on different stacks, which includes the use of different languages like PHP, Scala and TypeScript. This talk is about how we manage the consistency of our data-models through the different stacks, how the connection of our services is done through APIs and the deployment strategy of our system to get a nearly zero-downtime continous integration pipeline. I'll also show, how we use code generators and shell scripts to automate code creation and tasks. Last, I'll show how we handle our database migrations."
   track: "Code"
   subtype: "presentation"
