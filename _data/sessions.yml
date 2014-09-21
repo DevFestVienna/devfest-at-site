@@ -133,6 +133,14 @@
   speakers: ["david-pichsenmeister"]
   language: "English or German as requested"
 -
+  id: 015
+  title: "Hybrid App Development using HTML and JavaScript"
+  description: "The development of apps is not easy and each platform has its own tools and requirements. Whether with Java and Eclipse for Android, with Objective-C and Xcode for iOS, or with the Microsoft tools for the Windows world. In this lecture you will learn the many possibilities of app development for all major platforms with only one programming language to know: HTML5 and JavaScript. For this purpose the free tool Intel XDK is presented appropriately. With this information you will quickly rise to a seasoned cross-platform developer."
+  track: "Mobile"
+  subtype: "presentation"
+  speakers: ["gregor-biswanger"]
+  language: "English or German as requested"
+-
   id: 200
   title: "Breakfast"
   service: true
