@@ -178,3 +178,13 @@
   bio: "I graduated from the technical high school in Ottakring, Vienna (HTL Ottakring, Informationstechnologie) in 2013. Developing simple apps and html5 games on modern bases is what I like to do. I am a software developer at LieberLieber Software GmbH where I am developing Add-Ins for the Enterprise Architect."
   thumbnailUrl: "DominikSumer.jpg"
   social:
+-
+  id: "gregor-biswanger"
+  name: "Gregor"
+  surname: "Biswanger"
+  company:
+  title:
+  bio: "Gregor Biswanger (Microsoft MVP for Windows Platform Development & Intel Black Belt) is founder of CleverSocial.de and freelance consultant, trainer, author and speaker. His focus is in the field of software architecture, agile processes, XAML, cross-platform apps and cloud solutions. On these issues he regularly publishes video training at video2brain. Biswanger is also on behalf of Intel GmbH active as a technology consultant for the Intel Developer Zone and is the leader in INdotNET (Ingolstadt NET Developers Group). You can reach him under dotnet-blog.net and about.me/gregor.biswanger."
+  thumbnailUrl: "GregorBiswanger.jpg"
+  social:
+    - { name: "site", link: "http://about.me/gregor.biswanger" }
