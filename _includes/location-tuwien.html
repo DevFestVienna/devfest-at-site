@@ -1,7 +1,7 @@
 <!-- Begin TU-Wien Details-->
 <section id="tu-wien" class="location-details location-tuwien">
     <div class="content-wrapper">
-        <section class="image-section standard-height" style="background-image: url('{{ site.baseurl }}/img/tu-wien-map.jpg');">
+<!--        <section class="image-section standard-height" style="background-image: url('{{ site.baseurl }}/img/tu-wien-map.jpg');">
             <h3 class="location-title" data-animation="fadeInDown" data-delay="0">Day 1: TU Wien: 18 October, 9:00 - 18:00</h3>
         </section>
         <div class="row">
@@ -9,7 +9,66 @@
                 <h4>Gu&szlig;hausstra&szlig;e 27-29, 1040 Vienna</h4>
                 <p>The first day takes place at the University of Technology of Vienna (TU Wien), lecture rooms EI-9 and EI-10 together with the corridor in front.</p>
             </div>
+        </div>-->
+
+
+       <!-- You can move inline styles to css file or css block. -->
+       
+       <div id="slider1_container" style="position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1200px; height: 500px; overflow: hidden;">
+         
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+            </div>
+            <div style="position: absolute; display: block; background: url('{{ site.baseurl }}/img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+            </div>
         </div>
+         
+        <div data-u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px;
+            height: 500px; overflow: hidden;">
+            <div>
+                <img data-u="image" src="{{ site.baseurl }}/img/tu-wien-map-big.jpg" alt="" />
+                <div class="slider-details">Day 1: TU Wien: 18 October, 9:00-18:00
+                </div>
+                <div class="slider-description">Gu&szlig;hausstra&szlig;e 27-29, 1040 Vienna                   
+                    <p>The first day takes place at the University of Technology of Vienna (TU Wien), <br />
+                        lecture rooms EI-9 and EI-10 together with the corridor in front.</p>
+                </div>                
+            </div>
+            <div>
+                <img data-u="image" src="{{ site.baseurl }}/img/raum-d-map.jpg" alt="" />
+                <div class="slider-details">Day 2: Raum D / quartier 21: 19 October, 10:00 - 19:00
+                </div>
+                <div class="slider-description">
+                        QDK / Electric Avenue, MQ <br />
+                        Museumsplatz 1, 1070 Vienna
+                        <p>The second day takes place in Raum D / quartier 21.</p>
+                </div>
+            </div>
+           
+        </div>
+                
+        <!-- Bullet Navigator Skin Begin -->
+        <!-- bullet navigator container -->
+        <div data-u="navigator" class="jssorb07" style="position: absolute; bottom: 26px; left: 6px;">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
+        </div>
+        <!-- Bullet Navigator Skin End -->
+
+        <!-- Arrow Navigator Skin Begin -->
+        <!-- Arrow Left -->
+        <span data-u="arrowleft" class="jssora07l" style="width: 55px; height: 90px; top: 123px; left: 8px; background:  url({{ site.baseurl }}/img/a07.png) no-repeat;">
+        </span>
+        <!-- Arrow Right -->
+        <span data-u="arrowright" class="jssora07r" style="width: 55px; height: 90px; top: 123px; right: 35px; background:  url({{ site.baseurl }}/img/a07.png) -65px 50% no-repeat;">
+        </span>
+        <!-- Arrow Navigator Skin End -->
+    </div>
+       
+       
     </div>
 </section>
 <!-- End TU-Wien Details -->

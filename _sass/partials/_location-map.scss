@@ -50,3 +50,58 @@ h3.location-title{
 .location-tuwien{
     margin-top: -150px;
 }
+
+/** LOCATION SLIDER  **/
+ /* jssor slider arrow navigator skin 07 css */
+/*
+.jssora07l              (normal)
+.jssora07r              (normal)
+.jssora07l:hover        (normal mouseover)
+.jssora07r:hover        (normal mouseover)
+.jssora07ldn            (mousedown)
+.jssora07rdn            (mousedown)
+*/
+.jssora07l, .jssora07r, .jssora07ldn, .jssora07rdn{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    overflow:hidden;
+}
+
+.jssora07l { background-position: -5px -35px; }
+.jssora07r { background-position: -65px -35px; }
+.jssora07l:hover { background-position: -125px -35px; }
+.jssora07r:hover { background-position: -185px -35px; }
+.jssora07ldn { background-position: -245px -35px; }
+.jssora07rdn { background-position: -65px -35px; }
+
+.slider-details{
+    position: absolute; 
+    width: 600px; 
+    min-height: 120px; 
+    top: 30px; 
+    left: 30px; 
+    padding: 5px;                  
+    text-align: left; 
+    line-height: 60px; 
+    text-transform: uppercase; 
+    font-size: 40px;                    
+    color: #FFFFFF; 
+    background-color: #03a9f4;
+    opacity: 0.7;
+}
+
+.slider-description{
+    position: absolute; 
+    width: 600px; 
+    min-height: 100px; 
+    top: 300px; 
+    left: 30px; 
+    padding: 5px;     
+    text-align: left; 
+    line-height: 36px; 
+    font-size: 30px;                
+    color: #FFFFFF; 
+    background-color: #03a9f4;
+    opacity: 0.8;
+}
