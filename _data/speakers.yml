@@ -28,7 +28,6 @@
   title:
   bio: "When I'm not taking photos or folding paper (or sometimes working...) I like to play around with new development stuff and by doing so found my love for Google's APIs and SDKs which offer a lot of fun and always bring something new. For my engagement in this area and especially in the Google+ Developer community, Google has granted me membership in the Google Developers Expert program as GDE for Google+."
   thumbnailUrl: GerwinSturm.jpg
-  rockstar: true
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
@@ -83,18 +82,6 @@
   title: "Software Developer"
   bio: "Bernd studied Telematics at the University of technology in Graz and is currently Android and Rails developer at woohoo mobile marketing. He is also freelancer and develops apps for fun :)"
   thumbnailUrl: BerndBergler.jpg
--
-  id: "helmuth-breitenfellner"
-  name: "Helmuth"
-  surname: "Breitenfellner"
-  company: "CTBTO PrepCom"
-  title: "Information Systems Specialist"
-  bio: "Helmuth has studied Mathematics at the TU Vienna, likes gadgets and is busy as one of GDG Vienna's organizers."
-  thumbnailUrl: HelmuthBreitenfellner.jpg
-  social:
-    - {name: "google-plus", link: "https://google.com/+HelmuthBreitenfellner"}
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
 -
   id: "siegfried-goeschl"
   name: "Siegfried"
@@ -188,3 +175,17 @@
   thumbnailUrl: "GregorBiswanger.jpg"
   social:
     - { name: "site", link: "http://about.me/gregor.biswanger" }
+-
+  id: "maxim-mai"
+  name: "Maxim"
+  surname: "Mai"
+  company: "Google"
+  title: "Strategic Partner Manager"
+  bio: "My mission at Google is to empower all app developers in the DACH region to build a sustainable business. Constantly on the lookout for cool new apps and developers, I am here to help you choose the right solutions from the Google toolkit."
+  thumbnailUrl: "MaximMai.jpg"
+  rockstar: true
+  social:
+    - { name: "google-plus", link: "https://plus.google.com/+MaximMaiGoogle" }
+    - { name: "twitter", link: "https://twitter.com/MaximFMai" }
+  ribbon:
+    - {abbr: "G", title: "Google", url: "https://developers.google.com/" }

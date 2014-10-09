@@ -101,14 +101,6 @@
   speakers: ["riccardo-rubini"]
   language: "English"
 -
-  id: 010
-  title: "Ionic Framework for Hybrid Mobile Apps"
-  description: "In this talk I will give a short introduction into the Ionic framework and its usage to create great looking mobile apps, with modern design, based on AngularJS and performance obsessed"
-  track: "Mobile"
-  subtype: presentation
-  speakers: ["helmuth-breitenfellner"]
-  language: "German or English as requested"
--
   id: 012
   title: "The Developer Community at Flatout"
   description: "Flatout has developed an Operating System for the Home and we will soon launch the product. But, in order to improve it, we want to talk to the developer community and to gather their feedback so we can improve. We also want to give them support by providing our frontend and backend API, which we shall present here a bit more in detail, and in the near future the developers will be able to sell their Apps on our store."
@@ -140,6 +132,14 @@
   subtype: "presentation"
   speakers: ["gregor-biswanger"]
   language: "German"
+-
+  id: 016
+  title: "Monetisation for Apps and Games"
+  description: "This talk will provide insights on App Monetization, IAP, Ads from technical implementation to business considerations."
+  track: "Mobile"
+  subtype: "presentation"
+  speakers: ["maxim-mai"]
+  language: "English or German as requested"
 -
   id: 200
   title: "Breakfast"
