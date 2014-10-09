@@ -134,8 +134,8 @@
   language: "German"
 -
   id: 016
-  title: "Monetisation for Apps and Games"
-  description: "This talk will provide insights on App Monetization, IAP, Ads from technical implementation to business considerations."
+  title: "App Distribution and Revenue Models"
+  description: "The goal of the presentation is to share tips, tricks and learnings concerning app distribution and revenue models. I will be using real life examples from my work with German app developers. The talk will cover strategy as well as technical aspects. Google products to be covered are Play and AdMob."
   track: "Mobile"
   subtype: "presentation"
   speakers: ["maxim-mai"]
