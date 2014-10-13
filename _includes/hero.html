@@ -11,6 +11,22 @@
             <p><span class="contrast">19 October 2014</span></p>
             <p><span class="contrast">Raum D / quartier 21</span></p>
             <p><br/></p>
+            <div class="devfest-countdown"></div>
+            <script src="/js/flipclock.min.js"></script>
+            <script type="text/javascript">
+            (function () {
+                var endDate = new Date(2014, 9, 18, 9, 0);
+                var currentDate = new Date();
+                var diff = endDate/1000 - (currentDate.getTime()/1000);
+                if (diff > 0) {
+                    var clock = $(".devfest-countdown").FlipClock({
+                        countdown: true,
+                        clockFace: "DailyCounter",
+                        showSeconds: false
+                    });
+                }
+            })();
+            </script>
             <p><a href="https://devfestvienna2014.eventbrite.com" role="button" style="width:360px;" class="btn btn-lg btn-primary waves-effect waves-button waves-light waves-float"> Register now - it's free! </a></p>
         </div>
     </div>
