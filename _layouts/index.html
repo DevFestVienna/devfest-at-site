@@ -77,7 +77,7 @@
             var currentDate = new Date();
             var diff = (endDate.getTime()/1000) - (currentDate.getTime()/1000);
             if (diff > 0) {
-                var clock = $(".devfest-countdown").FlipClock({
+                var clock = $(".devfest-countdown").FlipClock(diff, {
                     countdown: true,
                     clockFace: "DailyCounter",
                     showSeconds: false
