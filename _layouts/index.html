@@ -70,7 +70,21 @@
         });
     </script>
 	<script src="{{ "/js/scripts.min.js " | prepend: site.baseurl }}"></script>
-        
+    <script src="/js/flipclock.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            var endDate = new Date(2014, 9, 18, 9, 0);
+            var currentDate = new Date();
+            var diff = endDate/1000 - (currentDate.getTime()/1000);
+            if (diff > 0) {
+                var clock = $(".devfest-countdown").FlipClock({
+                    countdown: true,
+                    clockFace: "DailyCounter",
+                    showSeconds: false
+                });
+            }
+        })();
+    </script>
 </body>
 
 </html>
