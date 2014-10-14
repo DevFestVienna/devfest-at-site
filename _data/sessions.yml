@@ -39,7 +39,7 @@
 -
   id: 002
   title: "Scalable Data Analysis with Spark"
-  description: "This introductory talk will show how to perform simple data analysis & exploration tasks on Wikipedia and Twitter with Apache Spark. It is a brand-new framework for large-scale data processing with better performance than Hadoop. A simple API is available in Java, Scala and Python and a provided shell can be used for interactive exploration."
+  description: "This introductory talk will show how to perform simple data analysis tasks on Twitter with Apache Spark. It is a brand-new framework for large-scale data processing with up to 100x better performance than Hadoop. A simple API is available in Java, Scala and Python and a provided shell can be used for interactive exploration."
   track: "Big Data"
   subtype: presentation
   speakers: ["gabriel-grill"]
