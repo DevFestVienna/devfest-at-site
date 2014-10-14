@@ -106,7 +106,7 @@
   description: "Flatout has developed an Operating System for the Home and we will soon launch the product. But, in order to improve it, we want to talk to the developer community and to gather their feedback so we can improve. We also want to give them support by providing our frontend and backend API, which we shall present here a bit more in detail, and in the near future the developers will be able to sell their Apps on our store."
   track: "Code"
   subtype: presentation
-  speakers: ["alexander-peters"]
+  speakers: ["michael-borkowski"]
   language: German
 -
   id: 013
