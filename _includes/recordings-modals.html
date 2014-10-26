@@ -1,6 +1,6 @@
 <!-- Begin Recordings Modals -->
 <div class="modals">
-  {% for year in include.years %}
+  {% for year in {{ include.years | split:"," }} %}
     {% for session in site.data.sessions{{ year }} %}
       <div class="modal fade text-left person-modal" id="session-{{ year }}-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionLabel-{{ year }}-{{ session.id }}" aria-hidden="true">
         <div class="modal-dialog">
