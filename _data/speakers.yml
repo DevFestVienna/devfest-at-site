@@ -106,12 +106,12 @@
   ribbon:
   social:
 -
-  id: "alexander-peters"
-  name: "Alexander"
-  surname: "Peters"
+  id: "michael-borkowski"
+  name: "Michael"
+  surname: "Borkowski"
   company: "Flatout Technologies"
-  bio: "Graduated from technical high school for mechanical engineering and studied Electrical Engineering at TU Wien. Started at Flatout in October 2012 focusing on database. Occasionally enjoys giving basic oracle trainings and is an avid motorcycle fan."
-  thumbnailUrl: AlexanderPeters.jpg
+  bio: "Master student at TU Wien, enthusiastic for any IT and software related topic, especially enterprise software development. Started working at Flatout in January 2014 and is focussing on development, operations and administration. Also a music lover, playing piano and having played electric bass in a rock band."
+  thumbnailUrl: MichaelBorkowski.jpg
   rockstar:
   ribbon:
 -

@@ -39,7 +39,7 @@
 -
   id: 002
   title: "Scalable Data Analysis with Spark"
-  description: "This introductory talk will show how to perform simple data analysis & exploration tasks on Wikipedia and Twitter with Apache Spark. It is a brand-new framework for large-scale data processing with better performance than Hadoop. A simple API is available in Java, Scala and Python and a provided shell can be used for interactive exploration."
+  description: "This introductory talk will show how to perform simple data analysis tasks on Twitter with Apache Spark. It is a brand-new framework for large-scale data processing with up to 100x better performance than Hadoop. A simple API is available in Java, Scala and Python and a provided shell can be used for interactive exploration."
   track: "Big Data"
   subtype: presentation
   speakers: ["gabriel-grill"]
@@ -106,7 +106,7 @@
   description: "Flatout has developed an Operating System for the Home and we will soon launch the product. But, in order to improve it, we want to talk to the developer community and to gather their feedback so we can improve. We also want to give them support by providing our frontend and backend API, which we shall present here a bit more in detail, and in the near future the developers will be able to sell their Apps on our store."
   track: "Code"
   subtype: presentation
-  speakers: ["alexander-peters"]
+  speakers: ["michael-borkowski"]
   language: German
 -
   id: 013
