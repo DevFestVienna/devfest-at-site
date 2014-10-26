@@ -1,0 +1,30 @@
+-
+  id: "pay-identify-with-paypal"
+  title: "Pay &amp; Identify with PayPal"
+  description: "The talk is going to be a roundtrip through different different mobile payment products available. It will show how to do a PayPal payment in your Android app with just a few lines of code and how you're able to let the user identify himself via OAuth."
+  subtype: "presentation"
+  speakers: ["tim-messerschmidt"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://www.devfest.at/img/Paypal.pdf" }
+  youtube: "K1_DEYF4yds"
+-
+  id: "introducing-activiti"
+  title: "Introducing Activiti"
+  description: "Activiti is a lightweight, java-based open-source process engine. This talk is targeted at Java developers interested in moderately to very complex web applications for business or consumer needs. Our aim is to introduce you to the concept of processes and workflows and explore the personal, technical and organizational scenarios for which the use of a process engine like Activiti makes sense. We will also look at some Activiti code samples, offer an introduction to the Activiti codebase and go through the main developer resources."
+  subtype: "presentation"
+  speakers: ["rafael-cordones"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://speakerdeck.com/plexiti/introducing-activiti-a-glimpse-and-hopefully-a-hook" }
+  youtube: "xNjMvZe-etE"
+-
+  id: "introduction-to-bitcoinj"
+  title: "Introduction to BitcoinJ"
+  description: "After a really short introduction to Bitcoin I will give an overview on BitcoinJ - how it fits in the Software ecosystem, an overview of the API, what kind of Applications are already powered by it, why you should use it and what we can expect in the near future."
+  subtype: "presentation"
+  speakers: ["andreas-petersson","harald-schilly"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://bitcoinaustria.github.com/devfest-bitcoinj/" }
+  youtube: "aiQWRVrsW_Q"

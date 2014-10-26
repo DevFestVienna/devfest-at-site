@@ -1,0 +1,12 @@
+-
+  id: "google-plus-platform-a-year-later"
+  title: "Google+ Platform - A Year Later"
+  description: "I'm going to have a run through all the new and exciting things that have changed for the Google+ Platform since my talk about the topic last year, and summarize what was there before already. This will cover the new Google+ Sign-in with all the features that come with it as well as further developments in the Hangouts API."
+  subtype: "presentation"
+  speakers: ["gerwin-sturm"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://docs.google.com/a/google.com/presentation/d/1XcI70uKzTg8aeWgJ6QdqpBUQwPY9Ul_hizUwcSvTck0/present" }
+    - { text: "Additional Material", url: "http://www.allmyplus.com/dev/" }
+  youtube: "4WLl0263Luo"
+-

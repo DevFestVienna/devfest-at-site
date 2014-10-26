@@ -61,6 +61,9 @@ aboutUs: Google's services have become synonymous with simple things online. Num
 showSessions: true
 thumbnailsFolder: /img/speakers/
 
+# Sessions List Block
+thumbnailsSessions: /img/sessions/
+
 # Footer
 gplusFollowUsUrl: "https://plus.google.com/+DevFestVienna"
 twitterFollowUsUrl: "https://twitter.com/intent/user?screen_name=DevFestVienna"

@@ -1,5 +1,6 @@
 - 
   id: "floor-drees"
+  current: true
   name: "Floor"
   surname: "Drees"
   company:
@@ -11,6 +12,7 @@
     - {name: "twitter", link: "http://www.twitter.com/floordrees"}
 -
   id: "rina-ahmed"
+  current: true
   name: "Rina"
   surname: "Ahmed"
   company: "Microsoft"
@@ -22,6 +24,7 @@
     - {name: "twitter", link: "https://twitter.com/rinaahm"}
 - 
   id: "gerwin-sturm"
+  current: true
   name: "Gerwin"
   surname: "Sturm"
   company:
@@ -35,6 +38,7 @@
     - {name: "google-plus", link: "https://plus.google.com/+GerwinSturm"}
 -
   id: "marc-edem"
+  current: true
   name: "Marc Edem"
   surname: "Aziahome"
   company:
@@ -48,6 +52,7 @@
     - {name: "google-plus", link: "https://plus.google.com/+MarcEdem"}
 -
   id: "harald-kuhr"
+  current: true
   name: "Harald"
   surname: "Kuhr"
   company:
@@ -58,6 +63,7 @@
     - {name: "github", link: "https://github.com/haraldk"}
 -
   id: "riccardo-rubini"
+  current: true
   name: "Riccardo"
   surname: "Rubini"
   company: "IAEA"
@@ -66,6 +72,7 @@
   thumbnailUrl: RiccardoRubini.jpg
 -
   id: "peter-riegler"
+  current: true
   name: "Peter"
   surname: "Riegler"
   company: "woohoo mobile marketing GmbH"
@@ -76,6 +83,7 @@
     - {name: "google-plus", link: "https://google.com/+PeterRiegler1"}
 -
   id: "bernd-bergler"
+  current: true
   name: "Bernd"
   surname: "Bergler"
   company: "woohoo mobile marketing GmbH"
@@ -84,6 +92,7 @@
   thumbnailUrl: BerndBergler.jpg
 -
   id: "siegfried-goeschl"
+  current: true
   name: "Siegfried"
   surname: "Goeschl"
   company: "Willhaben"
@@ -96,6 +105,7 @@
   social:
 -
   id: "andreas-hubmer"
+  current: true
   name: "Andreas"
   surname: "Hubmer"
   company: "Cenarion"
@@ -107,6 +117,7 @@
   social:
 -
   id: "michael-borkowski"
+  current: true
   name: "Michael"
   surname: "Borkowski"
   company: "Flatout Technologies"
@@ -116,6 +127,7 @@
   ribbon:
 -
   id: "gabriel-grill"
+  current: true
   name: "Gabriel"
   surname: "Grill"
   company:
@@ -127,6 +139,7 @@
     - { name: "site", link: "http://about.me/ggrill" }
 -
   id: "peter-lieber"
+  current: true
   name: "Peter"
   surname: "Lieber"
   company: "SparxSystems"
@@ -140,6 +153,7 @@
     - { name: "site", link: "https://www.xing.com/profile/peter_lieber" }
 -
   id: "david-pichsenmeister"
+  current: true
   name: "David"
   surname: "Pichsenmeister"
   company: "orat.io"
@@ -149,6 +163,7 @@
     - { name: "site", link: "http://www.pichsenmeister.com" }
 -
   id: "philipp-kalenda"
+  current: true
   name: "Philipp"
   surname: "Kalenda"
   company: "LieberLieber Software GmbH"
@@ -167,6 +182,7 @@
   social:
 -
   id: "gregor-biswanger"
+  current: true
   name: "Gregor"
   surname: "Biswanger"
   company:
@@ -177,6 +193,7 @@
     - { name: "site", link: "http://about.me/gregor.biswanger" }
 -
   id: "maxim-mai"
+  current: true
   name: "Maxim"
   surname: "Mai"
   company: "Google"
@@ -189,3 +206,265 @@
     - { name: "twitter", link: "https://twitter.com/MaximFMai" }
   ribbon:
     - {abbr: "G", title: "Google", url: "https://developers.google.com/" }
+-
+  id: "rafael-cordones"
+  current: false
+  name: "Rafael"
+  surname: "Cordones"
+  bio: "Since more than a decade as a software developer, Rafael has focused on the design and implementation of web-based software products using lightweight open source technologies. He is a strong generalist on key Java technologies with excellent communication skills and extensive experience working in international environments. Inoculated against the 'Not Invented Here'-syndrome, he prefers instead to embrace a 'Proudly Found Elsewhere'-attitude."
+  thumbnailUrl: "RafaelCordones.jpg"
+  rockstar: false
+  social:
+    - { name: "site", link: "http://rafael.cordones.me/" }
+    - { name: "google-plus", link: "https://plus.google.com/112206131267563415304" }
+-
+  id: "michael-greifeneder"
+  current: false
+  name: "Michael"
+  surname: "Greifeneder"
+  company: "Tailored Apps"
+  bio: "Android Developer at Tailored Apps. Linux geek. All green."
+  thumbnailUrl: "MichaelGreifeneder.jpg"
+  rockstar: false
+  social:
+    - { name: "google-plus", link: "https://plus.google.com/109332453450599281287" }
+-
+  id: "sergii-kauk"
+  current: false
+  name: "Sergii"
+  surname: "Kauk"
+  bio: "Freelance web developer from Vienna, originally from Ukraine. I'm focused on Google Apps platform and enjoy to play with Google APIs."
+  thumbnailUrl: "SergiiKauk.jpg"
+  rockstar: false
+  social:
+    - { name: "google-plus", link: "https://plus.google.com/106401792982259937659" }
+-
+  id: "tim-messerschmidt"
+  current: false
+  name: "Tim"
+  surname: "Messerschmidt"
+  company: "PayPal"
+  title: "Lead Developer Evangelist"
+  bio: "As a long time mobile and web developer, Tim channels his knowledge and experience as PayPal's Lead Developer Evangelist in EMEA. He is passionate about startups and serves as mentor at multiple incubators and accelerators. Prior joining PayPal Tim used to work with Neofonie Mobile and Samsung focussing on several mobile projects. In his spare time, he leads and creates training classes in all sorts of developer-oriented topics, contributes to Open Source projects and is one of the authors of the Mobile Developer's Guide to the Galaxy, as well as numerous articles published in print magazines."
+  thumbnailUrl: "TimMesserschmidt.jpg"
+  rockstar: false
+  social: 
+    - { name: "twitter", link: "https://twitter.com/seraandroid" }
+- 
+  id: "andreas-petersson"
+  current: false
+  name: "Andreas"
+  surname: "Petersson"
+  company: "Bitcoin-Austria"
+  bio: "Software Developer since almost 17 years. Programmed Java since 1998. Bachelor in Media Informatics and worked full-time as Software Engineer since about 2006. Co-founded Bitcoin-Austria with several others in Summer of 2011. Took some time off to work focused on Bitcoin related projects and is collaborating with Bitcoincard.org to improve their software infrastructure."
+  thumbnailUrl: "AndreasPetersson.jpg"
+  rockstar: false
+  social:
+    - { name: "google-plus", link: "http://gplus.to/apetersson" }
+-
+  id: "michael-racic"
+  current: false
+  name: "Michael"
+  surname: "Racic"
+  bio: "Like usual around here, I'm a coding and technology freak. I just finished my bachelor of engineering in computer sience or on german 'Dipl. Ing.' and currently I'm mostly coding in Java. In my day job I work as a test automation engineer and deal with all kind of Software from Native over Web into Mainframe where I use existing tools like QTP, Canoo WebTest, ... or write my own testing apps or libraries. In the night I'm mostly focused on Android or other fast living technology."
+  thumbnailUrl: "MichaelRacic.jpg"
+  rockstar: false
+  social:
+    - { name: "google-plus", link: "https://plus.google.com/109163915105172405583" }
+-
+  id: "gerolf-scherr"
+  current: false
+  name: "Gerolf"
+  surname: "Scherr"
+  company: "Cenarion Information Systems GmbH"
+  bio: "Develops software since the C64 times, studied economics and computer science at the University of Vienna and the University of Technology in Vienna, and is the founder and CEO of Cenarion Information Systems GmbH. Cenarion develops and operates for more than 10 years enterprise applications in the Java environment."
+  thumbnailUrl: "GerolfScherr.jpg"
+  rockstar: false
+  social:
+    - { name: "google-plus", link: "https://plus.google.com/116616494241432029799" }
+-
+  id: "harald-schilly"
+  current: false
+  name: "Harald"
+  surname: "Schilly"
+  bio: "master in mathematics and research assistant at the university of vienna, developing software since the age of 12, co-founded bitcoin-austria in summer of 2011, and knows how to teach 'andy' android new tricks about bitcoin."
+  thumbnailUrl: "HaraldSchilly.jpg"
+  rockstar: false
+  social:
+    - { name: "google-plus", link: "https://plus.google.com/107486807156747980968" }
+-
+  id: "alex-tacho"
+  current: false
+  name: "Alex"
+  surname: "Tacho"
+  bio: "Experienced web developer, working since 2011 for STARTeurope using the go-start web framework."
+  thumbnailUrl: "AlexTacho.jpg"
+  rockstar: false
+  social:
+    - { name: "google-plus", link: "https://plus.google.com/102779412144291770415" }
+-
+  id: "erik-unger"
+  current: false
+  name: "Erik"
+  surname: "Unger"
+  bio: "Software Engineer with 15 years of experience ranging from games on PC, Xbox, Playstation, Wii, desktop software, server software, mobile apps, web frontend development and a own web framework."
+  thumbnailUrl: "ErikUnger.jpg"
+  rockstar: false
+  social:
+    - { name: "github", link: "https://github.com/ungerik/go-start" }
+-
+  id: "michal-bigos"
+  current: false
+  name: "Michal"
+  surname: "Bigos"
+  bio: "Michal is software developer, with over 10 years' of experience in designing systems on JEE for clients ranging from small companies to national wide ones. His research interests include domain modeling, functional programming and functional languages on JVM. He is one of the organizers of Vienna Scala UG and Slovak Scala UG."
+  thumbnailUrl: "MichalBigos.jpg"
+  rockstar: false
+  social:
+-
+  id: "lisi-bluemelhuber"
+  current: false
+  name: "Lisi"
+  surname: "Blümelhuber"
+  company: "Cenarion Information Systems GmbH"
+  bio: "Elisabeth Blümelhuber is software developer at Cenarion Information Systems GmbH in Vienna. Her responsibilities include development of individual UI components using GWT, and her areas of interest span over agile software development and software architecture."
+  thumbnailUrl: "LisiBluemelhuber.jpg"
+  rockstar: false
+  social:
+-
+  id: "claudia-breitenfellner"
+  current: false
+  name: "Claudia"
+  surname: "Breitenfellner"
+  company: "Breitenfellner KG"
+  bio: "Study of Technical Mathematics and subsequent doctoral studies at the Vienna University of Technology. Since 2000 self-employed: consulting, security, training, planning, software development development and Linux installation, Open Source and network.<br/>Theme when developing: platform independence."
+  thumbnailUrl: "ClaudiaBreitenfellner.jpg"
+  rockstar: false
+  social:
+-
+  id: "anna-bulenkova"
+  current: false
+  name: "Anna"
+  surname: "Bulenkova"
+  company: "JetBrains"
+  bio: "Software developer at JetBrains, part of RubyMine team"
+  thumbnailUrl: "AnnaBulenkova.jpg"
+  rockstar: false
+  social:
+    - { name: "twitter", link: "https://twitter.com/povergo" }
+-
+  id: "massimiliano-falcinelli"
+  current: false
+  name: "Massimiliano"
+  surname: "Falcinelli"
+  company: "IAEA"
+  bio: "I am IT Security Systems Unit Head at IAEA. I provide leadership on Security Management: provide guidance by delivering a high/level security roadmap based on ISO 27002, develop, propose and recommend security solutions, implement appropriate procedural and technical access control mechanisms, perform security assessments, forensic analysis and vulnerability testing and make recommendations for corrective actions."
+  thumbnailUrl: "MassimilianoFalcinelli.jpg"
+  rockstar: false
+  social:
+-
+  id: "shekhar-gulati"
+  current: false
+  name: "Shekhar"
+  surname: "Gulati"
+  company: "Red Hat"
+  bio: "Shekhar Gulati is Principal OpenShift Developer Evangelist working with Red Hat. He has 8 years of software web development experience. He regularly speaks at various conference and user groups around the world. Shekhar is an active writer and has written many technical articles for IBM DeveloperWorks, Developer.com, and JavaLobby. His current interests are NoSQL databases, cloud computing, mainly Platform-as-a-Service (PaaS), mobile development, javascript frameworks, and new things happening in Java community. When he is not traveling, he loves to write code and read technology books. You can follow him on twitter @shekhargulati."
+  thumbnailUrl: "ShekharGulati.jpg"
+  rockstar: false
+  social:
+    - { name: "twitter", link: "https://twitter.com/shekhargulati/" }
+-
+  id: "roman-hosek"
+  current: false
+  name: "Roman"
+  surname: "Hošek"
+  company: "Mautilus, s.r.o."
+  bio: "Android developer, interested in mobile gadgets and new technologies. Experimenting with OpenCV and IOIO Board. In his free time he likes photographing and traveling."
+  thumbnailUrl: "RomanHosek.jpg"
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "http://plus.google.com/u/0/117921846128976519923" }
+-
+  id: "tomek-kaczanowski"
+  current: false
+  name: "Tomek"
+  surname: "Kaczanowski"
+  bio: "Tomek Kaczanowski works as a developer at CodeWise (Krakow, Poland). He is an experienced Java developer, focused on code quality, testing and automation. Test infected TDD enthusiast, open-source proponent, agile worshipper. Strong inclination towards sharing his knowledge. Blogger at kaczanowscy.pl/tomek. Occasional article writer and conference speaker. Recently published his first books - Practical Unit Testing - practicalunittesting.com"
+  thumbnailUrl: "TomekKaczanowski.jpg"
+  rockstar: false
+  social:
+    - { name: "site", link: "http://practicalunittesting.com/" }
+-
+  id: "robert-ladstaetter"
+  current: false
+  name: "Robert"
+  surname: "Ladstätter"
+  bio: "Robert Ladstätter works as software engineer in Graz, Austria. He has 10y+ experience on the JVM platform, and in recent years became more interested in functional programming. Currently he is a member of the JavaFX community and an active blogger. You can reach him via twitter: @rladstaetter"
+  thumbnailUrl: "RobertLadstaetter.jpg"
+  rockstar: false
+  social:
+    - { name: "twitter", link: "https://twitter.com/rladstaetter" }
+    - { name: "site", link: "http://ladstatt.blogspot.com/" }
+-
+  id: "martin-liersch"
+  current: false
+  name: "Martin"
+  surname: "Liersch"
+  bio: "Freelance Android Developer - 'Goddchen'"
+  thumbnailUrl: "MartinLiersch.jpg"
+  rockstar: false
+  social: 
+    - { name: "site", link: "http://blog.goddchen.de/" }
+-
+  id: "petr-mazanec"
+  current: false
+  name: "Petr"
+  surname: "Mazanec"
+  company: "Mautilus, s.r.o."
+  bio: "I work now as a CTO in the Mautilus, s.r.o. company, which is focused on NFC technology and custom software development for smartphones, tablets and smart TVs. My major task now is technical project leadership for Smart TV development, being hobbyist game developer at the same time. I am interested in computers since the late 80’s, when I was one of the few lucky users of the Commodore 64 machine behind the iron curtain. I started programming at that time and since then software development has become my passion. I progressed from coding on C64 and assembler in MS-DOS up to the current development of software for the most recent smartphone and TV platforms. I started mobile development in 2003 on the Symbian platform, when Nokia released the first smartphone 7650 followed by the famous Siemens SX1. As a Symbian developer, I participated and won several developers competitions and was the only one developer named a Forum Nokia Champion 6 times in a row (I simply loved the C++ and Symbian ;).<br/>I spend my free time with my son and I love travelling in former Soviet countries."
+  thumbnailUrl: "PetrMazanec.jpg"
+  rockstar: false
+  social:
+    - { name: "linkedin", link: "http://www.linkedin.com/in/petrmazanec" }
+-
+  id: "michael-nitschinger"
+  current: false
+  name: "Michael"
+  surname: "Nitschinger"
+  company: "Couchbase, Inc"
+  bio: "Michael is a Vienna-based Developer Advocate for Couchbase, Inc. He is also the release manager of the Couchbase Java SDK and responsible for enterprise framework integration (like Spring Data or Hibernate). He is very active in the community, contributes to open source and speaks regularly at conferences or meetups. You can find his blog at nitschinger.at, or ping him through twitter with @daschl."
+  thumbnailUrl: "MichaelNitschinger.jpg"
+  rockstar: false
+  social: 
+    - { name: "site", link: "http://nitschinger.at/" }
+-
+  id: "radim-pavlicek"
+  current: false
+  name: "Radim"
+  surname: "Pavlicek"
+  company: "Vienna Scala Usergroup"
+  bio: "Scala event organizer in Vienna, Java developer"
+  thumbnailUrl: "RadimPavlicek.jpg"
+  rockstar: false
+  social:
+    - { name: "google-plus", link: "https://plus.google.com/117693540700022537669" }
+-
+  id: "florian-pirchner"
+  name: "Florian"
+  surname: "Pirchner"
+  company: "Lunifera GmbH"
+  bio: "Florian Pirchner is the CEO of Lunifera GmbH and is intensively engaged in the field of open source Eclipse, Apache, Vaadin and OSGi. His hobby is model-driven systems based on Xtext."
+  thumbnailUrl: "FlorianPirchner.jpg"
+  rockstar: false
+  social: 
+    - { name: "site", link: "http://floriansblog.wordpress.com/" }
+-
+  id: "thomas-taschauer"
+  name: "Thomas"
+  surname: "Taschauer"
+  company: "indoo.rs"
+  bio: "As a young genius Tom has various Apps with 1mio+ installs! Android is his passion.<br/>Considered by himself – and the rest of the world – as a Javaianer, he is an unconditional fan of the classy classics – especially when it comes to food, and burgers: cheese, tons of onions, and lettuce. Let’s see how long that lasts!"
+  thumbnailUrl: "ThomasTaschauer.jpg"
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "https://plus.google.com/108466870039650470305" }
