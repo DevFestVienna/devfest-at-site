@@ -14,13 +14,13 @@
             <h4>{{ session.title }}</h4>
             <span class="theme-metadata"><span class="caption">Language: </span>{{ session.language }}</span>
             {% if session.youtube %}
-              <iframe width="400" height="225" src="http://www.youtube.com/embed/{{ session.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+              <br/><iframe width="400" height="225" src="http://www.youtube.com/embed/{{ session.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
             {% endif %}
             {% for link in session.links %}
               <p><a href="{{link.url}}" target="_blank">{{ link.text }}</a></p>
             {% endfor %}
             <p class="theme-description">{{ session.description }}</p>
-            <hr>
+            <hr/>
             <div class="person-details">
               {% for session_speaker in session.speakers %}
                 {% for speaker in site.data.speakers %}
