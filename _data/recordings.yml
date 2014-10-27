@@ -327,11 +327,34 @@
   id: "secrets-in-open-source"
   title: "Keeping Your Secrets Secret in an Open Source World"
   description: "While open source is great there are some things you can't publish together with your source, like client secrets or database access passwords. In this talk I will discuss this problem and present several solutions, with a focus on the Google Cloud Platform."
-  subtype: presentation
+  subtype: "presentation"
   speakers: ["gerwin-sturm"]
-  language: English
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://docs.google.com/presentation/d/1uxeCFn6cNU9CMaBTEjsO5oVP4wav7i_0d-NxG5BU5hM/edit" }
   youtube: "4ymSV9qFG88"
   year: "2014"
   thumbnailUrl: "opensource.jpg"
-
-  
+-
+  id: "documentation-driven-development"
+  title: "(Kick-ass) Documentation Driven Development"
+  description: "We often only start writing documentation for our apps and app functionality after we have developed them. Instead, when you start with writing down the requirements (BDD), intended usage and example use cases, documentation writing not only moves away from being a painful last-minute kind of thing, but actually becomes a vital part in the decision making process - making sure we don't feature-freak and built unnecessary stuff. Which translates to smarter software development, less killing darlings and more time for the important stuff in life: coding ALL the rubies (yes, I am one of those people)."
+  subtype: "presentation"
+  speakers: ["floor-drees"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://speakerdeck.com/floord/kick-ass-readme-driven-development" }
+  youtube: "4qD3KmGLnss"
+  year: "2014"
+  thumbnailUrl: "ddd.jpg"
+-
+  id: "scalable-data-analysis-with-spark"
+  title: "Scalable Data Analysis with Spark"
+  description: "This introductory talk will show how to perform simple data analysis tasks on Twitter with Apache Spark. It is a brand-new framework for large-scale data processing with up to 100x better performance than Hadoop. A simple API is available in Java, Scala and Python and a provided shell can be used for interactive exploration."
+  subtype: "presentation"
+  speakers: ["gabriel-grill"]
+  language: "English"
+  links:
+  youtube: "I_41EE65pBU"
+  year: "2014"
+  thumbnailUrl: "spark.jpg"
