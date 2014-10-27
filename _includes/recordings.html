@@ -1,5 +1,6 @@
 <!-- Begin Recordings -->
 <section id="recordings-{{ include.year }}" class="recordings">
+  <h3>DevFest Vienna {{ include.year }}</h3>
 	<div class="content-wrapper">
 		<div class="col-lg-10 col-lg-offset-1">
 			<div class="row text-left appear-animation-trigger">
@@ -21,13 +22,15 @@
 						      		</ul>
 					    			{% endif %}
 							    	<figcaption class="speakercount-{{ session.speakers | size }}">
-							    	  {% for session_speaker in session.speakers %}
-							    	    {% for speaker in site.data.speakers %}
-							    	      {% if speaker.id == session_speaker %}
-							    	        <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
-							    	      {% endif %}
+							    	  <h2 class="name">
+							      	  {% for session_speaker in session.speakers %}
+							    	      {% for speaker in site.data.speakers %}
+							    	        {% if speaker.id == session_speaker %}
+							    	           {{ speaker.name }} &nbsp; <span>{{ speaker.surname }}</span><br/>
+							    	        {% endif %}
+							    	      {% endfor %}
 							    	    {% endfor %}
-							    	  {% endfor %}
+							    	  </h2>
 							    	</figcaption>
 							    	{% for session_speaker in session.speakers %}
 							    	  {% for speaker in site.data.speakers %}
