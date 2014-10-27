@@ -35,6 +35,102 @@
   year: "2012"
   thumbnailUrl: "bitcoinj.jpg"
 -
+  id: "the-go-start-web-framework"
+  title: "The go-start Web Framework"
+  description: "go-start is a high level web framework for Google's new programming language Go, like Django for Python or Rails for Ruby.<br/>After an introduction to Go and its unique language features we will deep-dive into go-start. We will create a web application from scratch with Views (based on Go - no extra template language), Controllers and Models (we will use MongoDB as data store)."
+  subtype: "presentation"
+  speakers: ["erik-unger","alex-tacho"]
+  language: "English"
+  links:
+    - { text: "Tutorial", url: "https://github.com/ungerik/go-start/tree/master/examples/FullTutorial" }
+    - { text: "Slides", url: "https://speakerdeck.com/ungerik/go-start-at-google-devfest-vienna-2012" }
+  youtube: "h3AzsOw-7Pw"
+  year: "2012"
+  thumbnailUrl: "go.jpg"
+-
+  id: "the-google-plus-platform"
+  title: "The Google+ Platform"
+  description: "An overview over the various Google+ APIs available at the moment<br/><ul><li>REST API</li><li>History API</li><li>Hangouts API</li></ul>"
+  subtype: "presentation"
+  speakers: ["gerwin-sturm"]
+  language: "English"
+  links:
+    - { text: "Online Material", url: "http://www.allmyplus.com/devfest/" }
+  youtube: "5HNRauE4fWc"
+  year: "2012"
+  thumbnailUrl: "googleplus.jpg"
+-
+  id: "google-plus-hangouts-development"
+  title: "Google+ Hangouts Development"
+  description: "Hands-on experience with the various tools and toys the Hangouts API has to offer."
+  subtype: "presentation"
+  speakers: ["gerwin-sturm"]
+  language: "English"
+  links: 
+    - { text: "Online Material", url: "http://www.allmyplus.com/devfest/" }
+  youtube: "XoACx9m85mo"
+  year: "2012"
+  thumbnailUrl: "hangouts.jpg"
+-
+  id: "apps-script-google-hosted-javascript"
+  title: "Apps Script: Google-hosted Javascript"
+  description: "Google Apps Script, first introduced in 2009 as a scripting layer for Google Docs, is in a quite active development right now and matured to the point where it can replace many common tools and offer much faster and easier development. In the talk I'm going to talk about its features, use cases and cover current limitations and issues."
+  subtype: "presentation"
+  speakers: ["sergii-kauk"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://www.devfest.at/img/AppsScript.pdf" }
+    - { text: "Sample: parsing a webpage into RSS feed", url: "https://gist.github.com/3524230" }
+    - { text: "Sample: Twitter client", url: "https://gist.github.com/4132112" }
+  youtube: "odOFuUmtGMo"
+  year: "2012"
+  thumbnailUrl: "apps-script.jpg"
+-
+  id: "google-web-toolkit"
+  title: "GWT - Google Web Toolkit in der Praxis"
+  description: "Das Google Web Toolkit (GWT) wird verwendet um moderne, komplexe Rich Internet Applications zu erstellen. Durch die Generierung von JavaScript aus Java Code können alle Vorteile von Java genützt und gleichzeitig die immer größer werdenden Anforderungen der Web-Benutzer in Bezug auf Style, Performance, Interaktion und Browser-Kompatibilität von Webseiten abgedeckt werden. In dem Vortrag wird GWT vorgestellt und auf dessen Einsatz in der Praxis eingegangen."
+  subtype: "presentation"
+  speakers: ["gerolf-scherr"]
+  language: "German"
+  links:
+    - { text: "Folien", url: "http://www.slideshare.net/Cenarion_Inf_Sys/gwt-google-web-toolkit-in-der-praxis-2012-1114" }
+  youtube: "yrXJbuFsAkc"
+  year: "2012"
+  thumbnailUrl: "gwt.jpg"
+-
+  id: "android-development-101"
+  title: "Android Development 101"
+  description: "This workshop will introduce you into the world of Android development. Targeted at Java programmers new to Android, you will learn about:<br><ul><li>Basics (Setup, Coding, Debugging)</li><li>Layouts (XML, Selectors, Nine-Patch Drawables)</li><li>Widgets (+Adapters)</li><li>Fragments Actionbar (Sherlock)"
+  subtype: "presentation"
+  speakers: ["michael-greifeneder"]
+  language: "English"
+  links:
+  youtube: "5YXusYERE2o"
+  year: "2012"
+  thumbnailUrl: "android.jpg"
+-
+  id: "page-object-pattern-selenium-codelab"
+  title: "PageObject Pattern - Selenium Codelab"
+  description: "You will be given a demo AUT (Application under Test) and some requirements with corresponding test cases as well as a skeleton project to get you started with Selenium.<br/>Your mission will be to have all the test cases automated without writing any duplicate code and future proof in sense of maintainability. I will guide you through the process of creating the page objects interfaces, building the test cases from them, implementing the page objects itself and debug / maintain after changes in the AUT.<br/>At the end you should be able to write functional tests for your Web-Application in no time and be sure it stays maintainable and fast when you add features to your application and scale up the test coverage. With stuff like parallel execution and nightly runs up and running, I can say mission accomplished and one more well tested application with less bugs will help in getting the bugpains out of the users."
+  subtype: "workshop"
+  speakers: ["michel-racic"]
+  language: "English"
+  links:
+  youtube: "Mn4D1sCxxqA"
+  year: "2012"
+  thumbnailUrl: "selenium.jpg"
+-
+  id: "reverse-engineering"
+  title: "Reverse Engineering"
+  description: "This talk will go into some techniques for reverse engineering, e.g. to enable functionality in software which was deliberately locked from the author. We will look how we as software developers can protect our software against these techniques."
+  subtype: "presentation"
+  speakers: ["riccardo-rubini"]
+  language: "English"
+  links:
+  youtube: "oeEgx273yDw"
+  year: "2012"
+  thumbnailUrl: "reverse-engineering.jpg"
+-
   id: "google-plus-platform-a-year-later"
   title: "Google+ Platform - A Year Later"
   description: "I'm going to have a run through all the new and exciting things that have changed for the Google+ Platform since my talk about the topic last year, and summarize what was there before already. This will cover the new Google+ Sign-in with all the features that come with it as well as further developments in the Hangouts API."
