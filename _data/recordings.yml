@@ -21,6 +21,7 @@
     - { text: "Slides", url: "https://speakerdeck.com/plexiti/introducing-activiti-a-glimpse-and-hopefully-a-hook" }
   youtube: "xNjMvZe-etE"
   year: "2012"
+  thumbnailUrl: "activiti.jpg"
 -
   id: "introduction-to-bitcoinj"
   title: "Introduction to BitcoinJ"
@@ -32,6 +33,7 @@
     - { text: "Slides", url: "http://bitcoinaustria.github.com/devfest-bitcoinj/" }
   youtube: "aiQWRVrsW_Q"
   year: "2012"
+  thumbnailUrl: "bitcoinj.jpg"
 -
   id: "google-plus-platform-a-year-later"
   title: "Google+ Platform - A Year Later"
@@ -44,4 +46,5 @@
     - { text: "Additional Material", url: "http://www.allmyplus.com/dev/" }
   youtube: "4WLl0263Luo"
   year: "2013"
+  thumbnailUrl: "googleplus.jpg"
 -
