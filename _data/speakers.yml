@@ -262,12 +262,12 @@
   social:
     - { name: "google-plus", link: "http://gplus.to/apetersson" }
 -
-  id: "michael-racic"
+  id: "michel-racic"
   current: false
-  name: "Michael"
+  name: "Michel"
   surname: "Racic"
   bio: "Like usual around here, I'm a coding and technology freak. I just finished my bachelor of engineering in computer sience or on german 'Dipl. Ing.' and currently I'm mostly coding in Java. In my day job I work as a test automation engineer and deal with all kind of Software from Native over Web into Mainframe where I use existing tools like QTP, Canoo WebTest, ... or write my own testing apps or libraries. In the night I'm mostly focused on Android or other fast living technology."
-  thumbnailUrl: "MichaelRacic.jpg"
+  thumbnailUrl: "MichelRacic.jpg"
   rockstar: false
   social:
     - { name: "google-plus", link: "https://plus.google.com/109163915105172405583" }

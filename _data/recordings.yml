@@ -144,3 +144,182 @@
   year: "2013"
   thumbnailUrl: "googleplus.jpg"
 -
+  id: "functional-domain-modelling"
+  title: "Functional Domain Modeling"
+  description: "Domain model is base of every application. But how to model the functional domain model, where we prefer immutability, functions and their composability? This talk will go into application of functional programming techniques and its abstractions at domain modelling. It will show working combination of technologies on the working example without complicated theory behind. FP gains its interest in last years and its importance is even expected to raise with the advent of Java 8. Examples will be in Scala, while language already contains all required features."
+  subtype: "presentation"
+  speakers: ["michal-bigos"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://speakerdeck.com/teliatko/functional-domain-modeling" }
+    - { text: "Code", url: "https://github.com/teliatko/DevFest2013-fnddd" }
+  youtube: "1Ulm08CPLmg"
+  year: "2013"
+  thumbnailUrl: "functional.jpg"
+-
+  id: "hybrid-app-development-phonegap"
+  title: "Hybrid App development with Phonegap"
+  description: "The comparison between native app and hybrid app is really important before starting developing an app. The main criteria are the target group of the app, the programming background of the developer, the resources available, and some other aspects during the development. Hybrid apps are a bit of mix between a native app and an html5-based app (Web App). There are different frameworks for hybrid app development and Phonegap is one of the best alternative in this domain. Phonegap is a cross platform based framework that helps to compile a web application into a native app for different mobile OS (not only android). Phonegap is a kind of 'Code once, and run everywhere'. We will see the different aspect of this framework and some advantages as well as the downsides."
+  subtype: "presentation"
+  speakers: ["marc-edem"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://www.devfestvienna.com/img/Phonegap_Devfest13.pdf" }
+  youtube: "OP8PCnwqNsg"
+  year: "2013"
+  thumbnailUrl: "phonegap.jpg"
+-
+  id: "it-security-never-ending-saga"
+  title: "IT security - a never ending saga"
+  description: "Looking back into the history of IT security, from phone hacking to SQL injection. This talk reflects on the past threats and measures against them, the currently relevant topics, and it tries to project these trends into the future."
+  subtype: "presentation"
+  speakers: ["massimiliano-falcinelli"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://docs.google.com/uc?id=0B6Z0HOb8lBZMb3RnZFZST2ZQYmM&export=download" }
+  youtube: "PQjkxy3BJ5U"
+  year: "2013"
+  thumbnailUrl: "it-security.jpg"
+-
+  id: "going-reactive-high-performance-jvm-code-with-reactor"
+  title: "Going Reactive - High Performance JVM code with Reactor"
+  description: "Reactor is a high-performance, low-latency framework for the JVM. It provides useful abstractions and integration for common use-cases these days, especially for big and fast data use cases. Underneath, it makes use of outstanding libraries like the LMAX Disruptor, which is used in trading markets. This talk gives an introduction into the basic concepts and code examples, finishes off with an example on how to create an application that performs well at millions of operations per second. Along the way, you'll also see Java 8 mixed in, because Reactor already supports new language features like lambdas."
+  subtype: "presentation"
+  speakers: ["michael-nitschinger"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://speakerdeck.com/daschl/going-reactive-high-performance-jvm-code-with-reactor" }
+    - { text: "Code", url: "https://github.com/reactor/reactor" }
+  youtube: "prOsJFSENyA"
+  year: "2013"
+  thumbnailUrl: "reactor.jpg"
+-
+  id: "indoors-android-navigation"
+  title: "Integrating indoo.rs SDK in an Android App"
+  description: "homas will briefly talk about the indoo.rs technology. Afterwards, he'll prepare you for the hackathon by showing you how to integrate the indoo.rs SDK into your own app"
+  subtype: "presentation"
+  speakers: ["thomas-taschauer"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://docs.google.com/a/google.com/presentation/d/1j2LwktR8eVEZBRqQMnEUZhwVTMpml682Af6rniQ9IQA/present" }
+  youtube: "2letrYTwhzk"
+  year: "2013"
+  thumbnailUrl: "indoors.jpg"
+-
+  id: "image-processing-opencv-javafx-scala"
+  title: "Image processing with OpenCV, JavaFX and Scala"
+  description: "In recent years image processing applications became ubiquitous - in this tech talk I'm going to present a case study how you can use the very popular image processing library 'OpenCV' with the JVM. <br/>Specifically I'm presenting a walkthrough through the code of a JavaFX based application which solves a sudoku just by showing it to the webcam of the laptop.<br/>JavaFX, OpenCV, Maven as well as Scala related concepts will be discussed."
+  subtype: "presentation"
+  speakers: ["robert-ladstaetter"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://www.devfestvienna.com/img/devfest_2013_ladstaetter.pdf" }
+  youtube: "tn4W_W8Iedg"
+  year: "2013"
+  thumbnailUrl: "sudoku.jpg"
+-
+  id: "gradle-build-system"
+  title: "Gradle Build System"
+  description: "Introduction into the new build system which is used by default for Android Studio."
+  subtype: "presentation"
+  speakers: ["martin-liersch"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://docs.google.com/a/google.com/presentation/d/1s6D1GwjKeoG9cEsTEXlWPGyo6kbLFNB6EXxsUtDB9IA/present" }
+  youtube: "31MUyoAl8pE"
+  year: "2013"
+  thumbnailUrl: "gradle.jpg"
+-
+  id: "introduction-to-mvp-with-gwt"
+  title: "Eintauchen in MVP mit GWT"
+  description: "Das Model-View-Presenter-Pattern (MVP) wurde von Google für GWT empfohlen. Es schreibt eine strenge Trennung von View und Presenter vor, die vor allem der Testbarkeit dient. Dieser Vorteil kann auch mit GWT genützt werden, um Logik im Presenter in schnellen Unit-Tests zu überprüfen. Activities und Places helfen in GWT-Applikationen die Browser-History zu verwenden, hängen aber nicht zwingend mit MVP zusammen, wie im Vortrag gezeigt wird."
+  subtype: "presentation"
+  speakers: ["lisi-bluemelhuber"]
+  language: "German"
+  links:
+    - { text: "Folien", url: "http://de.slideshare.net/Cenarion_Inf_Sys/prsentation-eintauchen-in-mvp-mit-gwt-11181013" }
+  youtube: "j76_qhDDu00"
+  year: "2013"
+  thumbnailUrl: "mvp-gwt.jpg"
+-
+  id: "surviving-environment-disasters"
+  title: "Surviving the environment disasters"
+  description: "'Ruby is a dynamic, open source programming language with a focus on simplicity and productivity.', — says Ruby web-site, and it's absolutely right. Alas, what's good for a Ruby developer is not so good for those who's working on Ruby IDE, and saying 'not so good' is just a polite way of telling things. Autocompletion, usages search, dependency resolution, refactorings… So many features and they all must work in sync. The following talk gives you a look from the inside and reveals pitfalls you face when supporting dynamic languages like Ruby, and, of course, ways around them."
+  subtype: "presentation"
+  speakers: ["anna-bulenkova"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://speakerdeck.com/boogiecat/devfest" }
+    - { text: "IntelliJ IDEA - custom language support", url: "http://confluence.jetbrains.com/display/IDEADEV/Developing+Custom+Language+Plugins+for+IntelliJ+IDEA" }
+  youtube: "6VqgW4egBEk"
+  year: "2013"
+  thumbnailUrl: "environment.jpg"
+-
+  id: "rad-for-mobile-codiqa-jquery-mobile"
+  title: "RAD for mobile with Codiqa and jQuery Mobile"
+  description: "This talk highlights the steps to develop a working sketch of a mobile application with literally hours of effort, using the Codiqa toolbox for RAD / prototyping and the jQuery Mobile widget set."
+  subtype: "presentation"
+  speakers: ["riccardo-rubini"]
+  language: "English"
+  youtube: "19iaOkrcDl0"
+  year: "2013"
+  thumbnailUrl: "codiqa.jpg"
+-
+  id: "thinking-beyond-rdbms"
+  title: "Thinking Beyond RDBMS: Building Polyglot Persistence Java Applications"
+  description: "Time has come to start thinking about multiple data storage solutions while building applications. A single application can use multiple data storage technologies depending on its use case -- right tool for right job. The session will start by introducing polyglot persistence to the audience. Next we will cover the pros and cons of Polyglot persistence. Then we will see how to build location aware Job search application using MongoDB, PostgreSQL, Redis, and Solr. The different data storage solutions are used to persist different types of data like MongoDB to store Job data along with its location, PostgreSQL to store User data, Redis as a cache for User objects and other goodies, and Solr as a full text search engine. Finally, the application will be deployed to OpenShift -- open source Platform as a Service."
+  subtype: "presentation"
+  speakers: ["shekhar-gulati"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://drive.google.com/a/google.com/file/d/0B6Z0HOb8lBZMRVhQdDROa2xDdDA/edit?usp=sharing" }
+  youtube: "tLUvWwPRIbU"
+  year: "2013"
+  thumbnailUrl: "polyglot.jpg"
+-
+  id: "flying-sharks"
+  title: "Flying Sharks"
+  description: "Based on a flying shark, a Vaadin UI, a beagle bone black, an Arduino board, Apache Message Queue, Koneki, Lua and the MQTT protocol we are demonstrating how simple it is to remote control an airswimmer (www.youtube.com/watch?v=lOPImRA2AlI). Sharky may also swim complex maneuvers itself controlled by a beagle bone. All circuit diagrams, programs, applications are available for download on github."
+  subtype: "presentation"
+  speakers: ["florian-pirchner"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://www.devfestvienna.com/img/Sharky.pdf" }
+  youtube: "R0zUk4_bjG4"
+  year: "2013"
+  thumbnailUrl: "flying-sharks.jpg"
+-
+  id: "smart-tv-google-tv"
+  title: "SmartTV and GoogleTV"
+  description: "The presentation is split into two blocks. In the first part we introduce SmartTV and tell the audience basics about that new phenomenon (25-30 minutes) and how to start the development. The second part is about the GoogleTV only."
+  subtype: "presentation"
+  speakers: ["petr-mazanec","roman-hosek"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://www.devfestvienna.com/img/SmartTV_GoogleTV_DevFest_at.pdf" }
+  youtube: "Ec65ubPwmvE"
+  year: "2013"
+  thumbnailUrl: "smart-tv.jpg"
+-
+  id: "bad-tests-good-tests"
+  title: "Bad Tests, Good Tests"
+  description: "Writing tests looks simple - every kid could write few lines of JUnit code. :) Writing valuable tests is much more challenging. Everyone has seen (or has written themself!) tests, which are hard to understand, hard to maintain, and do not verify anything really important (or maybe they do, but it is too hard to deduce)! Some tests are simply a burden.<br/>During the talk I plan to present many examples of imperfect tests and show how to improve them. I will discuss typical issues related to writing tests and present techniques which can save our code like parametrized tests, custom asserts, test data builders. The talk is technical, full of useful hints & tips & tricks & dos and & dont's. It also presents few tools (that are not so commonly used). All code examples discussed during the talk are taken from real code."
+  subtype: "presentation"
+  speakers: ["tomek-kaczanowski"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://kaczanowscy.pl/tomek/2013-10/devfest-vienna-2013-bad-tests-good-tests-talk-slides" }
+  youtube: "BWFejqH69QQ"
+  year: "2013"
+  thumbnailUrl: "tests.jpg"
+-
+  id: "willhaben-app-survive-successful-launch"
+  title: "The willhaben.app - How to survive a successful app launch"
+  description: "The Austrian classified ads provider willhaben.at launched its mobile application on Android and iOS in July 2013 and counted 100,000 downloads within five days. Join the developers for a journey from the the first code line to the production problems during the launch:<br/><ul><li>Outsorcing - distributed versus co-located development?</li><li>In search of the API - adding a REST API to JSP-centric application</li><li>REST API design - general ideas and guidelines for writing a REST API</li><li>Implementation of the Android app</li><li>How not to soft-launch</li><li>Surviving the first days</li></ul>"
+  subtype: "presentation"
+  speakers: ["michael-greifeneder","siegfried-goeschl"]
+  language: "English"
+  links:
+  youtube: "MhC5ZnortME"
+  year: "2013"
+  thumbnailUrl: "willhaben.jpg"
