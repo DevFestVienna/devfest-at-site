@@ -323,3 +323,15 @@
   youtube: "MhC5ZnortME"
   year: "2013"
   thumbnailUrl: "willhaben.jpg"
+-
+  id: "secrets-in-open-source"
+  title: "Keeping Your Secrets Secret in an Open Source World"
+  description: "While open source is great there are some things you can't publish together with your source, like client secrets or database access passwords. In this talk I will discuss this problem and present several solutions, with a focus on the Google Cloud Platform."
+  subtype: presentation
+  speakers: ["gerwin-sturm"]
+  language: English
+  youtube: "4ymSV9qFG88"
+  year: "2014"
+  thumbnailUrl: "opensource.jpg"
+
+  
