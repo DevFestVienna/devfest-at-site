@@ -95,6 +95,11 @@
             }
         }
     }
+    figcaption.speakercount-2, figcaption.speakercount-3, figcaption.speakercount-4 {
+        h2 span {
+            display: inline;
+        }
+    }
     .overlay {
         transition: $base-transition;
         background: rgba(0, 0, 0, 0);

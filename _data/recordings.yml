@@ -9,6 +9,7 @@
     - { text: "Slides", url: "http://www.devfest.at/img/Paypal.pdf" }
   youtube: "K1_DEYF4yds"
   year: "2012"
+  thumbnailUrl: "paypal.jpg"
 -
   id: "introducing-activiti"
   title: "Introducing Activiti"
