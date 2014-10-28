@@ -358,3 +358,123 @@
   youtube: "I_41EE65pBU"
   year: "2014"
   thumbnailUrl: "spark.jpg"
+-
+  id: "developer-community-flatout"
+  title: "Die Developer Community bei Flatout"
+  description: "Flatout hat ein Operating System für Home-Automatisierung entwickelt und wird bald ein erste Produkt launchen. Aber um es zu verbessern wollen wir mit der Entwickler-Community sprechen und deren Feedback zur weiteren Verbesserung erhalten. Wir wollen die Community auch unterstützen, indem wir ihnen unser Frontend- und Backend-API zur Verfügung stellen, welches wir hier genauer vorstellen. Und in Zukunft werden Entwickler ihre Apps in unserem Store anbieten können."
+  subtype: "presentation"
+  speakers: ["michael-borkowski"]
+  language: "German"
+  youtube: "0gWe2T_IH3Q"
+  year: "2014"
+  thumbnailUrl: "flatout.jpg"
+-
+  id: "ui-components-large-data"
+  title: "UI Components for Large Amounts of Data"
+  description: "How do you present large amounts of data on the client? How do you make it searchable? We present two concrete examples using GWT (Google Web Toolkit):<ul><li>A table component: Thousands of entries are displayed to the user, using paging, sorting and filtering.</li><li>A suggest box: It enables the user to quickly select a value from a multitude of possible values.</li></ul>To deliver fast results paging, sorting and filtering are performed in the database."
+  track: "Web"
+  subtype: "presentation"
+  speakers: ["andreas-hubmer"]
+  language: "English"
+  links:
+    - { text: "Slides", url: "http://www.cenarion.com/2014-10-17/cenarion-devfest" }
+  youtube: "AXS4sbowqh4"
+  year: "2014"
+  thumbnailUrl: "gwt.jpg"
+-
+  id: "uml-sysml-codegeneration"
+  title: "UML/SysML and CodeGeneration"
+  description: "Our developers work continuously on different challenges in various projects. To provide a fast overview on the live status on our TeamCity buildserver, they adapted a flipchart as a build signal light. The lights are operated by a Tiva C microcontroller supervised by a Raspberry Pi, the code was generated from a UML model using enar uml2code. An easy going solution for a perfect overview."
+  track: "Code"
+  subtype: "presentation"
+  speakers: ["peter-lieber", "philipp-kalenda", "dominik-sumer"]
+  language: "English"
+  links:
+  youtube: "h4byYHWSxqo"
+  year: "2014"
+  thumbnailUrl: "uml-sysml.jpg"
+-
+  id: "sentiment-analysis"
+  title: "Sentiment Analysis with the Google Prediction API"
+  description: "Sentiment analysis is a new trend when it comes to data-mining, in its ability to better analyze end user's opinions about different products, via the use of social media. Sentiment analysis have been done with different Data-mining algorithms and techniques. Since Google API also provides the same pattern of development, experimenting such technology with this API can help us got following result:<br>-Given a user's past viewing habits, predict what other movies or products a user might like.<br>- Categorize emails as spam or non-spam.<br>- Analyze posted comments about your product to determine whether they have a positive or negative tone.<br>- Guess how much a user might spend on a given day, given his spending history."
+  track: "Cloud"
+  subtype: "presentation"
+  speakers: ["marc-edem"]
+  language: "English"
+  links:
+  youtube: "1U21wWujgcE"
+  year: "2014"
+  thumbnailUrl: "sentiment.jpg"
+-
+  id: "app-distribution"
+  title: "App Distribution and Revenue Models"
+  description: "The goal of the presentation is to share tips, tricks and learnings concerning app distribution and revenue models. I will be using real life examples from my work with German app developers. The talk will cover strategy as well as technical aspects. Google products to be covered are Play and AdMob."
+  subtype: "presentation"
+  speakers: ["maxim-mai"]
+  language: "English"
+  links:
+  youtube: "gbRfkyYfD5A"
+  year: "2014"
+  thumbnailUrl: "app-distribution.jpg"
+-
+  id: "gis-opensource"
+  title: "GIS with Open Source"
+  description: "A geographic information system (GIS) is a computer system designed to capture, store, manipulate, analyze, manage, and present all types of geographical data. I will present some of the major open source tools and give examples how they can be used to create solutions based on geographic information."
+  subtype: "presentation"
+  speakers: ["riccardo-rubini"]
+  language: "English"
+  youtube: "fh9IPYWFisc"
+  year: "2014"
+  thumbnailUrl: "gis-opensource.jpg"
+-
+  id: "mobile-cloud"
+  title: "Cloud Backend for Mobile Apps - Azure Mobile Services"
+  description: "Microsoft Azure offers with Mobile Services a number of services that mobile developers can use to quickly implemented often-used scenarios in apps. In this talk we will see an introduction of Azure Mobile Services and how you can use them to quickly build yourself backend in the cloud on a sample (platform-independent) phone app."
+  subtype: "presentation"
+  speakers: ["rina-ahmed"]
+  language: "English"
+  links:
+  youtube: "LDua6IZsnKs"
+  year: "2014"
+  thumbnailUrl: "mobile-cloud.jpg"
+-
+  id: "android-sdk"
+  title: "Developing an SDK for Android"
+  description: "We (woohoo) provide a solution for mobile app developers to improve their retention rate by providing user rewards. Those rewards are possible via the collection of in app achievements. Those virtual earnings can then be converted to coupons for actual products. This solution is provided to developers as Android library project and static library for iOS. In this talk we want to share our experiences we made throughout the development of these SDKs."
+  subtype: "presentation"
+  speakers: ["peter-riegler", "bernd-bergler"]
+  language: "English"
+  links:
+  youtube: "lqwFdoNYj8Y"
+  year: "2014"
+  thumbnailUrl: "android-sdk.jpg"
+-
+  id: "hybrid-app-development"
+  title: "Einstieg in die Hybrid-App-Entwicklung"
+  description: "Die Entwicklung von Apps ist nicht einfach und jede 'Systemwelt' hat ihre eigenen Tools und Anforderungen. Ob mit Java und Eclipse für Android, mit Objective-C und Xcode für iOS, oder mit den Microsoft-Tools für die Windows-Welt. Bei diesem Vortrag lernen Sie die vielfältigen Möglichkeiten der App-Entwicklung für alle gängigen Plattformen mit nur einer Programmiersprache kennen: HTML5 und JavaScript. Dazu wird passend das kostenlose Tool Intel XDK vorgestellt. Mit diesen Infos steigen Sie rasch auf zum versierten Cross-Plattform Entwickler."
+  subtype: "presentation"
+  speakers: ["gregor-biswanger"]
+  language: "German"
+  youtube: "kolrL1rTNzc"
+  year: "2014"
+  thumbnailUrl: "hybrid.jpg"
+-
+  id: "polyglot"
+  title: "Development and Deployment of a Polyglot System"
+  description: "At orat.io we are developing a comment plugin for online bloggers and publishers. Since the uptime of our software is very important, we try to apply best practices to our development and deployment workflow. Our system is based on different stacks, which includes the use of different languages like PHP, Scala and TypeScript. This talk is about how we manage the consistency of our data-models through the different stacks, how the connection of our services is done through APIs and the deployment strategy of our system to get a nearly zero-downtime continous integration pipeline. I'll also show, how we use code generators and shell scripts to automate code creation and tasks. Last, I'll show how we handle our database migrations."
+  subtype: "presentation"
+  speakers: ["david-pichsenmeister"]
+  language: "English"
+  youtube: "gqxjzWZskzU"
+  year: "2014"
+  thumbnailUrl: "polyglot.jpg"
+-
+  id: "java-image-processing"
+  title: "Java Image Processing Survival Guide"
+  description: "If you are ever asked to convert, process and scale millions of real-world images using Java it will be a painful experience - at least it was for me. I came across unexpected problems ranging from CMYK, alpha-channel handling, multi-page TIFF, image compression algorithms, setting DPIs, PDF preview generation, decompression bombs to efficient image scaling. At hindsight I wished there was some single resource of information to guide me through my problems - and this is exactly the reason for this presentation. It provides real-life experience in replacing an ImageMagick/JMagick image conversion & scaling with a pure Java implementation covering Apache PDFBox, Java Advanced Imaging API (JAI), TwelveMonkeys ImageIO plugins, Sanselan (aks Commons Imaging) and different Java-based image-scaling libraries."
+  subtype: "presentation"
+  speakers: ["siegfried-goeschl","harald-kuhr"]
+  language: "English"
+  youtube: "yZGQR_ho36Q"
+  year: "2014"
+  thumbnailUrl: "java-image-processing.jpg"
