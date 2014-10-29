@@ -390,6 +390,7 @@
   speakers: ["peter-lieber", "philipp-kalenda", "dominik-sumer"]
   language: "English"
   links:
+    - { text: "Slides", url: "https://drive.google.com/a/devfest.at/file/d/0B6Z0HOb8lBZMeDB5d21TalE2LU9Jcjk0Z1BFRGdCMFBGOHNB/view?usp=sharing" }
   youtube: "h4byYHWSxqo"
   year: "2014"
   thumbnailUrl: "uml-sysml.jpg"
@@ -445,6 +446,7 @@
   speakers: ["peter-riegler", "bernd-bergler"]
   language: "English"
   links:
+    - { text: "Slides", url: "https://drive.google.com/a/devfest.at/file/d/0B6Z0HOb8lBZMbFhnZlZxNTI5NVJxcTg4dk9ETnBBVnVvZV9B/view?usp=sharing" }
   youtube: "lqwFdoNYj8Y"
   year: "2014"
   thumbnailUrl: "android-sdk.jpg"
@@ -465,6 +467,8 @@
   subtype: "presentation"
   speakers: ["david-pichsenmeister"]
   language: "English"
+  links:
+    - { text: "Slides", url: "http://www.slideshare.net/3x14159265/development-and-deployment-of-polyglot-systems" }
   youtube: "gqxjzWZskzU"
   year: "2014"
   thumbnailUrl: "polyglot.jpg"
@@ -475,6 +479,8 @@
   subtype: "presentation"
   speakers: ["siegfried-goeschl","harald-kuhr"]
   language: "English"
+  links:
+    - { text: "Slides", url: "https://drive.google.com/a/devfest.at/file/d/0B6Z0HOb8lBZMTVdpU0QyVllNUjQ/view?usp=sharing" }
   youtube: "yZGQR_ho36Q"
   year: "2014"
   thumbnailUrl: "java-image-processing.jpg"
