@@ -355,6 +355,7 @@
   speakers: ["gabriel-grill"]
   language: "English"
   links:
+    - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMNWVvSktxQ1V3UFk/view?usp=sharing" }
   youtube: "I_41EE65pBU"
   year: "2014"
   thumbnailUrl: "spark.jpg"
