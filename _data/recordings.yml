@@ -361,7 +361,7 @@
 -
   id: "developer-community-flatout"
   title: "Die Developer Community bei Flatout"
-  description: "Flatout hat ein Operating System für Home-Automatisierung entwickelt und wird bald ein erste Produkt launchen. Aber um es zu verbessern wollen wir mit der Entwickler-Community sprechen und deren Feedback zur weiteren Verbesserung erhalten. Wir wollen die Community auch unterstützen, indem wir ihnen unser Frontend- und Backend-API zur Verfügung stellen, welches wir hier genauer vorstellen. Und in Zukunft werden Entwickler ihre Apps in unserem Store anbieten können."
+  description: "Flatout hat ein Operating System für Home-Automatisierung entwickelt und wird bald ein erstes Produkt launchen. Aber um es zu verbessern wollen wir mit der Entwickler-Community sprechen und deren Feedback zur weiteren Verbesserung erhalten. Wir wollen die Community auch unterstützen, indem wir ihnen unser Frontend- und Backend-API zur Verfügung stellen, welches wir hier genauer vorstellen. Und in Zukunft werden Entwickler ihre Apps in unserem Store anbieten können."
   subtype: "presentation"
   speakers: ["michael-borkowski"]
   language: "German"
