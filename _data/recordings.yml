@@ -6,7 +6,7 @@
   speakers: ["tim-messerschmidt"]
   language: "English"
   links:
-    - { text: "Slides", url: "http://www.devfest.at/img/Paypal.pdf" }
+    - { text: "Slides", url: "https://drive.google.com/a/devfest.at/file/d/0B6Z0HOb8lBZMV2tNaVVUY3pwbEE/view?usp=sharing" }
   youtube: "K1_DEYF4yds"
   year: "2012"
   thumbnailUrl: "paypal.jpg"
@@ -79,7 +79,7 @@
   speakers: ["sergii-kauk"]
   language: "English"
   links:
-    - { text: "Slides", url: "http://www.devfest.at/img/AppsScript.pdf" }
+    - { text: "Slides", url: "https://drive.google.com/a/devfest.at/file/d/0B6Z0HOb8lBZMb0REVjQ3RkZiVVE/view?usp=sharing" }
     - { text: "Sample: parsing a webpage into RSS feed", url: "https://gist.github.com/3524230" }
     - { text: "Sample: Twitter client", url: "https://gist.github.com/4132112" }
   youtube: "odOFuUmtGMo"
@@ -164,7 +164,7 @@
   speakers: ["marc-edem"]
   language: "English"
   links:
-    - { text: "Slides", url: "http://www.devfestvienna.com/img/Phonegap_Devfest13.pdf" }
+    - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMQUZudTdxdkhzMUE/view?usp=sharing" }
   youtube: "OP8PCnwqNsg"
   year: "2013"
   thumbnailUrl: "phonegap.jpg"
@@ -213,7 +213,7 @@
   speakers: ["robert-ladstaetter"]
   language: "English"
   links:
-    - { text: "Slides", url: "http://www.devfestvienna.com/img/devfest_2013_ladstaetter.pdf" }
+    - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMWjV3bGQ2bXlOUDA/view?usp=sharing" }
   youtube: "tn4W_W8Iedg"
   year: "2013"
   thumbnailUrl: "sudoku.jpg"
@@ -284,7 +284,7 @@
   speakers: ["florian-pirchner"]
   language: "English"
   links:
-    - { text: "Slides", url: "http://www.devfestvienna.com/img/Sharky.pdf" }
+    - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMc01xcnVQUWk0OFU/view?usp=sharing" }
   youtube: "R0zUk4_bjG4"
   year: "2013"
   thumbnailUrl: "flying-sharks.jpg"
@@ -296,7 +296,7 @@
   speakers: ["petr-mazanec","roman-hosek"]
   language: "English"
   links:
-    - { text: "Slides", url: "http://www.devfestvienna.com/img/SmartTV_GoogleTV_DevFest_at.pdf" }
+    - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMZnU2Vi1lMzdwU1k/view?usp=sharing" }
   youtube: "Ec65ubPwmvE"
   year: "2013"
   thumbnailUrl: "smart-tv.jpg"
