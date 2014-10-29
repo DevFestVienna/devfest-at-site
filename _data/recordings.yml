@@ -403,6 +403,7 @@
   speakers: ["marc-edem"]
   language: "English"
   links:
+    - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMUFg0M1ZESFZwdnZxSHMxZVJ4cWY0c2I2Q0pv/view?usp=sharing" }
   youtube: "1U21wWujgcE"
   year: "2014"
   thumbnailUrl: "sentiment.jpg"
