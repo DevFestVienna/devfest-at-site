@@ -1,0 +1,80 @@
+-
+  id: "documentation-driven-development"
+  title: "(Kick-ass) Documentation Driven Development"
+  year: 2014
+  rating: { awesome: 5, good: 8, fair: 4, bad: 1 }
+-
+  id: "scalable-data-analysis-with-spark"
+  title: "Scalable Data Analysis with Spark"
+  year: 2014
+  rating: { awesome: 5, good: 7, fair: 2, bad: 4 }
+-
+  id: "android-sdk"
+  title: "Developing an SDK for Android"
+  year: 2014
+  rating: { awesome: 8, good: 8, fair: 1, bad: 3 }
+-
+  id: "sentiment-analysis"
+  title: "Sentiment Analysis with the Google Prediction API"
+  year: 2014
+  rating: { awesome: 5, good: 7, fair: 6, bad: 4 }
+-
+  id: "ui-components-large-data"
+  title: "UI Components for Large Amounts of Data"
+  year: 2014
+  rating: { awesome: 0, good: 13, fair: 7, bad: 7 }
+-
+  id: "developer-community-flatout"
+  title: "Die Developer Community bei Flatout"
+  year: 2014
+  rating: { awesome: 3, good: 7, fair: 3, bad: 0 }
+-
+  id: "hybrid-app-development"
+  title: "Einstieg in die Hybrid-App-Entwicklung"
+  year: 2014
+  rating: { awesome: 9, good: 7, fair: 2, bad: 0 }
+-
+  id: "secrets-in-open-source"
+  title: "Keeping Your Secrets Secret in an Open Source World"
+  year: 2014
+  rating: { awesome: 6, good: 14, fair: 1, bad: 1 }
+-
+  id: "app-distribution"
+  title: "App Distribution and Revenue Models"
+  year: 2014
+  rating: { awesome: 16, good: 8, fair: 1, bad: 0 }
+-
+  id: "lightning-talks"
+  title: "Lightning Talks"
+  year: 2014
+  rating: { awesome: 2, good: 3, fair: 5, bad: 0 }
+-
+  id: "polyglot"
+  title: "Development and Deployment of a Polyglot System"
+  year: 2014
+  rating: { awesome: 1, good: 5, fair: 2, bad: 0 }
+-
+  id: "uml-sysml-codegeneration"
+  title: "UML/SysML and CodeGeneration"
+  year: 2014
+  rating: { awesome: 1, good: 3, fair: 3, bad: 3 }
+-
+  id: "java-image-processing"
+  title: "Java Image Processing Survival Guide"
+  year: 2014
+  rating: { awesome: 13, good: 4, fair: 1, bad: 0 }
+-
+  id: "mobile-cloud"
+  title: "Cloud Backend for Mobile Apps - Azure Mobile Services"
+  year: 2014
+  rating: { awesome: 1, good: 5, fair: 3, bad: 0 }
+-
+  id: "gis-opensource"
+  title: "GIS with Open Source"
+  year: 2014
+  rating: { awesome: 3, good: 3, fair: 5, bad: 2 }
+-
+  id: "average"
+  title: "Average rating"
+  year: 2014
+  rating: { awesome: 78, good: 102, fair: 46, bad: 25 }

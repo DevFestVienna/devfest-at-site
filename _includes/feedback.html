@@ -1,0 +1,37 @@
+<!-- Begin Feedback Section -->
+<section id="feedback" class="feedback">
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+  </script>
+  <div class="content-wrapper">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3>Session Feedbacks</h3>
+      <article class="row">
+        {% for session in site.data.feedback %}
+          <div class="post col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInDown" data-delay="500" id="feedback-{{ session.year }}-{{ session.id }}">
+            <h6>{{ session.title }}</h6>
+            <div id="piechart-{{ session.year }}-{{ session.id }}"></div>
+            <script type="text/javascript">
+              (function () {
+                 var data = google.visualization.arrayToDataTable([
+                     ['Rating', 'Count'],
+                     ['Awesome', {{ session.rating.awesome }}],
+                     ['Good', {{ session.rating.good }}],
+                     ['Fair', {{ session.rating.fair }}],
+                     ['Disappointing', {{ session.rating.disappointing }}]
+                ]);
+                var options = {
+                  title: "{{ session.title }}"
+                };
+                var chart = new google.visualization.PieChart(document.getElementById("piechart-{{ session.year }}-{{ session.id }}"));
+                chart.draw(data, options);
+              })();
+            </script>
+          </div>
+        {% endfor %}
+      </article>
+    </div>
+  </div>
+</section>
+<!-- End Feedback Section -->
