@@ -22,7 +22,8 @@
                      ['Disappointing', {{ session.rating.bad }}]
                 ]);
                 var options = {
-                  title: "{{ session.title }}"
+                  colors: [ "green", "blue", "orange", "red"],
+                  pieHole: 0.7
                 };
                 var chart = new google.visualization.PieChart(document.getElementById("piechart-{{ session.year }}-{{ session.id }}"));
                 chart.draw(data, options);
