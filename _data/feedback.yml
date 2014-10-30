@@ -1,4 +1,17 @@
 -
+  id: "overall"
+  title: "Average rating"
+  year: 2014
+  rating: { awesome: 78, good: 102, fair: 46, bad: 25 }
+  text:
+    - "Half hour talks can surely only be of limited scope. But then it would make more sense to give an overview than just to touch one single topic. After all, these talks are better to hear of something new, get an overview and then look into it yourself. Half an hour is too short for any in-depth view."
+    - "I don't understand / agree with the policy of 'show no code' (make the talk language agnostic). As developers we love to see code, as long as we can make sense of it."
+    - "Too simple and boring. This was not a conference for developers. It seems that it was a conference for general public, for those who have no idea about development."
+    - "Could you do more non Java/Android talks?"
+    - "Maybe it was my problem, but I expected something more detailed and got only a short overview, which was in most cases already known to me, or simply obvious."
+    - "It would be cool to see live coding / refactoring, hands-on sessions, talks about deployment strategies, methodologies."
+    - "More topics: GAIMZ! Material Design, NFC, Bluetooth, Bitcoin"
+-
   id: "documentation-driven-development"
   title: "(Kick-ass) Documentation Driven Development"
   year: 2014
@@ -8,6 +21,8 @@
   title: "Scalable Data Analysis with Spark"
   year: 2014
   rating: { awesome: 5, good: 7, fair: 2, bad: 4 }
+  text:
+    - "The talks Scalable Data Analysis with Spark	and Sentiment Analysis with the Google Prediction API had a little too much of an introductionary character for me. This may be due to the rather short time of the talks, 20 minutes for a talk and 10 minutes for the demo seemed to short in those cases."
 -
   id: "android-sdk"
   title: "Developing an SDK for Android"
@@ -18,11 +33,18 @@
   title: "Sentiment Analysis with the Google Prediction API"
   year: 2014
   rating: { awesome: 5, good: 7, fair: 6, bad: 4 }
+  text:
+    - "The presenter was struggling with some basic examples, but as someone who has no prior experience that doesn't tell me much and more experienced people surely won't benefit from that as well. Talking about the capabilities and 'what's already there' (do I have to give the training data? Are there no predefined sets??) would make more sense in that short time frame."
+    - "The talks Scalable Data Analysis with Spark	and Sentiment Analysis with the Google Prediction API had a little too much of an introductionary character for me. This may be due to the rather short time of the talks, 20 minutes for a talk and 10 minutes for the demo seemed to short in those cases."
+    - "It is good that talks are hands on, but it would be nice to get some context about the topic. For this talk it would have been nice to give a short introduction into the why & what before proceeding to the how, but it was pretty much a step by step - walkthrough of a little part of the google prediction api (and didn't work unfortunately - but that can always happen in a live demo). So maybe it would have been nice to give some pointers and take aways, so it is easier to do some follow up for the people who are interested."
 -
   id: "ui-components-large-data"
   title: "UI Components for Large Amounts of Data"
   year: 2014
   rating: { awesome: 0, good: 13, fair: 7, bad: 7 }
+  text:
+    - "It was false advertisement. It should be called 'How to make an effin' table with GWT'"
+    - "The talk about UI Components for Large Amounts of Data was more or less a 'How to make a table in GWT'. Even though that might sound harsh, but if I had known that beforehand I would not have attended the talk."
 -
   id: "developer-community-flatout"
   title: "Die Developer Community bei Flatout"
@@ -43,6 +65,8 @@
   title: "App Distribution and Revenue Models"
   year: 2014
   rating: { awesome: 16, good: 8, fair: 1, bad: 0 }
+  text:
+    - "Even though the topic of App Distribution and Revenue Models was not necessarily interesting to me, the talker did get my interest during the session. Even though I knew a few of the presented topics already, the talker always put reasoning and advanced details to the points."
 -
   id: "lightning-talks"
   title: "Lightning Talks"
@@ -63,6 +87,8 @@
   title: "Java Image Processing Survival Guide"
   year: 2014
   rating: { awesome: 13, good: 4, fair: 1, bad: 0 }
+  text:
+    - "This was by far the best talk for me. The focus was set perfectly, I learned a lot about the context of the topic, it was very fun to listen to and even a bit gamified,... - in one word - AWESOME!"
 -
   id: "mobile-cloud"
   title: "Cloud Backend for Mobile Apps - Azure Mobile Services"
@@ -73,8 +99,3 @@
   title: "GIS with Open Source"
   year: 2014
   rating: { awesome: 3, good: 3, fair: 5, bad: 2 }
--
-  id: "average"
-  title: "Average rating"
-  year: 2014
-  rating: { awesome: 78, good: 102, fair: 46, bad: 25 }

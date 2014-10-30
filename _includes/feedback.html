@@ -23,12 +23,17 @@
                 ]);
                 var options = {
                   colors: [ "green", "blue", "orange", "red"],
-                  pieHole: 0.7
+                  pieHole: 0.5,
+                  pieSliceText: "none"
                 };
                 var chart = new google.visualization.PieChart(document.getElementById("piechart-{{ session.year }}-{{ session.id }}"));
                 chart.draw(data, options);
               })();
             </script>
+            <div>
+              {% for text in session.text %}
+              <p>{{ text }}</p>
+            </div>
           </div>
         {% endfor %}
       </article>
