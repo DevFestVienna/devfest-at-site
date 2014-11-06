@@ -416,6 +416,7 @@
   speakers: ["maxim-mai"]
   language: "English"
   links:
+    - { text: "Background", url: "http://www.maximmai.com/articles/2014/10/23/app-and-game-revenue-models-presentation-from-devfest2014-vienna-karlsruhe-and-dsseldorf?utm_source=DevFest%20AT&utm_medium=Link&utm_campaign=DevFest%20Follow-up" }
   youtube: "gbRfkyYfD5A"
   year: "2014"
   thumbnailUrl: "app-distribution.jpg"
