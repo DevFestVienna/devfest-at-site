@@ -11,8 +11,7 @@ _We encourage submissions from female speakers to enhance the gender balance._
 
 **Call for Speakers is open till 30 April!**
 
-### Type of Sessions###
-
+####Type of Sessions####
 A regular talk (e.g. presentation, tech talk, etc) is supposed
 to take about 45 minutes with some minutes afterwards for
 questions and answers.
@@ -22,18 +21,15 @@ of shorter duration (20 minutes and some minutes for questions & answers).
 They are ideal for presenting an idea or a toolset without going
 too much into technical details.
 
-###Language of the Sessions###
-
+####Language of the Sessions####
 All sessions will be held in English.
 
-###Equipment###
-
+####Equipment####
 Each room is equiped with a beamer and network connectivity for your
 notebook PC.
 We also have adapters for MacBook / MacBook Air (MiniDP).
 
-###Participant Requirements###
-
+####Participant Requirements####
 Let us know what requirements participants should satisfy to fully
 make use of your talk or presentation.
 
