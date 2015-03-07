@@ -9,6 +9,8 @@ Interested in being part of the event as a speaker?
 
 _We encourage submissions from female speakers to enhance the gender balance._
 
+<a href="http://goo.gl/forms/g9t3ICMaAG" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Submit Proposal</a>
+
 **Call for Speakers is open till 30 April!**
 
 ####Type of Sessions####
