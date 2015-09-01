@@ -1,59 +1,63 @@
 - 
-  id: 0
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: VitaliyZasadnyy.jpg
+  id: "timea-turdean"
+  name: "Timea"
+  surname: "Turdean"
+  title: "To be defined"
+  thumbnailUrl: TimeaTurdean.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "google-plus", link: "https://google.com/+TimeaTurdean"}
     - {name: "twitter", link: "https://twitter.com/zasadnyy"}
     - {name: "github", link: "https://github.com/zasadnyy"}
     - {name: "site", link: "http://zasadnyy.com/"}
 - 
-  id: 1
-  name: "Oleh"
-  surname: "Zasadnyy"
-  title: "Designer"
-  thumbnailUrl: OlehZasadnyy.jpg
+  id: "marc-edem"
+  name: "Marc"
+  surname: "Edem"
+  title: "Website"
+  thumbnailUrl: MarcEdem.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+    - {name: "google-plus", link: "https://google.com/+MarcEdem"}
     - {name: "github", link: "https://github.com/ozasadnyy"}
 - 
-  id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: OstapAndrusiv.jpg
+  id: "siegfried-goeschl"
+  name: "Siegfried"
+  surname: "Göschl"
+  title: "Sponsorship Manager"
+  thumbnailUrl: SiegfriedGoeschl.jpg
   team: true
   ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
+    - {abbr: "JSUG", title: "Java Student User Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
 - 
-  id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
-  title: "Android Program Committee"
-  thumbnailUrl: DmytroDanylyk.jpg
+  id: "robert-hesele"
+  name: "Robert"
+  surname: "Hesele"
+  title: "Conference Team"
+  thumbnailUrl: RobertHesele.jpg
   subTeam: true
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
 - 
-  id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  title: "Web and Cloud Program Committee"
-  thumbnailUrl: ValentynShybanov.jpg
+  id: "krisztina-orosz"
+  name: "Krisztina"
+  surname: "Orosz"
+  title: "Conference Team"
+  thumbnailUrl: KrisztinaOrosz.jpg
+  subTeam: true
+  social: 
+    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+    - {name: "site", link: "http://olostan.name/"}
+- 
+  id: "helmuth-breitenfellner"
+  name: "Helmuth"
+  surname: "Breitenfellner"
+  title: "Conference Team"
+  thumbnailUrl: HelmuthBreitenfellner.jpg
   subTeam: true
   social: 
     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
