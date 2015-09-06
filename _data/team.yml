@@ -9,9 +9,6 @@
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
     - {name: "google-plus", link: "https://google.com/+TimeaTurdean"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
 - 
   id: "marc-edem"
   name: "Marc"
@@ -19,11 +16,11 @@
   title: "Website"
   thumbnailUrl: MarcEdem.jpg
   team: true
-  ribbon: 
+  ribbon:
+    - {abbr: "JSUG", title: "Java Student User Group"}
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
     - {name: "google-plus", link: "https://google.com/+MarcEdem"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
 - 
   id: "siegfried-goeschl"
   name: "Siegfried"
@@ -39,8 +36,11 @@
   name: "Robert"
   surname: "Hesele"
   title: "Conference Team"
-  thumbnailUrl: unknown-male.jpg
+  thumbnailUrl: unknown-male.png
   subTeam: true
+  ribbon:
+    - {abbr: "JSUG", title: "Java Student User Group"}
+    - {abbr: "GDG", title: "Google Developer Group"}
   social: 
 - 
   id: "krisztina-orosz"
@@ -49,9 +49,11 @@
   title: "Conference Team"
   thumbnailUrl: KrisztinaOrosz.jpg
   subTeam: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+    - {name: "linkedin", link: "https://at.linkedin.com/in/krisztinaorosz"}
+    - {name: "twitter", link: "https://twitter.com/krisz_O"}
 - 
   id: "helmuth-breitenfellner"
   name: "Helmuth"
@@ -59,6 +61,8 @@
   title: "Conference Team"
   thumbnailUrl: HelmuthBreitenfellner.jpg
   subTeam: true
+  ribbon:
+    - {abbr: "JSUG", title: "Java Student User Group"}
+    - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+    - {name: "google-plus", link: "https://google.com/+HelmuthBreitenfellner"}
