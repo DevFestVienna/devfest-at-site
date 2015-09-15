@@ -32,17 +32,6 @@
     - {abbr: "JSUG", title: "Java Student User Group"}
   social: 
 - 
-  id: "robert-hesele"
-  name: "Robert"
-  surname: "Hesele"
-  title: "Conference Team"
-  thumbnailUrl: unknown-male.png
-  subTeam: true
-  ribbon:
-    - {abbr: "JSUG", title: "Java Student User Group"}
-    - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-- 
   id: "krisztina-orosz"
   name: "Krisztina"
   surname: "Orosz"
@@ -54,6 +43,24 @@
   social: 
     - {name: "linkedin", link: "https://at.linkedin.com/in/krisztinaorosz"}
     - {name: "twitter", link: "https://twitter.com/krisz_O"}
+-
+  id: "dominik-dorn"
+  name: "Dominik"
+  surname: "Dorn"
+  title: "Conference Team"
+  thumbnailUrl: DominikDorn.jpg
+  subTeam: true
+  ribbon:
+    - {abbr: "JSUG", title: "Java Student User Group"}
+-
+  id: "klemens-zleptnig"
+  name: "Klemens"
+  surname: "Zleptnig"
+  title: "Conference Team"
+  thumbnailUrl: KlementZleptnig.jpg
+  subTeam: true
+  ribbon:
+    - {abbr: "AH", title: "Android Heads Vienna"}
 - 
   id: "helmuth-breitenfellner"
   name: "Helmuth"
@@ -66,3 +73,14 @@
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
     - {name: "google-plus", link: "https://google.com/+HelmuthBreitenfellner"}
+- 
+  id: "robert-hesele"
+  name: "Robert"
+  surname: "Hesele"
+  title: "Conference Team"
+  thumbnailUrl: RobertHesele.jpg
+  subTeam: true
+  ribbon:
+    - {abbr: "JSUG", title: "Java Student User Group"}
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
