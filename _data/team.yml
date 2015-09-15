@@ -57,7 +57,7 @@
   name: "Klemens"
   surname: "Zleptnig"
   title: "Conference Team"
-  thumbnailUrl: KlementZleptnig.jpg
+  thumbnailUrl: KlemensZleptnig.jpg
   subTeam: true
   ribbon:
     - {abbr: "AH", title: "Android Heads Vienna"}
