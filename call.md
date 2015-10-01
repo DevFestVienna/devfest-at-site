@@ -9,9 +9,7 @@ Interested in being part of the event as a speaker?
 
 _We encourage submissions from female speakers to enhance the gender balance._
 
-<a href="http://goo.gl/forms/g9t3ICMaAG" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Submit Proposal</a>
-
-**Call for Speakers is open till 30 September!**
+**Call for Speakers is closed!**
 
 ####Topics####
 The theme of DevFest Vienna 2015 is **What is Hot in 2016**. You are encouraged to submit talks about upcoming and trending topics which will be relevant in the future.
