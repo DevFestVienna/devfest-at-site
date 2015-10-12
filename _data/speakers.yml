@@ -1,6 +1,5 @@
 - 
   id: "floor-drees"
-  current: true
   name: "Floor"
   surname: "Drees"
   company:
@@ -12,7 +11,6 @@
     - {name: "twitter", link: "http://www.twitter.com/floordrees"}
 -
   id: "rina-ahmed"
-  current: true
   name: "Rina"
   surname: "Ahmed"
   company: "Microsoft"
@@ -24,7 +22,6 @@
     - {name: "twitter", link: "https://twitter.com/rinaahm"}
 - 
   id: "gerwin-sturm"
-  current: true
   name: "Gerwin"
   surname: "Sturm"
   company:
@@ -38,7 +35,6 @@
     - {name: "google-plus", link: "https://plus.google.com/+GerwinSturm"}
 -
   id: "marc-edem"
-  current: true
   name: "Marc Edem"
   surname: "Aziahome"
   company:
@@ -52,7 +48,6 @@
     - {name: "google-plus", link: "https://plus.google.com/+MarcEdem"}
 -
   id: "harald-kuhr"
-  current: true
   name: "Harald"
   surname: "Kuhr"
   company:
@@ -63,7 +58,6 @@
     - {name: "github", link: "https://github.com/haraldk"}
 -
   id: "riccardo-rubini"
-  current: true
   name: "Riccardo"
   surname: "Rubini"
   company: "IAEA"
@@ -72,7 +66,6 @@
   thumbnailUrl: RiccardoRubini.jpg
 -
   id: "peter-riegler"
-  current: true
   name: "Peter"
   surname: "Riegler"
   company: "woohoo mobile marketing GmbH"
@@ -83,7 +76,6 @@
     - {name: "google-plus", link: "https://google.com/+PeterRiegler1"}
 -
   id: "bernd-bergler"
-  current: true
   name: "Bernd"
   surname: "Bergler"
   company: "woohoo mobile marketing GmbH"
@@ -92,7 +84,6 @@
   thumbnailUrl: BerndBergler.jpg
 -
   id: "siegfried-goeschl"
-  current: true
   name: "Siegfried"
   surname: "Goeschl"
   company: "Willhaben"
@@ -105,7 +96,6 @@
   social:
 -
   id: "andreas-hubmer"
-  current: true
   name: "Andreas"
   surname: "Hubmer"
   company: "Cenarion"
@@ -117,7 +107,6 @@
   social:
 -
   id: "michael-borkowski"
-  current: true
   name: "Michael"
   surname: "Borkowski"
   company: "Flatout Technologies"
@@ -127,7 +116,6 @@
   ribbon:
 -
   id: "gabriel-grill"
-  current: true
   name: "Gabriel"
   surname: "Grill"
   company:
@@ -139,7 +127,6 @@
     - { name: "site", link: "http://about.me/ggrill" }
 -
   id: "peter-lieber"
-  current: true
   name: "Peter"
   surname: "Lieber"
   company: "SparxSystems"
@@ -153,7 +140,6 @@
     - { name: "site", link: "https://www.xing.com/profile/peter_lieber" }
 -
   id: "david-pichsenmeister"
-  current: true
   name: "David"
   surname: "Pichsenmeister"
   company: "orat.io"
@@ -163,7 +149,6 @@
     - { name: "site", link: "http://www.pichsenmeister.com" }
 -
   id: "philipp-kalenda"
-  current: true
   name: "Philipp"
   surname: "Kalenda"
   company: "LieberLieber Software GmbH"
@@ -182,7 +167,6 @@
   social:
 -
   id: "gregor-biswanger"
-  current: true
   name: "Gregor"
   surname: "Biswanger"
   company:
@@ -193,7 +177,6 @@
     - { name: "site", link: "http://about.me/gregor.biswanger" }
 -
   id: "maxim-mai"
-  current: true
   name: "Maxim"
   surname: "Mai"
   company: "Google"
@@ -208,7 +191,6 @@
     - {abbr: "G", title: "Google", url: "https://developers.google.com/" }
 -
   id: "rafael-cordones"
-  current: false
   name: "Rafael"
   surname: "Cordones"
   bio: "Since more than a decade as a software developer, Rafael has focused on the design and implementation of web-based software products using lightweight open source technologies. He is a strong generalist on key Java technologies with excellent communication skills and extensive experience working in international environments. Inoculated against the 'Not Invented Here'-syndrome, he prefers instead to embrace a 'Proudly Found Elsewhere'-attitude."
@@ -219,7 +201,7 @@
     - { name: "google-plus", link: "https://plus.google.com/112206131267563415304" }
 -
   id: "michael-greifeneder"
-  current: false
+  current: true
   name: "Michael"
   surname: "Greifeneder"
   company: "Tailored Apps"
@@ -230,7 +212,6 @@
     - { name: "google-plus", link: "https://plus.google.com/109332453450599281287" }
 -
   id: "sergii-kauk"
-  current: false
   name: "Sergii"
   surname: "Kauk"
   bio: "Freelance web developer from Vienna, originally from Ukraine. I'm focused on Google Apps platform and enjoy to play with Google APIs."
@@ -240,7 +221,6 @@
     - { name: "google-plus", link: "https://plus.google.com/106401792982259937659" }
 -
   id: "tim-messerschmidt"
-  current: false
   name: "Tim"
   surname: "Messerschmidt"
   company: "PayPal"
@@ -252,7 +232,6 @@
     - { name: "twitter", link: "https://twitter.com/seraandroid" }
 - 
   id: "andreas-petersson"
-  current: false
   name: "Andreas"
   surname: "Petersson"
   company: "Bitcoin-Austria"
@@ -263,7 +242,6 @@
     - { name: "google-plus", link: "http://gplus.to/apetersson" }
 -
   id: "michel-racic"
-  current: false
   name: "Michel"
   surname: "Racic"
   bio: "Like usual around here, I'm a coding and technology freak. I just finished my bachelor of engineering in computer sience or on german 'Dipl. Ing.' and currently I'm mostly coding in Java. In my day job I work as a test automation engineer and deal with all kind of Software from Native over Web into Mainframe where I use existing tools like QTP, Canoo WebTest, ... or write my own testing apps or libraries. In the night I'm mostly focused on Android or other fast living technology."
@@ -273,7 +251,6 @@
     - { name: "google-plus", link: "https://plus.google.com/109163915105172405583" }
 -
   id: "gerolf-scherr"
-  current: false
   name: "Gerolf"
   surname: "Scherr"
   company: "Cenarion Information Systems GmbH"
@@ -284,7 +261,6 @@
     - { name: "google-plus", link: "https://plus.google.com/116616494241432029799" }
 -
   id: "harald-schilly"
-  current: false
   name: "Harald"
   surname: "Schilly"
   bio: "master in mathematics and research assistant at the university of vienna, developing software since the age of 12, co-founded bitcoin-austria in summer of 2011, and knows how to teach 'andy' android new tricks about bitcoin."
@@ -294,7 +270,6 @@
     - { name: "google-plus", link: "https://plus.google.com/107486807156747980968" }
 -
   id: "alex-tacho"
-  current: false
   name: "Alex"
   surname: "Tacho"
   bio: "Experienced web developer, working since 2011 for STARTeurope using the go-start web framework."
@@ -304,7 +279,6 @@
     - { name: "google-plus", link: "https://plus.google.com/102779412144291770415" }
 -
   id: "erik-unger"
-  current: false
   name: "Erik"
   surname: "Unger"
   bio: "Software Engineer with 15 years of experience ranging from games on PC, Xbox, Playstation, Wii, desktop software, server software, mobile apps, web frontend development and a own web framework."
@@ -314,7 +288,6 @@
     - { name: "github", link: "https://github.com/ungerik/go-start" }
 -
   id: "michal-bigos"
-  current: false
   name: "Michal"
   surname: "Bigos"
   bio: "Michal is software developer, with over 10 years' of experience in designing systems on JEE for clients ranging from small companies to national wide ones. His research interests include domain modeling, functional programming and functional languages on JVM. He is one of the organizers of Vienna Scala UG and Slovak Scala UG."
@@ -323,7 +296,6 @@
   social:
 -
   id: "lisi-bluemelhuber"
-  current: false
   name: "Lisi"
   surname: "Blümelhuber"
   company: "Cenarion Information Systems GmbH"
@@ -333,7 +305,6 @@
   social:
 -
   id: "claudia-breitenfellner"
-  current: false
   name: "Claudia"
   surname: "Breitenfellner"
   company: "Breitenfellner KG"
@@ -343,7 +314,6 @@
   social:
 -
   id: "anna-bulenkova"
-  current: false
   name: "Anna"
   surname: "Bulenkova"
   company: "JetBrains"
@@ -354,7 +324,6 @@
     - { name: "twitter", link: "https://twitter.com/povergo" }
 -
   id: "massimiliano-falcinelli"
-  current: false
   name: "Massimiliano"
   surname: "Falcinelli"
   company: "IAEA"
@@ -364,7 +333,6 @@
   social:
 -
   id: "shekhar-gulati"
-  current: false
   name: "Shekhar"
   surname: "Gulati"
   company: "Red Hat"
@@ -375,7 +343,6 @@
     - { name: "twitter", link: "https://twitter.com/shekhargulati/" }
 -
   id: "roman-hosek"
-  current: false
   name: "Roman"
   surname: "Hošek"
   company: "Mautilus, s.r.o."
@@ -386,7 +353,6 @@
     - { name: "google-plus", link: "http://plus.google.com/u/0/117921846128976519923" }
 -
   id: "tomek-kaczanowski"
-  current: false
   name: "Tomek"
   surname: "Kaczanowski"
   bio: "Tomek Kaczanowski works as a developer at CodeWise (Krakow, Poland). He is an experienced Java developer, focused on code quality, testing and automation. Test infected TDD enthusiast, open-source proponent, agile worshipper. Strong inclination towards sharing his knowledge. Blogger at kaczanowscy.pl/tomek. Occasional article writer and conference speaker. Recently published his first books - Practical Unit Testing - practicalunittesting.com"
@@ -396,7 +362,6 @@
     - { name: "site", link: "http://practicalunittesting.com/" }
 -
   id: "robert-ladstaetter"
-  current: false
   name: "Robert"
   surname: "Ladstätter"
   bio: "Robert Ladstätter works as software engineer in Graz, Austria. He has 10y+ experience on the JVM platform, and in recent years became more interested in functional programming. Currently he is a member of the JavaFX community and an active blogger. You can reach him via twitter: @rladstaetter"
@@ -407,7 +372,7 @@
     - { name: "site", link: "http://ladstatt.blogspot.com/" }
 -
   id: "martin-liersch"
-  current: false
+  current: true
   name: "Martin"
   surname: "Liersch"
   bio: "I'm a passionate Android Developer since I got my first Android 2.x device (Motorola Milestone). I have several apps in the Play Store, some with > 1 million downloads. I'm also a co-organizer of GDG Bodensee and a frequent speaker at Android events all over Europe."
@@ -419,7 +384,6 @@
     - { name: "twitter", link: "http://twitter.com/goddchen" }
 -
   id: "petr-mazanec"
-  current: false
   name: "Petr"
   surname: "Mazanec"
   company: "Mautilus, s.r.o."
@@ -430,7 +394,6 @@
     - { name: "linkedin", link: "http://www.linkedin.com/in/petrmazanec" }
 -
   id: "michael-nitschinger"
-  current: false
   name: "Michael"
   surname: "Nitschinger"
   company: "Couchbase, Inc"
@@ -441,7 +404,6 @@
     - { name: "site", link: "http://nitschinger.at/" }
 -
   id: "radim-pavlicek"
-  current: false
   name: "Radim"
   surname: "Pavlicek"
   company: "Vienna Scala Usergroup"
