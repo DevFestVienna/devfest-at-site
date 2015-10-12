@@ -46,11 +46,11 @@
   language: English
 -
   id: 003
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
+  title: "Microservice - no fluff the REAL stuff"
+  description: "Some developers tend to believe that big data and huge traffics are pre-requisites to harness and reap the benefits offered by microservices. However, there are many problems like polyglot persistence, faster continuous build cycle, shorter release plan, etc. that can be solved by applying microservice architecture even in smaller organizations. You don't have to be a software giant to leverage stability, effectiveness and flexibility provided by microservices. Microservice architecture has a lot to offer even for smaller organizations. In this workshop, we will walk through the key concepts like service discovery & registry, circuit breaker, API gateway and edge service. Build a bunch of microservices demonstrating practical implementation of these patterns using open source components like Eureka, Zuul, Hystrix and powered by spring cloud. Lastly, we will deploy our microservices on a container based solution, i.e. Docker and demonstrate how to use docker-compose for defining and running micro services."
+  track: "Architecture"
   subtype: presentation
-  speakers: []
+  speakers: ["nakul-mishra"]
   language: English
 -
   id: 004

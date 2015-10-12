@@ -1,3 +1,11 @@
+-
+  id: "nakul-mishra"
+  name: "Nakul"
+  surname: "Mishra"
+  title: "Senior Software Developer"
+  company: "4FinanceIT"
+  bio: "I am a Senior Software developer and consultant around JVM and related technologies. Prefer automation over manual configurations. Keen on continuous delivery, unit testing and code simplicity. Interested in developing applications that requires creativity, imagination, fast-learning and zest for putting theory into code."
+  thumbnailUrl: NakulMishra.png
 - 
   id: "floor-drees"
   name: "Floor"
