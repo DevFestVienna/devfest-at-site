@@ -17,9 +17,9 @@ googleAnalyticsSiteUrl: "www.devfest.at"
 # Location block
 eventLocationName: "TU Wien"
 eventLocationAddress: "Gußhausstraße 27-29, 1040 Wien"
-eventStartTime: "2014-10-18T10:00"
+eventStartTime: "2015-11-21T10:00"
 eventStartTimeHumanReadable: "10:00"
-eventEndTime: "2014-10-18T19:00"
+eventEndTime: "2015-11-21T19:00"
 eventEndTimeHumanReadable: "19:00"
 eventPlaceCoordinates: "48.1964423,16.369645"
 mapCenterCoordinates: "48.1964423,16.369645"
@@ -48,7 +48,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter-2014.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook-2014.png"
 
 # Header
-eventDate: "October 2015"
+eventDate: "21 November 2015"
 typeoutTextValues: '"", "2012", "2013", "2014", "2015"'
 
 # About Event Block
