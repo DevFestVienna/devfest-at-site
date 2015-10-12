@@ -1,5 +1,6 @@
 -
   id: "nakul-mishra"
+  current: true
   name: "Nakul"
   surname: "Mishra"
   title: "Senior Software Developer"
@@ -212,12 +213,12 @@
   current: true
   name: "Michael"
   surname: "Greifeneder"
-  company: "Tailored Apps"
-  bio: "Android Developer at Tailored Apps. Linux geek. All green."
+  company: "BeeOne"
+  bio: "Android developer at BeeOne, working on the George Go Banking App for Erste Bank. Linux geek. All green."
   thumbnailUrl: "MichaelGreifeneder.jpg"
   rockstar: false
   social:
-    - { name: "google-plus", link: "https://plus.google.com/109332453450599281287" }
+    - { name: "google-plus", link: "https://plus.google.com/+MichaelGreifeneder" }
 -
   id: "sergii-kauk"
   name: "Sergii"
