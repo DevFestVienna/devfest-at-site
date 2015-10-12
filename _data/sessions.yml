@@ -30,116 +30,116 @@
   language: "English or German - whatever you want"
 -
   id: 001
-  title: "(Kick-ass) Documentation Driven Development"
-  description: "We often only start writing documentation for our apps and app functionality after we have developed them. Instead, when you start with writing down the requirements (BDD), intended usage and example use cases, documentation writing not only moves away from being a painful last-minute kind of thing, but actually becomes a vital part in the decision making process - making sure we don't feature-freak and built unnecessary stuff. Which translates to smarter software development, less killing darlings and more time for the important stuff in life: coding ALL the rubies (yes, I am one of those people)."
-  track: "Coding"
+  title: "Piracy on Android"
+  description: "Building awesome Android apps is a really really hard work that takes tons of time and dedication and also money. The worst thing that can happen to developers is that their apps get pirated and the developers that worked so hard to create them do not get honored for their hard work. This talk will show the problems that arise from pirated apps as well as which countermeasures you, as a developer, can take to make it as difficult as possible to pirate your apps."
+  track: "Android"
   subtype: presentation
-  speakers: ["floor-drees"]
+  speakers: ["martin-liersch"]
   language: English
 -
   id: 002
-  title: "Scalable Data Analysis with Spark"
-  description: "This introductory talk will show how to perform simple data analysis tasks on Twitter with Apache Spark. It is a brand-new framework for large-scale data processing with up to 100x better performance than Hadoop. A simple API is available in Java, Scala and Python and a provided shell can be used for interactive exploration."
-  track: "Big Data"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["gabriel-grill"]
-  language: English or German as requested
+  speakers: []
+  language: English
 -
   id: 003
-  title: "UI Components for Large Amounts of Data"
-  description: "How do you present large amounts of data on the client? How do you make it searchable? We present two concrete examples using GWT (Google Web Toolkit):<ul><li>A table component: Thousands of entries are displayed to the user, using paging, sorting and filtering.</li><li>A suggest box: It enables the user to quickly select a value from a multitude of possible values.</li></ul>To deliver fast results paging, sorting and filtering are performed in the database."
-  track: "Web"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["andreas-hubmer"]
-  language: German or English as requested
+  speakers: []
+  language: English
 -
   id: 004
-  title: "Java Image Processing Survival Guide"
-  description: "If you are ever asked to convert, process and scale millions of real-world images using Java it will be a painful experience - at least it was for me. I came across unexpected problems ranging from CMYK, alpha-channel handling, multi-page TIFF, image compression algorithms, setting DPIs, PDF preview generation, decompression bombs to efficient image scaling. At hindsight I wished there was some single resource of information to guide me through my problems - and this is exactly the reason for this presentation. It provides real-life experience in replacing an ImageMagick/JMagick image conversion & scaling with a pure Java implementation covering Apache PDFBox, Java Advanced Imaging API (JAI), TwelveMonkeys ImageIO plugins, Sanselan (aks Commons Imaging) and different Java-based image-scaling libraries."
-  track: "Java"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["siegfried-goeschl","harald-kuhr"]
+  speakers: []
   language: English
 -
   id: 005
-  title: "Keeping Your Secrets Secret in an Open Source World"
-  description: "While open source is great there are some things you can't publish together with your source, like client secrets or database access passwords. In this talk I will discuss this problem and present several solutions, with a focus on the Google Cloud Platform."
-  track: "Cloud"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["gerwin-sturm"]
+  speakers: []
   language: English
 -
   id: 006
-  title: "Sentiment Analysis with the Google Prediction API"
-  description: "Sentiment analysis is a new trend when it comes to data-mining, in its ability to better analyze end user's opinions about different products, via the use of social media. Sentiment analysis have been done with different Data-mining algorithms and techniques. Since Google API also provides the same pattern of development, experimenting such technology with this API can help us got following result:<br>-Given a user's past viewing habits, predict what other movies or products a user might like.<br>- Categorize emails as spam or non-spam.<br>- Analyze posted comments about your product to determine whether they have a positive or negative tone.<br>- Guess how much a user might spend on a given day, given his spending history."
-  track: "Cloud"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["marc-edem"]
+  speakers: []
   language: English
 -
   id: 007
-  title: "Cloud Backend for Mobile Apps - Azure Mobile Services"
-  description: "Microsoft Azure offers with Mobile Services a number of services that mobile developers can use to quickly implemented often-used scenarios in apps. In this talk we will see an introduction of Azure Mobile Services and how you can use them to quickly build yourself backend in the cloud on a sample (platform-independent) phone app."
-  track: "Cloud"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["rina-ahmed"]
-  language: "German or English as requested"
+  speakers: []
+  language: English
 -
   id: 008
-  title: "Developing an SDK for Android"
-  description: "We (woohoo) provide a solution for mobile app developers to improve their retention rate by providing user rewards. Those rewards are possible via the collection of in app achievements. Those virtual earnings can then be converted to coupons for actual products. This solution is provided to developers as Android library project and static library for iOS. In this talk we want to share our experiences we made throughout the development of these SDKs."
-  track: "Android"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["peter-riegler", "bernd-bergler"]
-  language: "English or German as requested"
+  speakers: []
+  language: English
 -
   id: 009
-  title: "GIS with Open Source"
-  description: "A geographic information system (GIS) is a computer system designed to capture, store, manipulate, analyze, manage, and present all types of geographical data. I will present some of the major open source tools and give examples how they can be used to create solutions based on geographic information."
-  track: "Code"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["riccardo-rubini"]
-  language: "English"
+  speakers: []
+  language: English
 -
   id: 012
-  title: "The Developer Community at Flatout"
-  description: "Flatout has developed an Operating System for the Home and we will soon launch the product. But, in order to improve it, we want to talk to the developer community and to gather their feedback so we can improve. We also want to give them support by providing our frontend and backend API, which we shall present here a bit more in detail, and in the near future the developers will be able to sell their Apps on our store."
-  track: "Code"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["michael-borkowski"]
-  language: German
+  speakers: []
+  language: English
 -
   id: 013
-  title: "UML/SysML and CodeGeneration"
-  description: "Our developers work continuously on different challenges in various projects. To provide a fast overview on the live status on our TeamCity buildserver, they adapted a flipchart as a build signal light. The lights are operated by a Tiva C microcontroller supervised by a Raspberry Pi, the code was generated from a UML model using enar uml2code. An easy going solution for a perfect overview."
-  track: "Code"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
   subtype: presentation
-  speakers: ["peter-lieber", "philipp-kalenda", "dominik-sumer"]
-  language: English or German as requested
+  speakers: []
+  language: English
 -
   id: 014
-  title: "Development and Deployment of a Polyglot System"
-  description: "At orat.io we are developing a comment plugin for online bloggers and publishers. Since the uptime of our software is very important, we try to apply best practices to our development and deployment workflow. Our system is based on different stacks, which includes the use of different languages like PHP, Scala and TypeScript. This talk is about how we manage the consistency of our data-models through the different stacks, how the connection of our services is done through APIs and the deployment strategy of our system to get a nearly zero-downtime continous integration pipeline. I'll also show, how we use code generators and shell scripts to automate code creation and tasks. Last, I'll show how we handle our database migrations."
-  track: "Code"
-  subtype: "presentation"
-  speakers: ["david-pichsenmeister"]
-  language: "English or German as requested"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
+  subtype: presentation
+  speakers: []
+  language: English
 -
   id: 015
-  title: "Hybrid App Development using HTML and JavaScript"
-  description: "The development of apps is not easy and each platform has its own tools and requirements. Whether with Java and Eclipse for Android, with Objective-C and Xcode for iOS, or with the Microsoft tools for the Windows world. In this lecture you will learn the many possibilities of app development for all major platforms with only one programming language to know: HTML5 and JavaScript. For this purpose the free tool Intel XDK is presented appropriately. With this information you will quickly rise to a seasoned cross-platform developer."
-  track: "Mobile"
-  subtype: "presentation"
-  speakers: ["gregor-biswanger"]
-  language: "German"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
+  subtype: presentation
+  speakers: []
+  language: English
 -
   id: 016
-  title: "App Distribution and Revenue Models"
-  description: "The goal of the presentation is to share tips, tricks and learnings concerning app distribution and revenue models. I will be using real life examples from my work with German app developers. The talk will cover strategy as well as technical aspects. Google products to be covered are Play and AdMob."
-  track: "Mobile"
-  subtype: "presentation"
-  speakers: ["maxim-mai"]
-  language: "English or German as requested"
+  title: "TBA"
+  description: "To be announced"
+  track: "TBA"
+  subtype: presentation
+  speakers: []
+  language: English
 -
   id: 200
   title: "Breakfast"

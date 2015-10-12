@@ -410,11 +410,13 @@
   current: false
   name: "Martin"
   surname: "Liersch"
-  bio: "Freelance Android Developer - 'Goddchen'"
+  bio: "I'm a passionate Android Developer since I got my first Android 2.x device (Motorola Milestone). I have several apps in the Play Store, some with > 1 million downloads. I'm also a co-organizer of GDG Bodensee and a frequent speaker at Android events all over Europe."
   thumbnailUrl: "MartinLiersch.jpg"
   rockstar: false
   social: 
     - { name: "site", link: "http://blog.goddchen.de/" }
+    - { name: "google-plus", link: "https://plus.google.com/+MartinLiersch" }
+    - { name: "twitter", link: "http://twitter.com/goddchen" }
 -
   id: "petr-mazanec"
   current: false
