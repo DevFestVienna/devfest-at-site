@@ -1,4 +1,16 @@
 -
+  id: "thomas-fickert"
+  current: true
+  name: "Thomas"
+  surname: "Fickert"
+  title: "Founder and CEO"
+  company: "DEXPERIO"
+  bio: "Digital Explorer & Entrepreneur - living on the Digital Edge"
+  thumbnailUrl: ThomasFickert.jpg
+  social:
+    - { name: "twitter", link: "http://www.twitter.com/tfickert" }
+    - { name: "linkedin", link: "https://www.linkedin.com/in/tfickert" }
+-
   id: "iulia-marneanu"
   current: true
   name: "Iulia"

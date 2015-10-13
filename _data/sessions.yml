@@ -54,8 +54,8 @@
   language: English
 -
   id: 004
-  title: "Redux - React - Belle"
-  description: "Details coming soono"
+  title: "Redux and React"
+  description: "Introduction to React in combination with Redux. Redux helps you to develop applications in a  simple way while having features like time-travel available during development."
   track: "Frontend"
   subtype: presentation
   speakers: ["nik-graf"]
@@ -70,11 +70,11 @@
   language: English
 -
   id: 006
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
+  title: "From AR to VR: Technologies for implementing Immersive Solutions"
+  description: "According to various experts there wil be a dominant new computing platform every 10 years. Immersive computing seems to be the next big thing and many vendors are working on hard­ and software to make this evolution happen. Next year we will see many new devices in the area of Virtual Reality and Augmented Reality like the long awaited Oculus Rift headset, Microsoft's HoloLens, but also to more and more mobile VR headsets like cardboards or devices from Samsung Gear VR plus new interaction technologies like RealSense from Intel."
+  track: "technology"
   subtype: presentation
-  speakers: []
+  speakers: ["thomas-fickert"]
   language: English
 -
   id: 007
