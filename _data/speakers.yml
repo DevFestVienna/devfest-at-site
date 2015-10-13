@@ -1,4 +1,17 @@
 -
+  id: "clay-smith"
+  current: true
+  name: "Clay"
+  surname: "Smith"
+  title: "Developer Advocate"
+  company: "New Relic"
+  bio: "software developer in san francisco. rustic charm. 74% on pitchfork. bbq enthusiast."
+  thumbnailUrl: ClaySmith.jpg
+  social:
+    - { name: "linkedin", link: "https://www.linkedin.com/in/smithclay" }
+    - { name: "twitter", link: "https://twitter.com/smithclay"}
+    - { name: "github", link: "https://github.com/smithclay"}
+-
   id: "thomas-fickert"
   current: true
   name: "Thomas"
