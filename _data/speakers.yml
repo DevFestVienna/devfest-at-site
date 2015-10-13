@@ -9,8 +9,8 @@
   thumbnailUrl: "JanuszLeidgens.jpg"
   social:
     - { name: "linkedin", link: "https://de.linkedin.com/in/jleidgens"}
-	- { name: "twitter", link: "http://twitter.com/Killerdackel"}
-	- { name: "google-plus", link: "https://plus.google.com/+JanuszLeidgens"}
+    - { name: "twitter", link: "http://twitter.com/Killerdackel"}
+    - { name: "google-plus", link: "https://plus.google.com/+JanuszLeidgens"}
 -
   id: "clay-smith"
   current: true
