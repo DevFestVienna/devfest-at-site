@@ -1,4 +1,22 @@
 -
+  id: "iulia-marneanu"
+  current: true
+  name: "Iulia"
+  surname: "Marneanu"
+  title: "Android Developer"
+  company: "Endava"
+  bio: "Organizer of GDG Cluj, Android Developer, and more"
+  thumbnailUrl: IuliaMarneanu.jpg
+-
+  id: "nik-graf"
+  current: true
+  name: "Nik"
+  surname: "Graf"
+  title: "Digital Nomad"
+  company: "StarterSquad"
+  bio: "Passionate about Software Architecture, UX, Skiing & Cycling. I'm working with StarterSquad while traveling the world."
+  thumbnailUrl: NikGraf.jpg
+-
   id: "nakul-mishra"
   current: true
   name: "Nakul"

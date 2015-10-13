@@ -54,19 +54,19 @@
   language: English
 -
   id: 004
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
+  title: "Redux - React - Belle"
+  description: "Details coming soono"
+  track: "Frontend"
   subtype: presentation
-  speakers: []
+  speakers: ["nik-graf"]
   language: English
 -
   id: 005
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
+  title: "10 things you did not know about Android - with focus on Android M"
+  description: "Facts related to programming in Android and Marshmallow facts"
+  track: "android"
   subtype: presentation
-  speakers: []
+  speakers: ["iulia-marneanu"]
   language: English
 -
   id: 006
