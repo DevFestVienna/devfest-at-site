@@ -1,4 +1,17 @@
 -
+  id: "janusz-leidgens"
+  current: true
+  name: "Janusz"
+  surname: "Leidgens"
+  title: "Head of Android"
+  company: "Kupferwerk GmbH"
+  bio: "As the Head of everything Android at Kupferwerk I lead a team of 13 Android Developers. I choose and develop candidates for my team. I supervise all Android projects at Kupferwerk and am also responsible for technological choices in the Android team."
+  thumbnailUrl: "JanuszLeidgens.jpg"
+  social:
+    - { name: "linkedin", link: "https://de.linkedin.com/in/jleidgens"}
+	- { name: "twitter", link: "http://twitter.com/Killerdackel"}
+	- { name: "google-plus", link: "https://plus.google.com/+JanuszLeidgens"}
+-
   id: "clay-smith"
   current: true
   name: "Clay"

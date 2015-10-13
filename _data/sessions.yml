@@ -86,11 +86,11 @@
   language: English
 -
   id: 008
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
+  title: "How to measure and improve Android code quality"
+  description: "Android projects get bigger and more complex constantly, thus they tend to acquire a lot of technical debt and clutter. To resist this, we need to be aware of changes in project quality in first place. Many Android developers already use a continuous integration server to build, test and distribute their apps. But how can you automatically measure development quality? A variety of tools is available that measure different aspects of a project. In this talk I will present the most useful tools and show how to automate them with a Jenkins build server. These include tools measuring code style violations, analyzing static code for possible bugs, code coverage tools to estimate testing efforts, but also ones that find memory leaks, or verify the up-to-dateness of libraries used. I will demonstrate which tools of this selection can be combined into a dashboard to give developers a glance able project health overview. In conclusion, I will provide insights, how useful these tools are and how a team improves its coding habits with them instead of just gaming the metrics."
+  track: "Android"
   subtype: presentation
-  speakers: []
+  speakers: ["janusz-leidgens"]
   language: English
 -
   id: 009
