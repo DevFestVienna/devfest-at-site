@@ -1,4 +1,16 @@
 -
+  id: "eva-maurina"
+  current: true
+  name: "Eva"
+  surname: "Maurina"
+  title: "IoT // BD & Fundraising expert"
+  company: "INiTS"
+  bio: "Innovation, startup finance & fundraising and business development, a tech enthusiast passionate about IoT, APIs, big data, VR, Hardware etc. An expert into smart homes."
+  thumbnailUrl: "EvaMaurina.jpg"
+  social: 
+    - { name: "linkedin", link: "https://www.linkedin.com/in/evamaurina"}
+    - { name: "twitter", link: "https://twitter.com/evamaurina"}
+-
   id: "janusz-leidgens"
   current: true
   name: "Janusz"
