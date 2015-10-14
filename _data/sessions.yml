@@ -95,7 +95,7 @@
 -
   id: 009
   title: "Europe goes open-source"
-  description: "5 years ago the EU Commision and corporates kick-started a project aiming to create FIWare (Future Internet ware), a technology that enables cost-efficient development of digital solutions. FIWare is an open-source cloud platform with public and royalty-free APIs for different verticals, such as Media, Agrifood, Energy etc. To mention few, there are APIs that make audiovisual content accessible like text and 3D maps ready for your applications. FIWare is running on 17 maintained data centers that are located accross Europe.Open data are available so that developers can quickly create prototypes. EU has dedicated funds for ideas that are executed using FIWare, as well as for building up commercial nodes. I am looking forward to introduce you to possibilities related to Future Internet.
+  description: "5 years ago the EU Commision and corporates kick-started a project aiming to create FIWare (Future Internet ware), a technology that enables cost-efficient development of digital solutions. FIWare is an open-source cloud platform with public and royalty-free APIs for different verticals, such as Media, Agrifood, Energy etc. To mention few, there are APIs that make audiovisual content accessible like text and 3D maps ready for your applications. FIWare is running on 17 maintained data centers that are located accross Europe. Open data are available so that developers can quickly create prototypes. EU has dedicated funds for ideas that are executed using FIWare, as well as for building up commercial nodes. I am looking forward to introduce you to possibilities related to Future Internet."
   track: "Technology"
   subtype: presentation
   speakers: ["eva-maurina"]
