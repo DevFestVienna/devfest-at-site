@@ -1,6 +1,7 @@
 -
   id: "eva-maurina"
   current: true
+  rockstar: true
   name: "Eva"
   surname: "Maurina"
   title: "IoT // BD & Fundraising expert"
@@ -13,6 +14,7 @@
 -
   id: "janusz-leidgens"
   current: true
+  rockstar: true
   name: "Janusz"
   surname: "Leidgens"
   title: "Head of Android"
@@ -26,6 +28,7 @@
 -
   id: "clay-smith"
   current: true
+  rockstar: true
   name: "Clay"
   surname: "Smith"
   title: "Developer Advocate"
@@ -39,6 +42,7 @@
 -
   id: "thomas-fickert"
   current: true
+  rockstar: true
   name: "Thomas"
   surname: "Fickert"
   title: "Founder and CEO"
@@ -51,6 +55,7 @@
 -
   id: "iulia-marneanu"
   current: true
+  rockstar: true
   name: "Iulia"
   surname: "Marneanu"
   title: "Android Developer"
@@ -60,6 +65,7 @@
 -
   id: "nik-graf"
   current: true
+  rockstar: true
   name: "Nik"
   surname: "Graf"
   title: "Digital Nomad"
@@ -284,7 +290,7 @@
   company: "BeeOne"
   bio: "Android developer at BeeOne, working on the George Go Banking App for Erste Bank. Linux geek. All green."
   thumbnailUrl: "MichaelGreifeneder.jpg"
-  rockstar: false
+  rockstar: true
   social:
     - { name: "google-plus", link: "https://plus.google.com/+MichaelGreifeneder" }
 -
