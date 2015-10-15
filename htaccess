@@ -1,0 +1,6 @@
+---
+layout: none
+permalink: .htaccess
+---
+RewriteEngine On
+RewriteRule ^/speaker/(.*)$ /speakers/speakerDetail-$1 [r=temp]
