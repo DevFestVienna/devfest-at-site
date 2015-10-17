@@ -1,4 +1,15 @@
 -
+  id: "rafael-ordog"
+  current: true
+  name: "Rafael"
+  surname: "Ördög"
+  title: "Lead Developer"
+  company: "Emarsys"
+  bio: "Rafael is a Lead Developer at Budapest-based Emarsys and popular speaker in the Hungarian software community. As a founding member of Emarsys CraftLab - the dedicated coaching team of Emarsys - he has taught university courses and lectured at numerous conferences. His passion for short feedback loops drove him to create Lean Poker, a workshop where developers have the opportunity to experiment with continuous delivery in an artificial environment."
+  thumbnailUrl: "RafaelOrdog.jpg"
+  social:
+    - { name: "googleplus", link: "https://plus.google.com/+Rafael%C3%96rd%C3%B6g" }
+-
   id: "eva-maurina"
   current: true
   rockstar: true

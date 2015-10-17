@@ -102,7 +102,7 @@
   language: English
 -
   id: 012
-  title: "Semantic Web and Linked Data"
+  title: "Developing for the Semantic Web"
   description: "Semantic Web and Linked Data is the next evolution after Hyperlinked Text. This talk will present use cases, practical applications, and best practices."
   track: "Technology"
   subtype: presentation
@@ -110,11 +110,11 @@
   language: English
 -
   id: 013
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
+  title: "How I learned to love legacy code, and why you should too!"
+  description: "For a long time I thought that working on a green field project was the best thing that could happen to a developer. I would look at the nightmarish company code base blaming the incompetence of the people who came before me. If only they read more books or had better mentors - I would say, but I was wrong. It's time for us to face the ugly truth about legacy code, and learn why and how to embrace it."
+  track: "Technology"
   subtype: presentation
-  speakers: []
+  speakers: ["rafael-ordog"]
   language: English
 -
   id: 014
