@@ -102,11 +102,11 @@
   language: English
 -
   id: 012
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
+  title: "Semantic Web and Linked Data"
+  description: "Semantic Web and Linked Data is the next evolution after Hyperlinked Text. This talk will present use cases, practical applications, and best practices."
+  track: "Technology"
   subtype: presentation
-  speakers: []
+  speakers: ["timea-turdean"]
   language: English
 -
   id: 013

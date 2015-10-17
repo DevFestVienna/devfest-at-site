@@ -40,6 +40,18 @@
     - { name: "twitter", link: "https://twitter.com/smithclay"}
     - { name: "github", link: "https://github.com/smithclay"}
 -
+  id: "timea-turdean"
+  current: true
+  rockstar: true
+  name: "Timea"
+  surname: "Turdean"
+  title: "Hitchhiker on the Semantic Web"
+  bio: "I'm a Technical Consultant at Semantic Web Company GmbH, and my interests are Semantic Web, Linked Data, Opinion Mining, Natural Language Processing and Location Based Services."
+  thumbnailUrl: TimeaTurdean.jpg
+  social:
+    - { name: "linkedin", link: "https://at.linkedin.com/pub/timea-turdean/29/9ab/3b1/en" }
+    - { name: "site", link: "http://www.timeaturdean.com/" }
+-
   id: "thomas-fickert"
   current: true
   rockstar: true
