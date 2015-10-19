@@ -1,6 +1,6 @@
 - 
-  date: "2014-10-18"
-  dateReadable: "18 October"
+  date: "2015-11-21"
+  dateReadable: "21 November"
   dateDescription: "Talks and Presentations"
   location: "TU Wien"
   locationLink: "/location/#tu-wien"
@@ -9,29 +9,29 @@
     - {title: "EI10", color: "#03a9f4"}
   timeslots:
     - {
-        startTime: "09:30",
-        endTime: "10:00",
+        startTime: "09:15",
+        endTime: "09:30",
         sessionIds: [100]
     }
     - {
-    	startTime: "10:00",
-    	endTime: "10:25",
-    	sessionIds: [001, 002]
+    	startTime: "09:30",
+    	endTime: "09:55",
+    	sessionIds: [A01, B01]
     }
     - {
-        startTime: "10:30",
-        endTime: "11:25",
-        sessionIds: [008, 006]
+        startTime: "10:00",
+        endTime: "10:55",
+        sessionIds: [A02, B02]
     }
     - {
-    	startTime: "11:30",
-    	endTime: "11:55",
-    	sessionIds: [003, 012]
+    	startTime: "11:00",
+    	endTime: "11:25",
+    	sessionIds: [A03, B03]
     }
     - {
-        startTime: "12:00",
+        startTime: "11:30",
         endTime: "12:25",
-        sessionIds: [015, 005]
+        sessionIds: [A04, B04]
     }
     - {
         startTime: "12:30",
@@ -41,27 +41,27 @@
     - {
         startTime: "14:00",
         endTime: "14:25",
-        sessionIds: [016, 099]
+        sessionIds: [A05, B05]
     }
     - {
         startTime: "14:30",
-        endTime: "14:55",
-        sessionIds: [016, 014]
+        endTime: "15:25",
+        sessionIds: [000, B06]
     }
     - {
-        startTime: "15:00",
+        startTime: "15:30",
         endTime: "16:00",
         sessionIds: [102]
     }
     - {
         startTime: "16:00",
         endTime: "16:55",
-        sessionIds: [013, 004]
+        sessionIds: [000, B07]
     }
     - {
         startTime: "17:00",
         endTime: "17:55",
-        sessionIds: [007, 009]
+        sessionIds: [000, 000]
     }
     - {
         startTime: "18:00",
@@ -69,9 +69,9 @@
         sessionIds: [103]
     }
 - 
-  date: "2014-10-19"
-  dateReadable: "19 October"
-  dateDescription: "OpenHack"
+  date: "2015-11-22"
+  dateReadable: "22 November"
+  dateDescription: "Bluetooth Beacons Hackathon"
   location: "Raum D / quartier21"
   locationLink: "/location/#raum-d"
   tracks: 
