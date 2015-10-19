@@ -21,6 +21,10 @@
 -
   id: 000
   title: "To be announced"
+  description: "Stay tuned - details for this talk will be announced soon!"
+  track: "TBA"
+  subtype: presentation
+  language: English
 -
   id: 099
   title: "Lightning Talks"
