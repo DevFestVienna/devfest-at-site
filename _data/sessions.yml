@@ -53,7 +53,7 @@
   speakers: ["nakul-mishra"]
   language: English
 -
-  id: B06
+  id: A08
   title: "Redux and React"
   description: "Introduction to React in combination with Redux. Redux helps you to develop applications in a  simple way while having features like time-travel available during development."
   track: "Frontend"
