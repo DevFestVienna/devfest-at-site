@@ -118,11 +118,11 @@
   language: English
 -
   id: 014
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
+  title: "Node.js Everything"
+  description: "In this talk we give a brief introduction to node.js and why it matters for you as a software developer."
+  track: "Technology"
   subtype: presentation
-  speakers: []
+  speakers: ["christoph-walcher"]
   language: English
 -
   id: 015

@@ -23,6 +23,19 @@
     - { name: "linkedin", link: "https://www.linkedin.com/in/evamaurina"}
     - { name: "twitter", link: "https://twitter.com/evamaurina"}
 -
+  id: "christoph-walcher"
+  current: true
+  name: "Christoph"
+  surname: "Walcher"
+  title: "Founder"
+  company: "Codellama.io"
+  bio: "Passionate developer, keen on Node.js since 0.4.x. Founder of the super secret startup codellama.io. Organizer of Node.js Vienna user group, trainer, father of a super cute girl"
+  thumbnailUrl: "ChristophWalcher.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/saintedlama"}
+    - { name: "linkedin", link: "http://at.linkedin.com/in/christophwalcher"}
+    - { name: "github", link: "https://github.com/saintedlama/"}
+ -
   id: "janusz-leidgens"
   current: true
   rockstar: true
