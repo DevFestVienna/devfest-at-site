@@ -75,7 +75,7 @@
 -
   id: B01
   title: "From AR to VR: Technologies for implementing Immersive Solutions"
-  description: "According to various experts there wil be a dominant new computing platform every 10 years. Immersive computing seems to be the next big thing and many vendors are working on hard­ and software to make this evolution happen. Next year we will see many new devices in the area of Virtual Reality and Augmented Reality like the long awaited Oculus Rift headset, Microsoft's HoloLens, but also to more and more mobile VR headsets like cardboards or devices from Samsung Gear VR plus new interaction technologies like RealSense from Intel."
+  description: "According to various experts there will be a dominant new computing platform every 10 years. Immersive computing seems to be the next big thing and many vendors are working on Hard- and Software to make this evolution happen. This highlight talk will give an overview about existing and upcoming Hardware- and Software Technologies like Intel RealSense required for building immersive solutions spanning the whole digital experience spectrum from Augmented-, Mixed- up to Virtual Reality Applications."
   track: "Technology"
   subtype: presentation
   speakers: ["thomas-fickert"]
