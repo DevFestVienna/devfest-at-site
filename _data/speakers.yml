@@ -117,7 +117,16 @@
   company: "4FinanceIT"
   bio: "I am a Senior Software developer and consultant around JVM and related technologies. Prefer automation over manual configurations. Keen on continuous delivery, unit testing and code simplicity. Interested in developing applications that requires creativity, imagination, fast-learning and zest for putting theory into code."
   thumbnailUrl: NakulMishra.png
-- 
+-
+  id: "jan-lieskovsky"
+  current: true
+  name: "Ján"
+  surname: "Lieskovský"
+  title: "Software Engineer"
+  company: "Red Hat"
+  bio: "Ján Lieskovský is a Software Engineer at Red Hat. He has worked at Red Hat since 2005, focusing on computer security. Formerly being a member of the Security Response Team at Red Hat, he switched to Security Technologies to participate on development of open-source security compliance and vulnerability assessment solutions. He is the upstream contributor to the SCAP Security Guide project, and many other tools from the OpenSCAP ecosystem. In his spare time he enjoys exploring concepts of new Linux OS technologies (not necessarily limited to security)."
+  thumbnailUrl: JanLieskovsky.png
+-
   id: "floor-drees"
   name: "Floor"
   surname: "Drees"
