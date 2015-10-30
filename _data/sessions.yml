@@ -137,6 +137,12 @@
   speakers: ["jan-lieskovsky"]
   language: English
 -
+  id: C01
+  title: "Introduction into Google Beacons"
+  description: "This is a short introduction talk into programming for Google Beacons, an open standard for Bluetooth Smart based Beacons which is compatible with Android and iOS. The talk will focus on Android programming but also show samples of corresponding iOS code."
+  subtype: presentation
+  language: English
+-
   id: xxx
   title: "TBA"
   description: "To be announced"
