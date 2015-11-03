@@ -9,6 +9,7 @@
   thumbnailUrl: "RafaelOrdog.jpg"
   social:
     - { name: "googleplus", link: "https://plus.google.com/+Rafael%C3%96rd%C3%B6g" }
+    - { name: "twitter", link: "https://twitter.com/devillsroom" }
 -
   id: "eva-maurina"
   current: true
@@ -45,6 +46,8 @@
   company: "Kupferwerk GmbH"
   bio: "As the Head of everything Android at Kupferwerk I lead a team of 13 Android Developers. I choose and develop candidates for my team. I supervise all Android projects at Kupferwerk and am also responsible for technological choices in the Android team."
   thumbnailUrl: "JanuszLeidgens.jpg"
+  ribbon:
+    - { abbr: "GDG", title: "Google Developer Group", url: "https://plus.google.com/105059823716723829232"}
   social:
     - { name: "linkedin", link: "https://de.linkedin.com/in/jleidgens"}
     - { name: "twitter", link: "http://twitter.com/Killerdackel"}
@@ -72,9 +75,12 @@
   title: "Hitchhiker on the Semantic Web"
   bio: "I'm a Technical Consultant at Semantic Web Company GmbH, and my interests are Semantic Web, Linked Data, Opinion Mining, Natural Language Processing and Location Based Services."
   thumbnailUrl: TimeaTurdean.jpg
+  ribbon:
+    - { abbr: "GDG", title: "Google Developer Group", url: "http://www.gdg-vienna.at"}
   social:
     - { name: "linkedin", link: "https://at.linkedin.com/pub/timea-turdean/29/9ab/3b1/en" }
     - { name: "site", link: "http://www.timeaturdean.com/" }
+    - { name: "twitter", link: "https://twitter.com/TimeaTurdean"}
 -
   id: "thomas-fickert"
   current: true
@@ -98,6 +104,10 @@
   company: "Endava"
   bio: "Organizer of GDG Cluj, Android Developer, and more"
   thumbnailUrl: IuliaMarneanu.jpg
+  ribbon:
+    - { abbr: "GDG", title: "Google Developer Group", url: "http://www.gdgcluj.ro/"}
+  social:
+    - { name: "twitter", link: "https://twitter.com/imarneanu"}
 -
   id: "nik-graf"
   current: true
@@ -108,6 +118,8 @@
   company: "StarterSquad"
   bio: "Passionate about Software Architecture, UX, Skiing & Cycling. I'm working with StarterSquad while traveling the world."
   thumbnailUrl: NikGraf.jpg
+  social:
+    - { name: "twitter", link: "https://twitter.com/nikgraf" }
 -
   id: "nakul-mishra"
   current: true
@@ -117,6 +129,8 @@
   company: "4FinanceIT"
   bio: "I am a Senior Software developer and consultant around JVM and related technologies. Prefer automation over manual configurations. Keen on continuous delivery, unit testing and code simplicity. Interested in developing applications that requires creativity, imagination, fast-learning and zest for putting theory into code."
   thumbnailUrl: NakulMishra.png
+  social:
+    - { name: "twitter", link: "https://twitter.com/nklmish"}
 -
   id: "jan-lieskovsky"
   current: true
@@ -157,10 +171,11 @@
   bio: "When I'm not taking photos or folding paper (or sometimes working...) I like to play around with new development stuff and by doing so found my love for Google's APIs and SDKs which offer a lot of fun and always bring something new. For my engagement in this area and especially in the Google+ Developer community, Google has granted me membership in the Google Developers Expert program as GDE for Google+."
   thumbnailUrl: GerwinSturm.jpg
   ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
-    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+    - { abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
+    - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+GerwinSturm"}
+    - { name: "google-plus", link: "https://plus.google.com/+GerwinSturm"}
+    - { name: "twitter", link: "https://twitter.com/Scarygami"}
 -
   id: "marc-edem"
   name: "Marc Edem"
@@ -173,7 +188,8 @@
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+MarcEdem"}
+    - { name: "google-plus", link: "https://plus.google.com/+MarcEdem"}
+    - { name: "twitter", link: "https://twitter.com/marc_edem"}
 -
   id: "harald-kuhr"
   name: "Harald"
