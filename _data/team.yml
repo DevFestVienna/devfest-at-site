@@ -20,7 +20,7 @@
     - {abbr: "JSUG", title: "Java Student User Group"}
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", tite: "Google+", link: "https://google.com/+MarcEdem"}
+    - {name: "google-plus", title: "Google+", link: "https://google.com/+MarcEdem"}
 - 
   id: "siegfried-goeschl"
   name: "Siegfried"
@@ -63,7 +63,7 @@
   thumbnailUrl: KlemensZleptnig.jpg
   subTeam: true
   ribbon:
-    - {abbr: "A", title: "Android Heads Vienna"}
+    - {abbr: "AHV", title: "Android Heads Vienna"}
 - 
   id: "helmuth-breitenfellner"
   name: "Helmuth"
@@ -76,6 +76,7 @@
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
     - {name: "google-plus", title: "Google+", link: "https://google.com/+HelmuthBreitenfellner"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://at.linkedin.com/in/helmuthbreitenfellner"}
 - 
   id: "robert-hesele"
   name: "Robert"
