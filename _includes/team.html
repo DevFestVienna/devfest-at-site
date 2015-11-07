@@ -12,7 +12,7 @@
                         <div class="lily-head" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
                             <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})">
                                 <div class="overlay solid-overlay"></div>
-                                {% if speaker.ribbon != null %}
+                                {% if speaker.ribbon != null or speaker.social != null%}
                                 <ul class="ribbon-wrapper">
                                     {% for ribbon in speaker.ribbon %}
                                     <li class="{{ ribbon["abbr"] | downcase }}">
@@ -24,17 +24,13 @@
                                         {% endif %}
                                     </li>
                                     {% endfor %}
-                                </ul>
-                                {% endif %}
-                                {% if speaker.social != null %}
-                                <ul class="sribbon-wrapper">
                                     {% for ribbon in speaker.social %}
                                     <li>
-                                        <p class="sribbon abbr"><svg class="icon icon-{{ ribbon["name"] }}" viewBox="0 0 30 32"><use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ribbon["name"]}}"></use></svg></p>
+                                        <p class="ribbon abbr"><svg class="icon icon-{{ ribbon["name"] }}" viewBox="0 0 30 32"><use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ribbon["name"]}}"></use></svg></p>
                                         {% if ribbon["link"] != null %}
-                                        <p class="sribbon full-title"><a href="{{ ribbon["link"] }} target="_blank">{{ ribbon["title"] }}</a></p>
+                                        <p class="ribbon full-title"><a href="{{ ribbon["link"] }} target="_blank">{{ ribbon["title"] }}</a></p>
                                         {% else %}
-                                        <p class="sribbon full-title">{{ ribbon["title"] }}</p>
+                                        <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                                         {% endif %}
                                     </li>
                                     {% endfor %}
