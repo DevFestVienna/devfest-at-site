@@ -63,7 +63,7 @@
   thumbnailUrl: KlemensZleptnig.jpg
   subTeam: true
   ribbon:
-    - {abbr: "AHV", title: "Android Heads Vienna"}
+    - {abbr: "AHV", title: "AndroidHeads Vienna"}
 - 
   id: "helmuth-breitenfellner"
   name: "Helmuth"
