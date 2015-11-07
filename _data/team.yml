@@ -74,7 +74,7 @@
   ribbon:
     - {abbr: "JSUG", title: "Java Student User Group"}
     - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
+  social:
     - {name: "google-plus", title: "Google+", link: "https://google.com/+HelmuthBreitenfellner"}
     - {name: "linkedin", title: "LinkedIn", link: "https://at.linkedin.com/in/helmuthbreitenfellner"}
 - 
@@ -87,3 +87,7 @@
   ribbon:
     - {abbr: "JSUG", title: "Java Student User Group"}
     - {abbr: "GDG", title: "Google Developer Group"}
+  social:
+    - {name: "google-plus", title: "Google+", link: "https://google.com/+RobertHesele"}
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/RHesele"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://at.linkedin.com/pub/robert-hesele/95/1a2/119/en"}
