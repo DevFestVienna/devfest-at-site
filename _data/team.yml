@@ -8,7 +8,7 @@
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+TimeaTurdean"}
+    - {name: "google-plus", title: "Google+", link: "https://google.com/+TimeaTurdean"}
 - 
   id: "marc-edem"
   name: "Marc"
@@ -20,7 +20,7 @@
     - {abbr: "JSUG", title: "Java Student User Group"}
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+MarcEdem"}
+    - {name: "google-plus", tite: "Google+", link: "https://google.com/+MarcEdem"}
 - 
   id: "siegfried-goeschl"
   name: "Siegfried"
@@ -41,8 +41,8 @@
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "linkedin", link: "https://at.linkedin.com/in/krisztinaorosz"}
-    - {name: "twitter", link: "https://twitter.com/krisz_O"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://at.linkedin.com/in/krisztinaorosz"}
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/krisz_O"}
 -
   id: "dominik-dorn"
   name: "Dominik"
@@ -53,8 +53,8 @@
   ribbon:
     - {abbr: "JSUG", title: "Java Student User Group"}
   social:
-    - {name: "twitter", link: "https://twitter.com/domdorn"}
-    - {name: "site", link: "http://dominikdorn.com"}
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/domdorn"}
+    - {name: "site", title: "Blog", link: "http://dominikdorn.com"}
 -
   id: "klemens-zleptnig"
   name: "Klemens"
@@ -75,7 +75,7 @@
     - {abbr: "JSUG", title: "Java Student User Group"}
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+HelmuthBreitenfellner"}
+    - {name: "google-plus", title: "Google+", link: "https://google.com/+HelmuthBreitenfellner"}
 - 
   id: "robert-hesele"
   name: "Robert"
@@ -86,4 +86,3 @@
   ribbon:
     - {abbr: "JSUG", title: "Java Student User Group"}
     - {abbr: "GDG", title: "Google Developer Group"}
-  social: 

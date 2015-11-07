@@ -1,12 +1,8 @@
-$ribbon-color: #999;
-$gdg-ribbon-border-color: #427fed;
-$gde-ribbon-border-color: #db4437;
-$jsug-ribbon-border-color: #dbdb37;
-$ahv-ribbon-border-color: #a4c639;
-.ribbon-wrapper {
+$sribbon-color: #999;
+.sribbon-wrapper {
     position: absolute;
     z-index: 5;
-    right: 0;
+    left: 0;
     margin-top: 10px;
     list-style: none;
     li {
@@ -19,24 +15,12 @@ $ahv-ribbon-border-color: #a4c639;
             transition-delay: .15s;
         }
     }
-    .gdg {
-        border-right: 4px solid $gdg-ribbon-border-color;
-    }
-    .gde {
-        border-right: 4px solid $gde-ribbon-border-color;
-    }
-    .jsug {
-        border-right: 4px solid $jsug-ribbon-border-color;
-    }
-    .ahv {
-        border-right: 4px solid $ahv-ribbon-border-color;
-    }
-    .ribbon {
+    .sribbon {
         font-size: 13px;
         font-weight: 300;
         line-height: 22px;
         display: inline-block;
-        float: right;
+        float: left;
         min-width: 44px;
         height: 22px;
         margin: 0;
@@ -44,12 +28,12 @@ $ahv-ribbon-border-color: #a4c639;
         transition: $base-transition;
         text-align: left;
         word-wrap: normal;
-        color: $ribbon-color;
+        color: $sribbon-color;
         background-color: #fff;
         box-shadow: 0 0 20px rgba(0, 0, 0, .2);
     }
     .abbr {
-        .ribbon-activator:hover & {
+        .sribbon-activator:hover & {
             transform: translateX(100%); 
             @media (max-width: 767px) {
                 transform: translateX(0);    
@@ -60,7 +44,7 @@ $ahv-ribbon-border-color: #a4c639;
         clear: both;
         margin-top: -22px;
         transform: translateX(100%);
-        .ribbon-activator:hover & {
+        .sribbon-activator:hover & {
             transform: translateX(0);   
             @media (max-width: 767px) {
                 transform: translateX(100%);    

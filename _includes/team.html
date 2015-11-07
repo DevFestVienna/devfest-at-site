@@ -17,7 +17,25 @@
                                     {% for ribbon in speaker.ribbon %}
                                     <li class="{{ ribbon["abbr"] | downcase }}">
                                         <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
-                                        <p class="ribbon full-title"><a href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a></p>
+                                        {% if ribbon["link"] != null %}
+                                        <p class="ribbon full-title"><a href="{{ ribbon["link"] }} target="_blank">{{ ribbon["title"] }}</a></p>
+                                        {% else %}
+                                        <p class="ribbon full-title">{{ ribbon["title"] }}</p>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                                {% if speaker.social != null %}
+                                <ul class="sribbon-wrapper">
+                                    {% for ribbon in speaker.social %}
+                                    <li>
+                                        <p class="sribbon abbr"><svg class="icon icon-{{ ribbon["name"] }}" viewBox="0 0 30 32"><use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ribbon["name"]}}"></use></svg></p>
+                                        {% if ribbon["link"] != null %}
+                                        <p class="sribbon full-title"><a href="{{ ribbon["link"] }} target="_blank">{{ ribbon["title"] }}</a></p>
+                                        {% else %}
+                                        <p class="sribbon full-title">{{ ribbon["title"] }}</p>
+                                        {% endif %}
                                     </li>
                                     {% endfor %}
                                 </ul>
