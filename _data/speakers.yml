@@ -73,7 +73,7 @@
   name: "Timea"
   surname: "Turdean"
   title: "Hitchhiker on the Semantic Web"
-  bio: "I'm a Technical Consultant at Semantic Web Company GmbH, and my interests are Semantic Web, Linked Data, Opinion Mining, Natural Language Processing and Location Based Services."
+  bio: "I'm a Technical Consultant at Semantic Web Company GmbH and work together with our customers to find specific solutions and develop proof of concepts based on our product family. In my free time I volunteer for Google Developer Group Vienna and Women Techmakers Vienna."
   thumbnailUrl: TimeaTurdean.jpg
   ribbon:
     - { abbr: "GDG", title: "Google Developer Group", url: "http://www.gdg-vienna.at"}

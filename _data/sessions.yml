@@ -107,7 +107,7 @@
 -
   id: B06
   title: "Developing for the Semantic Web"
-  description: "Semantic Web and Linked Data is the next evolution after Hyperlinked Text. This talk will present use cases, practical applications, and best practices."
+  description: "Semantic Web and Linked Data is the next evolution after Hyperlinked Text. This talk will present a demo WebApplication based on Semantic Web and Linked Data technologies: SPARQLing Cocktails. Other demo application and use cases will also be discussed."
   track: "Technology"
   subtype: presentation
   speakers: ["timea-turdean"]
