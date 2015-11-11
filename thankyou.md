@@ -10,7 +10,7 @@ Thank you for registering to DevFest Vienna!
 
 For questions about the event, contact the event organizer at [team@devfest.at](mailto:team@devfest.at).
 
-Need to register more people? [Return to the Eventbrite page](http://devfest-vienna.eventbrite.com).
+Need to register more people? [Return to the Eventbrite page](http://devfestvienna2015.eventbrite.com).
 
 We are on [Google+](https://google.com/+DevFestVienna), [Twitter](https://twitter.com/devfestvienna) and [Facebook](https://www.facebook.com/devfestvienna) - follow us for updates!
 
