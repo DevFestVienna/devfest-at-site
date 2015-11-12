@@ -40,8 +40,13 @@
     }
     - {
         startTime: "14:30",
+        endTime: "14:55",
+        sessionIds: [A06, 000]
+    }
+    - {
+        startTime: "15:00",
         endTime: "15:25",
-        sessionIds: [A06, B06]
+        sessionIds: [099, B07]
     }
     - {
         startTime: "15:30",
@@ -50,18 +55,13 @@
     }
     - {
         startTime: "16:00",
-        endTime: "16:25",
-        sessionIds: [099, B07]
-    }
-    - {
-    	startTime: "16:30",
-    	endTime: "16:55",
-    	sessionIds: [000, B07]
+        endTime: "16:55",
+        sessionIds: [A08, B08]
     }
     - {
         startTime: "17:00",
         endTime: "17:55",
-        sessionIds: [A08, B08]
+        sessionIds: [A09, B09]
     }
     - {
         startTime: "18:00",

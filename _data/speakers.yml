@@ -180,6 +180,7 @@
   id: "marc-edem"
   name: "Marc Edem"
   surname: "Aziahome"
+  current: true
   company:
   title:
   bio: "My full name is Ayi Edem Segniagbeto Aziahome (but call me Edem just to make it short). I am a Student in Business Informatics (Wirtschaftsinformatik) at the Vienna University of Technology (TU Wien). I'm part of the GDG Vienna, JSUG and an enthusiast about Google technologies. Moreover, i'm interested in Usability Engineering of apps and software. I'm now currently front-end developer but also interested in Data-Mining and writing my bachelor thesis in Sentiment analysis, a new trend by using some data-mining algorithms and techniques."
@@ -190,6 +191,15 @@
   social: 
     - { name: "google-plus", link: "https://plus.google.com/+MarcEdem"}
     - { name: "twitter", link: "https://twitter.com/marc_edem"}
+-
+  id: "gabriel-gruber"
+  name: "Gabriel"
+  surname: "Gruber"
+  current: true
+  company: "Workflow EDV GmbH"
+  title: "CEO/Owner"
+  bio: "Passionate DevOp and IT PRO Started coding and networking in a hacking comunity back in 1988 on good-old Commodore C64. Having a degree in Business Computing (Wirtschaftsinformatik) on the technical University of Vienna. Made my hands dirty in big Groupware development and deployment projects in some major Austrian banks. Enthusiastic Open Source supporter and user (Spring and Hibernate user back in 2005). Architect and Lead developer for Workflow EDV's main product line Webdesk EWP (personalwolke.at)"
+  thumbnailUrl: "GabrielGruper.jpg"
 -
   id: "harald-kuhr"
   name: "Harald"

@@ -50,6 +50,14 @@
   language: English
 -
   id: B07
+  title: "Refurbishing a legacy application - going responsive"
+  description: "bout the hassles and pains in maintaining and developing a real-world business webapplication and trying to keep up with latest movements in user experience and usability movements. What the possible options are, if you want to support a mobile workforce with your existing webapplication. How you can approach a solution even with your applied old style XYZ frameworks. Why n-tiered applications have an easier path to go responsive and why you should choose your used frameworks wisely. What are the substantial differences between a client-side and a server-side approach. How you can use feature-toggles and skinning to smoothly introduce responsive features in your existing application. Why HTML5/JS is better and cheaper than any native app development approach in the long run. That you should rewrite your frontend if you have the money and the time."
+  track: "Architecture"
+  subtype: "Presentation"
+  speakers: ["marc-edem", "gabriel-gruber"]
+  language: English
+-
+  id: B08
   title: "Microservice - no fluff the REAL stuff"
   description: "Some developers tend to believe that big data and huge traffics are pre-requisites to harness and reap the benefits offered by microservices. However, there are many problems like polyglot persistence, faster continuous build cycle, shorter release plan, etc. that can be solved by applying microservice architecture even in smaller organizations. You don't have to be a software giant to leverage stability, effectiveness and flexibility provided by microservices. Microservice architecture has a lot to offer even for smaller organizations. In this talk, we will walk through the key concepts like service discovery & registry, circuit breaker, API gateway and edge service. Build a bunch of microservices demonstrating practical implementation of these patterns using open source components like Eureka, Zuul, Hystrix and powered by spring cloud. Lastly, we will deploy our microservices on a container based solution, i.e. Docker and demonstrate how to use docker-compose for defining and running micro services."
   track: "Architecture"
@@ -57,7 +65,7 @@
   speakers: ["nakul-mishra"]
   language: English
 -
-  id: A08
+  id: A09
   title: "Redux and React"
   description: "Introduction to React in combination with Redux. Redux helps you to develop applications in a  simple way while having features like time-travel available during development."
   track: "Frontend"
@@ -81,7 +89,7 @@
   speakers: ["thomas-fickert"]
   language: English
 -
-  id: A06
+  id: A08
   title: "Look Ma, No Server: An introduction to creating apps in a BaaS world"
   description: "This talk is an introduction to creating JavaScript and native apps on a backend-as-a-service (BaaS) platform using a real-world example app. Audience members will leave the talk understanding the tradeoffs of using a BaaS provider like Parse, Amazon Web Services Lambda, or Apache Usergrid over a traditional software-as-a-service platform and how to get started building their own apps. Server-free backends are becoming a viable choice for many mobile and front-end applications. By creating high-level abstractions over backend services using easy-to-use client SDKs, developers can quickly build high-quality, performant apps without worrying about scaling, server provisioning or database maintenance. This is a simplified way to create client-facing applications that requires developers to learn new SDKs and development methods. Using the popular Javascript TodoMVC project as inspiration, this talk will cover building a simple to-do list application that interfaces with a simple backend for persisting and retrieving user to-do lists in under 20 minutes. Using clear code examples, there will be a focus on introducing audience members to key BaaS concepts like running custom business logic in JavaScript and authentication SDKs. Deployment, testing and server-side architecture will be also be highlighted. Although a specific open-source BaaS platform will be used for example purposes (Apache Usergrid), the concepts presented will be applicable to popular commercial BaaS solutions like Parse and AWS Lambda. Backend-as-a-service platforms allow developers to easily create complex apps and their popularity for mobile and front-end developers continues to grow. By covering the basics of creating a typical multi-platform web and mobile application, audience members will be able to assess the viability of going server-less."
   track: "Architecture"
@@ -105,7 +113,7 @@
   speakers: ["eva-maurina"]
   language: English
 -
-  id: B06
+  id: A06
   title: "Developing for the Semantic Web"
   description: "Semantic Web and Linked Data is the next evolution after Hyperlinked Text. This talk will present a demo WebApplication based on Semantic Web and Linked Data technologies: SPARQLing Cocktails. Other demo application and use cases will also be discussed."
   track: "Technology"
@@ -129,7 +137,7 @@
   speakers: ["christoph-walcher"]
   language: English
 -
-  id: B08
+  id: B09
   title: "The methods of sandboxing and isolation"
   description: "In the talk we will present various applied techniques for sandboxing and isolation. Starting with description of ways for isolation in selected programming languages, we will proceed to describe the concepts used in various implementations of a fully-fledged sandbox at application level (design philosophy, limitations). Using the presented information to outline expectations for a sandbox solution, we will progress to detail chosen features of modern operating systems applicable and already used for sandbox implementation at OS level. We will take a look how these features are integrated into existing sandboxing solutions. Finally at the end we will see how the concept of sandbox can be used to implement OS independent software / application development platforms, what approaches are used there, discuss selected working prototypes of this effort, and sketch where the development in this area might be heading in the future."
   track: "Technology"
