@@ -1,4 +1,16 @@
 -
+  id: "gerhard-hipfinger"
+  current: true
+  name: "Gerhard"
+  surname: "Hipfinger"
+  title: "CEO/Owner"
+  company: "openForce"
+  bio: "Gerhard Hipfinger is the CEO of openForce Information Technology GesmbH. Together with DI Otto Meinhart he founded the company in 2002, which specializes in software development. From the outset the self-financed company dealt with agile software development methods. openForce realizes web, desktop and backend software solutions for numerous large European companies and has particularly specialized in the areas of usability and performance."
+  thumbnailUrl: "GerhardHipfinger.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/nano4711" }
+    - { name: "linkedin", link: "https://at.linkedin.com/in/gerhardhipfinger"}
+-
   id: "rafael-ordog"
   current: true
   name: "Rafael"
