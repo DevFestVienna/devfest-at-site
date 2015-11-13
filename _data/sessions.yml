@@ -121,6 +121,14 @@
   speakers: ["timea-turdean"]
   language: English
 -
+  id: B06
+  title: "Ansible - simple IT Automation"
+  description: "This talk presents Ansible, an automation tool for the setup and configuration of servers. It helps to maintain an overview especially in the administration of many servers in the data center or in cloud environments. Ansible allows a quality-assured rollout of software and thus represents an important building block in DevOps concept of business."
+  track: "Technology"
+  subtype: presentation
+  speakers: ["gerhard-hipfinger"]
+  language: English
+-
   id: B02
   title: "How I learned to love legacy code, and why you should too!"
   description: "For a long time I thought that working on a green field project was the best thing that could happen to a developer. I would look at the nightmarish company code base blaming the incompetence of the people who came before me. If only they read more books or had better mentors - I would say, but I was wrong. It's time for us to face the ugly truth about legacy code, and learn why and how to embrace it."
