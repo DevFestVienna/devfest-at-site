@@ -74,8 +74,8 @@
   language: English
 -
   id: A03
-  title: "10 things you did not know about Android - with focus on Android M"
-  description: "Facts related to programming in Android and Marshmallow facts"
+  title: "10 things you did not know about Android M"
+  description: "Top features about Marshmallow and facts you might not know about Android M"
   track: "Android"
   subtype: presentation
   speakers: ["iulia-marneanu"]

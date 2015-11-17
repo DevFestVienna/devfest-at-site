@@ -113,11 +113,11 @@
   name: "Iulia"
   surname: "Marneanu"
   title: "Android Developer"
-  company: "Endava"
-  bio: "Organizer of GDG Cluj, Android Developer, and more"
+  company: "GDG Cluj-Napoca"
+  bio: "Organizer of GDG Cluj-Napoca, Android Developer, and more"
   thumbnailUrl: IuliaMarneanu.jpg
   ribbon:
-    - { abbr: "GDG", title: "Google Developer Group", url: "http://www.gdgcluj.ro/"}
+    - { abbr: "GDG", title: "Google Developer Group Cluj-Napoca", url: "http://www.gdgcluj.ro/"}
   social:
     - { name: "twitter", link: "https://twitter.com/imarneanu"}
 -
