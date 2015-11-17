@@ -186,3 +186,11 @@
   id: 204
   title: "Presentation"
   service: true
+-
+  id: 205
+  title: "Prizes"
+  service: true
+-
+  id: 206
+  title: "Cleanup"
+  service: true
