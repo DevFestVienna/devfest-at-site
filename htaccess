@@ -7,3 +7,4 @@ RewriteEngine On
 RewriteCond "%{REQUEST_FILENAME}" "!-f"
 RewriteCond "%{REQUEST_FILENAME}" "!-d"
 RewriteRule ^speaker/(.*)$ /speakers/#speakerDetail-$1 [R,L,NE]
+RewriteRule ^register(.*)$ https://devfestvienna2015.eventbrite.com [R,L,NE]
