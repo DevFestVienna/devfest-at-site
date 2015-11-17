@@ -111,7 +111,8 @@
         startTime: "17:00",
         endTime: "17:30",
         sessionIds: [205]
-    }    - {
+    }
+    - {
         startTime: "17:30",
         endTime: "18:00",
         sessionIds: [206]
