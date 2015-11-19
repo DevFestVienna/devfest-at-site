@@ -544,6 +544,8 @@
   bio: "I'm a passionate Android Developer since I got my first Android 2.x device (Motorola Milestone). I have several apps in the Play Store, some with > 1 million downloads. I'm also a co-organizer of GDG Bodensee and a frequent speaker at Android events all over Europe."
   thumbnailUrl: "MartinLiersch.jpg"
   rockstar: false
+  ribbon:
+    - { abbr: "GDG", title: "Google Developer Group Bodensee", url: "http://www.gdg-bodensee.de/"}
   social: 
     - { name: "site", link: "http://blog.goddchen.de/" }
     - { name: "google-plus", link: "https://plus.google.com/+MartinLiersch" }
