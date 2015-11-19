@@ -10,26 +10,10 @@ permalink: /next/
 		<div id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:none; padding:20px; margin-bottom:30px; background-color:#ffffff;">
 			<h4 class="room"></h4>
 			<h4>{{ session.title }}</h4>
-			<p class="theme-description">{{ session.description }}</p>
-			<hr>
-			<div class="person-details">
-				{% for speaker in site.data.speakers %}
-					{% for session_speaker in session.speakers %}
-						{% if session_speaker == speaker.id %}
-						<div class="row">
-							<div class="col-md-2 col-sm-2">
-								<div class="flow-img img-circle person-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
-							</div>
-							<div class="col-md-10 col-sm-10 details">
-								<p class="name">{{ speaker.name }} {{ speaker.surname }}
-									<span class="position">{{ speaker.title }}, {{ speaker.company }}</span>
-								</p>
-								<p class="about">{{ speaker.bio }}</p>
-							</div>
-						</div>
-						{% endif %}
-					{% endfor %}
-				{% endfor %}
+{% for speaker in site.data.speakers %}{% for session_speaker in session.speakers %}{% if session_speaker == speaker.id %}
+			<div class="flow-img img-circle person-img" style="width:120px; height:120px; background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
+			<h5>{{ speaker.name }} {{ speaker.surname }}</h5>
+{% endif %}{% endfor %}{% endfor %}
 			</div>
 			<br>
 			<br>
@@ -69,7 +53,7 @@ permalink: /next/
         else {
           room = ["EI9", "EI10"];
         }
-        jQuery('#time').html(allSlots[minTime].startTime;
+        jQuery('#time').html(allSlots[minTime].startTime);
   	for (i=0; i<allSlots[minTime].sessions.length; i++) {
           htmlId = "#sessionDetail-" + allSlots[minTime].sessions[i];
           roomText = room[i];
