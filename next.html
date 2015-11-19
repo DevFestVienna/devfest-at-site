@@ -6,7 +6,7 @@ permalink: /next/
 <!-- Begin Sessions -->
 <div>
 	{% for session in site.data.sessions %}
-		<div class="fade text-left" id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:hidden;">
+		<div class="fade text-left" id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:none;">
 			<h4>{{ session.title }}</h4>
 			<span class="theme-metadata"><span class="caption">Language: </span>{{ session.language }}</span>
 			<!-- <span class="theme-metadata"><span class="caption">Complexity: </span>{{ session.complexity }}</span> -->
@@ -46,7 +46,7 @@ permalink: /next/
   {% for timeslot in day.timeslots %}
   slotTime = Date.parse("{{ day.date }} {{timeslot.startTime}}");
   if (slotTime > curTime) {
-  	if (minTime > 0 && minTime < slotTime) {
+  	if (minTime == 0 || minTime > slotTime) {
   		minTime = slotTime;
   	}
   }
