@@ -10,16 +10,17 @@ permalink: /next/
   var curTime = curDateTime.getTime();
   var allSlots = {};
   var minTime = 0;
+  var slotTime;
 {% for day in site.data.schedule %}
   {% for timeslot in day.timeslots %}
-  var slotTime = Date.parse("{{ day }} {{timeslot.startTime}}");
+  slotTime = Date.parse("{{ day.date }} {{timeslot.startTime}}");
   if (slotTime > curTime) {
   	if (minTime > 0 && minTime < slotTime) {
   		minTime = slotTime;
   	}
   }
   allSlots[slotTime] = [
-    {% for id in timeslots.sessionIds %}"{{id}}",{% endfor %}
+    {% for id in timeslot.sessionIds %}"{{id}}",{% endfor %}
     ];
   {% endfor %}
 {% endfor %}
