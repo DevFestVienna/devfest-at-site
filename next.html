@@ -8,10 +8,12 @@ permalink: /next/
   <h2>Coming Next - <span id='time'></span></h2>
 	{% for session in site.data.sessions %}
 		<div id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:none; padding:20px; margin-bottom:30px; background-color:#ffffff;">
+{% for speaker in site.data.speakers %}{% for session_speaker in session.speakers %}{% if session_speaker == speaker.id %}
+			<div class="flow-img img-circle person-img" style="float:left; width:120px; height:120px; background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
+{% endif %}{% endfor %}{% endfor %}
 			<h4 class="room"></h4>
 			<h4>{{ session.title }}</h4>
 {% for speaker in site.data.speakers %}{% for session_speaker in session.speakers %}{% if session_speaker == speaker.id %}
-			<div class="flow-img img-circle person-img" style="width:120px; height:120px; background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
 			<h5>{{ speaker.name }} {{ speaker.surname }}</h5>
 {% endif %}{% endfor %}{% endfor %}
 		</div>
