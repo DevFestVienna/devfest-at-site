@@ -3,10 +3,11 @@ layout: fullscreen
 title: Coming next
 permalink: /next/
 ---
+<h2>Coming Next</h2>
 <!-- Begin Sessions -->
 <div style="margin:30px;">
 	{% for session in site.data.sessions %}
-		<div id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:none; padding:20px;">
+		<div id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:none; padding:20px; background-color:#ffffff;">
 			<h4 class="room"></h4>
 			<h4>{{ session.title }}</h4>
 			<p class="theme-description">{{ session.description }}</p>
@@ -51,16 +52,29 @@ permalink: /next/
   		minTime = slotTime;
   	}
   }
-  allSlots[slotTime] = [
+  allSlots[slotTime] = {
+    startTime: "{{ day.date }} {{timeslot.startTime}}",
+    sessions: [
     {% for id in timeslot.sessionIds %}"{{id}}",{% endfor %}
-    ];
+    ]};
   {% endfor %}
 {% endfor %}
   // take the events for the slot with the minimum time
   if (minTime > 0) {
   	var i;
+        var room;
+        var htmlId;
+        if (allSlots[minTime].length == 1) {
+          room = [ "Hall" ];
+        }
+        else {
+          room = ["EI9", "EI10"];
+        }
   	for (i=0; i<allSlots[minTime].length; i++) {
-      	document.getElementById("sessionDetail-" + allSlots[minTime][i]).style.display = "block";
+          htmlId = "#sessionDetail-" + allSlots[minTime].sessions[i];
+          roomTimeText = room[i] + ", " + allSlots[minTime].startTime;;
+          jQuery(htmlId + " .room").html(roomTimeText);
+          jQuery(htmlId).show();
   	}
   }
   // make all img square formatted
