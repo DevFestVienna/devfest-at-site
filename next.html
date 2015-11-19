@@ -5,7 +5,7 @@ permalink: /next/
 ---
 <!-- Begin Sessions -->
 <div style="margin:30px;">
-  <h2>Coming Next @<span id='time'></span></h2>
+  <h2>Coming Next - <span id='time'></span></h2>
 	{% for session in site.data.sessions %}
 		<div id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:none; padding:20px; margin-bottom:30px; background-color:#ffffff;">
 			<h4 class="room"></h4>
@@ -14,9 +14,6 @@ permalink: /next/
 			<div class="flow-img img-circle person-img" style="width:120px; height:120px; background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
 			<h5>{{ speaker.name }} {{ speaker.surname }}</h5>
 {% endif %}{% endfor %}{% endfor %}
-			</div>
-			<br>
-			<br>
 		</div>
     {% endfor %}
 </div>
