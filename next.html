@@ -3,28 +3,6 @@ layout: fullscreen
 title: Coming next
 permalink: /next/
 ---
-<style type="text/css">
-.square-box{
-    position: relative;
-    width: 50%;
-    overflow: hidden;
-    background: #808080;
-}
-.square-box:before{
-    content: "";
-    display: block;
-    padding-top: 100%;
-}
-.square-content{
-    position:  absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    color: white;
-    text-align: center;
-}
-</style>
 <!-- Begin Sessions -->
 <div style="margin:30px;">
 	{% for session in site.data.sessions %}
@@ -39,8 +17,8 @@ permalink: /next/
 					{% for session_speaker in session.speakers %}
 						{% if session_speaker == speaker.id %}
 						<div class="row">
-							<div class="col-md-2 col-sm-2 square-box">
-								<div class="square-content img-circle person-img" style="width:250px; height:250px; background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
+							<div class="col-md-2 col-sm-2">
+								<div class="img-circle person-img" style="width:250px; height:250px; background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
 							</div>
 							<div class="col-md-10 col-sm-10 details">
 								<p class="name">{{ speaker.name }} {{ speaker.surname }}
@@ -86,5 +64,7 @@ permalink: /next/
       	document.getElementById("sessionDetail-" + allSlots[minTime][i]).style.display = "block";
   	}
   }
+  // make all img square formatted
+  jQuery(".img-circle").height(jQuery(".img-cirle").width());
 })();
 </script>
