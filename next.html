@@ -1,0 +1,34 @@
+---
+layout: default
+title: Coming next
+permalink: /next/
+---
+
+<script>
+(function() {
+  var curDateTime = new Date();
+  var curTime = curDateTime.getTime();
+  var allSlots = {};
+  var minTime = 0;
+{% for day in site.data.schedule %}
+  {% for timeslot in day.timeslots %}
+  var slotTime = Date.parse("{{ day }} {{timeslot.startTime}}");
+  if (slotTime > curTime) {
+  	if (minTime > 0 && minTime < slotTime) {
+  		minTime = slotTime;
+  	}
+  }
+  allSlots[slotTime] = [
+    {% for id in timeslots.sessionIds %}"{{id}}",{% endfor %}
+    ];
+  {% endfor %}
+{% endfor %}
+  // take the events for the slot with the minimum time
+  if (minTime > 0) {
+  	var i;
+  	for (i=0; i<allSlots[minTime].length; i++) {
+      	document.getElementById("sessionDetail-" + allSlots[minTime][i]).style.display = "block";
+  	}
+  }
+})();
+</script>
