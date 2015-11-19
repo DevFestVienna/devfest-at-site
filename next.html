@@ -6,7 +6,7 @@ permalink: /next/
 <!-- Begin Sessions -->
 <div>
 	{% for session in site.data.sessions %}
-		<div class="fade text-left" id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:none;">
+		<div id="sessionDetail-{{ session.id }}" tabindex="-1" aria-labelledby="sessionDetailLabel-{{ session.id }}" style="display:block;">
 			<h4>{{ session.title }}</h4>
 			<span class="theme-metadata"><span class="caption">Language: </span>{{ session.language }}</span>
 			<!-- <span class="theme-metadata"><span class="caption">Complexity: </span>{{ session.complexity }}</span> -->
@@ -18,7 +18,7 @@ permalink: /next/
 						{% if session_speaker == speaker.id %}
 						<div class="row">
 							<div class="col-md-2 col-sm-2">
-								<div class="flow-img img-circle person-img" style="background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
+								<div class="flow-img img-circle person-img" style="width:250px; height:250px; background-image: url({{ site.baseurl | append: site.thumbnailsFolder | append: speaker.thumbnailUrl }})"></div>
 							</div>
 							<div class="col-md-10 col-sm-10 details">
 								<p class="name">{{ speaker.name }} {{ speaker.surname }}
