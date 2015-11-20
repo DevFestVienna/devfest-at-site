@@ -1,0 +1,39 @@
+---
+layout: fullscreen
+title: Coming next
+permalink: /next/
+---
+<script src="/js/flipclock.min.js"></script>
+<!-- Begin Clock -->
+<div class="devfest-countdown"></div>
+<!-- End Clock -->
+<script>
+(function() {
+  var curDateTime = new Date();
+  var curTime = curDateTime.getTime();
+  // go 15 minutes ahead of time
+  var compTime = curTime + 15*60*1000;
+  var maxTime = 0;
+  var maxEndTime = 0;
+  var slotTime;
+{% for day in site.data.schedule %}
+  {% for timeslot in day.timeslots %}
+  slotTime = Date.parse("{{ day.date }} {{timeslot.startTime}}");
+  endTime = Date.parse("{{ day.date }} {{timeslot.endTime}}");
+  if (slotTime < compTime) {
+  	if (maxTime == 0 || maxTime < slotTime) {
+  		maxTime = slotTime;
+  		maxEndTime = endTime;
+  	}
+  }
+  {% endfor %}
+{% endfor %}
+  if (maxTime) {
+  	$(".devfest-countdown").FlipClock(maxEndTime-curTime, {
+  		countdown: true,
+  		clockFace: "DailyCounter",
+  		showSeconds: false
+  	});
+  }
+})();
+</script>
