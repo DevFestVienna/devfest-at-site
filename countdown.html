@@ -3,11 +3,43 @@ layout: fullscreen
 title: Countdown
 permalink: /countdown/
 ---
-<script src="/js/flipclock.min.js"></script>
 <!-- Begin Clock -->
-<div class="devfest-countdown"></div>
+Session End
+<h1 id="devfest-countdown"></h1>
 <!-- End Clock -->
 <script>
+function countdown( elementName, endTime )
+{
+    var element, hours, mins, msLeft, time;
+
+    function twoDigits( n )
+    {
+        return (n <= 9 ? "0" + n : n);
+    }
+
+    function roundTwoDigits( n )
+    {
+    	return twoDigits(round(n/10.)*10);
+    }
+
+    function updateTimer()
+    {
+        msLeft = endTime - (+new Date);
+        if ( msLeft < 1000 ) {
+            element.innerHTML = "Time is Over!";
+        } else {
+            time = new Date( msLeft );
+            hours = time.getUTCHours();
+            mins = time.getUTCMinutes();
+            element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + roundTwoDigits( time.getUTCSeconds() );
+            setTimeout( updateTimer, time.getUTCMilliseconds() + 500 );
+        }
+    }
+
+    element = document.getElementById( elementName );
+    updateTimer();
+}
+
 (function() {
   var curDateTime = new Date();
   var curTime = curDateTime.getTime();
@@ -20,11 +52,7 @@ permalink: /countdown/
   slotTime = Date.parse("{{ day.date }} {{timeslot.startTime}}");
   endTime = Date.parse("{{ day.date }} {{timeslot.endTime}}");
   if (slotTime < compTime && endTime >= curTime) {
-  	$(".devfest-countdown").FlipClock(endTime-curTime, {
-  		countdown: true,
-  		clockFace: "DailyCounter",
-  		showSeconds: false
-  	});
+  	countdown("devfest-countdown", endTime);
   }
   {% endfor %}
 {% endfor %}
