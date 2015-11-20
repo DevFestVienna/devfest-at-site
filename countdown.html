@@ -4,41 +4,34 @@ title: Countdown
 permalink: /countdown/
 ---
 <!-- Begin Clock -->
-Session End
-<h1 id="devfest-countdown"></h1>
+<h1 style="text-align:center">Session Countdown</h1>
+<h1 style="text-align:center" id="devfest-countdown"></h1>
 <!-- End Clock -->
 <script>
-function countdown( elementName, endTime )
+function countdown( elementName, duration )
 {
-    var element, hours, mins, msLeft, time;
-
-    function twoDigits( n )
-    {
-        return (n <= 9 ? "0" + n : n);
-    }
-
-    function roundTwoDigits( n )
-    {
-    	return twoDigits(round(n/10.)*10);
-    }
+    var element, minutes, msLeft, endTime, text;
 
     function updateTimer()
     {
-        msLeft = endTime - (+new Date);
+        msLeft = endTime - (new Date().getTime());
         if ( msLeft < 1000 ) {
             element.innerHTML = "Time is Over!";
         } else {
-            time = new Date( msLeft );
-            hours = time.getUTCHours();
-            mins = time.getUTCMinutes();
-            element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + roundTwoDigits( time.getUTCSeconds() );
-            setTimeout( updateTimer, time.getUTCMilliseconds() + 500 );
+            minutes = Math.round(msLeft / (1000 * 60));
+            text = minutes + " minutes";
+            if (element.innerHTML != text) {
+                element.innerHTML = text;
+            }
+            setTimeout( updateTimer, 10000 );
         }
     }
 
     element = document.getElementById( elementName );
+    endTime = new Date().getTime() + duration;
     updateTimer();
 }
+
 
 (function() {
   var curDateTime = new Date();
@@ -52,7 +45,7 @@ function countdown( elementName, endTime )
   slotTime = Date.parse("{{ day.date }} {{timeslot.startTime}}");
   endTime = Date.parse("{{ day.date }} {{timeslot.endTime}}");
   if (slotTime < compTime && endTime >= curTime) {
-  	countdown("devfest-countdown", endTime);
+  	countdown("devfest-countdown", endTime - curTime);
   }
   {% endfor %}
 {% endfor %}
