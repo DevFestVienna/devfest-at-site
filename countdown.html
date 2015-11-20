@@ -13,27 +13,21 @@ permalink: /countdown/
   var curTime = curDateTime.getTime();
   // go 15 minutes ahead of time
   var compTime = curTime + 15*60*1000;
-  var maxTime = 0;
-  var maxEndTime = 0;
   var slotTime;
+  var endTime;
 {% for day in site.data.schedule %}
   {% for timeslot in day.timeslots %}
   slotTime = Date.parse("{{ day.date }} {{timeslot.startTime}}");
   endTime = Date.parse("{{ day.date }} {{timeslot.endTime}}");
-  if (slotTime < compTime) {
-  	if (maxTime == 0 || maxTime < slotTime) {
-  		maxTime = slotTime;
-  		maxEndTime = endTime;
-  	}
-  }
-  {% endfor %}
-{% endfor %}
-  if (maxTime) {
-  	$(".devfest-countdown").FlipClock(maxEndTime-curTime, {
+  if (slotTime < compTime && endTime >= curTime) {
+  	$(".devfest-countdown").FlipClock(endTime-curTime, {
   		countdown: true,
   		clockFace: "DailyCounter",
   		showSeconds: false
   	});
+  	}
   }
+  {% endfor %}
+{% endfor %}
 })();
 </script>
