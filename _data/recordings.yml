@@ -9,6 +9,16 @@
   year: "2015"
   thumbnailUrl: "europe.jpg"
 -
+  id: "legacy-code"
+  title: "How I learned to love legacy code, and why you should too"
+  description: "For a long time I thought that working on a green field project was the best thing that could happen to a developer. I would look at the nightmarish company code base blaming the incompetence of the people who came before me. If only they read more books or had better mentors - I would say, but I was wrong. It's time for us to face the ugly truth about legacy code, and learn why and how to embrace it."
+  subtype: "presentation"
+  speakers: ["rafael-ordog"]
+  language: "English"
+  youtube: "FVz7cOgFOhM"
+  year: "2015"
+  thumbnailUrl: "legacy-code.jpg"
+-
   id: "pay-identify-with-paypal"
   title: "Pay &amp; Identify with PayPal"
   description: "The talk is going to be a roundtrip through different different mobile payment products available. It will show how to do a PayPal payment in your Android app with just a few lines of code and how you're able to let the user identify himself via OAuth."
