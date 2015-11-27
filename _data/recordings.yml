@@ -1,4 +1,14 @@
 -
+  id: "europe-goes-opensource"
+  title: "Europe goes open-source"
+  description: "5 years ago the EU Commision and corporates kick-started a project aiming to create FIWare (Future Internet ware), a technology that enables cost-efficient development of digital solutions. FIWare is an open-source cloud platform with public and royalty-free APIs for different verticals, such as Media, Agrifood, Energy etc. To mention few, there are APIs that make audiovisual content accessible like text and 3D maps ready for your applications. FIWare is running on 17 maintained data centers that are located across Europe. Open data are available so that developers can quickly create prototypes. EU has dedicated funds for ideas that are executed using FIWare, as well as for building up commercial nodes. I am looking forward to introduce you to possibilities related to Future Internet."
+  subtype: "presentation"
+  speakers: ["eva-maurina"]
+  language: "English"
+  youtube: "dxcTvXnbQEM"
+  year: "2015"
+  thumbnailUrl: "europe.jpg"
+-
   id: "pay-identify-with-paypal"
   title: "Pay &amp; Identify with PayPal"
   description: "The talk is going to be a roundtrip through different different mobile payment products available. It will show how to do a PayPal payment in your Android app with just a few lines of code and how you're able to let the user identify himself via OAuth."
