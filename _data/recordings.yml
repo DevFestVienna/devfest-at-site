@@ -1,6 +1,7 @@
 -
   id: "europe-goes-opensource"
   title: "Europe goes open-source"
+  language: "English"
   description: "5 years ago the EU Commision and corporates kick-started a project aiming to create FIWare (Future Internet ware), a technology that enables cost-efficient development of digital solutions. FIWare is an open-source cloud platform with public and royalty-free APIs for different verticals, such as Media, Agrifood, Energy etc. To mention few, there are APIs that make audiovisual content accessible like text and 3D maps ready for your applications. FIWare is running on 17 maintained data centers that are located across Europe. Open data are available so that developers can quickly create prototypes. EU has dedicated funds for ideas that are executed using FIWare, as well as for building up commercial nodes. I am looking forward to introduce you to possibilities related to Future Internet."
   subtype: "presentation"
   links:
@@ -15,6 +16,7 @@
   title: "How I learned to love legacy code, and why you should too"
   description: "For a long time I thought that working on a green field project was the best thing that could happen to a developer. I would look at the nightmarish company code base blaming the incompetence of the people who came before me. If only they read more books or had better mentors - I would say, but I was wrong. It's time for us to face the ugly truth about legacy code, and learn why and how to embrace it."
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "Slide Source", url: "https://github.com/devill/talks/tree/master/love_legacy" }
   speakers: ["rafael-ordog"]
@@ -27,6 +29,7 @@
   title: "Developing for the Semantic Web"
   description: "Semantic Web and Linked Data is the next evolution after Hyperlinked Text. This talk will present a demo WebApplication based on Semantic Web and Linked Data technologies: SPARQLing Cocktails. Other demo application and use cases will also be discussed."
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMZmVzdmhhdDdncEFuWktLT3lfNFhmMGxtMVBF/view?usp=sharing" }
   speakers: ["timea-turdean"]
@@ -38,6 +41,7 @@
   title: "Microservice - no fluff the REAL stuff"
   description: "Some developers tend to believe that big data and huge traffics are pre-requisites to harness and reap the benefits offered by microservices. However, there are many problems like polyglot persistence, faster continuous build cycle, shorter release plan, etc. that can be solved by applying microservice architecture even in smaller organizations. You don't have to be a software giant to leverage stability, effectiveness and flexibility provided by microservices. Microservice architecture has a lot to offer even for smaller organizations. In this talk, we will walk through the key concepts like service discovery & registry, circuit breaker, API gateway and edge service. Build a bunch of microservices demonstrating practical implementation of these patterns using open source components like Eureka, Zuul, Hystrix and powered by spring cloud. Lastly, we will deploy our microservices on a container based solution, i.e. Docker and demonstrate how to use docker-compose for defining and running micro services."
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "Slides", url: "http://www.slideshare.net/nklmish/microservice-no-fluff-the-real-stuff" }
   speakers: ["nakul-mishra"]
@@ -49,6 +53,7 @@
   title: "How to measure and improve Android code quality"
   description: "Android projects get bigger and more complex constantly, thus they tend to acquire a lot of technical debt and clutter. To resist this, we need to be aware of changes in project quality in first place. Many Android developers already use a continuous integration server to build, test and distribute their apps. But how can you automatically measure development quality? A variety of tools is available that measure different aspects of a project. In this talk I will present the most useful tools and show how to automate them with a Jenkins build server. These include tools measuring code style violations, analyzing static code for possible bugs, code coverage tools to estimate testing efforts, but also ones that find memory leaks, or verify the up-to-dateness of libraries used. I will demonstrate which tools of this selection can be combined into a dashboard to give developers a glance able project health overview. In conclusion, I will provide insights, how useful these tools are and how a team improves its coding habits with them instead of just gaming the metrics."
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMbC1uQVVRTXZnWGcwWVRHNEwtWlpLRHhtNXdj/view?usp=sharing" }
   speakers: ["janusz-leidgens"]
@@ -60,6 +65,7 @@
   title: "The methods of sandboxing and isolation"
   description: "In the talk we will present various applied techniques for sandboxing and isolation. Starting with description of ways for isolation in selected programming languages, we will proceed to describe the concepts used in various implementations of a fully-fledged sandbox at application level (design philosophy, limitations). Using the presented information to outline expectations for a sandbox solution, we will progress to detail chosen features of modern operating systems applicable and already used for sandbox implementation at OS level. We will take a look how these features are integrated into existing sandboxing solutions. Finally at the end we will see how the concept of sandbox can be used to implement OS independent software / application development platforms, what approaches are used there, discuss selected working prototypes of this effort, and sketch where the development in this area might be heading in the future."
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMcllrVWExWTlzclVCcjJ5eHVlZkYyVFU5dnpn/view?usp=sharing" }
   speakers: ["jan-lieskovsky"]
@@ -71,6 +77,7 @@
   title: "10 things you did not know about Android M"
   description: "Top features about Marshmallow and facts you might not know about Android M"
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMeThicFd2bHoxVzZlajA4b3ZaWnN3REkyVWxZ/view?usp=sharing" }
   speakers: ["iulia-marneanu"]
@@ -82,6 +89,7 @@
   title: "Piracy on Android"
   description: "Building awesome Android apps is a really really hard work that takes tons of time and dedication and also money. The worst thing that can happen to developers is that their apps get pirated and the developers that worked so hard to create them do not get honored for their hard work. This talk will show the problems that arise from pirated apps as well as which countermeasures you, as a developer, can take to make it as difficult as possible to pirate your apps."
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "Slides", url: "https://plus.google.com/+MartinLiersch/posts/XymvQUitRCt" }
   speakers: ["martin-liersch"]
@@ -93,6 +101,7 @@
   title: "Redux and React"
   desciption: "Introduction to React in combination with Redux. Redux helps you to develop applications in a simple way while having features like time-travel available during development."
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "Slides", url: "http://www.slideshare.net/nikgraf/react-redux-introduction" }
   speakers: ["nik-graf"]
@@ -104,6 +113,7 @@
   title: "From AR to VR: Technologies for implementing Immersive Solutions"
   description: "According to various experts there will be a dominant new computing platform every 10 years. Immersive computing seems to be the next big thing and many vendors are working on Hard- and Software to make this evolution happen. This highlight talk will give an overview about existing and upcoming Hardware- and Software Technologies like Intel RealSense required for building immersive solutions spanning the whole digital experience spectrum from Augmented-, Mixed- up to Virtual Reality Applications."
   subtype: "presentation"
+  language: "English"
   links:
     - { text: "Slides", url: "http://prezi.com/b2f1mkns7zg2" }
   speakers: ["thomas-fickert"]
