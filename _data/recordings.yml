@@ -7,7 +7,6 @@
   links:
     - { text: "FIWARE Lab", url: "https://account.lab.fiware.org/" }
   speakers: ["eva-maurina"]
-  language: "English"
   youtube: "dxcTvXnbQEM"
   year: "2015"
   thumbnailUrl: "europe.jpg"
@@ -20,10 +19,21 @@
   links:
     - { text: "Slide Source", url: "https://github.com/devill/talks/tree/master/love_legacy" }
   speakers: ["rafael-ordog"]
-  language: "English"
   youtube: "FVz7cOgFOhM"
   year: "2015"
   thumbnailUrl: "legacy-code.jpg"
+-
+  id: "apps-in-baas-world"
+  title: "Look Ma, No Server: An introduction to creating apps in a BaaS world"
+  description: "This talk is an introduction to creating JavaScript and native apps on a backend-as-a-service (BaaS) platform using a real-world example app. Audience members will leave the talk understanding the tradeoffs of using a BaaS provider like Parse, Amazon Web Services Lambda, or Apache Usergrid over a traditional software-as-a-service platform and how to get started building their own apps. Server-free backends are becoming a viable choice for many mobile and front-end applications. By creating high-level abstractions over backend services using easy-to-use client SDKs, developers can quickly build high-quality, performant apps without worrying about scaling, server provisioning or database maintenance. This is a simplified way to create client-facing applications that requires developers to learn new SDKs and development methods. Using the popular Javascript TodoMVC project as inspiration, this talk will cover building a simple to-do list application that interfaces with a simple backend for persisting and retrieving user to-do lists in under 20 minutes. Using clear code examples, there will be a focus on introducing audience members to key BaaS concepts like running custom business logic in JavaScript and authentication SDKs. Deployment, testing and server-side architecture will be also be highlighted. Although a specific open-source BaaS platform will be used for example purposes (Apache Usergrid), the concepts presented will be applicable to popular commercial BaaS solutions like Parse and AWS Lambda. Backend-as-a-service platforms allow developers to easily create complex apps and their popularity for mobile and front-end developers continues to grow. By covering the basics of creating a typical multi-platform web and mobile application, audience members will be able to assess the viability of going server-less."
+  subtype: "presentation"
+  language: "English"
+  links:
+    - { text: "Slides", url: "https://drive.google.com/open?id=0B9yZ9qPrRZd5eC0yYmFyLUFpX2M" }
+  speakers: ["clay-smith"]
+  youtube: "NgvoyWvhtu8"
+  year: "2015"
+  thumbnailUrl: "baas.jpg"
 -
   id: "semantic-web"
   title: "Developing for the Semantic Web"
@@ -33,9 +43,9 @@
   links:
     - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMZmVzdmhhdDdncEFuWktLT3lfNFhmMGxtMVBF/view?usp=sharing" }
   speakers: ["timea-turdean"]
-  youtube: ""
-  year: ""
-  thumbnailUrl: ""
+  youtube: "xQK-fBnGtz0"
+  year: "2015"
+  thumbnailUrl: "semantic-web.jpg"
 -
   id: "microservice"
   title: "Microservice - no fluff the REAL stuff"
@@ -57,9 +67,9 @@
   links:
     - { text: "Slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMbC1uQVVRTXZnWGcwWVRHNEwtWlpLRHhtNXdj/view?usp=sharing" }
   speakers: ["janusz-leidgens"]
-  youtube: ""
-  year: ""
-  thumbnailUrl: ""
+  youtube: "GDYDqIgHgLg"
+  year: "2015"
+  thumbnailUrl: "android-code-quality.jpg"
 -
   id: "sandboxing"
   title: "The methods of sandboxing and isolation"
@@ -81,9 +91,9 @@
   links:
     - { text: "slides", url: "https://drive.google.com/file/d/0B6Z0HOb8lBZMeThicFd2bHoxVzZlajA4b3ZaWnN3REkyVWxZ/view?usp=sharing" }
   speakers: ["iulia-marneanu"]
-  youtube: ""
-  year: ""
-  thumbnailUrl: ""
+  youtube: "H5qjM7tObkk"
+  year: "2015"
+  thumbnailUrl: "ten-things-android.jpg"
 -
   id: "piracy-android"
   title: "Piracy on Android"
@@ -93,9 +103,9 @@
   links:
     - { text: "Slides", url: "https://plus.google.com/+MartinLiersch/posts/XymvQUitRCt" }
   speakers: ["martin-liersch"]
-  youtube: ""
-  year: ""
-  thumbnailUrl: ""
+  youtube: "xXHQBqlNk_I"
+  year: "2015"
+  thumbnailUrl: "android-piracy.jpg"
 -
   id: "react-redux"
   title: "Redux and React"
@@ -105,9 +115,9 @@
   links:
     - { text: "Slides", url: "http://www.slideshare.net/nikgraf/react-redux-introduction" }
   speakers: ["nik-graf"]
-  youtube: ""
-  year: ""
-  thumbnailUrl: ""
+  youtube: "n7aT03wAf9M"
+  year: "2015"
+  thumbnailUrl: "react-redux.jpg"
 -
   id: "AR-VR"
   title: "From AR to VR: Technologies for implementing Immersive Solutions"

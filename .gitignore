@@ -2,6 +2,7 @@
 /_site
 /_site/**
 .sass-cache
+Thumbs.db
 npm-debug.log
 /nbproject/private/
 nbproject/
