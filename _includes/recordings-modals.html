@@ -17,6 +17,9 @@
               <br/>
               <div class="youtube" id="{{ session.youtube }}" style="width: 400px; height: 225px;"></div>
               <!-- <iframe width="400" height="225" src="http://www.youtube.com/embed/{{ session.youtube }}?rel=0" frameborder="0" allowfullscreen=""></iframe> -->
+            {% elsif session.googleSlides %}
+              <br/>
+              <iframe src="https://docs.google.com/presentation/d/{{ session.googleSlides }}/embed?start=false&loop=false&delayms=5000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             {% endif %}
             {% if session.links | size > 0 %}
               <h6>Links &amp; Presentation</h6>

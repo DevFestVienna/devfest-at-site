@@ -1,4 +1,15 @@
 -
+  id: "android-reactive"
+  title: "Reactive Programming on Android"
+  description: "The talk will cover the basics of RxJava with Observables(events and sequences), Schedulers and Operators. Further the combination with the networking library Retrofit and the Retrolambda plug-in to bring functional programming style to Android. And finally how to integrate all in Android and how we have benefited in George Go."
+  subtype: "presentation"
+  links:
+    - { text: "Slides", url: "https://docs.google.com/presentation/d/1jGdcmH9rhumajinP46lECpyrhhfMJfU6Zf9ftyBQ73w/edit?usp=sharing"}
+  speakers: ["michael-greifeneder"]
+  googleSlides: "1jGdcmH9rhumajinP46lECpyrhhfMJfU6Zf9ftyBQ73w"
+  year: "2015"
+  thumbnailUrl: "android-reactive.jpg"
+-
   id: "europe-goes-opensource"
   title: "Europe goes open-source"
   language: "English"
