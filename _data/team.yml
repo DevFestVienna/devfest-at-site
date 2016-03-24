@@ -64,6 +64,10 @@
   subTeam: true
   ribbon:
     - {abbr: "AHV", title: "AndroidHeads Vienna"}
+  social:
+    - {name: "google-plus", title: "Google+", link: "https://google.com/+KlemensZleptnig"}
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/klemensz"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://at.linkedin.com/in/klemens1"}
 - 
   id: "helmuth-breitenfellner"
   name: "Helmuth"
