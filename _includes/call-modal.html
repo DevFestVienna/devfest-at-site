@@ -14,20 +14,20 @@
         // disable all 'choose old' functionality
         $('#cfp-bio-group').removeClass('cfp-gray');
         $('#cfp-old-group').addClass('cfp-hidden');
-        $('#cfp-old').prop('checked', false);
+        $('#cfp-use-old').prop('checked', false);
         $('#cfp-bio').prop('disabled', false);
       }
       ).done(function() {
         // enable 'choose old' functionality
         $('#cfp-bio-group').addClass('cfp-gray');
         $('#cfp-old-group').removeClass('cfp-hidden');
-        $('#cfp-old').prop('checked', true);
+        $('#cfp-use-old').prop('checked', true);
         $('#cfp-bio').prop('disabled', true);
       });
   }
   function cfpCheckOld() {
     // get current value of 'old'
-    var old = $('#cfp-old').prop('checked');
+    var old = $('#cfp-use-old').prop('checked');
     $('#cfp-bio').prop('disabled', old);
     if (old) {
       $('#cfp-bio-group').addClass('cfp-gray');
@@ -54,7 +54,7 @@
   jQuery(function() {
     var $ = jQuery;
     // enable handling of 'old' for bio
-    $('#cfp-old').change(cfpCheckOld);
+    $('#cfp-use-old').change(cfpCheckOld);
     // enable handling of email check
     $('#cfp-email').change(cfpCheckEmail);
   });
@@ -153,7 +153,7 @@
             <label for="cfp-abstract">Short abstract</label>
             <textarea id="cfp-abstract" name="abstract"></textarea>
           </fieldset>
-          <fieldset id='cfp-old-group' class="form-group hidden">
+          <fieldset id='cfp-old-group' class="form-group cfp-hidden">
             <label for="cfp-use-old">Take bio from last proposal</label>
             <input type="checkbox" id="cfp-use-old" name="use-old">
           </fieldset>
