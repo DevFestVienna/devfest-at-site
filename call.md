@@ -7,12 +7,13 @@ isStaticPost: true
 
 Interested in being part of the event as a speaker?
 
-_We encourage submissions from female speakers to enhance the gender balance._
+_We encourage submissions from female speakers to enhance the gender balance.
+Talk proposals will be reviewed anonymously to reduce any possible unconscious bias._
 
-**Call for Speakers is closed!**
+**Call for Speakers is open!**
 
 ####Topics####
-The theme of DevFest Vienna 2015 is **What is Hot in 2016**. You are encouraged to submit talks about upcoming and trending topics which will be relevant in the future.
+The theme of DevFest Vienna 2016 is **Topics for 2017**. You are encouraged to submit talks about upcoming and trending topics which will be relevant in the future.
 
 ####Type of Sessions####
 A regular talk (e.g. presentation, tech talk, etc) is supposed
@@ -41,3 +42,4 @@ Special language knowledge, experience with specific APIs or
 frameworks should however be announced in advance.
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">
+{% include call-modal.html %}
