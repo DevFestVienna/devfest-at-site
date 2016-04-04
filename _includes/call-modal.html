@@ -1,132 +1,169 @@
 <!-- Begin CfP Modal -->
 <style type="text/css">
-.cfp-hidden { display:none; }
-.cfp-gray { font-color:gray; }
-label {min-width: 200px;}
+  .cfp-hidden { display:none; }
+  .cfp-gray { font-color:gray; }
+  label {min-width: 200px;}
 </style>
 <script>
-function cfpCheckEmail() {
-  // get current email value
-  var email = $('#email').val();
-  // check if email exists
-  $.get('https://cfp-manager.appspot.com/email/' + encodeURIComponent(email)
-    ).fail(function() {
-      // disable all 'choose old' functionality
-      $('#cfp-bio-group').removeClass('gray');
-      $('#cfp-old-group').addClass('hidden');
-      $('#cfp-old').prop('checked', false);
-      $('#cfp-bio').prop('disabled', false);
-    }
-    ).done(function() {
-      // enable 'choose old' functionality
-      $('#cfp-bio-group').addClass('gray');
-      $('#cfp-old-group').removeClass('hidden');
-      $('#cfp-old').prop('checked', true);
-      $('#cfp-bio').prop('disabled', true);
-    });
+  function cfpCheckEmail() {
+    // get current email value
+    var email = $('#email').val();
+    // check if email exists
+    $.get('https://cfp-manager.appspot.com/email/' + encodeURIComponent(email)
+      ).fail(function() {
+        // disable all 'choose old' functionality
+        $('#cfp-bio-group').removeClass('gray');
+        $('#cfp-old-group').addClass('hidden');
+        $('#cfp-old').prop('checked', false);
+        $('#cfp-bio').prop('disabled', false);
+      }
+      ).done(function() {
+        // enable 'choose old' functionality
+        $('#cfp-bio-group').addClass('gray');
+        $('#cfp-old-group').removeClass('hidden');
+        $('#cfp-old').prop('checked', true);
+        $('#cfp-bio').prop('disabled', true);
+      });
   }
   function cfpCheckOld() {
-  // get current value of 'old'
-  var old = $('#cfp-old').prop('checked');
-  $('#cfp-bio').prop('disabled', old);
-  if (old) {
-    $('#cfp-bio-group').addClass('gray');
-  }
-  else {
-    $('#cfp-bio-group').removeClass('gray');
+    // get current value of 'old'
+    var old = $('#cfp-old').prop('checked');
+    $('#cfp-bio').prop('disabled', old);
+    if (old) {
+      $('#cfp-bio-group').addClass('gray');
+    }
+    else {
+      $('#cfp-bio-group').removeClass('gray');
+    }
   }
   function cfpSubmit() {
     // perform the submit
     var target="https://cfp-manager.appspot.com/proposal/devfest-2016";
+    var $ = jQuery;
     $.post(target, $('#cfp-form').serialize()
-        ).done(function() {
+      ).done(function() {
             // show success message
             $('#cfp-modal').hide();
             $('#cfp-success').show();
-        }).fail(function() {
+      }
+      ).fail(function() {
             $('#cfp-modal').hide();
             $('#cfp-failure').show();
-        });
+      });
   }
-}
-$(function() {
-  // enable handling of 'old' for bio
-  $('#cfp-old').change(checkOld);
-  // enable handling of email check
-  $('#cfp-email').change(checkEmail);
-});
+  jQuery(function() {
+    var $ = jQuery;
+    // enable handling of 'old' for bio
+    $('#cfp-old').change(checkOld);
+    // enable handling of email check
+    $('#cfp-email').change(checkEmail);
+  });
 </script>
 <div class="modal" id="cfp-success" role="dialog" aria-hidden="true">
-  <p>
-  Wow! Thank you very much!
-  </p>
-  <p>
-  We will look into your talk proposal and review it carefully.
-  It's awesome that you want to be part of DevFest Vienna 2016!
-  </p>
-  <button data-toggle="modal" data-target="#cfp-success" value="Close">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="close">
+          <svg class="icon icon-cross" viewBox="0 0 32 32">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites.svg#icon-cross"></use>
+          </svg>
+          <div class="close-mask" data-dismiss="modal"></div>
+        </div>
+        <p>
+          Wow! Thank you very much!
+        </p>
+        <p>
+          We will look into your talk proposal and review it carefully.
+          It's awesome that you want to be part of DevFest Vienna 2016!
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="modal" id="cfp-failure" role="dialog" aria-hidden="true">
-  <p>
-  Ouch. This is embarrassing.
-  </p>
-  <p>
-  Something went wrong, we have no idea how this could have happened.
-  </p>
-  <p>
-  As we want you to be part of DevFest Vienna 2016, may we kindly ask you to drop us an email?
-  We will look into the issue and will take your email as the talk proposal.
-  </p>
-  <p>
-  We are very sorry for this inconvenience!
-  </p>
-  <button data-toggle="modal" data-target="#cfp-failure" value="Close">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="close">
+          <svg class="icon icon-cross" viewBox="0 0 32 32">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites.svg#icon-cross"></use>
+          </svg>
+          <div class="close-mask" data-dismiss="modal"></div>
+        </div>
+        <p>
+          Ouch. This is embarrassing.
+        </p>
+        <p>
+          Something went wrong, we have no idea how this could have happened.
+        </p>
+        <p>
+          As we want you to be part of DevFest Vienna 2016, may we kindly ask you to drop us an email?
+          We will look into the issue and will take your email as the talk proposal.
+        </p>
+        <p>
+          We are very sorry for this inconvenience!
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="modal" id="cfp-modal" role="dialog" aria-hidden="true">
-  <form onsubmit="cfpSubmit();" id="cfp-form">
-    <input type="hidden" name="json-reply" value="1">
-    <fieldset class="form-group">
-      <label for="name">Your First Name</label>
-      <input type="text" required="required" id="name" name="name">
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="surname">Your Surname</label>
-      <input type="text" required="required" id="surname" name="surname">
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="email">Your Email</label>
-      <input type="text" required="required" id="email" name="email">
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="title">Title of the talk</label>
-      <input type="text" required="required" id="title" name="title">
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="duration">Duration</label>
-      <select required="required" id="duration" name="duration">
-        <option value=''>--- please select ---</option>
-        <option value='20'>20 Minutes</option>
-        <option value='45'>45 Minutes</option>
-      </select>
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="abstract">Short abstract</label>
-      <textarea id="abstract" name="abstract"></textarea>
-    </fieldset>
-    <fieldset id='old-group' class="form-group hidden">
-      <label for="use-old">Take bio from last proposal</label>
-      <input type="checkbox" id="use-old" name="use-old">
-    </fieldset>
-    <fieldset id='bio-group' class="form-group">
-      <label for="bio">Short biography</label>
-      <textarea id="bio" name="bio"></textarea>
-    </fieldset>
-    <fieldset class="form-group">
-      <label for="comment">Any other comment?</label>
-      <textarea id="comment" name="comment"></textarea>
-    </fieldset>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="close">
+          <svg class="icon icon-cross" viewBox="0 0 32 32">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites.svg#icon-cross"></use>
+          </svg>
+          <div class="close-mask" data-dismiss="modal"></div>
+        </div>
+        <form onsubmit="cfpSubmit();" id="cfp-form">
+          <input type="hidden" name="json-reply" value="1">
+          <fieldset class="form-group">
+            <label for="name">Your First Name</label>
+            <input type="text" required="required" id="name" name="name">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="surname">Your Surname</label>
+            <input type="text" required="required" id="surname" name="surname">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="email">Your Email</label>
+            <input type="text" required="required" id="email" name="email">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="title">Title of the talk</label>
+            <input type="text" required="required" id="title" name="title">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="duration">Duration</label>
+            <select required="required" id="duration" name="duration">
+              <option value=''>--- please select ---</option>
+              <option value='20'>20 Minutes</option>
+              <option value='45'>45 Minutes</option>
+            </select>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="abstract">Short abstract</label>
+            <textarea id="abstract" name="abstract"></textarea>
+          </fieldset>
+          <fieldset id='old-group' class="form-group hidden">
+            <label for="use-old">Take bio from last proposal</label>
+            <input type="checkbox" id="use-old" name="use-old">
+          </fieldset>
+          <fieldset id='bio-group' class="form-group">
+            <label for="bio">Short biography</label>
+            <textarea id="bio" name="bio"></textarea>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="comment">Any other comment?</label>
+            <textarea id="comment" name="comment"></textarea>
+          </fieldset>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
-<button data-toggle="modal" data-target="#cfp-modal" value="Submit Proposal">
 <!-- End Speakers Modals -->
+<button data-toggle="modal" data-target="#cfp-modal">Submit Proposal</button>
