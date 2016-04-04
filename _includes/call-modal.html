@@ -7,7 +7,7 @@
 <script>
   function cfpCheckEmail() {
     // get current email value
-    var email = $('#email').val();
+    var email = $('#cfp-email').val();
     // check if email exists
     $.get('https://cfp-manager.appspot.com/email/' + encodeURIComponent(email)
       ).fail(function() {
