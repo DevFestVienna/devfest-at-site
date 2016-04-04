@@ -40,7 +40,11 @@
                     </div>
                     {% endif %}
                     
-                    <div class="post-body">{{ content }}</div>
+                    <div class="post-body">{{ content }}
+                    {% if page.permalink == '/call/' %}
+                        <button data-toggle="modal" data-target="#cfp-modal">Submit Proposal</button>
+                    {% endif %}
+                    </div>
 
                     <div class="page-navigation" id="page-navigation">
                         <div class="left pull-left">
