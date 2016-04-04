@@ -12,15 +12,15 @@
     $.get('https://cfp-manager.appspot.com/email/' + encodeURIComponent(email)
       ).fail(function() {
         // disable all 'choose old' functionality
-        $('#cfp-bio-group').removeClass('gray');
-        $('#cfp-old-group').addClass('hidden');
+        $('#cfp-bio-group').removeClass('cfp-gray');
+        $('#cfp-old-group').addClass('cfp-hidden');
         $('#cfp-old').prop('checked', false);
         $('#cfp-bio').prop('disabled', false);
       }
       ).done(function() {
         // enable 'choose old' functionality
-        $('#cfp-bio-group').addClass('gray');
-        $('#cfp-old-group').removeClass('hidden');
+        $('#cfp-bio-group').addClass('cfp-gray');
+        $('#cfp-old-group').removeClass('cfp-hidden');
         $('#cfp-old').prop('checked', true);
         $('#cfp-bio').prop('disabled', true);
       });
@@ -30,10 +30,10 @@
     var old = $('#cfp-old').prop('checked');
     $('#cfp-bio').prop('disabled', old);
     if (old) {
-      $('#cfp-bio-group').addClass('gray');
+      $('#cfp-bio-group').addClass('cfp-gray');
     }
     else {
-      $('#cfp-bio-group').removeClass('gray');
+      $('#cfp-bio-group').removeClass('cfp-gray');
     }
   }
   function cfpSubmit() {
@@ -59,7 +59,7 @@
     $('#cfp-email').change(checkEmail);
   });
 </script>
-<div class="modal" id="cfp-success" role="dialog" aria-hidden="true">
+<div class="modal fade in" id="cfp-success" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -80,7 +80,7 @@
     </div>
   </div>
 </div>
-<div class="modal" id="cfp-failure" role="dialog" aria-hidden="true">
+<div class="modal fade in" id="cfp-failure" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -107,7 +107,7 @@
     </div>
   </div>
 </div>
-<div class="modal" id="cfp-modal" role="dialog" aria-hidden="true">
+<div class="modal fade in" id="cfp-modal" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -166,4 +166,3 @@
   </div>
 </div>
 <!-- End Speakers Modals -->
-<button data-toggle="modal" data-target="#cfp-modal">Submit Proposal</button>
