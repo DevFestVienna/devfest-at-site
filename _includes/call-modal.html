@@ -43,12 +43,12 @@
     $.post(target, $('#cfp-form').serialize()
       ).done(function() {
             // show success message
-            $('#cfp-modal').hide();
-            $('#cfp-success').show();
+            $('#cfp-modal').modal('hide');
+            $('#cfp-success').modal('show');
       }
       ).fail(function() {
-            $('#cfp-modal').hide();
-            $('#cfp-failure').show();
+            $('#cfp-modal').modal('hide');
+            $('#cfp-failure').modal('show');
       });
   }
   jQuery(function() {
