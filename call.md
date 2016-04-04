@@ -41,5 +41,5 @@ General coding knowledge and developing experience can be assumed.
 Special language knowledge, experience with specific APIs or
 frameworks should however be announced in advance.
 
-<img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">
 <button data-toggle="modal" data-target="#cfp-modal">Submit Proposal</button>
+<img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">
