@@ -54,9 +54,9 @@
   jQuery(function() {
     var $ = jQuery;
     // enable handling of 'old' for bio
-    $('#cfp-old').change(checkOld);
+    $('#cfp-old').change(cfpCheckOld);
     // enable handling of email check
-    $('#cfp-email').change(checkEmail);
+    $('#cfp-email').change(cfpCheckEmail);
   });
 </script>
 <div class="modal fade in" id="cfp-success" role="dialog" aria-hidden="true">
@@ -69,8 +69,9 @@
           </svg>
           <div class="close-mask" data-dismiss="modal"></div>
         </div>
+        <h4>Wow! Thank you very much!</h4>
         <p>
-          Wow! Thank you very much!
+          Thank for your talk proposal!
         </p>
         <p>
           We will look into your talk proposal and review it carefully.
@@ -90,9 +91,7 @@
           </svg>
           <div class="close-mask" data-dismiss="modal"></div>
         </div>
-        <p>
-          Ouch. This is embarrassing.
-        </p>
+        <h4>Ouch. This is embarrassing</p>
         <p>
           Something went wrong, we have no idea how this could have happened.
         </p>
@@ -117,7 +116,14 @@
           </svg>
           <div class="close-mask" data-dismiss="modal"></div>
         </div>
-        <form onsubmit="cfpSubmit();" id="cfp-form">
+        <h4>Submit Talk Proposal</h4>
+        <p>
+        This is so cool, thanks a lot!!!
+        </p>
+        <p>
+        We only have a handful of questions for you...
+        </p>
+        <form onsubmit="cfpSubmit(); return false;" id="cfp-form">
           <input type="hidden" name="json-reply" value="1">
           <fieldset class="form-group">
             <label for="name">Your First Name</label>
