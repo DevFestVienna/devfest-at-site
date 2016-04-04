@@ -121,49 +121,49 @@
         This is so cool, thanks a lot!!!
         </p>
         <p>
-        We only have a handful of questions for you...
+        We only have a handful of questions for you. Anything else we will ask once your talk has been selected.
         </p>
         <form onsubmit="cfpSubmit(); return false;" id="cfp-form">
           <input type="hidden" name="json-reply" value="1">
           <fieldset class="form-group">
-            <label for="name">Your First Name</label>
-            <input type="text" required="required" id="name" name="name">
+            <label for="cfp-name">Your First Name</label>
+            <input type="text" required="required" id="cfp-name" name="name">
           </fieldset>
           <fieldset class="form-group">
-            <label for="surname">Your Surname</label>
-            <input type="text" required="required" id="surname" name="surname">
+            <label for="cfp-surname">Your Surname</label>
+            <input type="text" required="required" id="cfp-surname" name="surname">
           </fieldset>
           <fieldset class="form-group">
-            <label for="email">Your Email</label>
-            <input type="text" required="required" id="email" name="email">
+            <label for="cfp-email">Your Email</label>
+            <input type="text" required="required" id="cfp-email" name="email">
           </fieldset>
           <fieldset class="form-group">
-            <label for="title">Title of the talk</label>
-            <input type="text" required="required" id="title" name="title">
+            <label for="cfp-title">Title of the talk</label>
+            <input type="text" required="required" id="cfp-title" name="title">
           </fieldset>
           <fieldset class="form-group">
-            <label for="duration">Duration</label>
-            <select required="required" id="duration" name="duration">
+            <label for="cfp-duration">Duration</label>
+            <select required="required" id="cfp-duration" name="duration">
               <option value=''>--- please select ---</option>
               <option value='20'>20 Minutes</option>
               <option value='45'>45 Minutes</option>
             </select>
           </fieldset>
           <fieldset class="form-group">
-            <label for="abstract">Short abstract</label>
-            <textarea id="abstract" name="abstract"></textarea>
+            <label for="cfp-abstract">Short abstract</label>
+            <textarea id="cfp-abstract" name="abstract"></textarea>
           </fieldset>
-          <fieldset id='old-group' class="form-group hidden">
-            <label for="use-old">Take bio from last proposal</label>
-            <input type="checkbox" id="use-old" name="use-old">
+          <fieldset id='cfp-old-group' class="form-group hidden">
+            <label for="cfp-use-old">Take bio from last proposal</label>
+            <input type="checkbox" id="cfp-use-old" name="use-old">
           </fieldset>
-          <fieldset id='bio-group' class="form-group">
-            <label for="bio">Short biography</label>
-            <textarea id="bio" name="bio"></textarea>
+          <fieldset id='cfp-bio-group' class="form-group">
+            <label for="cfp-bio">Short biography</label>
+            <textarea id="cfp-bio" name="bio"></textarea>
           </fieldset>
           <fieldset class="form-group">
-            <label for="comment">Any other comment?</label>
-            <textarea id="comment" name="comment"></textarea>
+            <label for="cfp-comment">Any other comment?</label>
+            <textarea id="cfp-comment" name="comment"></textarea>
           </fieldset>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
