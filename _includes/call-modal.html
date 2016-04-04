@@ -1,61 +1,62 @@
+<div markdown="0">
 <!-- Begin CfP Modal -->
-  <style type="text/css">
-    .cfp-hidden { display:none; }
-    .cfp-gray { font-color:gray; }
-    label {min-width: 200px;}
-  </style>
-  <script>
-    function cfpCheckEmail() {
-      // get current email value
-      var email = $('#email').val();
-      // check if email exists
-      $.get('https://cfp-manager.appspot.com/email/' + encodeURIComponent(email)
-        ).fail(function() {
-          // disable all 'choose old' functionality
-          $('#cfp-bio-group').removeClass('gray');
-          $('#cfp-old-group').addClass('hidden');
-          $('#cfp-old').prop('checked', false);
-          $('#cfp-bio').prop('disabled', false);
-        }
-        ).done(function() {
-          // enable 'choose old' functionality
-          $('#cfp-bio-group').addClass('gray');
-          $('#cfp-old-group').removeClass('hidden');
-          $('#cfp-old').prop('checked', true);
-          $('#cfp-bio').prop('disabled', true);
-        });
-      }
-      function cfpCheckOld() {
-      // get current value of 'old'
-      var old = $('#cfp-old').prop('checked');
-      $('#cfp-bio').prop('disabled', old);
-      if (old) {
-        $('#cfp-bio-group').addClass('gray');
-      }
-      else {
-        $('#cfp-bio-group').removeClass('gray');
-      }
-      function cfpSubmit() {
-      	// perform the submit
-      	var target="https://cfp-manager.appspot.com/proposal/devfest-2016";
-      	$.post(target, $('#cfp-form').serialize()
-      		).done(function() {
-      			// show success message
-      			$('#cfp-modal').hide();
-      			$('#cfp-success').show();
-      		}).fail(function() {
-      			$('#cfp-modal').hide();
-      			$('#cfp-failure').show();
-      		});
-      }
+<style type="text/css">
+.cfp-hidden { display:none; }
+.cfp-gray { font-color:gray; }
+label {min-width: 200px;}
+</style>
+<script>
+function cfpCheckEmail() {
+  // get current email value
+  var email = $('#email').val();
+  // check if email exists
+  $.get('https://cfp-manager.appspot.com/email/' + encodeURIComponent(email)
+    ).fail(function() {
+      // disable all 'choose old' functionality
+      $('#cfp-bio-group').removeClass('gray');
+      $('#cfp-old-group').addClass('hidden');
+      $('#cfp-old').prop('checked', false);
+      $('#cfp-bio').prop('disabled', false);
     }
-    $(function() {
-      // enable handling of 'old' for bio
-      $('#cfp-old').change(checkOld);
-      // enable handling of email check
-      $('#cfp-email').change(checkEmail);
+    ).done(function() {
+      // enable 'choose old' functionality
+      $('#cfp-bio-group').addClass('gray');
+      $('#cfp-old-group').removeClass('hidden');
+      $('#cfp-old').prop('checked', true);
+      $('#cfp-bio').prop('disabled', true);
     });
-  </script>
+  }
+  function cfpCheckOld() {
+  // get current value of 'old'
+  var old = $('#cfp-old').prop('checked');
+  $('#cfp-bio').prop('disabled', old);
+  if (old) {
+    $('#cfp-bio-group').addClass('gray');
+  }
+  else {
+    $('#cfp-bio-group').removeClass('gray');
+  }
+  function cfpSubmit() {
+    // perform the submit
+    var target="https://cfp-manager.appspot.com/proposal/devfest-2016";
+    $.post(target, $('#cfp-form').serialize()
+        ).done(function() {
+            // show success message
+            $('#cfp-modal').hide();
+            $('#cfp-success').show();
+        }).fail(function() {
+            $('#cfp-modal').hide();
+            $('#cfp-failure').show();
+        });
+  }
+}
+$(function() {
+  // enable handling of 'old' for bio
+  $('#cfp-old').change(checkOld);
+  // enable handling of email check
+  $('#cfp-email').change(checkEmail);
+});
+</script>
 <div class="modal" id="cfp-success" role="dialog" aria-hidden="true">
   <p>
   Wow! Thank you very much!
@@ -130,3 +131,4 @@
 </div>
 <button data-toggle="modal" data-target="#cfp-modal" value="Submit Proposal">
 <!-- End Speakers Modals -->
+</div>
