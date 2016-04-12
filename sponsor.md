@@ -12,7 +12,7 @@ Depending on the package your company is featured on the website, in social medi
 
 Above this we offer an exclusive **Platinum** package (maximum two sponsors) who will be featured throughout the conference.
 
-Sponsors can also opt to sponsor specifically a room, a break (breakfast / coffee / lunch), the hackathon or the afterparty (_powered by_).
+Sponsors can also opt to sponsor specifically a room, a break (breakfast / coffee / lunch), the hackathon or the afterparty ("Coffee break _powered by_ ...").
 
 _Interested in being part of the event as a sponsor? Excellent! [Let us know about it!](mailto:team@devfest.at?subject=Sponsorship&body=Please%20send%20me%20your%20sponsorship%20package%20document,%20thanks!)_
 
