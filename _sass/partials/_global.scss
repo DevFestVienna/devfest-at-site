@@ -30,9 +30,9 @@ p {
 i {
     font-style: normal;
 }
-b, strong {
-    font-weight: $bold;
-}
+// b, strong {
+//     font-weight: $bold;
+// }
 a {
     @include linkColor($link-color);
     &:hover {
