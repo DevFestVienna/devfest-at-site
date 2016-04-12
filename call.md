@@ -29,7 +29,7 @@ too much into technical details.
 All sessions will be held in English.
 
 ####Equipment####
-Each room is equiped with a beamer and network connectivity for your
+Each room is equipped with a beamer and network connectivity for your
 notebook PC.
 We also have adapters for MacBook / MacBook Air (MiniDP).
 
