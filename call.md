@@ -10,7 +10,7 @@ Interested in being part of the event as a speaker?
 _We encourage submissions from female speakers to enhance the gender balance.
 Talk proposals will be reviewed anonymously to reduce any possible unconscious bias._
 
-**Call for Speakers is open!**
+**Call for Speakers is open till 15 May 2016 midnight Vienna time!**
 
 ####Topics####
 As always DevFest Vienna is about new trends in software development for mobile, cloud, social and web.
