@@ -13,7 +13,8 @@ Talk proposals will be reviewed anonymously to reduce any possible unconscious b
 **Call for Speakers is open!**
 
 ####Topics####
-The theme of DevFest Vienna 2016 is **Topics for 2017**. You are encouraged to submit talks about upcoming and trending topics which will be relevant in the future.
+As always DevFest Vienna is about new trends in software development for mobile, cloud, social and web.
+You are encouraged to submit talks about upcoming and trending topics which will be relevant in the future.
 
 ####Type of Sessions####
 A regular talk (e.g. presentation, tech talk, etc) is supposed
