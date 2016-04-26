@@ -42,4 +42,14 @@ General coding knowledge and developing experience can be assumed.
 Special language knowledge, experience with specific APIs or
 frameworks should however be announced in advance.
 
+####FAQ####
+
+#####Do you cover travel expenses?#####
+We won't be able to cover travel expenses. Depending on the sponsoring we will receive a limited subsidy to your travel expenses as a speaker might be possible; please indicate your needs in the comments section of the submission form.
+
+#####Do you accept talks afer the deadline?#####
+After the deadline you will still be able to submit your proposal.
+We will keep a few slots empty for last-minute submissions, especially for new upcoming topics to be presented.
+The majority of talks however will be selected from the submissions received before the end of the deadline.
+
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">
