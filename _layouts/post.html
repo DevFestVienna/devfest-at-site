@@ -29,9 +29,11 @@
         window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js " | prepend: site.baseurl }}><\/script>')
     </script>
 
+    {% comment %}
     {% if page.permalink == '/call/' %}
         {% include call-modal.html %}
     {% endif %}
+    {% endcomment %}
 
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Bootstrap JS local fallback -->

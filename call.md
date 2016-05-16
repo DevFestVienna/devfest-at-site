@@ -5,6 +5,14 @@ permalink: /call/
 isStaticPost: true
 ---
 
+Thank you for your interest in being part of DevFest Vienna!
+
+We have received an overwhelming number of talk proposals which we are currently reviewing.
+Latest June the speakers will be contacted to let them know whether they have been selected for a talk at DevFest Vienna 2016.
+
+In addition we will open a second call for papers later this year, allowing you to provide topics covering latest trends and developments relevant for software engineers.
+
+{% comment %}
 Interested in being part of the event as a speaker?
 
 _We encourage submissions from female speakers to enhance the gender balance.
@@ -53,5 +61,7 @@ If you need financial support please specify them in the comments section of the
 After the deadline you will still be able to submit your proposal via email.
 We will keep a few slots empty for last-minute submissions, especially for new upcoming topics to be presented.
 The majority of talks however will be selected from the submissions received before the end of the deadline.
+
+{% endcomment %}
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">
