@@ -22,6 +22,7 @@ Talk proposals will be reviewed anonymously to reduce any possible unconscious b
 **Call for Speakers is open till 17 July 2016 midnight Vienna time!**
 
 [Submit Proposal](https://cfp.gdg-vienna.at)
+
 ####Topics####
 As always DevFest Vienna is about new trends in software development for mobile, cloud, social and web.
 You are encouraged to submit talks about upcoming and trending topics which will be relevant in the future.
