@@ -5,6 +5,7 @@ permalink: /call/
 isStaticPost: true
 ---
 
+{% comment %}
 Thank you for your interest in being part of DevFest Vienna!
 
 We have received an overwhelming number of talk proposals which we are currently reviewing.
@@ -12,14 +13,15 @@ Latest June the speakers will be contacted to let them know whether they have be
 
 In addition we will open a second call for papers later this year, allowing you to provide topics covering latest trends and developments relevant for software engineers.
 
-{% comment %}
+{% endcomment %}
 Interested in being part of the event as a speaker?
 
 _We encourage submissions from female speakers to enhance the gender balance.
 Talk proposals will be reviewed anonymously to reduce any possible unconscious bias._
 
-**Call for Speakers is open till 15 May 2016 midnight Vienna time!**
+**Call for Speakers is open till 17 July 2016 midnight Vienna time!**
 
+[Submit Proposal](https://cfp.gdg-vienna.at)
 ####Topics####
 As always DevFest Vienna is about new trends in software development for mobile, cloud, social and web.
 You are encouraged to submit talks about upcoming and trending topics which will be relevant in the future.
@@ -57,11 +59,5 @@ Generally we won't be able to cover travel expenses.
 We have a limited budget to subsidize costs for community speakers.
 If you need financial support please specify them in the comments section of the submission form.
 
-#####Do you accept talk proposals afer the deadline?#####
-After the deadline you will still be able to submit your proposal via email.
-We will keep a few slots empty for last-minute submissions, especially for new upcoming topics to be presented.
-The majority of talks however will be selected from the submissions received before the end of the deadline.
-
-{% endcomment %}
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">
