@@ -1,4 +1,12 @@
 -
+  id: "barbara-ondrisek"
+  name: "Barbara"
+  surname: "Ondrisek"
+  title: "Senior Developer"
+  current: true
+  bio: "Barbara Ondrisek is a senior developer with +15 years of experience and previously worked on the online banking platform 'George' by Erste Bank. Now she is testing the limits of all major messaging platforms."
+  thumbnailUrl: "BarbaraOndrisek.jpg"
+-
   id: "paul-bakaus"
   name: "Paul"
   surname: "Bakaus"

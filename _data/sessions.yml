@@ -86,6 +86,14 @@
   speakers: ["paul-bakaus"]
   language: English
 -
+  id: 117
+  title: "Insights into Chatbot Development - Implementing Cross-platform Chatbots"
+  description: "Overview over different chatbot platforms and their features. How to implement a cross-platform chatbot for Facebook Messenger, Skype, Telegram, WeChat, Kik... and all the others."
+  subtype: presentation
+  track: Services
+  speakers: ["barabara-ondrisek"]
+  language: English
+-
   id: 200
   title: "Breakfast"
   service: true
