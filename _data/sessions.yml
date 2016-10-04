@@ -33,138 +33,52 @@
   subtype: lightning
   language: "English or German - whatever you want"
 -
-  id: A02
-  title: "Piracy on Android"
-  description: "Building awesome Android apps is a really really hard work that takes tons of time and dedication and also money. The worst thing that can happen to developers is that their apps get pirated and the developers that worked so hard to create them do not get honored for their hard work. This talk will show the problems that arise from pirated apps as well as which countermeasures you, as a developer, can take to make it as difficult as possible to pirate your apps."
-  track: "Android"
+  id: 111
+  title: "Going Elastic"
+  description: "One of the hottest and most widely used tools for log monitoring and analytics at the moment is the Elastic Stack: * Elasticsearch doing the hard work of analyzing and searching large amounts of data. * Logstash and Beats for collecting them. * Kibana for powerful visualizations. This talk gives you an overview of the four technologies, how they are working together, and how they can solve your problems."
   subtype: presentation
-  speakers: ["martin-liersch"]
+  track: "Infrastructure"
+  speakers: ["philipp-krenn"]
   language: English
 -
-  id: A01
-  title: "Reactive Programming on Android"
-  description: "The talk will cover the basics of RxJava with Observables(events and sequences), Schedulers and Operators. Further the combination with the networking library Retrofit and the Retrolambda plug-in to bring functional programming style to Android. And finally how to integrate all in Android and how we have benefited in George Go."
-  track: "Android"
+  id: 112
+  title: "Zookeeper"
+  description: "Leader election and automatic fail over are two common tasks in every distributed environment. There are various reasons why multiple instances of the same software are running at the same time, for example because of load balancing, hot standby or dedicated instances for different tasks (same software but other configuration, etc.). Depending on your architecture, different aspects of these are more important than others. Furthermore, it is easier to develop services that have one master and one or more slaves than developing service set-ups in which every service is equal. This talk will show a quick example of how to achieve this goal using Zookeeper."
   subtype: presentation
-  speakers: ["michael-greifeneder"]
+  track: "Infrastructure"
+  speakers: ["rene-schakmann"]
   language: English
 -
-  id: B07
-  title: "Refurbishing a legacy application - going responsive"
-  description: "About the hassles and pains in maintaining and developing a real-world business webapplication and trying to keep up with latest movements in user experience and usability movements. What the possible options are, if you want to support a mobile workforce with your existing webapplication. How you can approach a solution even with your applied old style XYZ frameworks. Why n-tiered applications have an easier path to go responsive and why you should choose your used frameworks wisely. What are the substantial differences between a client-side and a server-side approach. How you can use feature-toggles and skinning to smoothly introduce responsive features in your existing application. Why HTML5/JS is better and cheaper than any native app development approach in the long run. That you should rewrite your frontend if you have the money and the time."
-  track: "Architecture"
-  subtype: "Presentation"
-  speakers: ["marc-edem", "gabriel-gruber"]
+  id: 113
+  title: "Hybrid Appokalypsis"
+  description: "In 2012 Mark Zuckerberg mentioned that their biggest mistake was to bet too much on HTML5 for their mobile apps. Four years later hybrid mobile apps that present the user with an HTML based UI in a native wrapper still have a bad reputation. However, hybrid apps have spent that time sneaking their way onto our desktops. Atom, Spotify and Slack all use web technologies to power some or all of their desktop applications. In this talk, we will focus on hybrid desktop development with Electron looking at the differences between mobile and desktop development and finding out how to get started building our own cross platform desktop applications."
+  subtype: presentation
+  track: "Javascript"
+  speakers: ["dominik-kundel"]
   language: English
 -
-  id: B08
-  title: "Microservice - no fluff the REAL stuff"
-  description: "Some developers tend to believe that big data and huge traffics are pre-requisites to harness and reap the benefits offered by microservices. However, there are many problems like polyglot persistence, faster continuous build cycle, shorter release plan, etc. that can be solved by applying microservice architecture even in smaller organizations. You don't have to be a software giant to leverage stability, effectiveness and flexibility provided by microservices. Microservice architecture has a lot to offer even for smaller organizations. In this talk, we will walk through the key concepts like service discovery & registry, circuit breaker, API gateway and edge service. Build a bunch of microservices demonstrating practical implementation of these patterns using open source components like Eureka, Zuul, Hystrix and powered by spring cloud. Lastly, we will deploy our microservices on a container based solution, i.e. Docker and demonstrate how to use docker-compose for defining and running micro services."
-  track: "Architecture"
+  id: 114
+  title: "Introducing the new Firebase"
+  description: "Firebase is a mobile platform that helps you quickly develop high-quality apps, grow your user base, and earn more money. It is made up of complementary features that you can mix-and-match to fit your needs. In this session, Tim will run you through the 15 different features that help you build an effectively scaling and high-performing application that works equally well on Android, iOS and the web."
   subtype: presentation
-  speakers: ["nakul-mishra"]
+  track: "Mobile"
+  speakers: ["tim-messerschmidt"]
   language: English
 -
-  id: A09
-  title: "Redux and React"
-  description: "Introduction to React in combination with Redux. Redux helps you to develop applications in a  simple way while having features like time-travel available during development."
-  track: "Frontend"
+  id: 115
+  title: "How to generate a REST application in 5 minutes"
+  description: "This talk will show how you can use Swagger-Codegen to generate a complete web application and deploy to application servers. Examples: * CXF 3 * Spring-WebMVC * Resteasy First I'll demo how to generate the applications & how they work in the container (Tomcat + Jboss EAP). The talk will continue how this works in Swagger-Codegen and how additional features can be added to the generator (e.g. adding Gzip-support, enhancing test cases, add additional configuration files, etc.). Additionally, I can show how a client SDK can be generated & used for e.g. Javascript (I added the Javascript generator for Swagger-Codegen in Dec. 2015)."
   subtype: presentation
-  speakers: ["nik-graf"]
+  track: Web
+  speakers: ["johannes-fiala"]
   language: English
 -
-  id: A03
-  title: "10 things you did not know about Android M"
-  description: "Top features about Marshmallow and facts you might not know about Android M"
-  track: "Android"
+  id: 116
+  title: "A Modern Mobile Web Journey: From AMP to PWA"
+  description: "Accelerated Mobile Pages (AMP) delivers outstanding page-load performance for users browsing content on the mobile web, which is hugely important on limited or flaky networks. Progressive Web Apps (PWA) deliver reliable performance for re-visits to sites thanks to Service Workers and allows unprecedented engagement via push notifications and the App Shell architecture.<br>AMP gets content in front of users fast - PWAs enable rich experiences and engagement. What if I told you there’s a way to utilize the unique power of both? To build a web experience that loads in an instant and upgrades you to maximum interactivity and engagement? We’re making it happen. Come to learn how."
   subtype: presentation
-  speakers: ["iulia-marneanu"]
-  language: English
--
-  id: B04
-  title: "From AR to VR: Technologies for implementing Immersive Solutions"
-  description: "According to various experts there will be a dominant new computing platform every 10 years. Immersive computing seems to be the next big thing and many vendors are working on Hard- and Software to make this evolution happen. This highlight talk will give an overview about existing and upcoming Hardware- and Software Technologies like Intel RealSense required for building immersive solutions spanning the whole digital experience spectrum from Augmented-, Mixed- up to Virtual Reality Applications."
-  track: "Technology"
-  subtype: presentation
-  speakers: ["thomas-fickert"]
-  language: English
--
-  id: A08
-  title: "Look Ma, No Server: An introduction to creating apps in a BaaS world"
-  description: "This talk is an introduction to creating JavaScript and native apps on a backend-as-a-service (BaaS) platform using a real-world example app. Audience members will leave the talk understanding the tradeoffs of using a BaaS provider like Parse, Amazon Web Services Lambda, or Apache Usergrid over a traditional software-as-a-service platform and how to get started building their own apps. Server-free backends are becoming a viable choice for many mobile and front-end applications. By creating high-level abstractions over backend services using easy-to-use client SDKs, developers can quickly build high-quality, performant apps without worrying about scaling, server provisioning or database maintenance. This is a simplified way to create client-facing applications that requires developers to learn new SDKs and development methods. Using the popular Javascript TodoMVC project as inspiration, this talk will cover building a simple to-do list application that interfaces with a simple backend for persisting and retrieving user to-do lists in under 20 minutes. Using clear code examples, there will be a focus on introducing audience members to key BaaS concepts like running custom business logic in JavaScript and authentication SDKs. Deployment, testing and server-side architecture will be also be highlighted. Although a specific open-source BaaS platform will be used for example purposes (Apache Usergrid), the concepts presented will be applicable to popular commercial BaaS solutions like Parse and AWS Lambda. Backend-as-a-service platforms allow developers to easily create complex apps and their popularity for mobile and front-end developers continues to grow. By covering the basics of creating a typical multi-platform web and mobile application, audience members will be able to assess the viability of going server-less."
-  track: "Architecture"
-  subtype: presentation
-  speakers: ["clay-smith"]
-  language: English
--
-  id: A04
-  title: "How to measure and improve Android code quality"
-  description: "Android projects get bigger and more complex constantly, thus they tend to acquire a lot of technical debt and clutter. To resist this, we need to be aware of changes in project quality in first place. Many Android developers already use a continuous integration server to build, test and distribute their apps. But how can you automatically measure development quality? A variety of tools is available that measure different aspects of a project. In this talk I will present the most useful tools and show how to automate them with a Jenkins build server. These include tools measuring code style violations, analyzing static code for possible bugs, code coverage tools to estimate testing efforts, but also ones that find memory leaks, or verify the up-to-dateness of libraries used. I will demonstrate which tools of this selection can be combined into a dashboard to give developers a glance able project health overview. In conclusion, I will provide insights, how useful these tools are and how a team improves its coding habits with them instead of just gaming the metrics."
-  track: "Android"
-  subtype: presentation
-  speakers: ["janusz-leidgens"]
-  language: English
--
-  id: B01
-  title: "Europe goes open-source"
-  description: "5 years ago the EU Commision and corporates kick-started a project aiming to create FIWare (Future Internet ware), a technology that enables cost-efficient development of digital solutions. FIWare is an open-source cloud platform with public and royalty-free APIs for different verticals, such as Media, Agrifood, Energy etc. To mention few, there are APIs that make audiovisual content accessible like text and 3D maps ready for your applications. FIWare is running on 17 maintained data centers that are located accross Europe. Open data are available so that developers can quickly create prototypes. EU has dedicated funds for ideas that are executed using FIWare, as well as for building up commercial nodes. I am looking forward to introduce you to possibilities related to Future Internet."
-  track: "Technology"
-  subtype: presentation
-  speakers: ["eva-maurina"]
-  language: English
--
-  id: A06
-  title: "Developing for the Semantic Web"
-  description: "Semantic Web and Linked Data is the next evolution after Hyperlinked Text. This talk will present a demo WebApplication based on Semantic Web and Linked Data technologies: SPARQLing Cocktails. Other demo application and use cases will also be discussed."
-  track: "Technology"
-  subtype: presentation
-  speakers: ["timea-turdean"]
-  language: English
--
-  id: B06
-  title: "Ansible - simple IT Automation"
-  description: "This talk presents Ansible, an automation tool for the setup and configuration of servers. It helps to maintain an overview especially in the administration of many servers in the data center or in cloud environments. Ansible allows a quality-assured rollout of software and thus represents an important building block in DevOps concept of business."
-  track: "Technology"
-  subtype: presentation
-  speakers: ["gerhard-hipfinger"]
-  language: English
--
-  id: B02
-  title: "How I learned to love legacy code, and why you should too!"
-  description: "For a long time I thought that working on a green field project was the best thing that could happen to a developer. I would look at the nightmarish company code base blaming the incompetence of the people who came before me. If only they read more books or had better mentors - I would say, but I was wrong. It's time for us to face the ugly truth about legacy code, and learn why and how to embrace it."
-  track: "Technology"
-  subtype: presentation
-  speakers: ["rafael-ordog"]
-  language: English
--
-  id: B03
-  title: "Node.js Everything"
-  description: "In this talk we give a brief introduction to node.js and why it matters for you as a software developer."
-  track: "Technology"
-  subtype: presentation
-  speakers: ["christoph-walcher"]
-  language: English
--
-  id: B09
-  title: "The methods of sandboxing and isolation"
-  description: "In the talk we will present various applied techniques for sandboxing and isolation. Starting with description of ways for isolation in selected programming languages, we will proceed to describe the concepts used in various implementations of a fully-fledged sandbox at application level (design philosophy, limitations). Using the presented information to outline expectations for a sandbox solution, we will progress to detail chosen features of modern operating systems applicable and already used for sandbox implementation at OS level. We will take a look how these features are integrated into existing sandboxing solutions. Finally at the end we will see how the concept of sandbox can be used to implement OS independent software / application development platforms, what approaches are used there, discuss selected working prototypes of this effort, and sketch where the development in this area might be heading in the future."
-  track: "Technology"
-  subtype: presentation
-  speakers: ["jan-lieskovsky"]
-  language: English
--
-  id: C01
-  title: "Introduction into Google Beacons"
-  description: "This is a short introduction talk into programming for Google Beacons, an open standard for Bluetooth Smart based Beacons which is compatible with Android and iOS. The talk will focus on Android programming but also show samples of corresponding iOS code."
-  subtype: presentation
-  language: English
--
-  id: xxx
-  title: "TBA"
-  description: "To be announced"
-  track: "TBA"
-  subtype: presentation
-  speakers: []
+  track: Web
+  speakers: ["paul-bakaus"]
   language: English
 -
   id: 200

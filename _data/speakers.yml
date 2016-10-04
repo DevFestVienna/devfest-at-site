@@ -1,6 +1,60 @@
 -
-  id: "gerhard-hipfinger"
+  id: "paul-bakaus"
+  name: "Paul"
+  surname: "Bakaus"
+  current: "true"
+  title: "Software Engineer"
+  company: "Google"
+  bio: "Paul Bakaus is a Software Engineer at Google, heading up advocacy and outreach for DevTools, AMP and Games. He assists developers, designers, and filmmakers to create better, faster, more immersive and more convincing digital experiences. Prior to joining Google, he created the popular UI library jQuery UI now being used by over 14% of the popular web. Paul also created the Aves Engine,the world’s first prototype of a fully interactive HTML5 game engine - which he ultimately sold to Zynga."
+  thumbnailUrl: "PaulBakaus.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/pbakaus" }
+    - { name: "github", link: "https://github.com/pbakaus" }
+    - { name: "site", link: "https://paulbakaus.com/" }
+-
+  id: "johannes-fiala"
+  name: "Johannes"
+  surname: "Fiala"
   current: true
+  title: "Java Developer"
+  company: "Fwd GmbH"
+  bio: "Johannes is a Java developer since Java 1.3, and Javascript developer since Javascript 1.0"
+  thumbnailUrl: "JohannesFiala.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/johannes_fiala" }
+-
+  id: "philipp-krenn"
+  current: true
+  name: "Philipp"
+  surname: "Krenn"
+  title: "Developer Advocate"
+  company: "Elastic"
+  bio: "Philipp is a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports."
+  thumbnailUrl: "PhilippKrenn.jpg"
+  social: {
+    - { name: "twitter", link: "https://twitter.com/xeraa" }
+-
+  id: "rene-schakmann"
+  current: true
+  name: "Rene"
+  surname: "Schakmann"
+  title: "Developer"
+  company: "willhaben"
+  bio: "Rene is working at willhaben.at as developer and solution architect. He studied Software Engineering and Business Informatics at the Technical University of Vienna. His areas of interest are mostly in building scalable and distributed system."
+  thumbnailUrl: "ReneSchakmann.jpg"
+-
+  id: "dominik-kundel"
+  current: true
+  name: "Dominik"
+  surname: "Kundel"
+  title: "Developer Evangelist"
+  company: "Twilio"
+  bio: "Dominik is a developer evangelist at Twilio, a company founded to disrupt telecommunications."
+  thumbnailUrl: "DominikKundel.jpg"
+-
+-
+  id: "gerhard-hipfinger"
+  current: false
   name: "Gerhard"
   surname: "Hipfinger"
   title: "CEO/Owner"
@@ -12,7 +66,7 @@
     - { name: "linkedin", link: "https://at.linkedin.com/in/gerhardhipfinger"}
 -
   id: "rafael-ordog"
-  current: true
+  current: false
   name: "Rafael"
   surname: "Ördög"
   title: "Lead Developer"
@@ -24,7 +78,7 @@
     - { name: "twitter", link: "https://twitter.com/devillsroom" }
 -
   id: "eva-maurina"
-  current: true
+  current: false
   rockstar: true
   name: "Eva"
   surname: "Maurina"
@@ -37,7 +91,7 @@
     - { name: "twitter", link: "https://twitter.com/evamaurina"}
 -
   id: "christoph-walcher"
-  current: true
+  current: false
   name: "Christoph"
   surname: "Walcher"
   title: "Founder"
@@ -50,7 +104,7 @@
     - { name: "github", link: "https://github.com/saintedlama/"}
 -
   id: "janusz-leidgens"
-  current: true
+  current: false
   rockstar: true
   name: "Janusz"
   surname: "Leidgens"
@@ -66,7 +120,7 @@
     - { name: "google-plus", link: "https://plus.google.com/+JanuszLeidgens"}
 -
   id: "clay-smith"
-  current: true
+  current: false
   rockstar: true
   name: "Clay"
   surname: "Smith"
@@ -80,7 +134,7 @@
     - { name: "github", link: "https://github.com/smithclay"}
 -
   id: "timea-turdean"
-  current: true
+  current: false
   rockstar: true
   name: "Timea"
   surname: "Turdean"
@@ -95,7 +149,7 @@
     - { name: "twitter", link: "https://twitter.com/TimeaTurdean"}
 -
   id: "thomas-fickert"
-  current: true
+  current: false
   rockstar: true
   name: "Thomas"
   surname: "Fickert"
@@ -108,7 +162,7 @@
     - { name: "linkedin", link: "https://www.linkedin.com/in/tfickert" }
 -
   id: "iulia-marneanu"
-  current: true
+  current: false
   rockstar: true
   name: "Iulia"
   surname: "Marneanu"
@@ -122,7 +176,7 @@
     - { name: "twitter", link: "https://twitter.com/imarneanu"}
 -
   id: "nik-graf"
-  current: true
+  current: false
   rockstar: true
   name: "Nik"
   surname: "Graf"
@@ -134,7 +188,7 @@
     - { name: "twitter", link: "https://twitter.com/nikgraf" }
 -
   id: "nakul-mishra"
-  current: true
+  current: false
   name: "Nakul"
   surname: "Mishra"
   title: "Senior Software Developer"
@@ -145,7 +199,7 @@
     - { name: "twitter", link: "https://twitter.com/nklmish"}
 -
   id: "jan-lieskovsky"
-  current: true
+  current: false
   name: "Ján"
   surname: "Lieskovský"
   title: "Software Engineer"
@@ -192,7 +246,7 @@
   id: "marc-edem"
   name: "Marc Edem"
   surname: "Aziahome"
-  current: true
+  current: false
   company:
   title:
   bio: "My full name is Ayi Edem Segniagbeto Aziahome (but call me Edem just to make it short). I am a Student in Business Informatics (Wirtschaftsinformatik) at the Vienna University of Technology (TU Wien). I'm part of the GDG Vienna, JSUG and an enthusiast about Google technologies. Moreover, i'm interested in Usability Engineering of apps and software. I'm now currently front-end developer but also interested in Data-Mining and writing my bachelor thesis in Sentiment analysis, a new trend by using some data-mining algorithms and techniques."
@@ -207,7 +261,7 @@
   id: "gabriel-gruber"
   name: "Gabriel"
   surname: "Gruber"
-  current: true
+  current: false
   company: "Workflow EDV GmbH"
   title: "CEO/Owner"
   bio: "Passionate DevOp and IT PRO Started coding and networking in a hacking comunity back in 1988 on good-old Commodore C64. Having a degree in Business Computing (Wirtschaftsinformatik) on the technical University of Vienna. Made my hands dirty in big Groupware development and deployment projects in some major Austrian banks. Enthusiastic Open Source supporter and user (Spring and Hibernate user back in 2005). Architect and Lead developer for Workflow EDV's main product line Webdesk EWP (personalwolke.at)"
@@ -367,7 +421,7 @@
     - { name: "google-plus", link: "https://plus.google.com/112206131267563415304" }
 -
   id: "michael-greifeneder"
-  current: true
+  current: false
   name: "Michael"
   surname: "Greifeneder"
   company: "BeeOne"
@@ -389,13 +443,18 @@
   id: "tim-messerschmidt"
   name: "Tim"
   surname: "Messerschmidt"
-  company: "PayPal"
-  title: "Lead Developer Evangelist"
-  bio: "As a long time mobile and web developer, Tim channels his knowledge and experience as PayPal's Lead Developer Evangelist in EMEA. He is passionate about startups and serves as mentor at multiple incubators and accelerators. Prior joining PayPal Tim used to work with Neofonie Mobile and Samsung focussing on several mobile projects. In his spare time, he leads and creates training classes in all sorts of developer-oriented topics, contributes to Open Source projects and is one of the authors of the Mobile Developer's Guide to the Galaxy, as well as numerous articles published in print magazines."
+  company: "Google"
+  current: true
+  title: "Developer Relations"
+  bio: "Tim Messerschmidt oversees Germany as Regional Lead for Google's Developer Relations team. When not working with Android, he loves building backends with Node.js and researching user authentication concepts. Recently, Tim co-authored a book about identity concepts and data security. Before joining Google, Tim ran PayPal's Developer Relations team across EMEA and APAC."
   thumbnailUrl: "TimMesserschmidt.jpg"
-  rockstar: false
+  rockstar: true
   social: 
-    - { name: "twitter", link: "https://twitter.com/seraandroid" }
+    - {name: "site", link: "https://timmesserschmidt.com"}
+    - {name: "google-plus", link: "http://plus.google.com/+TimMesserschmidt"}
+    - {name: "github", link: "http://github.com/seraphimserapis"}
+    - {name: "linkedin", link: "http://linkedin.com/in/timmesserschmidt"}
+    - {name: "twitter", link: "http://twitter.com/seraandroid"}
 - 
   id: "andreas-petersson"
   name: "Andreas"
@@ -538,7 +597,7 @@
     - { name: "site", link: "http://ladstatt.blogspot.com/" }
 -
   id: "martin-liersch"
-  current: true
+  current: false
   name: "Martin"
   surname: "Liersch"
   bio: "I'm a passionate Android Developer since I got my first Android 2.x device (Motorola Milestone). I have several apps in the Play Store, some with > 1 million downloads. I'm also a co-organizer of GDG Bodensee and a frequent speaker at Android events all over Europe."

@@ -16,17 +16,17 @@
     - {
     	startTime: "10:00",
     	endTime: "10:25",
-    	sessionIds: [A01, B01]
+    	sessionIds: [111, 112]
     }
     - {
         startTime: "10:30",
         endTime: "11:25",
-        sessionIds: [A02, B02]
+        sessionIds: [113, 114]
     }
     - {
     	startTime: "11:30",
     	endTime: "11:55",
-    	sessionIds: [A03, B03]
+    	sessionIds: [115, 116]
     }
     - {
         startTime: "12:00",
