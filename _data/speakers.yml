@@ -1,4 +1,14 @@
 -
+  id: "marco-sampellegrini"
+  name: "Marco"
+  surname: "Sampellegrini"
+  title: "Lead Developer"
+  current: true
+  bio: "Lead developer at a startup in Milan. I mainly work with Node and React Native these days, tons of fun."
+  thumbnailUrl: "MarcoSampellegrini.jpg"
+  social:
+    - { name: "github", link: "https://github.com/alpacaaa" }
+-
   id: "barbara-ondrisek"
   name: "Barbara"
   surname: "Ondrisek"
