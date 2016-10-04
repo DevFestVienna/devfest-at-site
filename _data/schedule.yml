@@ -1,6 +1,6 @@
 - 
-  date: "2015-11-21"
-  dateReadable: "21 November"
+  date: "2016-11-05"
+  dateReadable: "5 November"
   dateDescription: "Talks and Presentations"
   location: "TU Wien"
   locationLink: "/location/#tu-wien"
@@ -14,68 +14,58 @@
         sessionIds: [100]
     }
     - {
-    	startTime: "10:00",
-    	endTime: "10:25",
-    	sessionIds: [111, 112]
-    }
-    - {
-        startTime: "10:30",
-        endTime: "11:25",
-        sessionIds: [113, 114]
-    }
-    - {
-    	startTime: "11:30",
-    	endTime: "11:55",
-    	sessionIds: [115, 116]
-    }
-    - {
-        startTime: "12:00",
-        endTime: "12:55",
-        sessionIds: [A04, B04]
-    }
-    - {
-        startTime: "13:00",
-        endTime: "14:30",
+        startTime: "10:00",
+        endTime: "10:15",
         sessionIds: [101]
     }
     - {
-        startTime: "14:30",
-        endTime: "14:55",
-        sessionIds: [A06, B06]
+    	startTime: "10:15",
+    	endTime: "11:15",
+    	sessionIds: [111, 112]
+    }
+    - {
+        startTime: "11:15",
+        endTime: "12:15",
+        sessionIds: [113, 114]
+    }
+    - {
+        startTime: "12:15",
+        endTime: "14:00",
+        sessionIds: [103]
+    }
+    - {
+    	startTime: "14:00",
+    	endTime: "15:00",
+    	sessionIds: [115, 116]
     }
     - {
         startTime: "15:00",
-        endTime: "15:25",
-        sessionIds: [099, B07]
-    }
-    - {
-        startTime: "15:30",
-        endTime: "16:00",
+        endTime: "15:30",
         sessionIds: [102]
     }
     - {
-        startTime: "16:00",
-        endTime: "16:55",
-        sessionIds: [A08, B08]
+        startTime: "15:30",
+        endTime: "16:30",
+        sessionIds: [000, 000]
     }
     - {
-        startTime: "17:00",
-        endTime: "17:55",
-        sessionIds: [A09, B09]
+        startTime: "16:30",
+        endTime: "17:30",
+        sessionIds: [099, 000]
     }
     - {
         startTime: "18:00",
         endTime: "22:00",
-        sessionIds: [103]
+        sessionIds: [104]
     }
 - 
-  date: "2015-11-22"
-  dateReadable: "22 November"
-  dateDescription: "Bluetooth Beacons Hackathon"
-  location: "Raum D / quartier21"
-  locationLink: "/location/#raum-d"
+  date: "2016-11-06"
+  dateReadable: "6 November"
+  dateDescription: "Hackathon"
+  location: "Stockwerk Coworking Space"
+  locationLink: "/location/#stockwerk"
   tracks: 
-    - {title: "Raum D / quartier21"}
+    - {title: "Stockwerk Coworking Space"}
   timeslots: 
     - {
     	startTime: "09:45",

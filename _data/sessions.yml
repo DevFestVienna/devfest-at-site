@@ -1,11 +1,11 @@
 -
   id: 100
-  title: "Welcome and Registration"
+  title: "Breakfast & Registration"
   place: "Hall"
   service: true
 -
   id: 101
-  title: "Lunch Break"
+  title: "Welcome"
   place: "Hall"
   service: true
 -
@@ -15,6 +15,11 @@
   service: true
 -
   id: 103
+  title: "Lunch Break"
+  place: "Hall"
+  service: true
+-
+  id: 104
   title: "After Party"
   place: "To be announced"
   service: true
