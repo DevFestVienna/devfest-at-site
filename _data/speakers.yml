@@ -1,4 +1,12 @@
 -
+  id: "klaus-harrer"
+  name: "Klaus"
+  surname: "Harrer"
+  title: "Lead Software Engineer"
+  current: true
+  bio: "Lead Software Engineer at openForce. Current fields of interest: Artificial Intelligence (mostly on Neural Networks, Machine Learning), efficient development, bouldering."
+  thumbnailUrl: "KlausHarrer.jpg"
+-
   id: "marco-sampellegrini"
   name: "Marco"
   surname: "Sampellegrini"

@@ -102,6 +102,14 @@
   speakers: ["marco-sampellegrini"]
   language: English
 -
+  id: 119
+  title: "Twitter Sentiment Analysis"
+  description: "In this talk we show how to automatically classify the sentiment of Twitter messages leveraging the Lightbend (former Typesafe) Stack and Apache Spark. These messages are classified as either positive or negative with respect to a query term. Users who want to research the sentiment of products before purchase, or companies that want to monitor the public sentiment of their brands can make use of this kind of application."
+  subtype: presentation
+  track: Backend
+  speakers: ["klaus-harrer"]
+  language: English
+-
   id: 200
   title: "Breakfast"
   service: true
