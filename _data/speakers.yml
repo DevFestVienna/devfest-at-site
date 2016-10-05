@@ -1,8 +1,25 @@
 -
+  id: "tim-messerschmidt"
+  name: "Tim"
+  surname: "Messerschmidt"
+  company: "Google"
+  current: true
+  title: "Developer Relations"
+  bio: "Tim Messerschmidt oversees Germany as Regional Lead for Google's Developer Relations team. When not working with Android, he loves building backends with Node.js and researching user authentication concepts. Recently, Tim co-authored a book about identity concepts and data security. Before joining Google, Tim ran PayPal's Developer Relations team across EMEA and APAC."
+  thumbnailUrl: "TimMesserschmidt.jpg"
+  rockstar: true
+  social: 
+    - {name: "site", link: "https://timmesserschmidt.com"}
+    - {name: "google-plus", link: "http://plus.google.com/+TimMesserschmidt"}
+    - {name: "github", link: "http://github.com/seraphimserapis"}
+    - {name: "linkedin", link: "http://linkedin.com/in/timmesserschmidt"}
+    - {name: "twitter", link: "http://twitter.com/seraandroid"}
+-
   id: "klaus-harrer"
   name: "Klaus"
   surname: "Harrer"
   title: "Lead Software Engineer"
+  company: "openForce"
   current: true
   bio: "Lead Software Engineer at openForce. Current fields of interest: Artificial Intelligence (mostly on Neural Networks, Machine Learning), efficient development, bouldering."
   thumbnailUrl: "KlausHarrer.jpg"
@@ -21,6 +38,7 @@
   name: "Barbara"
   surname: "Ondrisek"
   title: "Senior Developer"
+  rockstar: true
   current: true
   bio: "Barbara Ondrisek is a senior developer with +15 years of experience and previously worked on the online banking platform 'George' by Erste Bank. Now she is testing the limits of all major messaging platforms."
   thumbnailUrl: "BarbaraOndrisek.jpg"
@@ -28,6 +46,7 @@
   id: "paul-bakaus"
   name: "Paul"
   surname: "Bakaus"
+  rockstar: true
   current: "true"
   title: "Software Engineer"
   company: "Google"
@@ -53,6 +72,7 @@
   current: true
   name: "Philipp"
   surname: "Krenn"
+  rockstar: true
   title: "Developer Advocate"
   company: "Elastic"
   bio: "Philipp is a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports."
@@ -77,7 +97,6 @@
   company: "Twilio"
   bio: "Dominik is a developer evangelist at Twilio, a company founded to disrupt telecommunications."
   thumbnailUrl: "DominikKundel.jpg"
--
 -
   id: "gerhard-hipfinger"
   current: false
@@ -465,22 +484,6 @@
   rockstar: false
   social:
     - { name: "google-plus", link: "https://plus.google.com/106401792982259937659" }
--
-  id: "tim-messerschmidt"
-  name: "Tim"
-  surname: "Messerschmidt"
-  company: "Google"
-  current: true
-  title: "Developer Relations"
-  bio: "Tim Messerschmidt oversees Germany as Regional Lead for Google's Developer Relations team. When not working with Android, he loves building backends with Node.js and researching user authentication concepts. Recently, Tim co-authored a book about identity concepts and data security. Before joining Google, Tim ran PayPal's Developer Relations team across EMEA and APAC."
-  thumbnailUrl: "TimMesserschmidt.jpg"
-  rockstar: true
-  social: 
-    - {name: "site", link: "https://timmesserschmidt.com"}
-    - {name: "google-plus", link: "http://plus.google.com/+TimMesserschmidt"}
-    - {name: "github", link: "http://github.com/seraphimserapis"}
-    - {name: "linkedin", link: "http://linkedin.com/in/timmesserschmidt"}
-    - {name: "twitter", link: "http://twitter.com/seraandroid"}
 - 
   id: "andreas-petersson"
   name: "Andreas"
