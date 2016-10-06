@@ -7,7 +7,6 @@
   title: "Developer Relations"
   bio: "Tim Messerschmidt oversees Germany as Regional Lead for Google's Developer Relations team. When not working with Android, he loves building backends with Node.js and researching user authentication concepts. Recently, Tim co-authored a book about identity concepts and data security. Before joining Google, Tim ran PayPal's Developer Relations team across EMEA and APAC."
   thumbnailUrl: "TimMesserschmidt.jpg"
-  rockstar: true
   social: 
     - {name: "site", link: "https://timmesserschmidt.com"}
     - {name: "google-plus", link: "http://plus.google.com/+TimMesserschmidt"}
