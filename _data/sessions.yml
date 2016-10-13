@@ -115,7 +115,7 @@
   description: "Want to take advantage of machine learning without building and training your own models? The Google Cloud Vision and Speech APIs expose the machine learning functionality behind Google Photos, Google Images, and the speech recognition in 'Ok, Google.' Developers can now build these features into their apps with a simple REST API call. We’ll provide an overview of these APIs, dive into code, and risk it all with a live demo."
   subtype: presentation
   track: Cloud
-  spakers: ["robert-kubis"]
+  speakers: ["robert-kubis"]
   language: English
 -
   id: 200

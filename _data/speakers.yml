@@ -4,6 +4,7 @@
   surname: "Kubis"
   company: "Google"
   current: true
+  rockstar: true
   title: "Cloud Developer Advocate"
   bio: "Robert is a Senior Developer Advocate for the Google Cloud Platform based in London, UK, focusing on big data technologies and machine learning.  Before joining Google, Robert collected over 10 years of experience in Software Development and Architecture. He has driven multiple full-stack application developments at SAP with a passion for algorithms, distributed systems and databases. In his spare time he enjoys following tech trends & good restaurants, traveling and improving his photographing skills."
   thumbnailUrl: "RobertKubis.png"
