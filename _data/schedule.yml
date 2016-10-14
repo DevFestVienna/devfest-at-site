@@ -78,12 +78,7 @@
     	sessionIds: [200]
     }
     - {
-        startTime: "10:00",
-        endTime: "10:45",
-        sessionIds: [C01]
-    }
-    - {
-    	startTime: "10:45",
+    	startTime: "10:00",
     	endTime: "12:30",
     	sessionIds: [201]
     }
