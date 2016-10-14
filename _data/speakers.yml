@@ -23,13 +23,13 @@
   social:
     - {name: "twitter", link: "https://twitter.com/williamsgarth"}
 -
-  id: "said-tahsin-dain"
+  id: "said-tahsin-dane"
   name: "Said"
-  surname: "Tahsin Dain"
+  surname: "Tahsin Dane"
   title: "Google Developer Expert"
   current: true
   bio: "Said is an Google Developer Expert on Android. He works at Novoda, Berlin. He has been an Android Developer since Cupcake with apps for Android, Google Glass, Android Wear. He is a very passionate developer who tries to live on the bleeding edge of technology and is very interested in mobile UX.<br>He is also an active member in GDG community enjoying organizing various conferences and hackathons. In addition, he is part of GDG[X] - a GDG related open-source organization."
-  thumbnailUrl: "SaidTahsinDain.jpg"
+  thumbnailUrl: "SaidTahsinDane.jpg"
   social:
     - {name: "google-plus", link: "https://plus.google.com/+SaidTahsinDane"}
     - {name: "twitter", link: "http://twitter.com/tasomaniac"}
