@@ -13,6 +13,16 @@
     - {name: "twitter", link: "https://twitter.com/hostirosti"}
     - {name: "site", link: "https://medium.com/@hostirosti"}
 -
+  id: "garth-williams"
+  name: "Garth"
+  surname: "Williams"
+  title: "Freelancer"
+  current: true
+  bio: "Garth Williams is a freelance software developer focusing on web technologies. Garth has designed and built systems for the UN, defence, healthcare and private sectors. He is also an active open source contributor, currently contributing to Cerebral."
+  thumbnailUrl: "GarthWilliams.jpg"
+  social:
+    - {name: "twitter", link: "https://twitter.com/williamsgarth"}
+-
   id: "tim-messerschmidt"
   name: "Tim"
   surname: "Messerschmidt"

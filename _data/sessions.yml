@@ -118,6 +118,14 @@
   speakers: ["robert-kubis"]
   language: English
 -
+  id: 121
+  title: "The Distributed Web - Returning the Past by Using the Technology of The Future"
+  description: "At its inception the internet was intended to provide an open platform for information sharing.<br>1.0) Everyone was welcome to run up their own web server and share their ideas and creations without without restriction. <br>2.0) What actually happened is that a small number of organisations took control of people's data and held it in silos tightly restricting content and access. <br>3.0) Using decentralised protocols we can release the grip of the "central hub" and start working on a future that brings us closer to how the web was originally intended."
+  subtype: presentation
+  track: Backend
+  speakers: ["garth-williams"]
+  language: English
+-
   id: 200
   title: "Breakfast"
   service: true
