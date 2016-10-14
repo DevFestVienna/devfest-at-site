@@ -126,6 +126,14 @@
   speakers: ["garth-williams"]
   language: English
 -
+  id: 122
+  title: "What's new in Android Wear 2.0?"
+  description: "More details to follow soon"
+  subtype: presentation
+  track: Android
+  speakers: ["said-tahsin-dain"]
+  language: English
+-
   id: 200
   title: "Breakfast"
   service: true
