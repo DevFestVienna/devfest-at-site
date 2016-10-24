@@ -71,8 +71,8 @@
   language: English
 -
   id: 115
-  title: "How to generate a REST application in 5 minutes"
-  description: "This talk will show how you can use Swagger-Codegen to generate a complete web application and deploy to application servers. Examples: * CXF 3 * Spring-WebMVC * Resteasy First I'll demo how to generate the applications & how they work in the container (Tomcat + Jboss EAP). The talk will continue how this works in Swagger-Codegen and how additional features can be added to the generator (e.g. adding Gzip-support, enhancing test cases, add additional configuration files, etc.). Additionally, I can show how a client SDK can be generated & used for e.g. Javascript (I added the Javascript generator for Swagger-Codegen in Dec. 2015)."
+  title: "How to generate a REST application (CXF/Spring)"
+  description: "This talk will show how you can use Swagger-Codegen to generate a complete web application (Apache CXF3 with Spring Boot-support) and deploy to application servers (e.g. Jboss).<br>Topics included:<br>*) Edit the Swagger contract using Swagger Editor<br>*) Configure the generator to use features of CXF (Gzip, Bean-Validation, Logging, ...)<br>*) Generate client SDKs (Java/Javascript)<br>*) access the application with the browser using Swagger-UI<br>*) generate PDF documentation using Swagger2Markup<br>*) Customize Swagger-Codegen Languages"
   subtype: presentation
   track: Web
   speakers: ["johannes-fiala"]
