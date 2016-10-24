@@ -30,7 +30,7 @@ logisticsMapCenterCoordinates: "48.1964423,16.369645"
 logisticsMapMobileCenterCoordinates: "48.1964423,16.369645"
 
 #Tweets feed
-twitterHashTag: "devfestvienna"
+twitterHashTag: "devfest16"
 twitterFeed: "/tweetledee/favoritesjson.php?c=10&cache_interval=900"
 
 # Subscribe
