@@ -35,7 +35,7 @@ for (i=0; i<speakers.length; i++) {
     'bio': deHtml(speakers[i].bio),
     'id': i+1,
     'name': speakers[i].name + ' ' + speakers[i].surname,
-    'photo': 'http://www.devfest.at/img/speakers' + speakers[i].thumbnailUrl
+    'photo': 'http://www.devfest.at/img/speakers/' + speakers[i].thumbnailUrl
   }
   if (speakers[i].title && speakers[i].company) {
     aSpeaker.title = speakers[i].title + ', ' + speakers[i].company;
