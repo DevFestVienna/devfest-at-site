@@ -2,9 +2,14 @@
 /_site
 /_site/**
 .sass-cache
+/node_modules
+/node_modules/**
+/css/main.min.css
+css/main.min.css
 Thumbs.db
 npm-debug.log
 /nbproject/private/
 nbproject/
 .DS_Store
 *.swp
+

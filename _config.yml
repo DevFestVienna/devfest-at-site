@@ -1,7 +1,7 @@
 ﻿# Build settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME', '/node_modules/']
 
 
 # Site settings
