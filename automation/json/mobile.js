@@ -61,7 +61,7 @@ for (i=0; i<speakers.length; i++) {
       else if (aLink.name == "github") {
         aSpeaker.github = aLink.link.replace(/https?:\/\/w?w?w?.?github.com\//, '');
       }
-      else if (aLink.link.includes("xing.com")) {
+      else if (aLink.link.indexOf("xing.com") !== -1) {
         aSpeaker.xing = aLink.link;
       }
       else {
