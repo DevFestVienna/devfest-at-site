@@ -55,7 +55,7 @@
 -
   date: "2016-11-06"
   dateReadable: "6 November"
-  dateDescription: "Hackathon"
+  dateDescription: "TensorFlow Hackathon"
   location: "Stockwerk Coworking Space"
   locationLink: "/location/#stockwerk"
   tracks:
@@ -67,16 +67,20 @@
         sessionIds: [200]
     -
         startTime: "10:00"
-        endTime: "12:30"
+        endTime: "10:30"
         sessionIds: [201]
+    -
+        startTime: "10:30"
+        endTime: "12:30"
+        sessionIds: [202]
     -
         startTime: "12:30"
         endTime: "13:30"
-        sessionIds: [202]
+        sessionIds: [203]
     -
         startTime: "13:30"
         endTime: "16:00"
-        sessionIds: [203]
+        sessionIds: [202]
     -
         startTime: "16:00"
         endTime: "17:00"

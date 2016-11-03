@@ -21,7 +21,8 @@
 -
   id: 104
   title: "After Party"
-  place: "To be announced"
+  description: "Join the afterparty - relax, chat & network. Drinks are on us!"
+  place: "Nelson's"
   service: true
 -
   id: 000
@@ -139,15 +140,16 @@
   service: true
 -
   id: 201
-  title: "Hacking Time"
+  title: "Codelab"
+  description: "Hands-on codelab about TensorFlow"
   service: true
 -
   id: 202
-  title: "Lunch Break"
+  title: "Hacking Time"
   service: true
 -
   id: 203
-  title: "Hacking Time"
+  title: "Lunch Break"
   service: true
 -
   id: 204
