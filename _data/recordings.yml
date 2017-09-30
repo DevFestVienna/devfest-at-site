@@ -1,4 +1,52 @@
 -
+  id: "going-elastic"
+  title: "Going Elastic"
+  description: "One of the hottest and most widely used tools for log monitoring and analytics at the moment is the Elastic Stack: * Elasticsearch doing the hard work of analyzing and searching large amounts of data. * Logstash and Beats for collecting them. * Kibana for powerful visualizations. This talk gives you an overview of the four technologies, how they are working together, and how they can solve your problems."
+  speakers: ["philipp-krenn"]
+  subtype: "presentation"
+  youtube: "-eTA2zymg8c"
+  year: "2016"
+  thumbnailUrl: "going-elastic.jpg"
+-
+  id: "zookeeper"
+  title: "Zookeeper"
+  description: "Leader election and automatic fail over are two common tasks in every distributed environment. There are various reasons why multiple instances of the same software are running at the same time, for example because of load balancing, hot standby or dedicated instances for different tasks (same software but other configuration, etc.). Depending on your architecture, different aspects of these are more important than others. Furthermore, it is easier to develop services that have one master and one or more slaves than developing service set-ups in which every service is equal. This talk will show a quick example of how to achieve this goal using Zookeeper."
+  speakers: ["rene-schakmann"]
+  youtube: "mn520rjPgog"
+  year: "2016"
+  thumbnailUrl: "zookeeper.jpg"
+-
+  id: "hybrid-appokalypsis"
+  title: "Hybrid Appokalypsis"
+  youtube: "oCERbTNABDI"
+  description: "In 2012 Mark Zuckerberg mentioned that their biggest mistake was to bet too much on HTML5 for their mobile apps. Four years later hybrid mobile apps that present the user with an HTML based UI in a native wrapper still have a bad reputation. However, hybrid apps have spent that time sneaking their way onto our desktops. Atom, Spotify and Slack all use web technologies to power some or all of their desktop applications. In this talk, we will focus on hybrid desktop development with Electron looking at the differences between mobile and desktop development and finding out how to get started building our own cross platform desktop applications."
+  speakers: ["dominik-kundel"]
+  year: "2016"
+  thumbnailUrl: "hybrid-appokalypsis.jpg"
+-
+  id: "android-wear"
+  youtube: "1l_7UlnIme4"
+  title: "What's new in Android Wear 2.0?"
+  thumbnailUrl: "android-wear.jpg"
+  speakers: ["said-tahsin-dane"]
+  year: "2016"
+-
+  id: "rest-app"
+  year: "2016"
+  title: "How to generate a REST application (CXF/Spring)"
+  description: "This talk will show how you can use Swagger-Codegen to generate a complete web application (Apache CXF3 with Spring Boot-support) and deploy to application servers (e.g. Jboss).<br>Topics included:<br>*) Edit the Swagger contract using Swagger Editor<br>*) Configure the generator to use features of CXF (Gzip, Bean-Validation, Logging, ...)<br>*) Generate client SDKs (Java/Javascript)<br>*) access the application with the browser using Swagger-UI<br>*) generate PDF documentation using Swagger2Markup<br>*) Customize Swagger-Codegen Languages"
+  youtube: "iyC9BWMe75Q"
+  thumbnailUrl: "rest-app.jpg"
+  speakers: ["johannes-fiala"]
+-
+  id: "amp"
+  youtube: "fIndMA1rQy0"
+  year: "2016"
+  thumbnailUrl: "amp.jpg"
+  title: "A Modern Mobile Web Journey: From AMP to PWA"
+  description: "Accelerated Mobile Pages (AMP) delivers outstanding page-load performance for users browsing content on the mobile web, which is hugely important on limited or flaky networks. Progressive Web Apps (PWA) deliver reliable performance for re-visits to sites thanks to Service Workers and allows unprecedented engagement via push notifications and the App Shell architecture.<br>AMP gets content in front of users fast - PWAs enable rich experiences and engagement. What if I told you there’s a way to utilize the unique power of both? To build a web experience that loads in an instant and upgrades you to maximum interactivity and engagement? We’re making it happen. Come to learn how."
+  speakers: ["paul-bakaus"]
+-
   id: "android-reactive"
   title: "Reactive Programming on Android"
   description: "The talk will cover the basics of RxJava with Observables(events and sequences), Schedulers and Operators. Further the combination with the networking library Retrofit and the Retrolambda plug-in to bring functional programming style to Android. And finally how to integrate all in Android and how we have benefited in George Go."
