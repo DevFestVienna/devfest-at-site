@@ -6,8 +6,9 @@
         position: relative;
         top: 50%;
         left: 0;
+        color: #000;
+        background-color: rgba(255,255,255,0.9);
         transform: translateY(-50%);
-        text-shadow: 2px 0 0 rgba(0,0,0,0.5), -2px 0 0 rgba(0,0,0,0.5), 0 2px 0 rgba(0,0,0,0.5), 0 -2px 0 rgba(0,0,0,0.5), 1px 1px rgba(0,0,0,0.5), -1px -1px 0 rgba(0,0,0,0.5), 1px -1px 0 rgba(0,0,0,0.5), -1px 1px 0 rgba(0,0,0,0.5);
         @media (max-width: 767px) {
             margin: 0;
             padding: 0;

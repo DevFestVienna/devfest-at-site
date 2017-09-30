@@ -5,18 +5,14 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
 
 .top-section-hero {
     .top-header {
-        background: rgba(160, 160, 160, 0.85);
-        &.after-scroll {
-            background: rgba(255, 255, 255, .9);
-        }
+        background: rgba(255, 255, 255, .9);
     }
 }
 .top-header {
     position: fixed;
     z-index: 500;
     width: 100%;
-    padding: 0 45px 35px 0;
-    background: rgba(0, 0, 0, 0.2);
+    padding: 0 45px 0 0;
     transition: $base-transition;
     @media (max-width: 767px) {
         padding: 0 45px 0 0;
@@ -24,25 +20,15 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     @media (min-width: 768px) and (max-width: 991px) {
         padding: 0 0 35px 34px;
     }
-    &.after-scroll {
-        padding-top: 0;
-        padding-bottom: 0;
-        background: rgba(255, 255, 255, .9);
-        box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, .15);
-    }
+    background: rgba(255, 255, 255, .9);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, .15);
 }
 .logo-header {
     display: block;
-    transform: translateY(20px);
+    transform: translateY(1px);
     transition: $base-transition;
     @media (max-width: 767px) {
         transform: translateX(-25px);
-    }
-    .top-header.after-scroll & {
-        transform: translateY(1px);
-        @media (max-width: 767px) {
-            transform: translateX(-25px);
-        }    
     }
     .logo {
         display: inline-block;
@@ -87,16 +73,13 @@ nav {
         padding: 0;
         list-style: none;
         text-align: left;
-        transform: translateY(40px);
+        transform: translateY(20px);
         transition: $base-transition;
         @media (max-width: 767px) {
             line-height: 20px;
             width: 95%;
             margin: 20px 0 0 5px;
             transform: translateY(0);  
-        }
-        .top-header.after-scroll & {
-            transform: translateY(20px);  
         }
     }
     li {
@@ -131,7 +114,7 @@ nav {
             &.current{
                 font-weight: $extra-xbold;
             }
-            .top-header.after-scroll & {
+            .top-header & {
                 color: $nav-scroll-color;
                 @media (max-width: 767px) {
                     top: 20px;
@@ -161,7 +144,7 @@ nav {
     width: 20px;
     height: 20px;
     fill: #e6e6e6;
-    .top-header.after-scroll & {
+    .top-header & {
         fill: #464646;
     }
 }
