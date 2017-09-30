@@ -7,6 +7,7 @@
 var fs = require('fs');
 var ent = require('ent');
 var YAML = require('yamljs');
+var shell = require('shelljs');
 var deHtml = function(s) {
   if (s) {
     s = s.replace(/<br>/g, '\n');
@@ -147,7 +148,8 @@ try {
   fs.accessSync(trg);
 }
 catch(e) {
-  fs.mkdirSync(trg);
+  // fs.mkdirSync(trg);
+  shell.mkdir('-p', trg);
 }
 try {
   fs.accessSync(trg + '/v1');

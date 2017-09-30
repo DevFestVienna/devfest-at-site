@@ -16,6 +16,7 @@ task :json do
   system "npm install fs"
   system "npm install ent"
   system "npm install yamljs"
+  system "npm install shelljs"
   system "node automation/json/mobile.js"
 end
 
