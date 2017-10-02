@@ -12,14 +12,8 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     position: fixed;
     z-index: 500;
     width: 100%;
-    padding: 0 45px 0 0;
+    // padding: 0 45px 0 0;
     transition: $base-transition;
-    @media (max-width: 767px) {
-        padding: 0 45px 0 0;
-    }
-    @media (min-width: 768px) and (max-width: 991px) {
-        padding: 0 0 35px 34px;
-    }
     background: rgba(255, 255, 255, .9);
     box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, .15);
 }
@@ -152,6 +146,7 @@ nav {
     float: right;
     transform: translateY(20px);
     right: 45px;
+    margin-right: 20px;
     transition: $base-transition;
 }
 .bottom-navlinks {

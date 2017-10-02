@@ -11,7 +11,7 @@
         transform: translateY(-50%);
         @media (max-width: 767px) {
             margin: 0;
-            padding: 0;
+            padding: 10px 0;
         }
         p {
             font-size: $base-font-size * 2;

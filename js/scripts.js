@@ -190,7 +190,8 @@
             }
         }
 
-        $('#post-section .post-body p').each(function() {
+        // $('#post-section .post-body p').each(function() {
+        $('body').each(function() {
             if ($(this).find('.feature-image').length) {
                 var url = $(this).find('.feature-image').prop('src');
                 $('#top-section').css('background-image', 'url(' + url + ')').addClass('enable-overlay image-section');
