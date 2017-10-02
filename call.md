@@ -12,7 +12,7 @@ Talk proposals will be reviewed anonymously to reduce any possible unconscious b
 
 **Call for Speakers is open till 8 October 2017 midnight Vienna time!**
 
-[Submit Proposal](https://cfp.gdg-vienna.at)
+###### **[&gt; &gt; &gt; Submit Your Proposal](https://cfp.gdg-vienna.at)** ######
 
 #### Topics ####
 

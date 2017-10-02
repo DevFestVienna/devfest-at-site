@@ -24,8 +24,8 @@
                 $('.explore').removeClass('hidden');
             }, 1000);
         });
-        // show the page when loaded or latest after 3 seconds
-        setTimeout(hidePreloader, 3000);
+        // show the page when loaded or latest after 1 seconds
+        setTimeout(hidePreloader, 1000);
 
 
         // show modal from URL when loaded
@@ -430,25 +430,27 @@
                 mapOptions.zoomControl = true;
             }
 
-            map = new google.maps.Map(document.getElementById('canvas-map'), mapOptions);
-            var marker = new google.maps.Marker({
+            mapSrc = document.getElementById('canvas-map');
+            if (mapSrc != undefined) {
+              map = new google.maps.Map(mapSrc, mapOptions);
+              var marker = new google.maps.Marker({
                 position: eventPlace,
                 animation: google.maps.Animation.DROP,
                 icon: icon,
                 map: map
-            });
-            markers.push(marker);
-            var defaultMapOptions = {
+              });
+              markers.push(marker);
+              var defaultMapOptions = {
                 name: 'Default Style'
-            };
-            var zoomedMapOptions = {
+              };
+              var zoomedMapOptions = {
                 name: 'Zoomed Style'
-            };
-            var defaultMapType = new google.maps.StyledMapType(defaultOpts, defaultMapOptions);
-            var zoomedMapType = new google.maps.StyledMapType(zoomedOpts, zoomedMapOptions);
-            map.mapTypes.set('default', defaultMapType);
-            map.mapTypes.set('zoomed', zoomedMapType);
-            if (googleMaps === 'logistics') {
+              };
+              var defaultMapType = new google.maps.StyledMapType(defaultOpts, defaultMapOptions);
+              var zoomedMapType = new google.maps.StyledMapType(zoomedOpts, zoomedMapOptions);
+              map.mapTypes.set('default', defaultMapType);
+              map.mapTypes.set('zoomed', zoomedMapType);
+              if (googleMaps === 'logistics') {
                 map.setMapTypeId('default');
                 var input = (document.getElementById('location-input'));
                 autocomplete = new google.maps.places.Autocomplete(input);
@@ -476,11 +478,11 @@
                     });
                 });
 
-            } else {
-                map.setMapTypeId('zoomed');
-            }
+              } else {
+                  map.setMapTypeId('zoomed');
+              }
 
-            function calcRoute(origin, selectedMode) {
+              function calcRoute(origin, selectedMode) {
                 var request = {
                     origin: origin,
                     destination: eventPlace,
@@ -525,33 +527,33 @@
                 $('#find-way').addClass('location-active');
                 setDirectionInput(origin);
                 $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
-            }
+              }
 
-            function makeMarker(position) {
+              function makeMarker(position) {
                 var directionMarker = new google.maps.Marker({
                     position: position,
                     map: map,
                     icon: icon
                 });
                 markers.push(directionMarker);
-            }
+              }
 
-            function addMarker(location) {
+              function addMarker(location) {
                 var marker = new google.maps.Marker({
                     position: location,
                     map: map
                 });
                 markers.push(marker);
-            }
+              }
 
-            function deleteMarkers() {
+              function deleteMarkers() {
                 for (var i = 0; i < markers.length; i++) {
                     markers[i].setMap(null);
                 }
                 markers = [];
-            }
+              }
 
-            function smoothZoom(level) {
+              function smoothZoom(level) {
                 var currentZoom = map.getZoom(),
                     timeStep = 50;
                 var numOfSteps = Math.abs(level - currentZoom);
@@ -562,9 +564,9 @@
                         map.setZoom(currentZoom);
                     }, (i + 1) * timeStep);
                 }
-            }
+              }
 
-            function setDirectionInput(origin) {
+              function setDirectionInput(origin) {
                 geocoder.geocode({
                     'latLng': origin
                 }, function(results, status) {
@@ -578,24 +580,24 @@
                         });
                     }
                 });
-            }
+              }
 
-            $('#mode-select').change(function() {
+              $('#mode-select').change(function() {
                 var selectedMode = $(this).val();
                 calcRoute(origin, selectedMode);
-            });
+              });
 
 
-            $("#direction-locate").click(function() {
+              $("#direction-locate").click(function() {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(function(position) {
                         origin = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
                         calcRoute(origin, 'TRANSIT');
                     });
                 }
-            });
+              });
 
-            $("#direction-cancel").click(function() {
+              $("#direction-cancel").click(function() {
                 $('#find-way').removeClass('location-active');
                 $('#location-input').val('');
                 $("#find-flight").addClass('hidden');
@@ -612,7 +614,8 @@
                 makeMarker(eventPlace);
                 smoothZoom(5);
                 $('#find-way h3').removeClass('fadeOutDown').addClass('fadeInUp');
-            });
+              });
+            }
         }
 
         google.maps.event.addDomListener(window, 'load', initialize);

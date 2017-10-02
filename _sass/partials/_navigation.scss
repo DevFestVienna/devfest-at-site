@@ -1,11 +1,11 @@
 $nav-color: #fff;
 $nav-color-hover: rgba(0, 0, 0, .5);
-$nav-scroll-color: rgba(0, 0, 0, .5);
-$nav-scroll-color-hover: rgba(0, 0, 0, .8);
+$nav-scroll-color: rgba(0, 0, 0, .8);
+$nav-scroll-color-hover: rgba(0, 0, 0, 1);
 
 .top-section-hero {
     .top-header {
-        background: rgba(255, 255, 255, .9);
+        background: #fff;
     }
 }
 .top-header {
@@ -14,7 +14,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
     width: 100%;
     // padding: 0 45px 0 0;
     transition: $base-transition;
-    background: rgba(255, 255, 255, .9);
+    background: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 0 rgba(255, 255, 255, .15);
 }
 .logo-header {
@@ -62,8 +62,8 @@ nav {
         transform: translate(0);
     }
     ul {
-        float: left;
-        margin: 0;
+        float: right;
+        margin: 0 20px;
         padding: 0;
         list-style: none;
         text-align: left;
@@ -85,7 +85,7 @@ nav {
         }
         a {
             font-size: $base-nav-font-size;
-            font-weight: $extra-bold;
+            font-weight: $bold;
             transition: $base-transition;
             text-transform: uppercase;
             color: $nav-color;
