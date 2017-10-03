@@ -1,5 +1,7 @@
 $ribbon-color: #999;
-$gdg-ribbon-border-color: #427fed;
+// $gdg-ribbon-border-color: #427fed;
+$wtm-ribbon-border-color: #427fed;
+$gdg-ribbon-border-color: #ed7f42;
 $gde-ribbon-border-color: #db4437;
 $jsug-ribbon-border-color: #dbdb37;
 $ahv-ribbon-border-color: #a4c639;
@@ -18,6 +20,9 @@ $ahv-ribbon-border-color: #a4c639;
         &:nth-child(2) .abbr, &:nth-child(2) .full-title {
             transition-delay: .15s;
         }
+    }
+    .wtm {
+        border-right: 4px solid $wtm-ribbon-border-color;
     }
     .gdg {
         border-right: 4px solid $gdg-ribbon-border-color;
