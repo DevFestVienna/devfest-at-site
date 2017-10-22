@@ -160,7 +160,7 @@
   name: "Paul"
   surname: "Bakaus"
   rockstar: true
-  current: "true"
+  current: false
   title: "Software Engineer"
   company: "Google"
   bio: "Paul Bakaus is a Software Engineer at Google, heading up advocacy and outreach for DevTools, AMP and Games. He assists developers, designers, and filmmakers to create better, faster, more immersive and more convincing digital experiences. Prior to joining Google, he created the popular UI library jQuery UI now being used by over 14% of the popular web. Paul also created the Aves Engine,the world’s first prototype of a fully interactive HTML5 game engine - which he ultimately sold to Zynga."
