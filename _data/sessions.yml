@@ -25,7 +25,7 @@
   place: "Nelson's"
   service: true
 -
-  id: 000
+  id: 0
   title: "To be announced"
   description: "Stay tuned - details for this talk will be announced soon!"
   track: "TBA"
@@ -37,102 +37,94 @@
   description: "This is your time. Anything you want to show to peers, a new library, an API, or some food for thoughts? Bring your lightning talk (5 minutes each) and let us hear!"
   track: "Other"
   subtype: lightning
-  language: "English or German - whatever you want"
+  language: English
 -
   id: 111
-  title: "Going Elastic"
-  description: "One of the hottest and most widely used tools for log monitoring and analytics at the moment is the Elastic Stack: * Elasticsearch doing the hard work of analyzing and searching large amounts of data. * Logstash and Beats for collecting them. * Kibana for powerful visualizations. This talk gives you an overview of the four technologies, how they are working together, and how they can solve your problems."
+  title: "Honey Wi-Fi Traffic: A case study on Wi-Fi security"
+  description: "The talk will be a short introduction to an ongoing research project that is trying to assess security risks of public and unencrypted Wi-Fi hotspots. For the study, an Android app is automatically connecting to open Wi-Fi hotspots, testing limitations (e.g. blocked ports), and collecting information about the hotspot. Furthermore, the app is sending “honey traffic” that includes sensitive data like login credentials for different services, that could be eavesdropped and abused by attackers. By controlling the server that offers those services, we are able to detect if data has been intercepted."
   subtype: presentation
-  track: "Infrastructure"
-  speakers: ["philipp-krenn"]
+  track: "Security"
+  speakers: ["stefanie-plieschnegger"]
   language: English
 -
   id: 112
-  title: "Zookeeper"
-  description: "Leader election and automatic fail over are two common tasks in every distributed environment. There are various reasons why multiple instances of the same software are running at the same time, for example because of load balancing, hot standby or dedicated instances for different tasks (same software but other configuration, etc.). Depending on your architecture, different aspects of these are more important than others. Furthermore, it is easier to develop services that have one master and one or more slaves than developing service set-ups in which every service is equal. This talk will show a quick example of how to achieve this goal using Zookeeper."
+  title: "The road to pure Kotlin"
+  description: "Kotlin is the hot new thing in the Android world, but adapting a new technology is always a daunting task, especially if you have a large existing code-base. This talk is about how we managed to gradually migrate the willhaben Android app to 100% Kotlin code, and what our Android team learned along the way."
   subtype: presentation
-  track: "Infrastructure"
-  speakers: ["rene-schakmann"]
+  track: "Android"
+  speakers: ["thorsten-schillo"]
   language: English
 -
   id: 113
-  title: "Hybrid Appokalypsis"
-  description: "In 2012 Mark Zuckerberg mentioned that their biggest mistake was to bet too much on HTML5 for their mobile apps. Four years later hybrid mobile apps that present the user with an HTML based UI in a native wrapper still have a bad reputation. However, hybrid apps have spent that time sneaking their way onto our desktops. Atom, Spotify and Slack all use web technologies to power some or all of their desktop applications. In this talk, we will focus on hybrid desktop development with Electron looking at the differences between mobile and desktop development and finding out how to get started building our own cross platform desktop applications."
+  title: "Microservices at Jumio - the journey so far..."
+  description: "Insights into how a company the size of Jumio Corporation handles migration to a new technology stack, heavily based on microservices and tries to leverage modern tools (Consul, Vagrant and Docker) to make the life of developers easier. Some knowledge about Docker, Consul, Vagrant and the Spring stack (i.e. Spring Boot) is expected."
   subtype: presentation
-  track: "Javascript"
-  speakers: ["dominik-kundel"]
+  track: "Architecture"
+  speakers: ["blazej-pindelski"]
   language: English
 -
   id: 114
-  title: "Introducing the new Firebase"
-  description: "Firebase is a mobile platform that helps you quickly develop high-quality apps, grow your user base, and earn more money. It is made up of complementary features that you can mix-and-match to fit your needs. In this session, Tim will run you through the 15 different features that help you build an effectively scaling and high-performing application that works equally well on Android, iOS and the web."
+  title: "Cloud Firestore - the new database for Firebase"
+  description: "On 3 October Google announced the public beta of Cloud Firestore, the new realtime database in Firebase. Topics of the talk:<ul><li>Introduction to Firestore<li>Structuring, storing &amp; querying data from Firestore<li>Offline use</ul>Code samples will be mainly for Web but also for Android."
   subtype: presentation
-  track: "Mobile"
-  speakers: ["tim-messerschmidt"]
+  track: "Cloud"
+  speakers: ["helmuth-breitenfellner"]
   language: English
 -
   id: 115
-  title: "How to generate a REST application (CXF/Spring)"
-  description: "This talk will show how you can use Swagger-Codegen to generate a complete web application (Apache CXF3 with Spring Boot-support) and deploy to application servers (e.g. Jboss).<br>Topics included:<br>*) Edit the Swagger contract using Swagger Editor<br>*) Configure the generator to use features of CXF (Gzip, Bean-Validation, Logging, ...)<br>*) Generate client SDKs (Java/Javascript)<br>*) access the application with the browser using Swagger-UI<br>*) generate PDF documentation using Swagger2Markup<br>*) Customize Swagger-Codegen Languages"
+  title: "Coding legally: A how to guide to meet new legal requirements on personal data"
+  description: "There are many platforms to create your product, however there is still just one set of laws you must comply with. With different methods of presentation of your product, there sometimes comes a challenge when trying to comply with every legal requirement there is - especially personal data. From May 25th, 2018, there is a complete overhaul of personal data processing and collection (GDPR). Don't miss out on responsibilities you have to cover to avoid any legal action against you and your product."
   subtype: presentation
-  track: Web
-  speakers: ["johannes-fiala"]
+  track: "Legal"
+  speakers: ["milos-pupik"]
   language: English
 -
   id: 116
-  title: "A Modern Mobile Web Journey: From AMP to PWA"
-  description: "Accelerated Mobile Pages (AMP) delivers outstanding page-load performance for users browsing content on the mobile web, which is hugely important on limited or flaky networks. Progressive Web Apps (PWA) deliver reliable performance for re-visits to sites thanks to Service Workers and allows unprecedented engagement via push notifications and the App Shell architecture.<br>AMP gets content in front of users fast - PWAs enable rich experiences and engagement. What if I told you there’s a way to utilize the unique power of both? To build a web experience that loads in an instant and upgrades you to maximum interactivity and engagement? We’re making it happen. Come to learn how."
+  title: "Why should Spanner excite you?"
+  description: "The CAP theorem proved it mathematically that you can’t build a distributed database that is both consistent and highly available. In spite of this, Google’s Cloud Spanner promises a consistent infinitely scalable distributed database combining the advantages of the SQL and NoSQL world. How is this technologically possible? And how does it work in practice? At Doctusoft, we face challenges every day that could be solved by Spanner. Our multi TB cloud application called AODocs is presented as a case study, to show the problems caused by using a NoSQL database and how Spanner could resolve them."
   subtype: presentation
-  track: Web
-  speakers: ["paul-bakaus"]
+  track: "Cloud"
+  speakers: ["tamas-tozser"]
   language: English
 -
   id: 117
-  title: "Insights into Chatbot Development - Implementing Cross-platform Chatbots"
-  description: "Overview over different chatbot platforms and their features. How to implement a cross-platform chatbot for Facebook Messenger, Skype, Telegram, WeChat, Kik... and all the others."
+  title: "Continuous Delivery with Jenkins Pipelines"
+  description: "This talk demonstrates how a continuous delivery deployment pipeline can be set up harnessing jenkins 2’s Pipeline as Code features as well as its new Blue Ocean User Experience."
   subtype: presentation
-  track: Services
-  speakers: ["barbara-ondrisek"]
+  track: "Architecture"
+  speakers: ["roman-pickl"]
   language: English
 -
   id: 118
-  title: "Introduction to GraphQL"
-  description: "Is there a better way for client apps to define what is the data they need? Modern apps often fail short when backed by a REST api – fetching data is unintuitive, inefficient and cumbersome. GraphQL challenges the status quo with some interesting features, we'll look at how it compares to a classic RESTful api and what are the real benefits it brings to the table."
+  title: "How to build a personalized feed for willhaben apps which delivers in under 200ms"
+  description: "We implemented a feed component which serves as the central background component for our newly designed apps. The feed receives data from multiple different sources and components. The data needs to be postprocessed and some of it also requires interaction between the components to correlate it correctly. We have to make sure that each component is handled in a performant and secure way, while ensuring that the feed also works if one or multiple components fail. Therefore we used Gatling to performance test the components to guarantee that that it delivers its data in a specific amount of time. Hystrix was used to handle component failures and downtimes. That process involved many parties in our company."
   subtype: presentation
-  track: Services
-  speakers: ["marco-sampellegrini"]
+  track: "Architecture"
+  speakers: ["bernhard-bonigl"]
   language: English
 -
   id: 119
-  title: "Twitter Sentiment Analysis"
-  description: "In this talk we show how to automatically classify the sentiment of Twitter messages leveraging the Lightbend (former Typesafe) Stack and Apache Spark. These messages are classified as either positive or negative with respect to a query term. Users who want to research the sentiment of products before purchase, or companies that want to monitor the public sentiment of their brands can make use of this kind of application."
+  title: "ANDROID ARCHITECTURE COMPONENTS: Dawn of a new era in Android development"
+  description: "In the last I/O, Google’s Android framework team introduced the android.arch library. For the first time, Google is giving developers a head-start on which principles to follow when developing Android applications. This library solves practically the most persisting problem in Android development. Other than that, it reduces boiler-plate. This library promotes the MVVM(Model-View-ViewModel) design pattern and it pushes android applications down the functional/reactivity road. The MVVM principle eases unit testing and makes Android applications modular. It ensures there is little or no room for resource leaks."
   subtype: presentation
-  track: Backend
-  speakers: ["klaus-harrer"]
+  track: "Android"
+  speakers: ["paul-ayokunle"]
   language: English
 -
   id: 120
-  title: "Puppy or muffin? Easily leverage machine learning in your apps"
-  description: "Want to take advantage of machine learning without building and training your own models? The Google Cloud Vision and Speech APIs expose the machine learning functionality behind Google Photos, Google Images, and the speech recognition in 'Ok, Google.' Developers can now build these features into their apps with a simple REST API call. We’ll provide an overview of these APIs, dive into code, and risk it all with a live demo."
+  title: "Angular 2+ components with RxJS"
+  description: "Angular is built on top of RxJS. Take a glimpse into the Functional Reactive Programming (FRP) way of creating Angular components. Introducing FRP to your code can make it more robust, especially when working with asynchronous data streams. Gergely is going to explain how to make use of RxJS, and how to improve your code with it."
   subtype: presentation
-  track: Cloud
-  speakers: ["robert-kubis"]
+  track: "Web"
+  speakers: ["gergely-sipos"]
   language: English
 -
   id: 121
-  title: "The Distributed Web - Returning the Past by Using the Technology of The Future"
-  description: "At its inception the internet was intended to provide an open platform for information sharing.<br>1.0) Everyone was welcome to run up their own web server and share their ideas and creations without without restriction. <br>2.0) What actually happened is that a small number of organisations took control of people's data and held it in silos tightly restricting content and access. <br>3.0) Using decentralised protocols we can release the grip of the 'central hub' and start working on a future that brings us closer to how the web was originally intended."
+  title: "Creating Web Components with Stenciljs"
+  description: "Web Components are the future of web development. In the talk, I will be giving introduction to Stenciljs, a build time tool to create Web Components. We will see how with the help of stenciljs, we can create reusable web components with very easy to understand syntax, which works across all the major browsers."
   subtype: presentation
-  track: Backend
-  speakers: ["garth-williams"]
-  language: English
--
-  id: 122
-  title: "What's new in Android Wear 2.0?"
-  description: "More details to follow soon"
-  subtype: presentation
-  track: Android
-  speakers: ["said-tahsin-dane"]
+  track: "Web"
+  speakers: ["indermohan-singh"]
   language: English
 -
   id: 200

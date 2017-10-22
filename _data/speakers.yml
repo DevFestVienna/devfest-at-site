@@ -1,9 +1,87 @@
 -
+  id: "stefanie-plieschnegger"
+  name: "Stefanie"
+  surname: "Plieschnigger"
+  current: true
+  rockstar: true
+  bio: "She received a bachelor’s degree in Business Informatics from the TU Wien has worked as a software developer and security awareness trainer for several years. Stefanie is currently working at SBA Research and writing on her master thesis in Software Engineering."
+  thumbnailUrl: "StefaniePlieschnigger.jpg"
+-
+  id: "thorsten-schillo"
+  name: "Thorsten"
+  surname: "Schillo"
+  current: true
+  bio: "I started with Android development in early 2010 and have worked for multiple companies as an Android developer. Currently, I am the team lead for the mobile apps team at willhaben in Vienna, Austria."
+  thumbnailUrl: "ThorstenSchillo.jpg"
+-
+  id: "blazej-pindelski"
+  name: "Blazej"
+  surname: "Pindelski"
+  current: true
+  bio: "Backend developer working with Java and the Spring stack focusing on breaking up monoliths."
+  thumbnailUrl: "BlazejPindelski.jpg"
+-
+  id: "helmuth-breitenfellner"
+  name: "Helmuth"
+  surname: "Breitenfellner"
+  current: true
+  bio: "Helmuth is working as a software engineer at CTBTO, the international watchdog for nuclear test explosions. In his free time he is playing around with Google technology, and he is one of the leads of GDG Vienna."
+  thumbnailUrl: "HelmuthBreitenfellner.jpg"
+-
+  id: "milos-pupik"
+  name: "Milos"
+  surname: "Pupik"
+  current: true
+  bio: "Milos is a lawyer specializing in Intellectual Property in connection with Consumer Protection and its use in Cyberspace and cross-border environment. He was previously working for Squire Patton Boggs or Ministry of Economy of Slovakia. He currently lives in Bratislava."
+  thumbnailUrl: "MilosPupik.jpg"
+-
+  id: "tamas-tozser"
+  name: "Tamás"
+  surname: "Tőzsér"
+  current: true
+  bio: "Tamás is the CTO at Doctusoft a cloud engineering company specializing in Google Cloud Platform development since 2011. He is also the lead developer of AODocs since 2012. AODocs is a multi tenant application built on the Google Cloud Platform with more than 2M users including Google. It is used to complete Google Drive with additional capabilities such as advanced access management."
+  thumbnailUrl: "TamasTozser.jpg"
+-
+  id: "roman-pickl"
+  name: "Roman"
+  surname: "Pickl"
+  current: true
+  bio: "As Chief Technical Officer, Roman is in charge of the technical development at Fluidtime. He has comprehensive experience in project management, the technical coordination of national and international mobility projects and the optimisation of business and development processes."
+  thumbnailUrl: "RomanPickl.jpg"
+-
+  id: "bernhard-bonigl"
+  name: "Bernhard"
+  surname: "Bonigl"
+  current: false
+  bio: "Software Engineer at willhaben, Master in Software Engineering at TU Wien, Lifelong hobby programmer"
+  thumbnailUrl: "BernhardBonigl.jpg"
+-
+  id: "ayokunle-paul"
+  name: "Ayokunle"
+  surname: "Paul"
+  current: true
+  bio: "Student Android developer, Obafemi Awolowo University, Ile Ife, Osun State, Nigeria, West Africa."
+  thumbnailUrl: "AyokunlePaul.jpg"
+-
+  id: "gergely-sipos"
+  name: "Gergely"
+  surname: "Sipos"
+  current: true
+  bio: "Gergely is a frontend architect at Doctusoft. He is a Typescript and Javascript ecosystem enthusiast, and seeks solutions to build complex user interfaces effectively. He worked on several international projects mainly with AngularJS and Angular."
+  thumbnailUrl: "GergelySipos.jpg"
+-
+  id: "indermohan-singh"
+  name: "Indermohan"
+  surname: "Singh"
+  current: true
+  bio: "Indermohan Singh is Mobile App Developer, working at Greentube GmbH in Vienna, Austria. For the past 3 and half years, he is working on Angular, Ionic, TypeScript most of the time. He authored 'Ionic 2 Blueprint' for Packt Publication. Currently he is writing an another book on Ionic."
+  thumbnailUrl: "IndermohanSingh.jpg"
+-
   id: "robert-kubis"
   name: "Robert"
   surname: "Kubis"
   company: "Google"
-  current: true
+  current: false
   rockstar: true
   title: "Cloud Developer Advocate"
   bio: "Robert is a Senior Developer Advocate for the Google Cloud Platform based in London, UK, focusing on big data technologies and machine learning.  Before joining Google, Robert collected over 10 years of experience in Software Development and Architecture. He has driven multiple full-stack application developments at SAP with a passion for algorithms, distributed systems and databases. In his spare time he enjoys following tech trends & good restaurants, traveling and improving his photographing skills."
@@ -17,7 +95,7 @@
   name: "Garth"
   surname: "Williams"
   title: "Freelancer"
-  current: true
+  current: false
   bio: "Garth Williams is a freelance software developer focusing on web technologies. Garth has designed and built systems for the UN, defence, healthcare and private sectors. He is also an active open source contributor, currently contributing to Cerebral."
   thumbnailUrl: "GarthWilliams.jpg"
   social:
@@ -28,7 +106,7 @@
   surname: "Tahsin Dane" 
   company: "Novoda"
   title: "Google Developer Expert"
-  current: true
+  current: false
   bio: "Said is an Google Developer Expert on Android. He works at Novoda, Berlin. He has been an Android Developer since Cupcake with apps for Android, Google Glass, Android Wear. He is a very passionate developer who tries to live on the bleeding edge of technology and is very interested in mobile UX.<br>He is also an active member in GDG community enjoying organizing various conferences and hackathons. In addition, he is part of GDG[X] - a GDG related open-source organization."
   thumbnailUrl: "SaidTahsinDane.jpg"
   social:
@@ -55,7 +133,7 @@
   surname: "Harrer"
   title: "Lead Software Engineer"
   company: "openForce"
-  current: true
+  current: false
   bio: "Lead Software Engineer at openForce. Current fields of interest: Artificial Intelligence (mostly on Neural Networks, Machine Learning), efficient development, bouldering."
   thumbnailUrl: "KlausHarrer.jpg"
 -
@@ -63,7 +141,7 @@
   name: "Marco"
   surname: "Sampellegrini"
   title: "Lead Developer"
-  current: true
+  current: false
   bio: "Lead developer at a startup in Milan. I mainly work with Node and React Native these days, tons of fun."
   thumbnailUrl: "MarcoSampellegrini.jpg"
   social:
@@ -74,7 +152,7 @@
   surname: "Ondrisek"
   title: "Senior Developer"
   rockstar: true
-  current: true
+  current: false
   bio: "Barbara Ondrisek is a senior developer with +15 years of experience and previously worked on the online banking platform 'George' by Erste Bank. Now she is testing the limits of all major messaging platforms."
   thumbnailUrl: "BarbaraOndrisek.jpg"
 -
@@ -95,7 +173,7 @@
   id: "johannes-fiala"
   name: "Johannes"
   surname: "Fiala"
-  current: true
+  current: false
   title: "Java Developer"
   company: "Fwd GmbH"
   bio: "Johannes is a Java developer since Java 1.3, and Javascript developer since Javascript 1.0"
@@ -104,7 +182,7 @@
     - { name: "twitter", link: "https://twitter.com/johannes_fiala" }
 -
   id: "philipp-krenn"
-  current: true
+  current: false
   name: "Philipp"
   surname: "Krenn"
   rockstar: true
@@ -116,7 +194,7 @@
     - { name: "twitter", link: "https://twitter.com/xeraa" }
 -
   id: "rene-schakmann"
-  current: true
+  current: false
   name: "Rene"
   surname: "Schakmann"
   title: "Developer"
@@ -125,7 +203,7 @@
   thumbnailUrl: "ReneSchakmann.jpg"
 -
   id: "dominik-kundel"
-  current: true
+  current: false
   name: "Dominik"
   surname: "Kundel"
   title: "Developer Evangelist"
