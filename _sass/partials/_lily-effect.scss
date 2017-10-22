@@ -102,7 +102,7 @@
     }
     .overlay {
         transition: $base-transition;
-        background: rgba(0, 0, 0, 0);
+        background: rgba(0, 0, 0, 0.1);
     }
     .lily-head {
         height: 200px;
