@@ -1,37 +1,49 @@
 -
-  date: "2016-11-05"
-  dateReadable: "5 November"
+  date: "2017-11-25"
+  dateReadable: "25 November"
   dateDescription: "Talks and Presentations"
   location: "TU Wien"
   locationLink: "/location/#tu-wien"
   tracks:
-    - {title: "EI9", color: "#90be4e"}
-    - {title: "EI10", color: "#03a9f4"}
+    - {title: "Room Willhaben", color: "#90be4e"}
+    - {title: "Room 2", color: "#03a9f4"}
   timeslots:
     -
-        startTime: "09:30"
-        endTime: "10:00"
+        startTime: "09:00"
+        endTime: "09:45"
         sessionIds: [100]
     -
-        startTime: "10:00"
-        endTime: "10:15"
+        startTime: "09:45"
+        endTime: "10:00"
         sessionIds: [101]
     -
-        startTime: "10:15"
-        endTime: "11:15"
+        startTime: "10:00"
+        endTime: "10:30"
         sessionIds: [111, 112]
     -
-        startTime: "11:15"
-        endTime: "12:15"
-        sessionIds: [113, 122]
+        startTime: "10:30"
+        endTime: "11:00"
+        sessionIds: [113, 114]
     -
-        startTime: "12:15"
-        endTime: "14:00"
+        startTime: "11:00"
+        endTime: "11:30"
+        sessionIds: [102]
+    -
+        startTime: "11:30"
+        endTime: "12:30"
+        sessionIds: [115, 116]
+    -
+        startTime: "12:30"
+        endTime: "13:30"
         sessionIds: [103]
+    -
+        startTime: "13:30"
+        endTime: "14:00"
+        sessionIds: [117, 118]
     -
         startTime: "14:00"
         endTime: "15:00"
-        sessionIds: [115, 116]
+        sessionIds: [119, 120]
     -
         startTime: "15:00"
         endTime: "15:30"
@@ -39,23 +51,23 @@
     -
         startTime: "15:30"
         endTime: "16:30"
-        sessionIds: [117, 118]
+        sessionIds: [121, 122]
     -
         startTime: "16:30"
         endTime: "17:00"
-        sessionIds: [121, 119]
+        sessionIds: [123, 124]
     -
         startTime: "17:00"
         endTime: "18:00"
-        sessionIds: [120, 099]
+        sessionIds: [125, 126]
     -
         startTime: "18:00"
         endTime: "22:00"
         sessionIds: [104]
 -
-  date: "2016-11-06"
+  date: "2017-11-26"
   dateReadable: "6 November"
-  dateDescription: "TensorFlow Hackathon"
+  dateDescription: "Actions on Google Workshops"
   location: "Stockwerk Coworking Space"
   locationLink: "/location/#stockwerk"
   tracks:
@@ -67,10 +79,10 @@
         sessionIds: [200]
     -
         startTime: "10:00"
-        endTime: "10:30"
+        endTime: "11:00"
         sessionIds: [201]
     -
-        startTime: "10:30"
+        startTime: "11:00"
         endTime: "12:30"
         sessionIds: [202]
     -
@@ -79,17 +91,17 @@
         sessionIds: [203]
     -
         startTime: "13:30"
-        endTime: "16:00"
-        sessionIds: [202]
-    -
-        startTime: "16:00"
-        endTime: "17:00"
+        endTime: "15:00"
         sessionIds: [204]
     -
-        startTime: "17:00"
-        endTime: "17:30"
+        startTime: "15:00"
+        endTime: "15:30"
         sessionIds: [205]
     -
-        startTime: "17:30"
-        endTime: "18:00"
+        startTime: "15:30"
+        endTime: "16:00"
         sessionIds: [206]
+    -
+        startTime: "16:00"
+        endTime: "18:00"
+        sessionIds: [207]

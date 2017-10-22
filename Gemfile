@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'rake'
 gem 'sass'
 gem 'compass'
 gem 'sass-media_query_combiner'

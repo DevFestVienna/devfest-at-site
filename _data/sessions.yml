@@ -140,26 +140,38 @@
   service: true
 -
   id: 201
-  title: "Codelab"
-  description: "Hands-on codelab about TensorFlow"
+  title: "Introduction to Actions on Google"
+  description: "This session will introduce into the programming concept for Actions on Google"
   service: true
 -
   id: 202
-  title: "Hacking Time"
+  title: "Codelab"
+  description: "Hands-on codelab: Your first Google Assistant app"
+  service: true
+-
+  id: 204
+  title: "Codelab"
+  description: "Hands-on codelab: Node.js and Dialogflow (aka API.AI)"
+  service: true
+-
+  id: 205
+  title: "Project Time"
   service: true
 -
   id: 203
   title: "Lunch Break"
   service: true
 -
-  id: 204
-  title: "Presentation"
-  service: true
--
   id: 205
-  title: "Awards"
+  title: "Coffee Break"
   service: true
 -
   id: 206
-  title: "Cleanup"
+  title: "Codelab"
+  description: "Hands-on codelab: Firebase and Dialogflow (aka API.AI)"
+  service: true
+-
+  id: 207
+  title: "Project Time"
+  description: "In groups, you will work on your ideas for the Google Assistant"
   service: true
