@@ -108,7 +108,7 @@
   description: "In the last I/O, Google’s Android framework team introduced the android.arch library. For the first time, Google is giving developers a head-start on which principles to follow when developing Android applications. This library solves practically the most persisting problem in Android development. Other than that, it reduces boiler-plate. This library promotes the MVVM(Model-View-ViewModel) design pattern and it pushes android applications down the functional/reactivity road. The MVVM principle eases unit testing and makes Android applications modular. It ensures there is little or no room for resource leaks."
   subtype: presentation
   track: "Android"
-  speakers: ["paul-ayokunle"]
+  speakers: ["ayokunle-paul"]
   language: English
 -
   id: 120
