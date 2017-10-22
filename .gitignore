@@ -13,3 +13,5 @@ nbproject/
 .DS_Store
 *.swp
 
+
+*.log
