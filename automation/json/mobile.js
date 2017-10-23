@@ -157,5 +157,5 @@ try {
 catch(e) {
   fs.mkdirSync(trg + '/v1');
 }
-fs.writeFileSync(trg + '/v1/speakers', JSON.stringify(speakersOut));
-fs.writeFileSync(trg + '/v1/sessions', JSON.stringify(sessionsOut));
+fs.writeFileSync(trg + '/v1/speakers.json', JSON.stringify(speakersOut));
+fs.writeFileSync(trg + '/v1/sessions.json', JSON.stringify(sessionsOut));
