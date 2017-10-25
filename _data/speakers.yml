@@ -18,7 +18,7 @@
   name: "Blazej"
   surname: "Pindelski"
   current: true
-  bio: "Backend developer working with Java and the Spring stack focusing on breaking up monoliths."
+  bio: "Backend developer working for Jumio Corp. Java/Python enthusiast and Spring user since 2010. Interested in computer vision problems, pragmatic software architectures, the KISS principle and software security. Fan of OSS; committer in spare time."
   thumbnailUrl: "BlazejPindelski.jpg"
 -
   id: "helmuth-breitenfellner"
@@ -46,8 +46,12 @@
   name: "Roman"
   surname: "Pickl"
   current: true
+  company: "Fluidtime Data Services GmbH"
+  title: "CTO"
   bio: "As Chief Technical Officer, Roman is in charge of the technical development at Fluidtime. He has comprehensive experience in project management, the technical coordination of national and international mobility projects and the optimisation of business and development processes."
   thumbnailUrl: "RomanPickl.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/RomPic" }
 -
   id: "bernhard-bonigl"
   name: "Bernhard"
@@ -62,6 +66,8 @@
   current: true
   bio: "Student Android developer, Obafemi Awolowo University, Ile Ife, Osun State, Nigeria, West Africa."
   thumbnailUrl: "AyokunlePaul.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/paul_eipeks" }
 -
   id: "gergely-sipos"
   name: "Gergely"

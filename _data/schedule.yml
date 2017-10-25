@@ -19,15 +19,15 @@
     -
         startTime: "10:00"
         endTime: "10:30"
-        sessionIds: [111, 0]
+        sessionIds: [111, 1]
     -
         startTime: "10:30"
         endTime: "11:00"
-        sessionIds: [121, 0]
+        sessionIds: [121, 1]
     -
         startTime: "11:00"
         endTime: "11:30"
-        sessionIds: [0, 117]
+        sessionIds: [1, 117]
     -
         startTime: "11:30"
         endTime: "12:30"
@@ -39,11 +39,11 @@
     -
         startTime: "13:30"
         endTime: "14:00"
-        sessionIds: [116, 0]
+        sessionIds: [116, 1]
     -
         startTime: "14:00"
         endTime: "15:00"
-        sessionIds: [113, 0]
+        sessionIds: [113, 1]
     -
         startTime: "15:00"
         endTime: "15:30"
@@ -51,15 +51,15 @@
     -
         startTime: "15:30"
         endTime: "16:30"
-        sessionIds: [114, 0]
+        sessionIds: [114, 1]
     -
         startTime: "16:30"
         endTime: "17:00"
-        sessionIds: [119, 0]
+        sessionIds: [119, 1]
     -
         startTime: "17:00"
         endTime: "18:00"
-        sessionIds: [120, 0]
+        sessionIds: [120, 1]
     -
         startTime: "18:00"
         endTime: "22:00"
