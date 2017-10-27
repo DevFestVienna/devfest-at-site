@@ -4,7 +4,7 @@
   dateDescription: "Talks and Presentations"
   location: "TU Wien"
   locationLink: "/location/#tu-wien"
-  tracks:
+  rooms:
     - {title: "Room Willhaben", color: "#90be4e"}
     - {title: "Room 2", color: "#03a9f4"}
   timeslots:
@@ -70,7 +70,7 @@
   dateDescription: "Actions on Google Workshops"
   location: "Stockwerk Coworking Space"
   locationLink: "/location/#stockwerk"
-  tracks:
+  rooms:
     - {title: "Stockwerk Coworking Space"}
   timeslots:
     -
