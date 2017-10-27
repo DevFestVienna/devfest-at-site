@@ -70,6 +70,7 @@
   social:
     - {name: "google-plus", title: "Google+", link: "https://google.com/+HelmuthBreitenfellner"}
     - {name: "linkedin", title: "LinkedIn", link: "https://at.linkedin.com/in/helmuthbreitenfellner"}
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/helmuthb"}
 - 
   id: "robert-hesele"
   name: "Robert"

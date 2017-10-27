@@ -1,0 +1,25 @@
+-
+  title: "Platinum"
+  logos:
+  -
+    logoUrl: "/images/logos/logo-google.png"
+    name: "Google Developers"
+    url: "https://developers.google.com"
+  -
+    logoUrl: "/images/logos/logo-willhaben.png"
+    name: "Willhaben"
+    url: "https://jobsbei.willhaben.at"
+-
+  title: "Gold"
+  logos:
+  -
+    logoUrl: "/images/logos/logo-oracle.png"
+    name: "Oracle"
+    url: "https://developer.oracle.com"
+-
+  title: "Silver"
+  logos:
+  -
+    logoUrl: "/images/logos/logo-ibm-cic.png"
+    name: "IBM Client Innovation Center"
+    url: "https://cic-austria.eu-gb.mybluemix.net"

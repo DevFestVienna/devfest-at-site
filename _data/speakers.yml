@@ -29,6 +29,10 @@
   current: true
   bio: "Helmuth is working as a software engineer at CTBTO, the international watchdog for nuclear test explosions. In his free time he is playing around with Google technology, and he is one of the leads of GDG Vienna."
   thumbnailUrl: "HelmuthBreitenfellner.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/helmuthb" }
+    - { name: "google-plus", link: "https://plus.google.com/+HelmuthBreitenfellner" }
+    - { name: "linkedin", link: "https://at.linkedin.com/in/helmuthbreitenfellner" }
 -
   id: "milos-pupik"
   name: "Milos"
