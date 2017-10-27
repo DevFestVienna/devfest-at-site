@@ -12,7 +12,5 @@ npm-debug.log
 nbproject/
 .DS_Store
 *.swp
-
-
 *.log
-
+.tmp

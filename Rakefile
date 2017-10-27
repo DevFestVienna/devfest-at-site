@@ -18,6 +18,7 @@ task :json do
   system "npm install yamljs"
   system "npm install shelljs"
   system "node automation/json/mobile.js"
+  system "node automation/json/firebase.js"
 end
 
 task :jekyll do
