@@ -1,0 +1,9 @@
+#! /bin/sh
+
+# 1. Deploy hosting
+firebase deploy
+
+# 2. Deploy JSON to Firebase database
+firebase database:set -y /mobile/sessions .tmp/fb-sessions.json
+firebase database:set -y /mobile/schedule .tmp/fb-schedule.json
+firebase database:set -y /mobile/speakers .tmp/fb-speakers.json
