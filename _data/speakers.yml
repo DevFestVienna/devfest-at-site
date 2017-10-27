@@ -4,8 +4,10 @@
   surname: "Plieschnegger"
   current: true
   rockstar: true
-  bio: "She received a bachelor’s degree in Business Informatics from the TU Wien has worked as a software developer and security awareness trainer for several years. Stefanie is currently working at SBA Research and writing on her master thesis in Software Engineering."
+  bio: "Stefanie received a bachelor's degree in Business Informatics from TU Wien, and has worked as a software developer and security awareness trainer for several years. Currently she is working on her master thesis at SBA Research."
   thumbnailUrl: "StefaniePlieschnegger.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/__soey__" }
 -
   id: "thorsten-schillo"
   name: "Thorsten"
