@@ -43,8 +43,7 @@ for (i=0; i<speakers.length; i++) {
     'name': speakers[i].name + ' ' + speakers[i].surname,
     'lastname': speakers[i].name,
     'rockstar': !!speakers[i].rockstar,
-    'thumbnailUrl': baseSpeakerImgUrl + speakers[i].thumbnailUrl,
-    'social': {}
+    'thumbnailUrl': baseSpeakerImgUrl + speakers[i].thumbnailUrl
   }
   if (speakers[i].title && speakers[i].company) {
     aSpeaker.title = speakers[i].title + ', ' + speakers[i].company;
@@ -59,22 +58,22 @@ for (i=0; i<speakers.length; i++) {
     for (j=0; j<speakers[i].social.length; j++) {
       var aLink = speakers[i].social[j];
       if (aLink.name == "twitter") {
-        aSpeaker.social.twitter = aLink.link.replace(/https?:\/\/w?w?w?.?twitter.com\//, '');
+        aSpeaker.twitter = aLink.link.replace(/https?:\/\/w?w?w?.?twitter.com\//, '');
       }
       else if (aLink.name == "google-plus") {
-        aSpeaker.social.gplus = aLink.link;
+        aSpeaker.gplus = aLink.link;
       }
       else if (aLink.name == "linkedin") {
-        aSpeaker.social.linkedin = aLink.link;
+        aSpeaker.linkedin = aLink.link;
       }
       else if (aLink.name == "github") {
-        aSpeaker.social.github = aLink.link.replace(/https?:\/\/w?w?w?.?github.com\//, '');
+        aSpeaker.github = aLink.link.replace(/https?:\/\/w?w?w?.?github.com\//, '');
       }
       else if (aLink.link.indexOf("xing.com") !== -1) {
-        aSpeaker.social.xing = aLink.link;
+        aSpeaker.xing = aLink.link;
       }
       else {
-        aSpeaker.social.website = aLink.link;
+        aSpeaker.website = aLink.link;
       }
     }
   }
@@ -116,6 +115,13 @@ for (i=0; i<schedule.length; i++) {
         if ('imageUrl' in sessionsById[sessionId]) {
           aSession.thumbnailUrl = baseImgUrl + sessionsById[sessionId].imageUrl;
         }
+        // get the duration
+        var date1 = schedule[i].date + ' ' + schedule[i].timeslots[j].startTime;
+        var date2 = schedule[i].date + ' ' + schedule[i].timeslots[j].endTime;
+        var duration = ((new Date(date2).getTime()) - (new Date(date1).getTime())) / (1000 * 60);
+        aSession.startAt = date1;
+        aSession.endAt = date2;
+        aSession.duration = duration;
         var sessionSpeakers = [];
         if ('speakers' in sessionsById[sessionId]) {
           for (var t=0; t<sessionsById[sessionId].speakers.length; t++) {
