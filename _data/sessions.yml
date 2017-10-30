@@ -49,7 +49,7 @@
 -
   id: 112
   title: "The road to pure Kotlin"
-  description: "Kotlin is the hot new thing in the Android world, but adapting a new technology is always a daunting task, especially if you have a large existing code-base. This talk is about how we managed to gradually migrate the willhaben Android app to 100% Kotlin code, and what our Android team learned along the way."
+  description: "Kotlin is the hot new thing in the Android world. After Google endorsed it as the second official programming language for Android, it is high time for companies to start gathering Kotlin experience. However, adapting a new technology is always a daunting task, especially if you have a large existing code-base. By sharing the experience of gradually migrating the willhaben Android app to 100% Kotlin code, I want to show you that a migration might not be as difficult as you think, and what you can gain by investing the resources."
   subtype: presentation
   track: "Android"
   speakers: ["thorsten-schillo"]

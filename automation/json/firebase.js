@@ -41,7 +41,7 @@ for (i=0; i<speakers.length; i++) {
     'bio': deHtml(speakers[i].bio),
     'company': speakers[i].company,
     'name': speakers[i].name + ' ' + speakers[i].surname,
-    'lastname': speakers[i].name,
+    'lastname': speakers[i].surname,
     'rockstar': !!speakers[i].rockstar,
     'thumbnailUrl': baseSpeakerImgUrl + speakers[i].thumbnailUrl
   }
