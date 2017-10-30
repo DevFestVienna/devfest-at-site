@@ -33,9 +33,14 @@ var speakersOut = [];
 var aSpeaker;
 var baseImgUrl = 'https://devfest.at/img/';
 var baseSpeakerImgUrl = baseImgUrl + 'speakers/';
+var baseSpeakerImgPath = 'img/speakers/';
+var thumbnailData;
 for (i=0; i<speakers.length; i++) {
   if (!speakers[i].current) continue;
   speakerNum[speakers[i].id] = i+1;
+  var cmdline = 'convert ' + baseSpeakerImgPath + speakers[i].thumbnailUrl
+      + ' -scale 16x16 - | base64';
+  thumbnailData = shell.exec(cmdline, {silent: true}).stdout;
   aSpeaker = {
     'id': i+1,
     'bio': deHtml(speakers[i].bio),
@@ -43,7 +48,8 @@ for (i=0; i<speakers.length; i++) {
     'name': speakers[i].name + ' ' + speakers[i].surname,
     'lastname': speakers[i].surname,
     'rockstar': !!speakers[i].rockstar,
-    'thumbnailUrl': baseSpeakerImgUrl + speakers[i].thumbnailUrl
+    'thumbnailUrl': baseSpeakerImgUrl + speakers[i].thumbnailUrl,
+    'thumbnail': thumbnailData
   }
   if (speakers[i].title && speakers[i].company) {
     aSpeaker.title = speakers[i].title + ', ' + speakers[i].company;
