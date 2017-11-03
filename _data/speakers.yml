@@ -35,11 +35,14 @@
     - { name: "linkedin", link: "https://at.linkedin.com/in/helmuthbreitenfellner" }
 -
   id: "milos-pupik"
-  name: "Milos"
+  name: "Miloš"
   surname: "Pupik"
   current: true
-  bio: "Milos is a lawyer specializing in Intellectual Property in connection with Consumer Protection and its use in Cyberspace and cross-border environment. He was previously working for Squire Patton Boggs or Ministry of Economy of Slovakia. He currently lives in Bratislava."
+  bio: "Milos is a lawyer specializing in Intellectual Property, Data Protection and ADR in International Environment. He was previously working for Squire Patton Boggs or Ministry of Economy of Slovakia. He currently works for Teach for Slovakia movement as Teacher and runs a Legal Education NGO Vinculum Iuris."
   thumbnailUrl: "MilosPupik.jpg"
+  social:
+    - { name: "facebook", link: "https://www.facebook.com/milos.pupik" }
+    - { name: "linkedin", link: "https://www.linkedin.com/in/milospupik/" }
 -
   id: "tamas-tozser"
   name: "Tamás"

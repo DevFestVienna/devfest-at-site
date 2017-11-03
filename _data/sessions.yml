@@ -73,7 +73,7 @@
 -
   id: 115
   title: "Coding legally: A how to guide to meet new legal requirements on personal data"
-  description: "There are many platforms to create your product, however there is still just one set of laws you must comply with. With different methods of presentation of your product, there sometimes comes a challenge when trying to comply with every legal requirement there is - especially personal data. From May 25th, 2018, there is a complete overhaul of personal data processing and collection (GDPR). Don't miss out on responsibilities you have to cover to avoid any legal action against you and your product."
+  description: "No matter the coding language your use, from May 25th, 2018, there is an overhaul of personal data processing and collection based on General Data Protection Regulation (GDPR), which is directly applicable in the whole European Union. With this regulation EU marks its third generation of Data Protection legislation. Don't miss out and get to know your responsibilities to prevent any legal action against you and your product."
   subtype: presentation
   track: "Legal"
   speakers: ["milos-pupik"]
