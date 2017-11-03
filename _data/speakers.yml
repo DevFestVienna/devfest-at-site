@@ -72,7 +72,7 @@
   id: "ayokunle-paul"
   name: "Ayokunle"
   surname: "Paul"
-  current: true
+  current: false
   bio: "Student Android developer, Obafemi Awolowo University, Ile Ife, Osun State, Nigeria, West Africa."
   thumbnailUrl: "AyokunlePaul.jpg"
   social:
