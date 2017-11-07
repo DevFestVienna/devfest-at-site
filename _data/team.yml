@@ -8,6 +8,9 @@
   ribbon: 
     - {abbr: "WTM", title: "Women Techmakers"}
     - {abbr: "GDG", title: "Google Developer Group"}
+  social:
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/TimeaTurdean"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/timeaturdean/"}
 - 
   id: "marc-edem"
   name: "Marc Edem"
