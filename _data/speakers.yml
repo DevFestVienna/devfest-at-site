@@ -35,6 +35,8 @@
   bio: "Glenn Reyes is a Front-End Engineer from Vienna, Austria. He is passionate about building JavaScript apps and user interfaces with modern web technologies like React. Glenn is part of the React Vienna community and helps them to organize the meetups. Besides coding he enjoys playing the guitar and travels the world."
   title: "Front-End Engineer"
   thumbnailUrl: "GlennReyes.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/glnnrys" }
 -
   id: "blazej-pindelski"
   name: "Blazej"
