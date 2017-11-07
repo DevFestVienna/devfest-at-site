@@ -143,6 +143,14 @@
   speakers: ["maximilian-jerg"]
   language: English
 -
+  id: 124
+  title: "Optimizing React apps with Code Splitting"
+  description: "Dynamic imports have arrived! With the new import() proposal we have got a convenient capability to load React components whenever rendered. Our mission now is to build faster web apps and deliver as less code as needed. But how? In this talk we will leverage code-splitting with minimal effort and discuss the page speed impact."
+  subtype: presentation
+  track: Web
+  speakers: ["glenn-reyes"]
+  language: English
+-
   id: 200
   title: "Breakfast"
   service: true
