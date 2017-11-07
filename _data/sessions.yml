@@ -127,6 +127,22 @@
   speakers: ["indermohan-singh"]
   language: English
 -
+  id: 122
+  title: "One VM to rule them all"
+  description: "What is the best programming language? Let's not start an argument; with GraalVM, you need to care much less about that question. Based on the Java Virtual Machine, it allows executing not only Java, but many more languages including Python, JavaScript, Ruby, R, C/C++, etc. All that with native performance, and language interoperability. Experience the future of VMs."
+  subtype: presentation
+  track: "Technology"
+  speakers: ["christian-wirth"]
+  language: English
+-
+  id: 123
+  title: "Modern DevOps for Containers with Oracle Cloud"
+  description: "Container technology has taken the IT world by storm and is the hot topic in cloud computing. How can containers change the way we build and deploy applications?<br>In this talk, we will look at how to automate and drastically shorten the journey from development to deployment using containers and pipelines. In a live demo we will also demonstrate how to deploy a simple application into a powerful containerized cluster using Oracle Cloud and Open Source Technology like Kubernetes."
+  subtype: presentation
+  track: Cloud
+  speakers: ["maximilian-jerg"]
+  language: English
+-
   id: 200
   title: "Breakfast"
   service: true
@@ -144,10 +160,6 @@
   id: 204
   title: "Codelab"
   description: "Hands-on codelab: Node.js and Dialogflow (aka API.AI)"
-  service: true
--
-  id: 205
-  title: "Project Time"
   service: true
 -
   id: 203

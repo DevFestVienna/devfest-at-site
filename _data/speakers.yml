@@ -16,12 +16,32 @@
   bio: "Thorsten is a German expat living in Vienna for the past six years. After starting with professional Android development in early 2010, he has worked at several companies in Germany and Austria before joining the willhaben office in Vienna, where he is now leading the mobile apps team. As team lead he is responsible for the smooth development of the willhaben native Apps. He puts a strong emphasis on developing self-organized teams, agile processes, new technologies, and innovation.<br>Apart from the software development world, he likes to play video games, go on photography excursions, or read and teach about history, among a many other interests."
   thumbnailUrl: "ThorstenSchillo.jpg"
 -
+  id: "christian-wirth"
+  name: "Christian"
+  surname: "Wirth"
+  current: true
+  rockstar: true
+  bio: "Christian Wirth is a Research Manager for Oracle Labs in Linz, Austria. His main focus is on the Graal/JavaScript+Node.js language implementation. He received a PhD degree from Johannes Kepler University Linz, Austria, in 2013."
+  thumbnailUrl: "ChristianWirth.jpg"
+  title: "Senior Software Development Manager"
+  company: "Oracle Labs"
+  social:
+    - { name: "twitter", link: "https://twitter.com/wirthi" }
+-
   id: "blazej-pindelski"
   name: "Blazej"
   surname: "Pindelski"
   current: true
   bio: "Backend developer working for Jumio Corp. Java/Python enthusiast and Spring user since 2010. Interested in computer vision problems, pragmatic software architectures, the KISS principle and software security. Fan of OSS; committer in spare time."
   thumbnailUrl: "BlazejPindelski.jpg"
+-
+  id: "maximilian-jerg"
+  name: "Maximilian"
+  surname: "Jerg"
+  current: true
+  bio: "--- more details coming soon ---"
+  company: "Oracle"
+  thumbnailUrl: "unknown-male.png"
 -
   id: "helmuth-breitenfellner"
   name: "Helmuth"
