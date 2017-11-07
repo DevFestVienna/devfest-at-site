@@ -151,6 +151,14 @@
   speakers: ["glenn-reyes"]
   language: English
 -
+  id: 125
+  title: "Introducing ScreenFlow - an alternative to Fragments"
+  description: "Android Fragments are a default component, and most of us Android developers have gotten used to them. However many of us complain that they are overly complicated in order to accommodate every possible use-case, while most of these cases are never encountered in any normal app. I will present an alternative approach to Fragments, which avoids all the complexity, but still retains an easy extensibility and customization for your needs."
+  subtype: presentation
+  track: Android
+  speakers: ["mingkang-pan"]
+  language: English
+-
   id: 200
   title: "Breakfast"
   service: true

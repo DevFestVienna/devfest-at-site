@@ -53,6 +53,13 @@
   company: "Oracle"
   thumbnailUrl: "unknown-male.png"
 -
+  id: "mingkang-pan"
+  name: "Mingkang"
+  surname: "Pan"
+  current: true
+  bio: "I am a passionate Android Developer since 5 years and have worked in different start-ups. Now I work for willhaben and I am responsible for clean architecture code in our app. I hate boilerplate code and am an absolute fan of Kotlin."
+  thumbnailUrl: "unknown-male.png"
+-
   id: "helmuth-breitenfellner"
   name: "Helmuth"
   surname: "Breitenfellner"
