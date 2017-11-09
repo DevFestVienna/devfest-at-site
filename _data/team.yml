@@ -133,8 +133,6 @@
   ribbon:
     - {abbr: "WTM", title: "Women Techmakers"}
     - {abbr: "GDG", title: "Google Developer Group"}
-    - {abbr: "GDG", title: "CoderDojo Wien"}
-    - {abbr: "GDG", title: "TEDxVienna"}
   social:
     - {name: "twitter", title: "Twitter", link: "https://twitter.com/delikatessa"}
     - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/tanyasan/"}
