@@ -19,7 +19,7 @@
   thumbnailUrl: MarcEdem.jpg
   team: true
   ribbon:
-    - {abbr: "JSUG", title: "Java Student User Group"}
+    - {abbr: "JSUG", title: "Java Vienna"}
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
     - {name: "google-plus", title: "Google+", link: "https://google.com/+MarcEdem"}
@@ -31,7 +31,7 @@
   thumbnailUrl: SiegfriedGoeschl.jpg
   team: true
   ribbon: 
-    - {abbr: "JSUG", title: "Java Student User Group"}
+    - {abbr: "JSUG", title: "Java Vienna"}
   social: 
 -
   id: "dominik-dorn"
@@ -41,10 +41,12 @@
   thumbnailUrl: DominikDorn.jpg
   subTeam: true
   ribbon:
-    - {abbr: "JSUG", title: "Java Student User Group"}
+    - {abbr: "JSUG", title: "Java Vienna"}
   social:
-    - {name: "twitter", title: "Twitter", link: "https://twitter.com/domdorn"}
-    - {name: "site", title: "Blog", link: "http://dominikdorn.com"}
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/domdorn"}   
+    - {name: "site", title: "Blog", link: "https://dominikdorn.com"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/dominik-dorn-bb1b4266/"}
+    - {name: "xing", title: "Xing", link: "https://www.xing.com/profile/Dominik_Dorn"}
 -
   id: "klemens-zleptnig"
   name: "Klemens"
@@ -66,7 +68,7 @@
   thumbnailUrl: HelmuthBreitenfellner.jpg
   subTeam: true
   ribbon:
-    - {abbr: "JSUG", title: "Java Student User Group"}
+    - {abbr: "JSUG", title: "Java Vienna"}
     - {abbr: "GDG", title: "Google Developer Group"}
   social:
     - {name: "google-plus", title: "Google+", link: "https://google.com/+HelmuthBreitenfellner"}
@@ -80,7 +82,7 @@
   thumbnailUrl: RobertHesele.jpg
   subTeam: true
   ribbon:
-    - {abbr: "JSUG", title: "Java Student User Group"}
+    - {abbr: "JSUG", title: "Java Vienna"}
     - {abbr: "GDG", title: "Google Developer Group"}
   social:
     - {name: "google-plus", title: "Google+", link: "https://google.com/+RobertHesele"}
