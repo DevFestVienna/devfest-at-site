@@ -122,3 +122,18 @@
     - {abbr: "WTM", title: "Women Techmakers"}
   social:
    - {name: "facebook", title: "Facebook", link: "https://www.facebook.com/diana.vysoka.1"}
+-
+  id: "tatyana-sandanova"
+  name: "Tatyana"
+  surname: "Sandanova"
+  title: "Conference Team"
+  thumbnailUrl: "TatyanaSandanova.jpg"
+  subTeam: true
+  ribbon:
+    - {abbr: "WTM", title: "Women Techmakers"}
+    - {abbr: "GDG", title: "Google Developer Group"}
+    - {abbr: "GDG", title: "CoderDojo Wien"}
+    - {abbr: "GDG", title: "TEDxVienna"}
+  social:
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/delikatessa"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/tanyasan/"}
