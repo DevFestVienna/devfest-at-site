@@ -57,8 +57,9 @@
   name: "Mingkang"
   surname: "Pan"
   current: true
-  bio: "I am a passionate Android Developer since 5 years and have worked in different start-ups. Now I work for willhaben and I am responsible for clean architecture code in our app. I hate boilerplate code and am an absolute fan of Kotlin."
-  thumbnailUrl: "unknown-male.png"
+  company: Willhaben
+  bio: "I am a passionate Android Developer for 5 years and have worked in different start-ups. Now I work for willhaben and I am responsible for clean architecture code in our app. I hate boilerplate code and always follow the most pragmatic way to solve a problem. I am an absolute fan of Kotlin, using it for almost 2 years. In my spare time, I do a lot of break dancing."
+  thumbnailUrl: "MingkangPan.jpg"
 -
   id: "helmuth-breitenfellner"
   name: "Helmuth"
