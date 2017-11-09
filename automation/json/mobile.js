@@ -57,6 +57,9 @@ for (i=0; i<speakers.length; i++) {
       else if (aLink.name == "google-plus") {
         aSpeaker.gplus = aLink.link;
       }
+      else if (aLink.name == "xing") {
+        aSpeaker.xing = aLink.link;
+      }
       else if (aLink.name == "linkedin") {
         aSpeaker.linkedin = aLink.link;
       }
