@@ -49,9 +49,9 @@
   name: "Maximilian"
   surname: "Jerg"
   current: true
-  bio: "--- more details coming soon ---"
+  bio: "Maximilian Jerg works at Oracle in Vienna. He enjoys traveling around the world and spends his free time as a successful app developer with focus on JavaScript, Angular and NodeJS. Maximilian received a Bachelor's degree from University of Vienna and is currently finishing his Master degree in Business Informatics."
   company: "Oracle"
-  thumbnailUrl: "unknown-male.png"
+  thumbnailUrl: "MaximilianJerg.jpg"
 -
   id: "mingkang-pan"
   name: "Mingkang"
