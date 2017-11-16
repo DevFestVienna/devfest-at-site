@@ -20,9 +20,14 @@
   service: true
 -
   id: 104
+  title: "Closing"
+  place: "Hall"
+  service: true
+-
+  id: 105
   title: "After Party"
   description: "Join the afterparty - relax, chat & network. Drinks are on us!"
-  place: "Nelson's"
+  place: "TBA"
   service: true
 -
   id: 1

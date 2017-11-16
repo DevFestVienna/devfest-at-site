@@ -39,9 +39,9 @@
     -
         startTime: "13:30"
         endTime: "14:30"
-        sessionIds: [120, 127]
+        sessionIds: [125, 120]
     -
-        startTime: "14:40"
+        startTime: "14:30"
         endTime: "15:30"
         sessionIds: [113, 123]
     -
@@ -50,16 +50,20 @@
         sessionIds: [102]
     -
         startTime: "16:00"
+        endTime: "16:30"
+        sessionIds: [114, 127]
+    -
+        startTime: "16:30"
         endTime: "17:00"
-        sessionIds: [114, 125]
+        sessionIds: [116, 124]
     -
         startTime: "17:00"
         endTime: "17:30"
-        sessionIds: [116, 124]
+        sessionIds: [104]
     -
         startTime: "17:30"
         endTime: "22:00"
-        sessionIds: [104]
+        sessionIds: [105]
 -
   date: "2017-11-26"
   dateReadable: "26 November"
