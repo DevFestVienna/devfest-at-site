@@ -111,22 +111,6 @@
   social:
     - { name: "twitter", link: "https://twitter.com/RomPic" }
 -
-  id: "bernhard-bonigl"
-  name: "Bernhard"
-  surname: "Bonigl"
-  current: false
-  bio: "Software Engineer at willhaben, Master in Software Engineering at TU Wien, Lifelong hobby programmer"
-  thumbnailUrl: "BernhardBonigl.jpg"
--
-  id: "ayokunle-paul"
-  name: "Ayokunle"
-  surname: "Paul"
-  current: false
-  bio: "Student Android developer, Obafemi Awolowo University, Ile Ife, Osun State, Nigeria, West Africa."
-  thumbnailUrl: "AyokunlePaul.jpg"
-  social:
-    - { name: "twitter", link: "https://twitter.com/paul_eipeks" }
--
   id: "gergely-sipos"
   name: "Gergely"
   surname: "Sipos"
