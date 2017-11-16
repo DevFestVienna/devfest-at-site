@@ -23,6 +23,7 @@
   name: "Thorsten"
   surname: "Schillo"
   current: true
+  company: "Willhaben"
   bio: "Thorsten is a German expat living in Vienna for the past six years. After starting with professional Android development in early 2010, he has worked at several companies in Germany and Austria before joining the willhaben office in Vienna, where he is now leading the mobile apps team. As team lead he is responsible for the smooth development of the willhaben native Apps. He puts a strong emphasis on developing self-organized teams, agile processes, new technologies, and innovation.<br>Apart from the software development world, he likes to play video games, go on photography excursions, or read and teach about history, among a many other interests."
   thumbnailUrl: "ThorstenSchillo.jpg"
 -
