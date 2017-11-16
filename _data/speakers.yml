@@ -4,7 +4,7 @@
   surname: "Lettner"
   current: true
   rockstar: true
-  bio: "Web developer, linguist, reader of all things SciFi & fantasy, <a href='https://www.meetup.com/webclerks/events/' target='_blank'>webclerks</a> co-organiser. Codepen: <a href='http://codepen.io/eva_trostlos/' target='_blank'>codepen.io/eva_trostlos</a>"
+  bio: "Web developer, linguist, reader of all things SciFi & fantasy, <a href='https://www.meetup.com/webclerks/events/' target='_blank'>webclerks</a> co-organiser. Codepen: <a href='https://codepen.io/eva_trostlos/' target='_blank'>codepen.io/eva_trostlos</a>"
   thumbnailUrl: "EvaLettner.jpg"
   social:
     - { name: "twitter", link: "https://twitter.com/eva_trostlos" }
