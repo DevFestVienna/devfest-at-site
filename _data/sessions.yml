@@ -159,6 +159,14 @@
   speakers: ["mingkang-pan"]
   language: English
 -
+  id: 127
+  title: "Paint the Web with CSS. On Creating Art with Code"
+  description: "As developers we view code as one thing: a tool to build our projects with. But what if I told you that it can be so much more: CSS can be a paintbrush and HTML your canvas. Lets find out what you can do by misusing a technology you might already know well. In this talk you will learn the basics of creating pure CSS images and animations. You will find out everything about shapes, how to use less markup and why gradients are not just pretty, but pretty useful too. All these learnings will be brought into real life projects to show that nothing you create for fun has to be useless. This talk will hopefully inspire you to view code differently and maybe even to create your own CSS drawings."
+  subtype: presentation
+  track: Web
+  speakers: ["eva-lettner"]
+  language: English
+-
   id: 200
   title: "Breakfast"
   service: true
