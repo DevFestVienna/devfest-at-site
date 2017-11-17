@@ -1,4 +1,14 @@
 -
+  id: "eva-lettner"
+  name: "Eva"
+  surname: "Lettner"
+  current: true
+  rockstar: true
+  bio: "Web developer, linguist, reader of all things SciFi & fantasy, <a href='https://www.meetup.com/webclerks/events/' target='_blank'>webclerks</a> co-organiser. Codepen: <a href='https://codepen.io/eva_trostlos/' target='_blank'>codepen.io/eva_trostlos</a>"
+  thumbnailUrl: "EvaLettner.jpg"
+  social:
+    - { name: "twitter", link: "https://twitter.com/eva_trostlos" }
+-
   id: "stefanie-plieschnegger"
   name: "Stefanie"
   surname: "Plieschnegger"
@@ -13,6 +23,7 @@
   name: "Thorsten"
   surname: "Schillo"
   current: true
+  company: "Willhaben"
   bio: "Thorsten is a German expat living in Vienna for the past six years. After starting with professional Android development in early 2010, he has worked at several companies in Germany and Austria before joining the willhaben office in Vienna, where he is now leading the mobile apps team. As team lead he is responsible for the smooth development of the willhaben native Apps. He puts a strong emphasis on developing self-organized teams, agile processes, new technologies, and innovation.<br>Apart from the software development world, he likes to play video games, go on photography excursions, or read and teach about history, among a many other interests."
   thumbnailUrl: "ThorstenSchillo.jpg"
 -
@@ -49,16 +60,18 @@
   name: "Maximilian"
   surname: "Jerg"
   current: true
-  bio: "--- more details coming soon ---"
+  bio: "Maximilian Jerg works at Oracle in Vienna. He enjoys traveling around the world and spends his free time as a successful app developer with focus on JavaScript, Angular and NodeJS. Maximilian received a Bachelor's degree from University of Vienna and is currently finishing his Master degree in Business Informatics."
   company: "Oracle"
-  thumbnailUrl: "unknown-male.png"
+  thumbnailUrl: "MaximilianJerg.jpg"
 -
   id: "mingkang-pan"
   name: "Mingkang"
   surname: "Pan"
   current: true
-  bio: "I am a passionate Android Developer since 5 years and have worked in different start-ups. Now I work for willhaben and I am responsible for clean architecture code in our app. I hate boilerplate code and am an absolute fan of Kotlin."
-  thumbnailUrl: "unknown-male.png"
+  rockstar: true
+  company: Willhaben
+  bio: "I am a passionate Android Developer for 5 years and have worked in different start-ups. Now I work for willhaben and I am responsible for clean architecture code in our app. I hate boilerplate code and always follow the most pragmatic way to solve a problem. I am an absolute fan of Kotlin, using it for almost 2 years. In my spare time, I do a lot of break dancing."
+  thumbnailUrl: "MingkangPan.jpg"
 -
   id: "helmuth-breitenfellner"
   name: "Helmuth"
@@ -98,22 +111,6 @@
   thumbnailUrl: "RomanPickl.jpg"
   social:
     - { name: "twitter", link: "https://twitter.com/RomPic" }
--
-  id: "bernhard-bonigl"
-  name: "Bernhard"
-  surname: "Bonigl"
-  current: false
-  bio: "Software Engineer at willhaben, Master in Software Engineering at TU Wien, Lifelong hobby programmer"
-  thumbnailUrl: "BernhardBonigl.jpg"
--
-  id: "ayokunle-paul"
-  name: "Ayokunle"
-  surname: "Paul"
-  current: false
-  bio: "Student Android developer, Obafemi Awolowo University, Ile Ife, Osun State, Nigeria, West Africa."
-  thumbnailUrl: "AyokunlePaul.jpg"
-  social:
-    - { name: "twitter", link: "https://twitter.com/paul_eipeks" }
 -
   id: "gergely-sipos"
   name: "Gergely"

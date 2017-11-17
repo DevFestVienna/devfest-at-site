@@ -86,7 +86,6 @@
   social:
     - {name: "google-plus", title: "Google+", link: "https://google.com/+RobertHesele"}
     - {name: "twitter", title: "Twitter", link: "https://twitter.com/RHesele"}
-    - {name: "linkedin", title: "LinkedIn", link: "https://at.linkedin.com/pub/robert-hesele/95/1a2/119/en"}
 -
   id: "kariem-hussein"
   name: "Kariem"
@@ -123,3 +122,16 @@
     - {abbr: "WTM", title: "Women Techmakers"}
   social:
    - {name: "facebook", title: "Facebook", link: "https://www.facebook.com/diana.vysoka.1"}
+-
+  id: "tatyana-sandanova"
+  name: "Tatyana"
+  surname: "Sandanova"
+  title: "Conference Team"
+  thumbnailUrl: "TatyanaSandanova.jpg"
+  subTeam: true
+  ribbon:
+    - {abbr: "WTM", title: "Women Techmakers"}
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social:
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/delikatessa"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/tanyasan/"}
