@@ -43,11 +43,10 @@
   ribbon:
     - {abbr: "JSUG", title: "Java Vienna"}
   social:
-    - {name: "twitter", title: "Twitter", link: "https://twitter.com/domdorn"}   
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/domdorn"}
     - {name: "site", title: "Blog", link: "https://dominikdorn.com"}
     - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/dominik-dorn-bb1b4266/"}
     - {name: "xing", title: "Xing", link: "https://www.xing.com/profile/Dominik_Dorn"}
--
   id: "klemens-zleptnig"
   name: "Klemens"
   surname: "Zleptnig"
