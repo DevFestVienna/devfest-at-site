@@ -17,9 +17,9 @@ googleAnalyticsSiteUrl: "www.devfest.at"
 # Location block
 eventLocationName: "TU Wien"
 eventLocationAddress: "Gußhausstraße 27-29, 1040 Wien"
-eventStartTime: "2017-11-25T10:00"
+eventStartTime: "2018-11-24T10:00"
 eventStartTimeHumanReadable: "10:00"
-eventEndTime: "2017-11-25T19:00"
+eventEndTime: "2018-11-24T19:00"
 eventEndTimeHumanReadable: "19:00"
 eventPlaceCoordinates: "48.1964423,16.369645"
 mapCenterCoordinates: "48.1964423,16.369645"
@@ -30,7 +30,7 @@ logisticsMapCenterCoordinates: "48.1964423,16.369645"
 logisticsMapMobileCenterCoordinates: "48.1964423,16.369645"
 
 #Tweets feed
-twitterHashTag: "devfest17"
+twitterHashTag: "devfest18"
 twitterFeed: "/tweetledee/favoritesjson.php?c=10&cache_interval=900"
 
 # Subscribe
@@ -48,8 +48,8 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter-2014.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook-2014.png"
 
 # Header
-eventDate: "5 - 6 November 2017"
-typeoutTextValues: '"2", "3", "4", "5", "6", "7"'
+eventDate: "24 - 25 November 2018"
+typeoutTextValues: '"2", "3", "4", "5", "6", "7", "8"'
 
 # About Event Block
 eventName: "DevFest Vienna"
