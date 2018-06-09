@@ -10,7 +10,7 @@ Interested in being part of the event as a speaker?
 _We encourage submissions from female speakers to enhance the gender balance.
 Talk proposals will be reviewed anonymously to reduce any possible unconscious bias._
 
-**Call for Speakers is open till 8 October 2017 midnight Vienna time!**
+**Call for Speakers is open till 30 June 2018 midnight Vienna time!**
 
 ###### **[&gt; &gt; &gt; Submit Your Proposal](https://cfp.gdg-vienna.at)** ######
 

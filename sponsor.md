@@ -5,7 +5,7 @@ permalink: /sponsor/
 isStaticPost: true
 ---
 
-DevFest Vienna is now in its fifth year, participant numbers are increasing (last year we had over 250 attendees), and we get an ever increasing social media coverage.
+DevFest Vienna is now in its sixth year, participant numbers are increasing (last year we had over 250 attendees), and we get an ever increasing social media coverage.
 
 We have sponsorship packages starting from 500 EUR in the categories **Bronze**, **Silver** and **Gold**.
 Depending on the package your company is featured on the website, in social media mentions (grouped or also individual), you can be present with a table at the conference, and also display a rollup at the foyer.
