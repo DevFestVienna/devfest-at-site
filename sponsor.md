@@ -12,7 +12,7 @@ Depending on the package your company is featured on the website, in social medi
 
 Download our [sponsorship brochure](/pdf/DevFest_Vienna_Sponsorship.pdf) for a detailed description of the packages and your benefits.
 
-In addition we offer an exclusive **Platinum** package (maximum two sponsors) who will be featured throughout the conference.
+In addition we offer an exclusive **Platinum** package (there can only be one) who will be featured throughout the conference.
 
 Sponsors can also opt to sponsor specifically a room, a break (breakfast / coffee / lunch), the hackathon or the afterparty ("Coffee break _powered by_ ...").
 
