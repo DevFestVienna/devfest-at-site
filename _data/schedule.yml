@@ -1,12 +1,12 @@
 -
-  date: "2017-11-25"
-  dateReadable: "25 November"
+  date: "2018-11-24"
+  dateReadable: "24 November"
   dateDescription: "Talks and Presentations"
   location: "TU Wien"
   locationLink: "/location/#tu-wien"
   rooms:
-    - {title: "Room Willhaben", color: "#90be4e"}
-    - {title: "Room 2", color: "#03a9f4"}
+    - {title: "Room Bitmovin", color: "#90be4e"}
+    - {title: "Room Willhaben", color: "#03a9f4"}
   timeslots:
     -
         startTime: "09:00"
@@ -65,8 +65,8 @@
         endTime: "22:00"
         sessionIds: [105]
 -
-  date: "2017-11-26"
-  dateReadable: "26 November"
+  date: "2018-11-25"
+  dateReadable: "25 November"
   dateDescription: "Actions on Google Workshops"
   location: "Stockwerk Coworking Space"
   locationLink: "/location/#stockwerk"

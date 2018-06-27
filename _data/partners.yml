@@ -6,3 +6,9 @@
     name: "Bitmovin"
     url: "https://bitmovin.com"
 -
+  title: "Gold"
+  logos:
+  -
+    logoUrl: "/images/logos/logo-willhaben.png"
+    name: "Willhaben"
+    url: "https://jobsbei.willhaben.at"
