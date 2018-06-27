@@ -1,0 +1,27 @@
+{
+  "name": "devfest-at-site",
+  "version": "1.0.0",
+  "description": "Website for DevFest Vienna",
+  "main": "index.js",
+  "dependencies": {
+    "ent": "^2.2.0",
+    "fs": "^0.0.1-security",
+    "shelljs": "^0.8.2",
+    "yamljs": "^0.3.0",
+    "firebase-tools": "^3.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevFestVienna/devfest-at-site.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevFestVienna/devfest-at-site/issues"
+  },
+  "homepage": "https://github.com/DevFestVienna/devfest-at-site#readme"
+}

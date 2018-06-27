@@ -13,10 +13,6 @@ task :js do
 end
 
 task :json do
-  system "npm install fs"
-  system "npm install ent"
-  system "npm install yamljs"
-  system "npm install shelljs"
   system "node automation/json/mobile.js"
   system "node automation/json/firebase.js"
 end
