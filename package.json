@@ -5,10 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "ent": "^2.2.0",
+    "firebase-tools": "^3.19.1",
     "fs": "^0.0.1-security",
     "shelljs": "^0.8.2",
-    "yamljs": "^0.3.0",
-    "firebase-tools": "^3.19.0"
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {},
   "scripts": {
