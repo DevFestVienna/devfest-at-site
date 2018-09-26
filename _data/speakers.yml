@@ -1,8 +1,22 @@
 -
+  id: "ionut-balosin"
+  name: "Ionut"
+  surname: "Balosin"
+  current: true
+  bio: "Software Architect with 10+ years of experience in a wide variety of business applications. Particularly interested in software architecture and performance & tuning topics. Speaker at external conferences (e.g. Devoxx, GeeCon, JokerConf, JPrime, JBCNConf, RigaDevDays, XP Days, Voxxed, Bucharest Java User Group, Logeek, SoftLabs, DevTalks, Agile Tour) and occasionally technical writer (InfoQ, DZone, etc)."
+  thumbnailUrl: "IonutBalosin.jpg"
+-
+  id: "nicolas-frankel"
+  name: "Nicolas"
+  surname: "Fränkel"
+  current: true
+  bio: "Java geek, Kotlin fan, Spring Boot user"
+  thumbnailUrl: "NicolasFrankel.jpg"
+-
   id: "eva-lettner"
   name: "Eva"
   surname: "Lettner"
-  current: true
+  current: false
   rockstar: true
   bio: "Web developer, linguist, reader of all things SciFi & fantasy, <a href='https://www.meetup.com/webclerks/events/' target='_blank'>webclerks</a> co-organiser. Codepen: <a href='https://codepen.io/eva_trostlos/' target='_blank'>codepen.io/eva_trostlos</a>"
   thumbnailUrl: "EvaLettner.jpg"
@@ -14,7 +28,7 @@
   id: "thorsten-schillo"
   name: "Thorsten"
   surname: "Schillo"
-  current: true
+  current: false
   company: "Willhaben"
   bio: "Thorsten is a German expat living in Vienna for the past six years. After starting with professional Android development in early 2010, he has worked at several companies in Germany and Austria before joining the willhaben office in Vienna, where he is now leading the mobile apps team. As team lead he is responsible for the smooth development of the willhaben native Apps. He puts a strong emphasis on developing self-organized teams, agile processes, new technologies, and innovation.<br>Apart from the software development world, he likes to play video games, go on photography excursions, or read and teach about history, among a many other interests."
   thumbnailUrl: "ThorstenSchillo.jpg"
@@ -22,7 +36,7 @@
   id: "stefanie-plieschnegger"
   name: "Stefanie"
   surname: "Plieschnegger"
-  current: true
+  current: false
   rockstar: true
   bio: "Stefanie received a bachelor's degree in Business Informatics from TU Wien, and has worked as a software developer and security awareness trainer for several years. Currently she is working on her master thesis at SBA Research."
   thumbnailUrl: "StefaniePlieschnegger.jpg"
@@ -32,7 +46,7 @@
   id: "christian-wirth"
   name: "Christian"
   surname: "Wirth"
-  current: true
+  current: false
   rockstar: true
   bio: "Christian Wirth is a Research Manager for Oracle Labs in Linz, Austria. His main focus is on the Graal/JavaScript+Node.js language implementation. He received a PhD degree from Johannes Kepler University Linz, Austria, in 2013."
   thumbnailUrl: "ChristianWirth.jpg"
@@ -44,7 +58,7 @@
   id: "glenn-reyes"
   name: "Glenn"
   surname: "Reyes"
-  current: true
+  current: false
   bio: "Glenn Reyes is a Front-End Engineer from Vienna, Austria. He is passionate about building JavaScript apps and user interfaces with modern web technologies like React. Glenn is part of the React Vienna community and helps them to organize the meetups. Besides coding he enjoys playing the guitar and travels the world."
   title: "Front-End Engineer"
   thumbnailUrl: "GlennReyes.jpg"
@@ -54,14 +68,14 @@
   id: "blazej-pindelski"
   name: "Blazej"
   surname: "Pindelski"
-  current: true
+  current: false
   bio: "Backend developer working for Jumio Corp. Java/Python enthusiast and Spring user since 2010. Interested in computer vision problems, pragmatic software architectures, the KISS principle and software security. Fan of OSS; committer in spare time."
   thumbnailUrl: "BlazejPindelski.jpg"
 -
   id: "maximilian-jerg"
   name: "Maximilian"
   surname: "Jerg"
-  current: true
+  current: false
   bio: "Maximilian Jerg works at Oracle in Vienna. He enjoys traveling around the world and spends his free time as a successful app developer with focus on JavaScript, Angular and NodeJS. Maximilian received a Bachelor's degree from University of Vienna and is currently finishing his Master degree in Business Informatics."
   company: "Oracle"
   thumbnailUrl: "MaximilianJerg.jpg"
@@ -69,7 +83,7 @@
   id: "mingkang-pan"
   name: "Mingkang"
   surname: "Pan"
-  current: true
+  current: false
   rockstar: true
   company: Willhaben
   bio: "I am a passionate Android Developer for 5 years and have worked in different start-ups. Now I work for willhaben and I am responsible for clean architecture code in our app. I hate boilerplate code and always follow the most pragmatic way to solve a problem. I am an absolute fan of Kotlin, using it for almost 2 years. In my spare time, I do a lot of break dancing."
@@ -78,7 +92,7 @@
   id: "helmuth-breitenfellner"
   name: "Helmuth"
   surname: "Breitenfellner"
-  current: true
+  current: false
   bio: "Helmuth is working as a software engineer at CTBTO, the international watchdog for nuclear test explosions. In his free time he is playing around with Google technology, and he is one of the leads of GDG Vienna."
   thumbnailUrl: "HelmuthBreitenfellner.jpg"
   social:
@@ -89,7 +103,7 @@
   id: "milos-pupik"
   name: "Miloš"
   surname: "Pupik"
-  current: true
+  current: false
   bio: "Milos is a lawyer specializing in Intellectual Property, Data Protection and ADR in International Environment. He was previously working for Squire Patton Boggs or Ministry of Economy of Slovakia. He currently works for Teach for Slovakia movement as Teacher and runs a Legal Education NGO Vinculum Iuris."
   thumbnailUrl: "MilosPupik.jpg"
   social:
@@ -99,14 +113,14 @@
   id: "tamas-tozser"
   name: "Tamás"
   surname: "Tőzsér"
-  current: true
+  current: false
   bio: "Tamás is the CTO at Doctusoft a cloud engineering company specializing in Google Cloud Platform development since 2011. He is also the lead developer of AODocs since 2012. AODocs is a multi tenant application built on the Google Cloud Platform with more than 2M users including Google. It is used to complete Google Drive with additional capabilities such as advanced access management."
   thumbnailUrl: "TamasTozser.jpg"
 -
   id: "roman-pickl"
   name: "Roman"
   surname: "Pickl"
-  current: true
+  current: false
   company: "Fluidtime Data Services GmbH"
   title: "CTO"
   bio: "As Chief Technical Officer, Roman is in charge of the technical development at Fluidtime. He has comprehensive experience in project management, the technical coordination of national and international mobility projects and the optimisation of business and development processes."
@@ -117,14 +131,14 @@
   id: "gergely-sipos"
   name: "Gergely"
   surname: "Sipos"
-  current: true
+  current: false
   bio: "Gergely is a frontend architect at Doctusoft. He is a Typescript and Javascript ecosystem enthusiast, and seeks solutions to build complex user interfaces effectively. He worked on several international projects mainly with AngularJS and Angular."
   thumbnailUrl: "GergelySipos.jpg"
 -
   id: "indermohan-singh"
   name: "Indermohan"
   surname: "Singh"
-  current: true
+  current: false
   bio: "Indermohan Singh is Mobile App Developer, working at Greentube GmbH in Vienna, Austria. For the past 3 and half years, he is working on Angular, Ionic, TypeScript most of the time. He authored 'Ionic 2 Blueprint' for Packt Publication. Currently he is writing an another book on Ionic."
   thumbnailUrl: "IndermohanSingh.jpg"
 -

@@ -45,150 +45,23 @@
   language: English
 -
   id: 111
-  title: "Honey Wi-Fi Traffic: A case study on Wi-Fi security"
-  description: "The talk will be a short introduction to an ongoing research project that is trying to assess security risks of public and unencrypted Wi-Fi hotspots. For the study, an Android app is automatically connecting to open Wi-Fi hotspots, testing limitations (e.g. blocked ports), and collecting information about the hotspot. Furthermore, the app is sending “honey traffic” that includes sensitive data like login credentials for different services, that could be eavesdropped and abused by attackers. By controlling the server that offers those services, we are able to detect if data has been intercepted."
+  title: "Architecting for performance. A top-down approach"
+  description: "Focused on a top-down approach, it covers the main layers where a software architect or performance engineer must be involved by revealing performance design principles, tactics, patterns, algorithms, strategies, operating system and hardware level optimizations. Each of these layers are detailed by offering suggestions and examples (including some performance tests) for the audience regarding what it really matters and what should be avoided when designing for performance. Main topics: - design principles (e.g. cohesion, polymorphism / abstractizations, cyclomatic complexity, algorithms complexity, etc) - tactics, patterns, algorithms, strategies (e.g. caching, batching, design asynchronous, non-blocking, memory access patterns, lock free algorithms, data structures, etc) - operating system (e.g. large pages, NUMA, thread affinity, RamFS/TmpFS, IO Scheduler, etc) - hardware (e.g. false sharing, C-states, Zero Bit Recording, Solid State Drive, CPU stalls, Cache misses, etc)"
   subtype: presentation
-  track: "Security"
-  speakers: ["stefanie-plieschnegger"]
+  track: "Infrastructure"
+  speakers: ["ionut-balosin"]
   language: English
 -
   id: 112
-  title: "The road to pure Kotlin"
-  description: "Kotlin is the hot new thing in the Android world. After Google endorsed it as the second official programming language for Android, it is high time for companies to start gathering Kotlin experience. However, adapting a new technology is always a daunting task, especially if you have a large existing code-base. By sharing the experience of gradually migrating the willhaben Android app to 100% Kotlin code, I want to show you that a migration might not be as difficult as you think, and what you can gain by investing the resources."
+  title: "Starting on Ethereum, a developer approach"
+  description: "You probably heard about Bitcoin. But crypto-currencies are just about speculation. You can do more on the blockchain. You can deploy code on the blockchain. Do you want to know more? Come to the talk!"
   subtype: presentation
-  track: "Android"
-  speakers: ["thorsten-schillo"]
-  language: English
--
-  id: 113
-  title: "Microservices at Jumio - the journey so far..."
-  description: "Insights into how a company the size of Jumio Corporation handles migration to a new technology stack, heavily based on microservices and tries to leverage modern tools (Consul, Vagrant and Docker) to make the life of developers easier. Some knowledge about Docker, Consul, Vagrant and the Spring stack (i.e. Spring Boot) is expected."
-  subtype: presentation
-  track: "Architecture"
-  speakers: ["blazej-pindelski"]
-  language: English
--
-  id: 114
-  title: "Cloud Firestore - the new database for Firebase"
-  description: "On 3 October Google announced the public beta of Cloud Firestore, the new realtime database in Firebase. Topics of the talk:<ul><li>Introduction to Firestore<li>Structuring, storing &amp; querying data from Firestore<li>Offline use</ul>Code samples will be mainly for Web but also for Android."
-  subtype: presentation
-  track: "Cloud"
-  speakers: ["helmuth-breitenfellner"]
-  language: English
--
-  id: 115
-  title: "Coding legally: A how to guide to meet new legal requirements on personal data"
-  description: "No matter the coding language your use, from May 25th, 2018, there is an overhaul of personal data processing and collection based on General Data Protection Regulation (GDPR), which is directly applicable in the whole European Union. With this regulation EU marks its third generation of Data Protection legislation. Don't miss out and get to know your responsibilities to prevent any legal action against you and your product."
-  subtype: presentation
-  track: "Legal"
-  speakers: ["milos-pupik"]
-  language: English
--
-  id: 116
-  title: "Why should Spanner excite you?"
-  description: "The CAP theorem proved it mathematically that you can’t build a distributed database that is both consistent and highly available. In spite of this, Google’s Cloud Spanner promises a consistent infinitely scalable distributed database combining the advantages of the SQL and NoSQL world. How is this technologically possible? And how does it work in practice? At Doctusoft, we face challenges every day that could be solved by Spanner. Our multi TB cloud application called AODocs is presented as a case study, to show the problems caused by using a NoSQL database and how Spanner could resolve them."
-  subtype: presentation
-  track: "Cloud"
-  speakers: ["tamas-tozser"]
-  language: English
--
-  id: 117
-  title: "Continuous Delivery with Jenkins Pipelines"
-  description: "This talk demonstrates how a continuous delivery deployment pipeline can be set up harnessing jenkins 2’s Pipeline as Code features as well as its new Blue Ocean User Experience."
-  subtype: presentation
-  track: "Architecture"
-  speakers: ["roman-pickl"]
-  language: English
--
-  id: 118
-  title: "How to build a personalized feed for willhaben apps which delivers in under 200ms"
-  description: "We implemented a feed component which serves as the central background component for our newly designed apps. The feed receives data from multiple different sources and components. The data needs to be postprocessed and some of it also requires interaction between the components to correlate it correctly. We have to make sure that each component is handled in a performant and secure way, while ensuring that the feed also works if one or multiple components fail. Therefore we used Gatling to performance test the components to guarantee that that it delivers its data in a specific amount of time. Hystrix was used to handle component failures and downtimes. That process involved many parties in our company."
-  subtype: presentation
-  track: "Architecture"
-  speakers: ["bernhard-bonigl"]
-  language: English
--
-  id: 119
-  title: "ANDROID ARCHITECTURE COMPONENTS: Dawn of a new era in Android development"
-  description: "In the last I/O, Google’s Android framework team introduced the android.arch library. For the first time, Google is giving developers a head-start on which principles to follow when developing Android applications. This library solves practically the most persisting problem in Android development. Other than that, it reduces boiler-plate. This library promotes the MVVM(Model-View-ViewModel) design pattern and it pushes android applications down the functional/reactivity road. The MVVM principle eases unit testing and makes Android applications modular. It ensures there is little or no room for resource leaks."
-  subtype: presentation
-  track: "Android"
-  speakers: ["ayokunle-paul"]
-  language: English
--
-  id: 120
-  title: "Angular 2+ components with RxJS"
-  description: "Angular is built on top of RxJS. Take a glimpse into the Functional Reactive Programming (FRP) way of creating Angular components. Introducing FRP to your code can make it more robust, especially when working with asynchronous data streams. Gergely is going to explain how to make use of RxJS, and how to improve your code with it."
-  subtype: presentation
-  track: "Web"
-  speakers: ["gergely-sipos"]
-  language: English
--
-  id: 121
-  title: "Creating Web Components with Stenciljs"
-  description: "Web Components are the future of web development. In the talk, I will be giving introduction to Stenciljs, a build time tool to create Web Components. We will see how with the help of stenciljs, we can create reusable web components with very easy to understand syntax, which works across all the major browsers."
-  subtype: presentation
-  track: "Web"
-  speakers: ["indermohan-singh"]
-  language: English
--
-  id: 122
-  title: "One VM to rule them all"
-  description: "What is the best programming language? Let's not start an argument; with GraalVM, you need to care much less about that question. Based on the Java Virtual Machine, it allows executing not only Java, but many more languages including Python, JavaScript, Ruby, R, C/C++, etc. All that with native performance, and language interoperability. Experience the future of VMs."
-  subtype: presentation
-  track: "Technology"
-  speakers: ["christian-wirth"]
-  language: English
--
-  id: 123
-  title: "Modern DevOps for Containers with Oracle Cloud"
-  description: "Container technology has taken the IT world by storm and is the hot topic in cloud computing. How can containers change the way we build and deploy applications?<br>In this talk, we will look at how to automate and drastically shorten the journey from development to deployment using containers and pipelines. In a live demo we will also demonstrate how to deploy a simple application into a powerful containerized cluster using Oracle Cloud and Open Source Technology like Kubernetes."
-  subtype: presentation
-  track: Cloud
-  speakers: ["maximilian-jerg"]
-  language: English
--
-  id: 124
-  title: "Optimizing React apps with Code Splitting"
-  description: "Dynamic imports have arrived! With the new import() proposal we have got a convenient capability to load React components whenever rendered. Our mission now is to build faster web apps and deliver as less code as needed. But how? In this talk we will leverage code-splitting with minimal effort and discuss the page speed impact."
-  subtype: presentation
-  track: Web
-  speakers: ["glenn-reyes"]
-  language: English
--
-  id: 125
-  title: "Introducing ScreenFlow - an alternative to Fragments"
-  description: "Android Fragments are a default component, and most of us Android developers have gotten used to them. However many of us complain that they are overly complicated in order to accommodate every possible use-case, while most of these cases are never encountered in any normal app. I will present an alternative approach to Fragments, which avoids all the complexity, but still retains an easy extensibility and customization for your needs."
-  subtype: presentation
-  track: Android
-  speakers: ["mingkang-pan"]
-  language: English
--
-  id: 127
-  title: "Paint the Web with CSS. On Creating Art with Code"
-  description: "As developers we view code as one thing: a tool to build our projects with. But what if I told you that it can be so much more: CSS can be a paintbrush and HTML your canvas. Lets find out what you can do by misusing a technology you might already know well. In this talk you will learn the basics of creating pure CSS images and animations. You will find out everything about shapes, how to use less markup and why gradients are not just pretty, but pretty useful too. All these learnings will be brought into real life projects to show that nothing you create for fun has to be useless. This talk will hopefully inspire you to view code differently and maybe even to create your own CSS drawings."
-  subtype: presentation
-  track: Web
-  speakers: ["eva-lettner"]
+  track: "Blockchain"
+  speakers: ["nicolas-frankel"]
   language: English
 -
   id: 200
   title: "Breakfast"
-  service: true
--
-  id: 201
-  title: "Introduction to Actions on Google"
-  description: "This session will introduce into the programming concept for Actions on Google"
-  service: true
--
-  id: 202
-  title: "Codelab"
-  description: "Hands-on codelab: Your first Google Assistant app"
-  service: true
--
-  id: 204
-  title: "Codelab"
-  description: "Hands-on codelab: Node.js and Dialogflow (aka API.AI)"
   service: true
 -
   id: 203
@@ -198,13 +71,4 @@
   id: 205
   title: "Coffee Break"
   service: true
--
-  id: 206
-  title: "Codelab"
-  description: "Hands-on codelab: Firebase and Dialogflow (aka API.AI)"
-  service: true
--
-  id: 207
-  title: "Project Time"
-  description: "In groups, you will work on your ideas for the Google Assistant"
-  service: true
+

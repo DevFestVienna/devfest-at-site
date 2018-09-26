@@ -18,12 +18,8 @@
         sessionIds: [101]
     -
         startTime: "10:00"
-        endTime: "10:30"
-        sessionIds: [111, 122]
-    -
-        startTime: "10:30"
         endTime: "11:00"
-        sessionIds: [121, 117]
+        sessionIds: [111, 1]
     -
         startTime: "11:00"
         endTime: "11:30"
@@ -31,7 +27,7 @@
     -
         startTime: "11:30"
         endTime: "12:30"
-        sessionIds: [112, 115]
+        sessionIds: [1, 1]
     -
         startTime: "12:30"
         endTime: "13:30"
@@ -39,23 +35,19 @@
     -
         startTime: "13:30"
         endTime: "14:30"
-        sessionIds: [125, 120]
+        sessionIds: [1, 1210]
     -
         startTime: "14:30"
         endTime: "15:30"
-        sessionIds: [113, 123]
+        sessionIds: [1, 1]
     -
         startTime: "15:30"
         endTime: "16:00"
         sessionIds: [102]
     -
         startTime: "16:00"
-        endTime: "16:30"
-        sessionIds: [114, 127]
-    -
-        startTime: "16:30"
         endTime: "17:00"
-        sessionIds: [116, 124]
+        sessionIds: [112, 1]
     -
         startTime: "17:00"
         endTime: "17:30"
@@ -67,11 +59,11 @@
 -
   date: "2018-11-25"
   dateReadable: "25 November"
-  dateDescription: "Actions on Google Workshops"
-  location: "Stockwerk Coworking Space"
+  dateDescription: "TBA"
+  location: "TBA"
   locationLink: "/location/#stockwerk"
   rooms:
-    - {title: "Stockwerk Coworking Space"}
+    - {title: "TBA"}
   timeslots:
     -
         startTime: "09:45"
