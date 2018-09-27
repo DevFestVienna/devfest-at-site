@@ -9,9 +9,14 @@
   id: "nicolas-frankel"
   name: "Nicolas"
   surname: "Fränkel"
+  title: "Developer Advocate"
+  company: "Exoscale"
   current: true
   bio: "Java geek, Kotlin fan, Spring Boot user"
   thumbnailUrl: "NicolasFrankel.jpg"
+  social:
+   - { name: "twitter", link: "https://twitter.com/nicolas_frankel" }
+   - { name: "github", link: "https://github.com/nfrankel" }
 -
   id: "eva-lettner"
   name: "Eva"
