@@ -11,5 +11,6 @@ nbproject/
 .DS_Store
 *.swp
 *.log
+*.cache
 .tmp
 css/main.min.css
