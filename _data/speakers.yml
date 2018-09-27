@@ -12,11 +12,12 @@
   title: "Developer Advocate"
   company: "Exoscale"
   current: true
-  bio: "Java geek, Kotlin fan, Spring Boot user"
+  bio: "Java geek, Kotlin fan, Spring Boot user. Developer Relationships Manager at <a href='https://www.exoscale.com/' target='_blank'>Exoscale</a>"
   thumbnailUrl: "NicolasFrankel.jpg"
   social:
    - { name: "twitter", link: "https://twitter.com/nicolas_frankel" }
    - { name: "github", link: "https://github.com/nfrankel" }
+   - { name: "site", link: "https://blog.frankel.ch/"}
 -
   id: "eva-lettner"
   name: "Eva"
