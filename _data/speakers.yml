@@ -3,8 +3,12 @@
   name: "Ionut"
   surname: "Balosin"
   current: true
+  title: "Software Architect and Independent Technical Trainer"
+  company: "Raiffeisen Bank International"
   bio: "Software Architect with 10+ years of experience in a wide variety of business applications. Particularly interested in software architecture and performance & tuning topics. Speaker at external conferences (e.g. Devoxx, GeeCon, JokerConf, JPrime, JBCNConf, RigaDevDays, XP Days, Voxxed, Bucharest Java User Group, Logeek, SoftLabs, DevTalks, Agile Tour) and occasionally technical writer (InfoQ, DZone, etc)."
   thumbnailUrl: "IonutBalosin.jpg"
+  social:
+   - { name: "site", link: "http://www.ionutbalosin.com/" }
 -
   id: "nicolas-frankel"
   name: "Nicolas"
