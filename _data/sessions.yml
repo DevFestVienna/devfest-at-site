@@ -60,6 +60,13 @@
   speakers: ["nicolas-frankel"]
   language: English
 -
+  id: 113
+  title: "Technical SEO for Web Developers"
+  description: "Google Search can be a great source of traffic to any website. This talk will highlight ways to build out a site's presence in Search, be it for yourself or for others, through hosting platforms, content management systems, or plugins. Learn about the best practices, tools, structured data, and APIs to make it easier to work with new and updated pages over the whole content lifecycle."
+  track: "Cloud"
+  speakers: ["martin-splitt"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true

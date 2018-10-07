@@ -23,6 +23,19 @@
    - { name: "github", link: "https://github.com/nfrankel" }
    - { name: "site", link: "https://blog.frankel.ch/"}
 -
+  id: "martin-splitt"
+  name: "Martin"
+  surname: "Splitt"
+  title: "Webmaster Trends Analyst"
+  company: "Google"
+  current: true
+  bio: "Martin is a developer advocate on the Webmaster Trends Analyst team at Google Switzerland. In this role, he helps developers and content creators to build great content on the web. He is involved with the W3C as well as the global web and JavaScript developer community, working to keep the web open."
+  thumbnailUrl: "MartinSplitt.jpg"
+  social:
+   - { name: "twitter", link: "https://twitter.com/g33konaut" }
+   - { name: "site", link: "http://50linesofco.de/" }
+   - { name: "github", link: "https://github.com/avgp" }
+-
   id: "eva-lettner"
   name: "Eva"
   surname: "Lettner"
