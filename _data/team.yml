@@ -47,6 +47,7 @@
     - {name: "site", title: "Blog", link: "https://dominikdorn.com"}
     - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/dominik-dorn-bb1b4266/"}
     - {name: "xing", title: "Xing", link: "https://www.xing.com/profile/Dominik_Dorn"}
+-
   id: "klemens-zleptnig"
   name: "Klemens"
   surname: "Zleptnig"
@@ -111,17 +112,6 @@
     - {abbr: "WTM", title: "Women Techmakers"}
   social:
    - {name: "facebook", title: "Facebook", link: "https://www.facebook.com/candy.chris.56"}
--
-  id: "diana-vysoka"
-  name: "Diana"
-  surname: "Vysoká"
-  title: "Program Assistant"
-  thumbnailUrl: "DianaVysoka.jpg"
-  subTeam: true
-  ribbon:
-    - {abbr: "WTM", title: "Women Techmakers"}
-  social:
-   - {name: "facebook", title: "Facebook", link: "https://www.facebook.com/diana.vysoka.1"}
 -
   id: "tatyana-sandanova"
   name: "Tatyana"
