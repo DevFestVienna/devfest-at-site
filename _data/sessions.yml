@@ -37,6 +37,11 @@
   subtype: presentation
   language: English
 -
+  id: 2
+  title: "To be announced"
+  track: "OWASP"
+  description: "Stay tuned - details for this <a href='https://www.owasp.org' target='_blank'>OWASP</a>-related talk will be announced soon!"
+-
   id: 99
   title: "Lightning Talks"
   description: "This is your time. Anything you want to show to peers, a new library, an API, or some food for thoughts? Bring your lightning talk (5 minutes each) and let us hear!"
