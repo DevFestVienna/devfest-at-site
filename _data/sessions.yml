@@ -25,9 +25,9 @@
   service: true
 -
   id: 105
-  title: "After Party"
+  title: "After Party - powered by Bitmovin"
   description: "Join the afterparty - relax, chat & network. Drinks are on us!"
-  place: "Gorilla Kitchen"
+  place: "TBA"
   service: true
 -
   id: 1
@@ -70,6 +70,21 @@
   id: 200
   title: "Breakfast"
   service: true
+-
+  id: 201
+  title: "TBA"
+-
+  id: 202
+  title: "TBA"
+-
+  id: 204
+  title: "TBA"
+-
+  id: 206
+  title: "TBA"
+-
+  id: 207
+  title: "TBA"
 -
   id: 203
   title: "Lunch Break"

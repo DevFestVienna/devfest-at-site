@@ -9,19 +9,23 @@
     - {title: "Room Willhaben", color: "#03a9f4"}
   timeslots:
     -
-        startTime: "09:00"
-        endTime: "09:45"
+        startTime: "08:30"
+        endTime: "09:00"
         sessionIds: [100]
     -
-        startTime: "09:45"
-        endTime: "10:00"
+        startTime: "09:00"
+        endTime: "09:15"
         sessionIds: [101]
     -
-        startTime: "10:00"
-        endTime: "11:00"
+        startTime: "09:15"
+        endTime: "10:15"
         sessionIds: [111, 1]
     -
-        startTime: "11:00"
+        startTime: "10:15"
+        endTime: "11:15"
+        sessionIds: [1, 1]
+    -
+        startTime: "11:15"
         endTime: "11:30"
         sessionIds: [102]
     -
@@ -42,18 +46,22 @@
         sessionIds: [1, 1]
     -
         startTime: "15:30"
-        endTime: "16:00"
+        endTime: "15:45"
         sessionIds: [102]
     -
-        startTime: "16:00"
-        endTime: "17:00"
+        startTime: "15:45"
+        endTime: "16:45"
         sessionIds: [112, 1]
     -
-        startTime: "17:00"
-        endTime: "17:30"
+        startTime: "16:45"
+        endTime: "17:45"
+        sessionIds: [1, 1]
+    -
+        startTime: "17:45"
+        endTime: "18:15"
         sessionIds: [104]
     -
-        startTime: "17:30"
+        startTime: "18:15"
         endTime: "22:00"
         sessionIds: [105]
 -
