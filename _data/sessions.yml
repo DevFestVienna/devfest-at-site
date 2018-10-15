@@ -72,6 +72,13 @@
   speakers: ["martin-splitt"]
   language: "English"
 -
+  id: 114
+  title: "Security: One API at a Time"
+  description: "This talk will run you through the basics of securing your API to more advanced testing and monitoring techniques. Starting off with the bare minimum of deploying modern TLS to your API, to creating a risk assessment for each call and finally wrapping up a security monitoring. This talk will briefly cover several tools to validate your counter measures and show some examples."
+  track: "OWASP"
+  speakers: ["markus-scharitzer"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
