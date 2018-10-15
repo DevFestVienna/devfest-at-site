@@ -42,6 +42,9 @@
   current: true
   bio: "As a Penetration Tester and Threat Analyst, Markus can draw from his experience as a Security Manager and long-time Linux System Engineer. As a purple teamer by heart his interests are in all things security. An all around open source enthusiast, he likes to contribute some of his work back to the community."
   thumbnailUrl: "MarkusScharitzer.jpg"
+  social:
+   - { name: "twitter", link: "https://twitter.com/droptableuser" }
+   - { name: "site", link: "https://droptableuser.me" }
 -
   id: "eva-lettner"
   name: "Eva"
