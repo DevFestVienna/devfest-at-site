@@ -23,6 +23,35 @@
    - { name: "github", link: "https://github.com/nfrankel" }
    - { name: "site", link: "https://blog.frankel.ch/"}
 -
+  id: "aygul-zagidullina"
+  name: "Aygul"
+  surname: "Zagidullina"
+  bio: "Dr. Aygul Zagidullina is a Google Developer Expert (GDE) for Assistant based in London, UK. Her work experience includes Google, Todoist, MotaWord. She holds a PhD in quantum chemistry and prior to Google dedicated 6 years to scientific research at the University of Stuttgart. Aygul is a very active member of the London digital ecosystem and has been involved in many innovative projects. She is a Google Developer Group (GDG)/ Women Techmakers (WTM) London lead, Google Top Contributor (TC)/ Trusted Tester (TT), and UK STEM Ambassador. Aygul has been a distinguished speaker at numerous international industry events in the US (at Google HQ), UK, Germany, Ireland, UAE, Greece, Turkey, Poland, Georgia, and Russia. She was named as one of The NEXT 100 Top Influencers of the European Digital Industry in 2013."
+  thumbnailUrl: "AygulZagidullina.jpg"
+  current: true
+  ribbon:
+   - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/gdglondon/"}
+   - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  social:
+   - {name: "twitter", link: "https://twitter.com/aygul"}
+   - {name: "site", link: "https://aygul.co"}
+   - {name: "linkedin", link: "https://linkedin.com/in/aygulzagidullina"}
+-
+  id: "kaan-mamikoglu"
+  name: "Kaan"
+  surname: "Mamikoglu"
+  title: "Mobile Software Engineer"
+  company: "MyDrive"
+  bio: "Kaan is a mobile software engineer at MyDrive Solutions, a Generali company, in London, UK. As an active community builder, he has co-organized a lot of developer events in the UK and Turkey such as DevFests, Android Developer Days’, Android Study Jams, and has been a distinguished speaker at many international industry events in the US, UK, Czech Republic, UAE, Turkey, and Georgia. Besides being a Google Developer Group (GDG) London co-organizer, he is a Google Top Contributor (TC) and a Google Local Guide. Kaan is passionate about exploring new technologies and traveling around the world."
+  thumbnailUrl: "KaanMamikoglu.jpg"
+  current: true
+  ribbon:
+   - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/gdglondon/"}
+  social:
+   - {name: "twitter", link: "https://twitter.com/kaanmamikoglu"}
+   - {name: "site", link: "http://iamkaan.com"}
+   - {name: "linkedin", link: "https://linkedin.com/in/iamkaan"}
+-
   id: "martin-splitt"
   name: "Martin"
   surname: "Splitt"
