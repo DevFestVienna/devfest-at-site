@@ -37,6 +37,18 @@
    - {name: "site", link: "https://aygul.co"}
    - {name: "linkedin", link: "https://linkedin.com/in/aygulzagidullina"}
 -
+  id: "sergei-kriger"
+  name: "Sergei"
+  surname: "Kriger"
+  title: "Frontend developer"
+  company: "SinnerSchrader"
+  bio: "Sergei fell in love with web development at the high school level. He got a degree in Information Technologies from the University of Helsinki and spent professional career working for web design studios in Helsinki and Munich. Sergei's focus areas are JavaScript development, UX and accessibility."
+  thumbnailUrl: "SergeiKriger.jpg"
+  current: true
+  social:
+   - { name: "twitter", link: "https://twitter.com/_sergeikriger" }
+   - { name: "site", link: "http://sergeikriger.com" }
+-
   id: "kaan-mamikoglu"
   name: "Kaan"
   surname: "Mamikoglu"

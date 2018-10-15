@@ -84,12 +84,21 @@
   description: "Firebase offers two cloud-based, client-accessible database solutions that support realtime data syncing. In this talk, we’ll cover Could Firestore, Firebase's new database solution. It’s an efficient, low-latency database solution for mobile apps that is optimized for speed, security, and offline use. Cloud Firestore lets you build rich, high quality applications by allowing secure access to the database directly from client-side code. Besides being easy to use, it allows you to use queries to decrease the data usage and increase the security so that you can get just the info you need for your user. When offline, apps remain responsive because the Firebase SDK persists your data to disk, giving the end user an immersive experience. Come and learn how you can use Cloud Firestore to effortlessly build powerful realtime experiences on Android in a faster and more efficient way to bring your products to millions of users without worrying about scaling."
   track: "Cloud"
   speakers: ["kaan-mamikoglu"]
+  language: "English"
 -
   id: 116
   title: "Building for the Google Assistant: Voice First vs. Screen First"
   description: "Learn to build for voice first so you can easily surprise and delight your users on hundreds of millions of devices through the Google Assistant. Let’s be honest: it's quite easy to be tempted to take an existing visual-based experience and simply convert it to voice. In this talk, we’ll cover five key ways voice-first development differs from screen-first development. You’ll learn how to create engaging experiences for voice, the next major disruption in computing. By the end of this session, you should have a better understanding of what types of use cases transfer well to voice interactions and why."
   track: "AI"
   speakers: ["aygul-zagidullina"]
+  language: "English"
+-
+  id: 117
+  title: "Accessibility Testing with a Screen Reader"
+  description: "Screen reader is the most popular tool used by people with visual impairments to browse the web. As a rule screen readers have a quite high learning curve due to their complexity and different (non-visual) approach of getting information. In this presentation you will figure out best practices of navigating web pages with a screen reader, learn how to use those practices for accessibility testing on both Mac OS and Windows and understand how to avoid the most common pitfalls when getting started using a screen reader."
+  track: "Web"
+  speakers: ["sergei-kriger"]
+  language: "English"
 -
   id: 200
   title: "Breakfast"
