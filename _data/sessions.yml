@@ -100,6 +100,13 @@
   speakers: ["sergei-kriger"]
   language: "English"
 -
+  id: 118
+  title: "Future-proofing product development for humanity"
+  description: "Designing for a global audience requires creators reset their intuition and re-evaluate best practices when user needs collide. The next billion Internet users are varied but face universal challenges: low spec phones, connectivity, and localized content. Welcoming inclusivity early in the process provides our users unbiased access to experiences that help products succeed."
+  track: "Accessibility"
+  speakers: ["jess-myra"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true

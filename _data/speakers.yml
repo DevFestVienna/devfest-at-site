@@ -49,6 +49,15 @@
    - { name: "twitter", link: "https://twitter.com/_sergeikriger" }
    - { name: "site", link: "http://sergeikriger.com" }
 -
+  id: "jess-myra"
+  name: "Jess"
+  surname: "Myra"
+  company: "Google"
+  title: "Lead Interaction Designer"
+  bio: "Jess Myra designs new products for the Google Next Billion Users team as a lead interaction designer. She brings a culturally empathetic perspective from her work globally across APAC, EMEA, and LATAM. Prior to Google, she worked across digital and tangible interactions for Twitter, Nike, Samsung, IDEO, and EA Sports.<br/>Jess has a Master’s of Interaction Design from the Umeå Institute of Design, and a Bachelor of Design from NSCAD University."
+  thumbnailUrl: "JessMyra.jpg"
+  current: true
+-
   id: "kaan-mamikoglu"
   name: "Kaan"
   surname: "Mamikoglu"
