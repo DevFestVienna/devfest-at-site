@@ -108,6 +108,19 @@
    - { name: "twitter", link: "https://twitter.com/fetzi_io" }
    - { name: "site", link: "https://johannespichler.com" }
 -
+  id: "juarez-filho"
+  name: "Juarez"
+  surname: "Filho"
+  bio: "Passionate about traveling as well as sharing his adventures with Web Technologies and Firebase. As a Google Developer Expert, he’s helping communities all over the world to learn, discover and have fun."
+  thumbnailUrl: "JuarezFilho.jpg"
+  current: true
+  ribbon:
+    - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+JuarezPAFilho"}
+    - {name: "twitter", link: "https://twitter.com/juarezpaf"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/juarezpaf"}
+-
   id: "eva-lettner"
   name: "Eva"
   surname: "Lettner"

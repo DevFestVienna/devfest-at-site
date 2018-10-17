@@ -114,6 +114,13 @@
   speakers: ["johannes-pichler"]
   language: "English"
 -
+  id: 120
+  title: "Building a Google Keep clone powered by Firebase"
+  description: "Join me on an adventure cloning the famous Google Keep app taking advantage of Angular v6 and Firebase features. Following this talk, you will learn Angular CLI tips, Angular Best Practices including TypeScript and Modern JavaScript, Material Design for the UI components, AngularFire, and tons of Firebaaaaase awesomeness. In a nutshell, it will cover: 🔒 Authentication with Google ✏️ Notes management using Firestore 🎈 Activity using the Realtime Database 🌈 Cloud Functions for advanced techniques including image thumbnails and sub-collections removal 🖼️ Cloud Storage for the built-in gallery section inside of each note 🌩️ Cloud Messaging to send push notifications when a new collaborator is added to a note 🌟 And of course, Firebase Hosting which provides a fast and secure web hosting Did I mention it is a Progressive Web App? 🚀"
+  track: "Web"
+  speakers: ["juarez-filho"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
