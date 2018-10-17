@@ -14,22 +14,26 @@
         sessionIds: [100]
     -
         startTime: "09:00"
-        endTime: "09:15"
+        endTime: "09:10"
         sessionIds: [101]
     -
-        startTime: "09:15"
-        endTime: "10:15"
+        startTime: "09:10"
+        endTime: "09:40"
+        sessionIds: [1, 2]
+    -
+        startTime: "09:40"
+        endTime: "10:30"
         sessionIds: [111, 2]
     -
-        startTime: "10:15"
-        endTime: "11:15"
+        startTime: "10:30"
+        endTime: "11:20"
         sessionIds: [117, 114]
     -
-        startTime: "11:15"
-        endTime: "11:30"
+        startTime: "11:20"
+        endTime: "11:40"
         sessionIds: [102]
     -
-        startTime: "11:30"
+        startTime: "11:40"
         endTime: "12:30"
         sessionIds: [113, 2]
     -
@@ -38,26 +42,34 @@
         sessionIds: [103]
     -
         startTime: "13:30"
-        endTime: "14:30"
-        sessionIds: [116, 118]
+        endTime: "14:20"
+        sessionIds: [116, 119]
     -
-        startTime: "14:30"
+        startTime: "14:20"
+        endTime: "15:10"
+        sessionIds: [115, 118]
+    -
+        startTime: "15:10"
         endTime: "15:30"
-        sessionIds: [115, 119]
-    -
-        startTime: "15:30"
-        endTime: "15:45"
         sessionIds: [102]
     -
-        startTime: "15:45"
-        endTime: "16:45"
+        startTime: "15:30"
+        endTime: "16:00"
+        sessionIds: [99, 99]
+    -
+        startTime: "16:00"
+        endTime: "16:50"
         sessionIds: [112, 120]
     -
-        startTime: "16:45"
-        endTime: "17:45"
+        startTime: "16:50"
+        endTime: "17:40"
         sessionIds: [1, 1]
     -
-        startTime: "17:45"
+        startTime: "17:40"
+        endTime: "18:10"
+        sessionIds: [1, 1]
+    -
+        startTime: "18:10"
         endTime: "18:15"
         sessionIds: [104]
     -
