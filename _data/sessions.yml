@@ -107,6 +107,13 @@
   speakers: ["jess-myra"]
   language: "English"
 -
+  id: 119
+  title: "Decouple everything"
+  description: "In the recent years we have seen a shift in software architectures. The monolithic approach slowly runs out of fashion and architectural concepts like microservices, SOA, API’s and decoupling in general are getting more and more important.<br/>This talk will look at the different “new” approaches which can deliver a big benefit to your application’s architectural design. We will also dive into the disadvantages decoupling introduces into the software stack and how to overcome them."
+  track: "Infrastructure"
+  speakers: ["johannes-pichler"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true

@@ -96,6 +96,18 @@
    - { name: "twitter", link: "https://twitter.com/droptableuser" }
    - { name: "site", link: "https://droptableuser.me" }
 -
+  id: "johannes-pichler"
+  name: "Johannes"
+  surname: "Pichler"
+  current: true
+  company: "karriere.at"
+  title: "Lead Web Developer"
+  bio: "Johannes Pichler is a Lead Web Developer working at karriere.at, the biggest job platform in Austria. At karriere.at he is building RESTful APIs and the karriere.at website powered by Laravel. In his spare time Johannes loves to contribute to open source projects like laravel.io and other PHP/Laravel related projects. Based on his former experiences he forces his team mates and himself to follow a test-driven development approach and to use supportive tools as efficient as possible."
+  thumbnailUrl: "JohannesPichler.jpg"
+  social:
+   - { name: "twitter", link: "https://twitter.com/fetzi_io" }
+   - { name: "site", link: "https://johannespichler.com" }
+-
   id: "eva-lettner"
   name: "Eva"
   surname: "Lettner"
