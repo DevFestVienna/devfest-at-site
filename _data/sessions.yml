@@ -128,6 +128,13 @@
   speakers: ["adrian-bolonio"]
   language: "English"
 -
+  id: 122
+  title: "What is OWASP?"
+  description: "The Open Web Application Security Project (OWASP) is a worldwide not-for-profit organization focused on improving the security of software. Our mission is to make software security visible, so that individuals and organizations are able to make informed decisions.  Operating as a community of like-minded professionals, OWASP issues software tools and knowledge-based documentation on application security."
+  track: "OWASP"
+  speakers: ["lucas-ferreira"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
