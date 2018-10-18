@@ -121,6 +121,13 @@
   speakers: ["juarez-filho"]
   language: "English"
 -
+  id: 121
+  title: "How does your website “sound” like? - How web accessibility can make impaired people use your website."
+  description: "When we develop a new web application, we often put a lot of work on the design, on making it beautiful and usable. In other words, we want our web app to be effective, efficient, and satisfying for the user. But a lot of times we don’t think about the user experience for people with disabilities, including people with age-related impairments.<br>For the web, accessibility means that people with disabilities can perceive, understand, navigate, and interact with websites and tools, and that they can contribute equally without barriers.” (Source: W3C - Web Accessibility Initiative). Our role as frontend and web developers is to create clear interfaces to make people understand and care about data, independently of their disabilities or impairments.<br>In this talk I would love to show the tools we can use to create more accessible web applications, some good practices when we code a new web application and how to test and audit it in the browser thanks to the integrated developer tools."
+  track: "Web"
+  speakers: ["adrian-bolonio"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
