@@ -122,10 +122,12 @@
     - {name: "linkedin", link: "https://www.linkedin.com/in/juarezpaf"}
 -
   id: "adrian-bolonio"
-  name: "Adrian"
+  name: "Adrián"
   surname: "Bolonio"
   bio: "Adrián is a Frontend Developer at willhaben. He studied in Spain, Sweden and in Vienna, and he was even part of the Student Union. He lives in Vienna since 2012, and since then he’s been involved in meet-ups and conferences in Vienna. When he's not developing, he enjoys a good read, playing some games, working his way through any delicious recipe, or indulging his love for travelling to new places."
   thumbnailUrl: "AdrianBolonio.jpg"
+  title: "Frontend Developer"
+  company: "willhaben"
   current: true
   social:
     - { name: "twitter", link: "https://twitter.com/bolonio" }
