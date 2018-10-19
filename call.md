@@ -57,6 +57,6 @@ Generally we won't be able to cover travel expenses.
 We have a limited budget to subsidize costs for community speakers.
 If you need financial support please specify them in the comments section of the submission form.
 
-We have a diversity budget for speakers, so if you're from an underrepresented group, please do let us know and we'll do everything we can to help!
+We have a diversity budget for speakers, so if you are from an underrepresented group, please do let us know and we will do everything we can to help!
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">
