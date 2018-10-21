@@ -141,6 +141,17 @@
   thumbnailUrl: "LucasFerreira.jpg"
   current: true
 -
+  id: "sebastian-bicchi"
+  name: "Sebastian"
+  surname: "Bicchi"
+  bio: "Sebastian is a member of OWASP and one of the two founders of Sec-Research, a company which focuses on the development of new information security products and the application of usable security concepts. Backed by his many years of professional security experience and great expertise in different industries he focuses on technical security and provides consulting services ranging from penetration testing to secure architecture."
+  thumbnailUrl: "SebastianBicchi.jpg"
+  current: true
+  social:
+    - { name: "linkedin", link: "https://www.linkedin.com/in/sebastian-bicchi-9ab72358/" }
+    - { name: "twitter", link: "https://twitter.com/secresDoge" }
+    - { name: "site", link: "https://www.xing.com/profile/Sebastian_Bicchi/" }
+-
   id: "eva-lettner"
   name: "Eva"
   surname: "Lettner"

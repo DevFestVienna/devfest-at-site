@@ -135,6 +135,13 @@
   speakers: ["lucas-ferreira"]
   language: "English"
 -
+  id: 123
+  title: "From passphrase to webauthn"
+  description: "This talk will lead you through the pitfalls of web based authentication. It will look at the current situation and the future development to provide you with insights on what architects, developers and UX designers or other interested parties have to consider when implementing secure and future-proof web-applications."
+  track: "OWASP"
+  speakers: ["sebastian-bicchi"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
