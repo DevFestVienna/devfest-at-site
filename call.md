@@ -5,6 +5,12 @@ permalink: /call/
 isStaticPost: true
 ---
 
+Thank you for your interest in being part of DevFest Vienna!
+
+We have received an overwhelming number of talk proposals which we are currently reviewing.
+These days the speakers will be contacted to let them know whether they have been selected for a talk at DevFest Vienna 2018.
+
+{% comment %}
 Interested in being part of the event as a speaker?
 
 _We encourage submissions from female speakers to enhance the gender balance.
@@ -58,5 +64,7 @@ We have a limited budget to subsidize costs for community speakers.
 If you need financial support please specify them in the comments section of the submission form.
 
 We have a diversity budget for speakers, so if you are from an underrepresented group, please do let us know and we will do everything we can to help!
+
+{% endcomment %}
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">
