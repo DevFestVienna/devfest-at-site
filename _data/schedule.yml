@@ -63,11 +63,11 @@
     -
         startTime: "16:50"
         endTime: "17:40"
-        sessionIds: [1, 121]
+        sessionIds: [124, 121]
     -
         startTime: "17:40"
         endTime: "18:10"
-        sessionIds: [1, 1]
+        sessionIds: [125, 1]
     -
         startTime: "18:10"
         endTime: "18:15"
@@ -79,11 +79,11 @@
 -
   date: "2018-11-25"
   dateReadable: "25 November"
-  dateDescription: "TBA"
-  location: "TBA"
+  dateDescription: "Actions on Google Workshop led by WTM Vienna"
+  location: "Stockwerk Coworking Space"
   locationLink: "/location/#stockwerk"
   rooms:
-    - {title: "TBA"}
+    - {title: "Workshop Room"}
   timeslots:
     -
         startTime: "09:45"

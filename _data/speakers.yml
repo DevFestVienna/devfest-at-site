@@ -121,6 +121,15 @@
     - {name: "twitter", link: "https://twitter.com/juarezpaf"}
     - {name: "linkedin", link: "https://www.linkedin.com/in/juarezpaf"}
 -
+  id: "markus-danek"
+  name: "Markus"
+  surname: "Danek"
+  company: "IBM CIC"
+  title: "Web Developer"
+  bio: "Passionate Web Developer using JavaScript, Node.js and HTML5 technologies to help reshape how people with interact with each other in the future. Currently part of a team of web experts to develop front-ends and middle-wares for large companies in the DACH area. Co-Organizer and speaker at Vue.js Vienna Meetup."
+  thumbnailUrl: "unknown-male.png"
+  current: true
+-
   id: "adrian-bolonio"
   name: "Adrián"
   surname: "Bolonio"
@@ -151,6 +160,15 @@
     - { name: "linkedin", link: "https://www.linkedin.com/in/sebastian-bicchi-9ab72358/" }
     - { name: "twitter", link: "https://twitter.com/secresDoge" }
     - { name: "site", link: "https://www.xing.com/profile/Sebastian_Bicchi/" }
+-
+  id: "lukas-kroepfl"
+  name: "Lukas"
+  surname: "Kröfl"
+  title: "Team Lead"
+  company: "Bitmovin"
+  thumbnailUrl: "unknown-male.png"
+  bio: "Lukas is Bitmovin’s frontend/fullstack team lead. At Bitmovin he has been involved in and contributed to the development of every product and platform. Besides working he reads book after book and does sport."
+  current: true
 -
   id: "eva-lettner"
   name: "Eva"

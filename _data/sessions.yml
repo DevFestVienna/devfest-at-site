@@ -142,6 +142,20 @@
   speakers: ["sebastian-bicchi"]
   language: "English"
 -
+  id: 124
+  title: "Engineering at Bitmovin - how we failed and evolved"
+  description: "How engineering at Bitmovin scaled and what we have been through, how we failed and what we learned along the way of 2 years non stop growth. We will walk through the process of scaling infrastructure from a few engineers hacking on a monolith to multiple teams and departments working on a distributed microservice based platform covering both back- and frontend. Technologies/concepts covered in this talk, among others, are Docker, microservices, kubernetes, react, development process automation."
+  track: "Cloud"
+  speakers: ["lukas-kroepfl"]
+  language: "English"
+-
+  id: 125
+  title: "Smart apartments with IBM Watson IoT Platform"
+  description: "Smart home products like Amazon Alexa or Philips Hue Bulbs are one of the most selling products in 2018 and the hype will continue. This talk will give you an introduction about available IoT devices and services and how you can control a WiFi plug with a Raspberry Pi and the IBM Watson IoT Platform."
+  track: "AI"
+  speakers: ["markus-danek"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
