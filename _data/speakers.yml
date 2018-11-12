@@ -169,6 +169,9 @@
   thumbnailUrl: "LukasKroepfl.jpg"
   bio: "Lukas is Bitmovin’s frontend/fullstack team lead. At Bitmovin he has been involved in and contributed to the development of every product and platform. Besides working he reads book after book and does sport."
   current: true
+  social:
+    - { name: "linkedin", link: "https://www.linkedin.com/in/lukas-kr%C3%B6pfl-98749512b/" }
+    - { name: "github", link: "https://github.com/lukaskroepfl" }
 -
   id: "eva-lettner"
   name: "Eva"
