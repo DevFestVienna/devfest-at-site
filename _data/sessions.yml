@@ -156,6 +156,13 @@
   speakers: ["markus-danek"]
   language: "English"
 -
+  id: 126
+  title: "Privacy by Design - Secure by Default"
+  description: "Experience from the industry, how to manage and implement privacy by design for a large us company in a digital transformation phase? Architecture and business level, a multidisciplinary positive sum approach. How to talk different languages for efficient and goal oriented compliance solutions and make it possible on the technical level?"
+  track: "OWASP"
+  speakers: ["sebyll-onbasi"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true

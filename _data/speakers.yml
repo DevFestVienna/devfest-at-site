@@ -127,7 +127,14 @@
   company: "IBM CIC"
   title: "Web Developer"
   bio: "Passionate Web Developer using JavaScript, Node.js and HTML5 technologies to help reshape how people with interact with each other in the future. Currently part of a team of web experts to develop front-ends and middle-wares for large companies in the DACH area. Co-Organizer and speaker at Vue.js Vienna Meetup."
-  thumbnailUrl: "unknown-male.png"
+  thumbnailUrl: "MarkusDanek.jpg"
+  current: true
+-
+  id: "sebyll-onbasi"
+  name: "Sebyll Ildiko"
+  surname: "Onbasi"
+  title: "Senior Consultant"
+  thumbnailUrl: "SebyllOnbasi.jpg"
   current: true
 -
   id: "adrian-bolonio"
