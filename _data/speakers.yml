@@ -180,6 +180,18 @@
     - { name: "linkedin", link: "https://www.linkedin.com/in/lukas-kr%C3%B6pfl-98749512b/" }
     - { name: "github", link: "https://github.com/lukaskroepfl" }
 -
+  id: "ishan-khanna"
+  name: "Ishan"
+  surname: "Khanna"
+  current: true
+  thumbnailUrl: "IshanKhanna.jpg"
+  company: "Booking.com"
+  title: "Android Engineer"
+  bio: "Ishan is a passionate product enthusiast and self-taught developer who loves open source technologies, tech conferences, and hackathons. Currently as an Android Engineer at Booking.com (Amsterdam, Netherlands), he is helping people enjoy their vacations across the world. Ishan is also PMC member at Apache Fineract Project, Android Code maintainer at Mifos Initiative. He successfully graduated as a Google Summer of Code Intern in 2014 under Mifos and in 2015 under XMPP Standards Foundation and mentored students at Google Summer of Code (2016)."
+  social:
+    - { name: "linkedin", link: "https://www.linkedin.com/in/ishankhanna/" }
+    - { name: "twitter", link: "https://twitter.com/droidchef" }
+-
   id: "eva-lettner"
   name: "Eva"
   surname: "Lettner"
