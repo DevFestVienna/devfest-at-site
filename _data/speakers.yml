@@ -192,6 +192,19 @@
     - { name: "linkedin", link: "https://www.linkedin.com/in/ishankhanna/" }
     - { name: "twitter", link: "https://twitter.com/droidchef" }
 -
+  id: "busra-deniz"
+  name: "Buşra"
+  surname: "Deniz"
+  current: true
+  thumbnailUrl: "BusraDeniz.jpg"
+  company: "The App Business (TAB)"
+  title: "Android Developer"
+  bio: "Busra Deniz Akin started her mobile development career by developing Android application using Donut in university. After getting taste of mobile development, she added iOS to her toolbox. And now, she is a Mobile Software Consultant who has a keen interest in developing high-quality mobile applications by applying agile principles and methodologies in London."
+  social:
+    - { name: "twitter", link: "https://twitter.com/busradeniz" }
+    - { name: "linkedin", link: "https://www.linkedin.com/in/busradeniz/" }
+    - { name: "site", link: "http://busradeniz.com" }
+-
   id: "eva-lettner"
   name: "Eva"
   surname: "Lettner"

@@ -170,6 +170,13 @@
   speakers: ["ishan-khanna"]
   language: "English"
 -
+  id: 128
+  title: "Creating ML-powered applications"
+  description: "Each day we are hearing yet another application that announces a new cool feature powered by machine learning. It’s pretty exciting but when the time comes to deep diving into machine learning, it can be intimidating, especially if you don’t have machine learning background. In this session, you will get the gist of newly announced MLKit & Tensorflow Lite. We'll be learning about MLKit features and creating custom Tensorflow model and using it in app via MLKit."
+  track: "Android"
+  speakers: ["busra-deniz"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
