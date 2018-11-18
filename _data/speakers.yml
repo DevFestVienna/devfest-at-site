@@ -135,7 +135,7 @@
   surname: "Onbasi"
   title: "Senior Consultant"
   thumbnailUrl: "SebyllOnbasi.jpg"
-  current: true
+  current: false
 -
   id: "adrian-bolonio"
   name: "Adrián"
