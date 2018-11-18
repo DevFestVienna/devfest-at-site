@@ -78,6 +78,7 @@
   dateDescription: "Actions on Google Workshop led by WTM Vienna"
   location: "Stockwerk Coworking Space"
   locationLink: "/location/#stockwerk"
+  hidden: true
   rooms:
     - {title: "Workshop Room"}
   timeslots:

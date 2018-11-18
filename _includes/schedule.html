@@ -1,7 +1,7 @@
 <!-- Begin Schedule Section -->
 <section id="schedule" class="schedule">
     <div class="content-wrapper">
-        {% for day in site.data.schedule %}
+        {% for day in site.data.schedule %}{% if day.hidden == null %}
         <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
             <h4 class="schedule-table-heading">{{ day.dateReadable }}{% if day.dateDescription != null %}: <span>{{ day.dateDescription }}
                 {% if day.location != null %}@
@@ -82,7 +82,7 @@
             </div>
             {% endfor %}
         </div>
-        {% endfor %}
+        {% endif %}{% endfor %}
     </div>
 </section>
 <!-- End Schedule Section -->

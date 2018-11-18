@@ -199,7 +199,7 @@
   thumbnailUrl: "BusraDeniz.jpg"
   company: "The App Business (TAB)"
   title: "Android Developer"
-  bio: "Buşra is an Android Developer who has a keen interest in developing high-quality mobile applications. Currently, she works for The App Business. Besides being co-organizer in two different communities, <a href="https://www.meetup.com/gdglondon/" target="_blank">Google Developer Group</a> and <a href="https://www.meetup.com/Women-Techmakers-London/" target="_blank">Women TechMakers London</a>, she enjoys voluntarily organising and speaking at developer events."
+  bio: "Buşra is an Android Developer who has a keen interest in developing high-quality mobile applications. Currently, she works for The App Business. Besides being co-organizer in two different communities, <a href='https://www.meetup.com/gdglondon/' target='_blank'>Google Developer Group</a> and <a href='https://www.meetup.com/Women-Techmakers-London/' target='_blank'>Women TechMakers London</a>, she enjoys voluntarily organising and speaking at developer events."
   ribbon:
    - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/gdglondon/" }
    - { abbr: "WTM", title: "Women Techmakers", url: "https://www.meetup.com/Women-Techmakers-London/" }
