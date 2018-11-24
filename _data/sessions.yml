@@ -177,6 +177,12 @@
   speakers: ["busra-deniz"]
   language: "English"
 -
+  id: 129
+  title: "A Cultural Shift: The Democratization of User Research"
+  description: "Data has become prevalent in today’s product development process. UXers, PM’s, sales and engineers are all talking to customers in attempts to better understand their wants and needs. This data is used to make user centered decisions, drive product objectives, and ultimately ship products. Democratizing UX research shifts the culture of a researcher from being a methods expert to that of data strategist, with the goal of empowering product development teams to become more empathetic with their end users."
+  speakers: ["andrew-puhl"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true

@@ -108,6 +108,15 @@
    - { name: "twitter", link: "https://twitter.com/fetzi_io" }
    - { name: "site", link: "https://johannespichler.com" }
 -
+  id: "andrew-puhl"
+  name: "Andrew"
+  surname: "Puhl"
+  bio: "Andrew is a User Experience Researcher at Google and has been working in the UX field for the better part of a decade. He started out working at an agency working on projects for large healthcare and telecommunications clients, and then shifted to working on enterprise products at Microsoft and Amazon prior to joining Google. Andrew has a passion for learning what makes people tick, turning that into actionable insights that directly influence product development and delivering those 'Ah-Ha' moments."
+  thumbnailUrl: "AndrewPuhl.jpg"
+  current: true
+  company: "Google"
+  title: "User Experience Researcher"
+-
   id: "juarez-filho"
   name: "Juarez"
   surname: "Filho"
