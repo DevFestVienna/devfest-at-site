@@ -17,9 +17,10 @@ To develop locally you need ruby gems & bundler installed.
     sudo gem install bundler
 ```
 
-Then install all dependency by calling bundle install while in the source directory:
+Then install all dependencies by calling bundle/npm install while in the source directory:
 ```bash
     bundle install
+    npm install
 ```
 
 To compile the files call rake while in the source tree:
