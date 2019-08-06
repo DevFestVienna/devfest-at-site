@@ -10,9 +10,9 @@ Thank you for registering to DevFest Vienna!
 
 For questions about the event, contact the event organizer at [team@devfest.at](mailto:team@devfest.at).
 
-Need to register more people? [Return to the Eventbrite page](https://devfest-vienna-2018.eventbrite.com).
+Need to register more people? [Return to the Eventbrite page](https://devfest-vienna-2019.eventbrite.com).
 
-We are on [Google+](https://google.com/+DevFestVienna), [Twitter](https://twitter.com/devfestvienna) and [Facebook](https://www.facebook.com/devfestvienna) - follow us for updates!
+We are on [Twitter](https://twitter.com/devfestvienna) and [Facebook](https://www.facebook.com/devfestvienna) - follow us for updates!
 
 At the event there will be picture and video recordings taken. We use them to document the event and make advertisement for future DevFest events.
 If after the event you see any picture of you which you don't want to be used drop us an email at [team@devfest.at](mailto:team@devfest.at) and we will work on removing it whereever we can.

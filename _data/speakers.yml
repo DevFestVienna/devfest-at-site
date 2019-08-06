@@ -126,7 +126,6 @@
   ribbon:
     - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social:
-    - {name: "google-plus", link: "https://plus.google.com/+JuarezPAFilho"}
     - {name: "twitter", link: "https://twitter.com/juarezpaf"}
     - {name: "linkedin", link: "https://www.linkedin.com/in/juarezpaf"}
 -
@@ -301,7 +300,6 @@
   thumbnailUrl: "HelmuthBreitenfellner.jpg"
   social:
     - { name: "twitter", link: "https://twitter.com/helmuthb" }
-    - { name: "google-plus", link: "https://plus.google.com/+HelmuthBreitenfellner" }
     - { name: "linkedin", link: "https://at.linkedin.com/in/helmuthbreitenfellner" }
 -
   id: "milos-pupik"
@@ -379,7 +377,6 @@
   bio: "Said is an Google Developer Expert on Android. He works at Novoda, Berlin. He has been an Android Developer since Cupcake with apps for Android, Google Glass, Android Wear. He is a very passionate developer who tries to live on the bleeding edge of technology and is very interested in mobile UX.<br>He is also an active member in GDG community enjoying organizing various conferences and hackathons. In addition, he is part of GDG[X] - a GDG related open-source organization."
   thumbnailUrl: "SaidTahsinDane.jpg"
   social:
-    - {name: "google-plus", link: "https://plus.google.com/+SaidTahsinDane"}
     - {name: "twitter", link: "http://twitter.com/tasomaniac"}
 -
   id: "tim-messerschmidt"
@@ -392,7 +389,6 @@
   thumbnailUrl: "TimMesserschmidt.jpg"
   social: 
     - {name: "site", link: "https://timmesserschmidt.com"}
-    - {name: "google-plus", link: "http://plus.google.com/+TimMesserschmidt"}
     - {name: "github", link: "http://github.com/seraphimserapis"}
     - {name: "linkedin", link: "http://linkedin.com/in/timmesserschmidt"}
     - {name: "twitter", link: "http://twitter.com/seraandroid"}
@@ -501,7 +497,6 @@
   bio: "Rafael is a Lead Developer at Budapest-based Emarsys and popular speaker in the Hungarian software community. As a founding member of Emarsys CraftLab - the dedicated coaching team of Emarsys - he has taught university courses and lectured at numerous conferences. His passion for short feedback loops drove him to create Lean Poker, a workshop where developers have the opportunity to experiment with continuous delivery in an artificial environment."
   thumbnailUrl: "RafaelOrdog.jpg"
   social:
-    - { name: "google-plus", link: "https://plus.google.com/+Rafael%C3%96rd%C3%B6g" }
     - { name: "twitter", link: "https://twitter.com/devillsroom" }
 -
   id: "eva-maurina"
@@ -540,11 +535,10 @@
   bio: "As the Head of everything Android at Kupferwerk I lead a team of 13 Android Developers. I choose and develop candidates for my team. I supervise all Android projects at Kupferwerk and am also responsible for technological choices in the Android team."
   thumbnailUrl: "JanuszLeidgens.jpg"
   ribbon:
-    - { abbr: "GDG", title: "Google Developer Group", url: "https://plus.google.com/105059823716723829232"}
+    - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/berlindroid"}
   social:
     - { name: "linkedin", link: "https://de.linkedin.com/in/jleidgens"}
     - { name: "twitter", link: "http://twitter.com/Killerdackel"}
-    - { name: "google-plus", link: "https://plus.google.com/+JanuszLeidgens"}
 -
   id: "clay-smith"
   current: false
@@ -667,7 +661,6 @@
     - { abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
     - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
-    - { name: "google-plus", link: "https://plus.google.com/+GerwinSturm"}
     - { name: "twitter", link: "https://twitter.com/Scarygami"}
 -
   id: "marc-edem"
@@ -682,7 +675,6 @@
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group", url: "http://gdg-vienna.at/"}
   social: 
-    - { name: "google-plus", link: "https://plus.google.com/+MarcEdem"}
     - { name: "twitter", link: "https://twitter.com/marc_edem"}
 -
   id: "gabriel-gruber"
@@ -832,7 +824,6 @@
   thumbnailUrl: "MaximMai.jpg"
   rockstar: true
   social:
-    - { name: "google-plus", link: "https://plus.google.com/+MaximMaiGoogle" }
     - { name: "twitter", link: "https://twitter.com/MaximFMai" }
   ribbon:
     - {abbr: "G", title: "Google", url: "https://developers.google.com/" }
@@ -845,7 +836,6 @@
   rockstar: false
   social:
     - { name: "site", link: "http://rafael.cordones.me/" }
-    - { name: "google-plus", link: "https://plus.google.com/112206131267563415304" }
 -
   id: "michael-greifeneder"
   current: false
@@ -856,7 +846,6 @@
   thumbnailUrl: "MichaelGreifeneder.jpg"
   rockstar: true
   social:
-    - { name: "google-plus", link: "https://plus.google.com/+MichaelGreifeneder" }
 -
   id: "sergii-kauk"
   name: "Sergii"
@@ -864,8 +853,6 @@
   bio: "Freelance web developer from Vienna, originally from Ukraine. I'm focused on Google Apps platform and enjoy to play with Google APIs."
   thumbnailUrl: "SergiiKauk.jpg"
   rockstar: false
-  social:
-    - { name: "google-plus", link: "https://plus.google.com/106401792982259937659" }
 - 
   id: "andreas-petersson"
   name: "Andreas"
@@ -883,8 +870,6 @@
   bio: "Like usual around here, I'm a coding and technology freak. I just finished my bachelor of engineering in computer sience or on german 'Dipl. Ing.' and currently I'm mostly coding in Java. In my day job I work as a test automation engineer and deal with all kind of Software from Native over Web into Mainframe where I use existing tools like QTP, Canoo WebTest, ... or write my own testing apps or libraries. In the night I'm mostly focused on Android or other fast living technology."
   thumbnailUrl: "MichelRacic.jpg"
   rockstar: false
-  social:
-    - { name: "google-plus", link: "https://plus.google.com/109163915105172405583" }
 -
   id: "gerolf-scherr"
   name: "Gerolf"
@@ -893,8 +878,6 @@
   bio: "Develops software since the C64 times, studied economics and computer science at the University of Vienna and the University of Technology in Vienna, and is the founder and CEO of Cenarion Information Systems GmbH. Cenarion develops and operates for more than 10 years enterprise applications in the Java environment."
   thumbnailUrl: "GerolfScherr.jpg"
   rockstar: false
-  social:
-    - { name: "google-plus", link: "https://plus.google.com/116616494241432029799" }
 -
   id: "harald-schilly"
   name: "Harald"
@@ -902,8 +885,6 @@
   bio: "master in mathematics and research assistant at the university of vienna, developing software since the age of 12, co-founded bitcoin-austria in summer of 2011, and knows how to teach 'andy' android new tricks about bitcoin."
   thumbnailUrl: "HaraldSchilly.jpg"
   rockstar: false
-  social:
-    - { name: "google-plus", link: "https://plus.google.com/107486807156747980968" }
 -
   id: "alex-tacho"
   name: "Alex"
@@ -911,8 +892,6 @@
   bio: "Experienced web developer, working since 2011 for STARTeurope using the go-start web framework."
   thumbnailUrl: "AlexTacho.jpg"
   rockstar: false
-  social:
-    - { name: "google-plus", link: "https://plus.google.com/102779412144291770415" }
 -
   id: "erik-unger"
   name: "Erik"
@@ -985,8 +964,6 @@
   bio: "Android developer, interested in mobile gadgets and new technologies. Experimenting with OpenCV and IOIO Board. In his free time he likes photographing and traveling."
   thumbnailUrl: "RomanHosek.jpg"
   rockstar: false
-  social: 
-    - { name: "google-plus", link: "http://plus.google.com/u/0/117921846128976519923" }
 -
   id: "tomek-kaczanowski"
   name: "Tomek"
@@ -994,8 +971,6 @@
   bio: "Tomek Kaczanowski works as a developer at CodeWise (Krakow, Poland). He is an experienced Java developer, focused on code quality, testing and automation. Test infected TDD enthusiast, open-source proponent, agile worshipper. Strong inclination towards sharing his knowledge. Blogger at kaczanowscy.pl/tomek. Occasional article writer and conference speaker. Recently published his first books - Practical Unit Testing - practicalunittesting.com"
   thumbnailUrl: "TomekKaczanowski.jpg"
   rockstar: false
-  social:
-    - { name: "site", link: "http://practicalunittesting.com/" }
 -
   id: "robert-ladstaetter"
   name: "Robert"
@@ -1018,7 +993,6 @@
     - { abbr: "GDG", title: "Google Developer Group Bodensee", url: "http://www.gdg-bodensee.de/"}
   social: 
     - { name: "site", link: "http://blog.goddchen.de/" }
-    - { name: "google-plus", link: "https://plus.google.com/+MartinLiersch" }
     - { name: "twitter", link: "http://twitter.com/goddchen" }
 -
   id: "petr-mazanec"
@@ -1049,7 +1023,6 @@
   thumbnailUrl: "RadimPavlicek.jpg"
   rockstar: false
   social:
-    - { name: "google-plus", link: "https://plus.google.com/117693540700022537669" }
 -
   id: "florian-pirchner"
   name: "Florian"
@@ -1069,4 +1042,3 @@
   thumbnailUrl: "ThomasTaschauer.jpg"
   rockstar: false
   social: 
-    - { name: "google-plus", link: "https://plus.google.com/108466870039650470305" }

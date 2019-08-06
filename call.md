@@ -5,20 +5,22 @@ permalink: /call/
 isStaticPost: true
 ---
 
+{% comment %}
 Thank you for your interest in being part of DevFest Vienna!
 
 We have received an overwhelming number of talk proposals which we are currently reviewing.
-These days the speakers will be contacted to let them know whether they have been selected for a talk at DevFest Vienna 2018.
+These days the speakers will be contacted to let them know whether they have been selected for a talk at DevFest Vienna 2019.
 
-{% comment %}
+{% endcomment %}
+
 Interested in being part of the event as a speaker?
 
 _We encourage submissions from female speakers to enhance the gender balance.
 Talk proposals will be reviewed anonymously to reduce any possible unconscious bias._
 
-**Second Call for Speakers is open till 26 October 2018 midnight Vienna time!**
+**First Call for Speakers is open till 29 August 2019 midnight Vienna time!**
 
-###### **[&gt; &gt; &gt; Submit Your Proposal](https://cfp.gdg-vienna.at)** ######
+###### **[&gt; &gt; &gt; Submit Your Proposal]({{ site.c4pUrl }})** ######
 
 #### Topics ####
 
@@ -65,6 +67,5 @@ If you need financial support please specify them in the comments section of the
 
 We have a diversity budget for speakers, so if you are from an underrepresented group, please do let us know and we will do everything we can to help!
 
-{% endcomment %}
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/call.jpg" style="display:none">

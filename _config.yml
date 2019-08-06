@@ -17,9 +17,9 @@ googleAnalyticsSiteUrl: "www.devfest.at"
 # Location block
 eventLocationName: "TU Wien"
 eventLocationAddress: "Gußhausstraße 27-29, 1040 Wien"
-eventStartTime: "2018-11-24T10:00"
+eventStartTime: "2019-11-16T10:00"
 eventStartTimeHumanReadable: "10:00"
-eventEndTime: "2018-11-24T19:00"
+eventEndTime: "2019-11-17T19:00"
 eventEndTimeHumanReadable: "19:00"
 eventPlaceCoordinates: "48.1964423,16.369645"
 mapCenterCoordinates: "48.1964423,16.369645"
@@ -30,14 +30,14 @@ logisticsMapCenterCoordinates: "48.1964423,16.369645"
 logisticsMapMobileCenterCoordinates: "48.1964423,16.369645"
 
 #Tweets feed
-twitterHashTag: "devfest18"
+twitterHashTag: "devfest19"
 twitterFeed: "/tweetledee/favoritesjson.php?c=10&cache_interval=900"
 
 # Subscribe
 subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 
 # Documents
-c4pUrl: "https://cfp.gdg-vienna.at/"
+c4pUrl: "https://speaker.at/devfest19/cfp"
 c4sponsorsUrl: "/sponsor"
 
 # Head
@@ -48,8 +48,8 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter-2014.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook-2014.png"
 
 # Header
-eventDate: "24 - 25 November 2018"
-typeoutTextValues: '"2", "3", "4", "5", "6", "7", "8"'
+eventDate: "16 - 17 November 2019"
+typeoutTextValues: '"2", "3", "4", "5", "6", "7", "8", "9"'
 
 # About Event Block
 eventName: "DevFest Vienna"
@@ -65,7 +65,6 @@ thumbnailsFolder: /img/speakers/
 thumbnailsSessions: /img/sessions/
 
 # Footer
-gplusFollowUsUrl: "https://plus.google.com/+DevFestVienna"
 twitterFollowUsUrl: "https://twitter.com/DevFestVienna"
 fbFollowUsUrl: "https://facebook.com/DevFestVienna"
 

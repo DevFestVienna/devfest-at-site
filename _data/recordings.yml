@@ -160,8 +160,6 @@
   description: "Building awesome Android apps is a really really hard work that takes tons of time and dedication and also money. The worst thing that can happen to developers is that their apps get pirated and the developers that worked so hard to create them do not get honored for their hard work. This talk will show the problems that arise from pirated apps as well as which countermeasures you, as a developer, can take to make it as difficult as possible to pirate your apps."
   subtype: "presentation"
   language: "English"
-  links:
-    - { text: "Slides", url: "https://plus.google.com/+MartinLiersch/posts/XymvQUitRCt" }
   speakers: ["martin-liersch"]
   youtube: "xXHQBqlNk_I"
   year: "2015"
