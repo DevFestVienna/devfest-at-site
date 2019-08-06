@@ -1,6 +1,6 @@
 -
-  date: "2018-11-24"
-  dateReadable: "24 November"
+  date: "2019-11-16"
+  dateReadable: "16 November"
   dateDescription: "Talks and Presentations"
   location: "TU Wien"
   locationLink: "/location/#tu-wien"
@@ -51,7 +51,7 @@
     -
         startTime: "15:30"
         endTime: "16:00"
-        sessionIds: [125, 99]
+        sessionIds: [125, 129]
     -
         startTime: "16:00"
         endTime: "16:50"
@@ -69,8 +69,8 @@
         endTime: "22:00"
         sessionIds: [105]
 -
-  date: "2018-11-25"
-  dateReadable: "25 November"
+  date: "2019-11-17"
+  dateReadable: "17 November"
   dateDescription: "Actions on Google Workshop led by WTM Vienna"
   location: "Stockwerk Coworking Space"
   locationLink: "/location/#stockwerk"

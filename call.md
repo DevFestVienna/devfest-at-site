@@ -18,7 +18,7 @@ Interested in being part of the event as a speaker?
 _We encourage submissions from female speakers to enhance the gender balance.
 Talk proposals will be reviewed anonymously to reduce any possible unconscious bias._
 
-**First Call for Speakers is open till 29 August 2019 midnight Vienna time!**
+**First Call for Speakers is open till 29 September 2019 midnight Vienna time!**
 
 ###### **[&gt; &gt; &gt; Submit Your Proposal]({{ site.c4pUrl }})** ######
 
