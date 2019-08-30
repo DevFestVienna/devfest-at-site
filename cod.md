@@ -97,5 +97,7 @@ This is based on the [Berlin Code of Conduct](http://berlincodeofconduct.org/).
 
 Berlin Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. It is based on the [pdx.rb Code of Conduct](https://pdxruby.org/CONDUCT).
 
+This policy covers all organized events for the DevFest Vienna, including social events.
+
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none">
