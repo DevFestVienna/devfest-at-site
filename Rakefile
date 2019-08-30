@@ -20,3 +20,7 @@ end
 task :jekyll do
   system "bundle exec jekyll build"
 end
+
+task :server do
+  system "bundle exec jekyll serve"
+end
