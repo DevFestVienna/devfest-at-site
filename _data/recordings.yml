@@ -1,4 +1,32 @@
 -
+  id: "screen-reader"
+  title: "Accessibility Testing with a Screen Reader"
+  speakers: ["sergei-kriger"]
+  youtube: "p7PXK0mTTns"
+  year: "2018"
+  thumbnailUrl: "screen-reader.jpg"
+-
+  id: "architecting-performance"
+  title: "Architecting for performance. A top-down approach"
+  speakers: ["ionut-balosin"]
+  youtube: "WNBh71AWtz8"
+  year: "2018"
+  thumbnailUrl: "architecting-performance.jpg"
+-
+  id: "ethereum"
+  title: "Starting on Ethereum, a developer approach"
+  speakers: ["nicolas-frankel"]
+  youtube: "SXNz6jX7w0U"
+  year: "2018"
+  thumbnailUrl: "ethereum"
+-
+  id: "democratization-user-research"
+  title: "A Cultural Shift: The Democratization of User Research"
+  speakers: ["andrew-puhl"]
+  youtube: "c4FoQrs3SVg"
+  year: "2018"
+  thumbnailUrl: "democratization-user-research"
+-
   id: "going-elastic"
   title: "Going Elastic"
   description: "One of the hottest and most widely used tools for log monitoring and analytics at the moment is the Elastic Stack: * Elasticsearch doing the hard work of analyzing and searching large amounts of data. * Logstash and Beats for collecting them. * Kibana for powerful visualizations. This talk gives you an overview of the four technologies, how they are working together, and how they can solve your problems."
