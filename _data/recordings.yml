@@ -18,14 +18,14 @@
   speakers: ["nicolas-frankel"]
   youtube: "SXNz6jX7w0U"
   year: "2018"
-  thumbnailUrl: "ethereum"
+  thumbnailUrl: "ethereum.jpg"
 -
   id: "democratization-user-research"
   title: "A Cultural Shift: The Democratization of User Research"
   speakers: ["andrew-puhl"]
   youtube: "c4FoQrs3SVg"
   year: "2018"
-  thumbnailUrl: "democratization-user-research"
+  thumbnailUrl: "democratization-user-research.jpg"
 -
   id: "going-elastic"
   title: "Going Elastic"
