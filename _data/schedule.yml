@@ -5,8 +5,8 @@
   location: "TU Wien"
   locationLink: "/location/#tu-wien"
   rooms:
-    - {title: "Room Bitmovin", color: "#90be4e"}
-    - {title: "Room Willhaben", color: "#03a9f4"}
+    - {title: "Room WhizUs", color: "#90be4e"}
+    - {title: "Room 2", color: "#03a9f4"}
   timeslots:
     -
         startTime: "08:30"
@@ -15,15 +15,15 @@
     -
         startTime: "09:00"
         endTime: "09:40"
-        sessionIds: [127, 122]
+        sessionIds: [1, 1]
     -
         startTime: "09:40"
         endTime: "10:30"
-        sessionIds: [111, 123]
+        sessionIds: [1, 1]
     -
         startTime: "10:30"
         endTime: "11:20"
-        sessionIds: [117, 114]
+        sessionIds: [1, 1]
     -
         startTime: "11:20"
         endTime: "11:40"
@@ -31,7 +31,7 @@
     -
         startTime: "11:40"
         endTime: "12:30"
-        sessionIds: [116, 128]
+        sessionIds: [1, 1]
     -
         startTime: "12:30"
         endTime: "13:30"
@@ -39,11 +39,11 @@
     -
         startTime: "13:30"
         endTime: "14:20"
-        sessionIds: [113, 119]
+        sessionIds: [1, 1]
     -
         startTime: "14:20"
         endTime: "15:10"
-        sessionIds: [115, 118]
+        sessionIds: [1, 1]
     -
         startTime: "15:10"
         endTime: "15:30"
@@ -51,15 +51,15 @@
     -
         startTime: "15:30"
         endTime: "16:00"
-        sessionIds: [125, 129]
+        sessionIds: [1, 1]
     -
         startTime: "16:00"
         endTime: "16:50"
-        sessionIds: [112, 120]
+        sessionIds: [1, 1]
     -
         startTime: "16:50"
         endTime: "17:40"
-        sessionIds: [124, 121]
+        sessionIds: [1, 1]
     -
         startTime: "17:40"
         endTime: "17:45"
@@ -71,9 +71,9 @@
 -
   date: "2019-11-17"
   dateReadable: "17 November"
-  dateDescription: "Actions on Google Workshop led by WTM Vienna"
-  location: "Stockwerk Coworking Space"
-  locationLink: "/location/#stockwerk"
+  dateDescription: "Workshop - more details coming soon"
+  location: "Raum D / quartier21"
+  locationLink: "/location/#raumd"
   hidden: true
   rooms:
     - {title: "Workshop Room"}
