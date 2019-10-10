@@ -30,6 +30,11 @@ To compile the files call rake while in the source tree:
 
 This will minify the JS, compile the CSS from SASS, and build the jekyll site.
 
+To test a local server with the website locally:
+```bash
+    bundle exec rake server
+```
+
 ### Used libraries
 * [Bootstrap](https://github.com/twbs/bootstrap)
 * [Animate.css](https://github.com/daneden/animate.css)
