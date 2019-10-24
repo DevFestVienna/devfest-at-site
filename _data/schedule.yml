@@ -15,15 +15,15 @@
     -
         startTime: "09:00"
         endTime: "09:40"
-        sessionIds: [1, 1]
+        sessionIds: [116, 111]
     -
         startTime: "09:40"
         endTime: "10:30"
-        sessionIds: [1, 1]
+        sessionIds: [112, 113]
     -
         startTime: "10:30"
         endTime: "11:20"
-        sessionIds: [1, 1]
+        sessionIds: [114, 115]
     -
         startTime: "11:20"
         endTime: "11:40"

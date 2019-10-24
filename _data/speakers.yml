@@ -1,8 +1,88 @@
 -
+  id: "natalie-pistunovich"
+  name: "Natalie"
+  current: true
+  surname: "Pistunovich"
+  thumbnailUrl: "NataliePistunovich.jpg"
+  bio: "Natalie Pistunovich is a learner, a Google Developer Expert (GDE) for Go, a public speaker and a sailor. As an Engineering Manager in Fraugster, Berlin, she is leading the observability, and additionally organizing GopherCon Europe. Prior to that she was a Backend Developer at GrayMeta, Los Angeles, a co-founder at Connta, Nairobi, a Backend Developer at adjust, Berlin, and a Silicon Integration Engineer at Intel, Haifa. She graduated with a B.Sc. in Computer and Software Engineering from the Technion in Israel. In her free time, Natalie is co-leading the Berlin chapters of the Go User Group and Women Techmakers."
+  social:
+   - { name: "twitter", link: "https://twitter.com/NataliePis" }
+-
+  id: "eliza-camber"
+  name: "Eliza"
+  surname: "Camber"
+  current: true
+  thumbnailUrl: "ElizaCamber.jpg"
+  bio: "Eliza is an Android developer at Pixplicity, and a Google Developer Expert on the Assistant. She is also the Women Techmakers Lead for the Netherlands, an organizer for the GDG Netherlands and a public speaker. Her big passion is to explore and play with new technologies while she enjoys travelling, and attending conferences and meetups."
+-
+  id: "filip-nikolic"
+  name: "Filip"
+  surname: "Nikolic"
+  current: true
+  thumbnailUrl: "unknown-male.png"
+  bio: "Filip Nikolic, a former system administrator, knows very well about the pain that comes along with managing different infrastructures. Now as an IT-Consultant at WhizUs, he is trying to ease the pain and automate unnecessary steps."
+-
+  id: "miroslav-jonas"
+  name: "Miroslav"
+  surname: "Jonas"
+  current: true
+  thumbnailUrl: "MiroslavJonas.jpg"
+  bio: "Miro is a software developer interested in the frontend of things, speaker, co-founder of <a href='https://angular-austria.at' target='_blank'>Angular Austria</a>, co-organiser of <a href='https://www.meetup.com/Angular-Vienna/' target='_blank'>Angular Vienna meetup</a> and open source enthusiast. He likes spending free time outdoors doing different kinds of activities, wandering the world, with or without a camera."
+-
+  id: "bob-van-luijt"
+  name: "Bob"
+  surname: "van Luijt"
+  current: true
+  thumbnailUrl: "BobVanLuijt.jpg"
+  bio: "Bob is the founder of SeMI Technologies, which is the business created around the open-source knowledge graph Weaviate. Besides SeMI and Weaviate. Bob is a frequent speaker on the topics of open source, digital technology, software business, and creativity. He has spoken at around 100+ events in Europe, the US, and Russia of which half as a Google Developer Expert."
+  social:
+   - { name: "linkedin", link: "https://www.linkedin.com/in/bobvanluijt/" }
+   - { name: "twitter", link: "https://twitter.com/bobvanluijt" }
+   - { name: "github", link: "https://github.com/bobvanluijt" }
+-
+  id: "hannes-boesch"
+  name: "Hannes"
+  surname: "Bösch"
+  current: true
+  thumbnailUrl: "unknown-male.png"
+  bio: "My name is Hannes Bösch and I work as a Software Architect at PRODYNA SE, at the Austrian branch in Vienna. This year we launched a global scale transaction system I have been working on as a tech lead for the past two years that can serve thousands of requests per second and runs in a highly scalable cloud environment. I exercised the organizational and technical tool chain on how to successfully develop and operate software in a “Cloud Native” mindset. I believe that running software in the Cloud is the future and we want to enable businesses to be successful on that path.<br>In my free time I travel a lot and love doing sports like running marathons, swimming and hiking. I graduated in Business Informatics at TU Vienna and I am really excited to be back for this presentation."
+  title: "Software Architect"
+  company: "PRODYNA"
+-
+  id: "tamas-neumer"
+  name: "Tamas"
+  surname: "Neumer"
+  company: "PRODYNA"
+  title: "Software Engineer"
+  thumbnailUrl: "TamasNeumer.jpg"
+  current: true
+  bio: "My name is Tamas Neumer and I’m an IT Consultant / Software Engineer at PRODYNA (Austria) SE. In the past year I have been working for a client in the retail sector, where I was part of the development team who developed a highly scalable and fault resilient transaction system. In the early months I developed new features and created one of the micro-services (Spring Boot + Java), while in the hand over phase I was responsible for managing the end to end testing of the entire system. Prior to that I was studying Automotive Software Engineering at the TU München and while doing so I worked at a start-up company that focused on developing prototypes and proof of concepts for automobile manufacturers and their suppliers."
+-
+  id: "damjan-gjurovski"
+  name: "Damjan"
+  surname: "Gjurovski"
+  thumbnailUrl: "DamjanGjurovski.jpg"
+  company: "PRODYNA"
+  current: true
+  title: "Software Engineer"
+  bio: "Damjan Gjurovski, Software Engineer at PRODYNA SE since 2019. As an IT consultant, I worked on a distributed, cloud native transaction system in the role of a DevOps engineer, supporting development of Java + Spring Boot based microservices and their deployment and operation on GKE, facilitating millions of transactions in real time. Before that, worked with Kotlin + Spring Boot and Typescript + React + Redux for nearly 2 years. Excited about all cloud native technologies, and Kubernetes in particular. Passionate about the use and promotion of DevOps practices as a way to deliver faster, better, more stable software. Graduated Software Engineering at the TU Wien in 2016."
+-
+  id: "gregor-riegler"
+  name: "Gregor"
+  surname: "Riegler"
+  bio: "I like to delete code."
+  current: true
+  title: "Software Engineer"
+  company: "Ebcont"
+  thumbnailUrl: "GregorRiegler.jpg"
+  social:
+   - { name: "twitter", link: "https://www.twitter.com/gregor_riegler" }
+   - { name: "site", link: "https://www.gregorriegler.com" }
+-
   id: "ionut-balosin"
   name: "Ionut"
   surname: "Balosin"
-  current: true
+  current: false
   title: "Software Architect and Independent Technical Trainer"
   company: "Raiffeisen Bank International"
   bio: "Software Architect with 10+ years of experience in a wide variety of business applications. Particularly interested in software architecture and performance & tuning topics. Speaker at external conferences (e.g. Devoxx, GeeCon, JokerConf, JPrime, JBCNConf, RigaDevDays, XP Days, Voxxed, Bucharest Java User Group, Logeek, SoftLabs, DevTalks, Agile Tour) and occasionally technical writer (InfoQ, DZone, etc)."
@@ -15,7 +95,7 @@
   surname: "Fränkel"
   title: "Developer Advocate"
   company: "Exoscale"
-  current: true
+  current: false
   bio: "Java geek, Kotlin fan, Spring Boot user. Developer Relationships Manager at <a href='https://www.exoscale.com/' target='_blank'>Exoscale</a>"
   thumbnailUrl: "NicolasFrankel.jpg"
   social:
@@ -28,7 +108,7 @@
   surname: "Zagidullina"
   bio: "Dr. Aygul Zagidullina is a Google Developer Expert (GDE) for Assistant based in London, UK. Her work experience includes Google, Todoist, MotaWord. She holds a PhD in quantum chemistry and prior to Google dedicated 6 years to scientific research at the University of Stuttgart. Aygul is a very active member of the London digital ecosystem and has been involved in many innovative projects. She is a Google Developer Group (GDG)/ Women Techmakers (WTM) London lead, Google Top Contributor (TC)/ Trusted Tester (TT), and UK STEM Ambassador. Aygul has been a distinguished speaker at numerous international industry events in the US (at Google HQ), UK, Germany, Ireland, UAE, Greece, Turkey, Poland, Georgia, and Russia. She was named as one of The NEXT 100 Top Influencers of the European Digital Industry in 2013."
   thumbnailUrl: "AygulZagidullina.jpg"
-  current: true
+  current: false
   ribbon:
    - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/gdglondon/"}
    - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
@@ -44,7 +124,7 @@
   company: "SinnerSchrader"
   bio: "Sergei fell in love with web development at the high school level. He got a degree in Information Technologies from the University of Helsinki and spent professional career working for web design studios in Helsinki and Munich. Sergei's focus areas are JavaScript development, UX and accessibility."
   thumbnailUrl: "SergeiKriger.jpg"
-  current: true
+  current: false
   social:
    - { name: "twitter", link: "https://twitter.com/_sergeikriger" }
    - { name: "site", link: "http://sergeikriger.com" }
@@ -56,7 +136,7 @@
   title: "Lead Interaction Designer"
   bio: "Jess Myra designs new products for the Google Next Billion Users team as a lead interaction designer. She brings a culturally empathetic perspective from her work globally across APAC, EMEA, and LATAM. Prior to Google, she worked across digital and tangible interactions for Twitter, Nike, Samsung, IDEO, and EA Sports.<br/>Jess has a Master’s of Interaction Design from the Umeå Institute of Design, and a Bachelor of Design from NSCAD University."
   thumbnailUrl: "JessMyra.jpg"
-  current: true
+  current: false
 -
   id: "kaan-mamikoglu"
   name: "Kaan"
@@ -65,7 +145,7 @@
   company: "MyDrive"
   bio: "Kaan is a mobile software engineer at MyDrive Solutions, a Generali company, in London, UK. As an active community builder, he has co-organized a lot of developer events in the UK and Turkey such as DevFests, Android Developer Days’, Android Study Jams, and has been a distinguished speaker at many international industry events in the US, UK, Czech Republic, UAE, Turkey, and Georgia. Besides being a Google Developer Group (GDG) London co-organizer, he is a Google Top Contributor (TC) and a Google Local Guide. Kaan is passionate about exploring new technologies and traveling around the world."
   thumbnailUrl: "KaanMamikoglu.jpg"
-  current: true
+  current: false
   ribbon:
    - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/gdglondon/"}
   social:
@@ -78,7 +158,7 @@
   surname: "Splitt"
   title: "Webmaster Trends Analyst"
   company: "Google"
-  current: true
+  current: false
   bio: "Martin is a developer advocate on the Webmaster Trends Analyst team at Google Switzerland. In this role, he helps developers and content creators to build great content on the web. He is involved with the W3C as well as the global web and JavaScript developer community, working to keep the web open."
   thumbnailUrl: "MartinSplitt.jpg"
   social:
@@ -89,7 +169,7 @@
   id: "markus-scharitzer"
   name: "Markus"
   surname: "Scharitzer"
-  current: true
+  current: false
   bio: "As a Penetration Tester and Threat Analyst, Markus can draw from his experience as a Security Manager and long-time Linux System Engineer. As a purple teamer by heart his interests are in all things security. An all around open source enthusiast, he likes to contribute some of his work back to the community."
   thumbnailUrl: "MarkusScharitzer.jpg"
   social:
@@ -99,7 +179,7 @@
   id: "johannes-pichler"
   name: "Johannes"
   surname: "Pichler"
-  current: true
+  current: false
   company: "karriere.at"
   title: "Lead Web Developer"
   bio: "Johannes Pichler is a Lead Web Developer working at karriere.at, the biggest job platform in Austria. At karriere.at he is building RESTful APIs and the karriere.at website powered by Laravel. In his spare time Johannes loves to contribute to open source projects like laravel.io and other PHP/Laravel related projects. Based on his former experiences he forces his team mates and himself to follow a test-driven development approach and to use supportive tools as efficient as possible."
@@ -113,7 +193,7 @@
   surname: "Puhl"
   bio: "Andrew is a User Experience Researcher at Google and has been working in the UX field for the better part of a decade. He started out working at an agency working on projects for large healthcare and telecommunications clients, and then shifted to working on enterprise products at Microsoft and Amazon prior to joining Google. Andrew has a passion for learning what makes people tick, turning that into actionable insights that directly influence product development and delivering those 'Ah-Ha' moments."
   thumbnailUrl: "AndrewPuhl.jpg"
-  current: true
+  current: false
   company: "Google"
   title: "User Experience Researcher"
 -
@@ -122,7 +202,7 @@
   surname: "Filho"
   bio: "Passionate about traveling as well as sharing his adventures with Web Technologies and Firebase. As a Google Developer Expert, he’s helping communities all over the world to learn, discover and have fun."
   thumbnailUrl: "JuarezFilho.jpg"
-  current: true
+  current: false
   ribbon:
     - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social:
@@ -136,7 +216,7 @@
   title: "Web Developer"
   bio: "Passionate Web Developer using JavaScript, Node.js and HTML5 technologies to help reshape how people with interact with each other in the future. Currently part of a team of web experts to develop front-ends and middle-wares for large companies in the DACH area. Co-Organizer and speaker at Vue.js Vienna Meetup."
   thumbnailUrl: "MarkusDanek.jpg"
-  current: true
+  current: false
 -
   id: "sebyll-onbasi"
   name: "Sebyll Ildiko"
@@ -148,7 +228,7 @@
   id: "adrian-bolonio"
   name: "Adrián"
   surname: "Bolonio"
-  bio: "Adrián is a Frontend Developer at willhaben. He studied in Spain, Sweden and in Vienna, and he was even part of the Student Union. He lives in Vienna since 2012, and since then he’s been involved in meet-ups and conferences in Vienna. When he's not developing, he enjoys a good read, playing some games, working his way through any delicious recipe, or indulging his love for travelling to new places."
+  bio: "My name is Adrián Bolonio. I’m an experienced Frontend developer and Web Team Lead, focusing now in Web Accessibility (a11y), and since 2012 I'm living and working in Vienna.<br/>When I’m not at the office I enjoy a good read, working my way through any delicious recipe, and indulging my love for travelling to new places."
   thumbnailUrl: "AdrianBolonio.jpg"
   title: "Frontend Developer"
   company: "willhaben"
@@ -163,14 +243,14 @@
   surname: "Ferreira"
   bio: "Lucas has been studying and working with security for more than 25 years. It all started together with his brother by trying to protect their DOS PC from viruses. From there, his journey into the crazy world of computer security went through PGP, Kerberos and other hardcore crypto; pre-blockchain electronic payment systems and the first stateful firewalls; static websites and Java applets to web pen testing and OWASP."
   thumbnailUrl: "LucasFerreira.jpg"
-  current: true
+  current: false
 -
   id: "sebastian-bicchi"
   name: "Sebastian"
   surname: "Bicchi"
   bio: "Sebastian is a member of OWASP and one of the two founders of Sec-Research, a company which focuses on the development of new information security products and the application of usable security concepts. Backed by his many years of professional security experience and great expertise in different industries he focuses on technical security and provides consulting services ranging from penetration testing to secure architecture."
   thumbnailUrl: "SebastianBicchi.jpg"
-  current: true
+  current: false
   social:
     - { name: "linkedin", link: "https://www.linkedin.com/in/sebastian-bicchi-9ab72358/" }
     - { name: "twitter", link: "https://twitter.com/secresDoge" }
@@ -183,7 +263,7 @@
   company: "Bitmovin"
   thumbnailUrl: "LukasKroepfl.jpg"
   bio: "Lukas is Bitmovin’s frontend/fullstack team lead. At Bitmovin he has been involved in and contributed to the development of every product and platform. Besides working he reads book after book and does sport."
-  current: true
+  current: false
   social:
     - { name: "linkedin", link: "https://www.linkedin.com/in/lukas-kr%C3%B6pfl-98749512b/" }
     - { name: "github", link: "https://github.com/lukaskroepfl" }
@@ -191,7 +271,7 @@
   id: "ishan-khanna"
   name: "Ishan"
   surname: "Khanna"
-  current: true
+  current: false
   thumbnailUrl: "IshanKhanna.jpg"
   company: "Booking.com"
   title: "Android Engineer"
@@ -203,7 +283,7 @@
   id: "busra-deniz"
   name: "Buşra"
   surname: "Deniz"
-  current: true
+  current: false
   thumbnailUrl: "BusraDeniz.jpg"
   company: "The App Business (TAB)"
   title: "Android Developer"
@@ -477,12 +557,12 @@
   thumbnailUrl: "DominikKundel.jpg"
 -
   id: "gerhard-hipfinger"
-  current: false
+  current: true
   name: "Gerhard"
   surname: "Hipfinger"
   title: "CEO/Owner"
   company: "openForce"
-  bio: "Gerhard Hipfinger is the CEO of openForce Information Technology GesmbH. Together with DI Otto Meinhart he founded the company in 2002, which specializes in software development. From the outset the self-financed company dealt with agile software development methods. openForce realizes web, desktop and backend software solutions for numerous large European companies and has particularly specialized in the areas of usability and performance."
+  bio: "Gerhard is a software architect with strong infrastructure background and entrepreneur. He founded openForce Information Technology nearly 20 years ago and helps software teams and customers finding the right software architecture and development process to succeed."
   thumbnailUrl: "GerhardHipfinger.jpg"
   social:
     - { name: "twitter", link: "https://twitter.com/nano4711" }

@@ -50,137 +50,75 @@
   language: English
 -
   id: 111
-  title: "Architecting for performance. A top-down approach"
-  description: "Focused on a top-down approach, it covers the main layers where a software architect or performance engineer must be involved by revealing performance design principles, tactics, patterns, algorithms, strategies, operating system and hardware level optimizations. Each of these layers are detailed by offering suggestions and examples (including some performance tests) for the audience regarding what it really matters and what should be avoided when designing for performance. Main topics: - design principles (e.g. cohesion, polymorphism / abstractizations, cyclomatic complexity, algorithms complexity, etc) - tactics, patterns, algorithms, strategies (e.g. caching, batching, design asynchronous, non-blocking, memory access patterns, lock free algorithms, data structures, etc) - operating system (e.g. large pages, NUMA, thread affinity, RamFS/TmpFS, IO Scheduler, etc) - hardware (e.g. false sharing, C-states, Zero Bit Recording, Solid State Drive, CPU stalls, Cache misses, etc)"
+  title: "Code your Cloud Infrastructure"
+  description: "Infrastructure as Code tools like Terraform can be used to automatically setup and provision hundreds or thousands of nodes in your virtual environment. This talk shows an example use case how a development team can improve and speed up the CI build times by utilising several nodes running in the public cloud."
   subtype: presentation
-  track: "Infrastructure"
-  speakers: ["ionut-balosin"]
+  track: "Cloud"
+  speakers: ["gerhard-hipfinger"]
   language: English
 -
   id: 112
-  title: "Starting on Ethereum, a developer approach"
-  description: "You probably heard about Bitcoin. But crypto-currencies are just about speculation. You can do more on the blockchain. You can deploy code on the blockchain. Do you want to know more? Come to the talk!"
+  title: "Coding should be fun"
+  description: "As coders we are likely to find ourselves in a world of changing requirements and pressure to get things done. This sadly often leads us to cut corners on code quality and to implement quick and dirty solutions. Decisions like these do not help in the long run. They increase the cost of upcoming changes and decrease our joy at work.<br>I will show you how refactoring helps rescuing your code and make changes easy again.<br>After all, coding should be fun."
   subtype: presentation
-  track: "Blockchain"
-  speakers: ["nicolas-frankel"]
+  track: "Teamwork"
+  speakers: ["gregor-riegler"]
   language: English
 -
   id: 113
-  title: "Technical SEO for Web Developers"
-  description: "Google Search can be a great source of traffic to any website. This talk will highlight ways to build out a site's presence in Search, be it for yourself or for others, through hosting platforms, content management systems, or plugins. Learn about the best practices, tools, structured data, and APIs to make it easier to work with new and updated pages over the whole content lifecycle."
-  track: "Cloud"
-  speakers: ["martin-splitt"]
-  language: "English"
--
-  id: 114
-  title: "Security: One API at a Time"
-  description: "This talk will run you through the basics of securing your API to more advanced testing and monitoring techniques. Starting off with the bare minimum of deploying modern TLS to your API, to creating a risk assessment for each call and finally wrapping up a security monitoring. This talk will briefly cover several tools to validate your counter measures and show some examples."
-  track: "OWASP"
-  speakers: ["markus-scharitzer"]
-  language: "English"
--
-  id: 115
-  title: "Create, Store, Synchronize: Firebase Cloud Firestore"
-  description: "Firebase offers two cloud-based, client-accessible database solutions that support realtime data syncing. In this talk, we’ll cover Could Firestore, Firebase's new database solution. It’s an efficient, low-latency database solution for mobile apps that is optimized for speed, security, and offline use. Cloud Firestore lets you build rich, high quality applications by allowing secure access to the database directly from client-side code. Besides being easy to use, it allows you to use queries to decrease the data usage and increase the security so that you can get just the info you need for your user. When offline, apps remain responsive because the Firebase SDK persists your data to disk, giving the end user an immersive experience. Come and learn how you can use Cloud Firestore to effortlessly build powerful realtime experiences on Android in a faster and more efficient way to bring your products to millions of users without worrying about scaling."
-  track: "Cloud"
-  speakers: ["kaan-mamikoglu"]
-  language: "English"
--
-  id: 116
-  title: "Building for the Google Assistant: Voice First vs. Screen First"
-  description: "Learn to build for voice first so you can easily surprise and delight your users on hundreds of millions of devices through the Google Assistant. Let’s be honest: it's quite easy to be tempted to take an existing visual-based experience and simply convert it to voice. In this talk, we’ll cover five key ways voice-first development differs from screen-first development. You’ll learn how to create engaging experiences for voice, the next major disruption in computing. By the end of this session, you should have a better understanding of what types of use cases transfer well to voice interactions and why."
-  track: "AI"
-  speakers: ["aygul-zagidullina"]
-  language: "English"
--
-  id: 117
-  title: "Accessibility Testing with a Screen Reader"
-  description: "Screen reader is the most popular tool used by people with visual impairments to browse the web. As a rule screen readers have a quite high learning curve due to their complexity and different (non-visual) approach of getting information. In this presentation you will figure out best practices of navigating web pages with a screen reader, learn how to use those practices for accessibility testing on both Mac OS and Windows and understand how to avoid the most common pitfalls when getting started using a screen reader."
-  track: "Web"
-  speakers: ["sergei-kriger"]
-  language: "English"
--
-  id: 118
-  title: "Future-proofing product development for humanity"
-  description: "Designing for a global audience requires creators reset their intuition and re-evaluate best practices when user needs collide. The next billion Internet users are varied but face universal challenges: low spec phones, connectivity, and localized content. Welcoming inclusivity early in the process provides our users unbiased access to experiences that help products succeed."
-  track: "Accessibility"
-  speakers: ["jess-myra"]
-  language: "English"
--
-  id: 119
-  title: "Decouple everything"
-  description: "In the recent years we have seen a shift in software architectures. The monolithic approach slowly runs out of fashion and architectural concepts like microservices, SOA, API’s and decoupling in general are getting more and more important.<br/>This talk will look at the different “new” approaches which can deliver a big benefit to your application’s architectural design. We will also dive into the disadvantages decoupling introduces into the software stack and how to overcome them."
-  track: "Infrastructure"
-  speakers: ["johannes-pichler"]
-  language: "English"
--
-  id: 120
-  title: "Building a Google Keep clone powered by Firebase"
-  description: "Join me on an adventure cloning the famous Google Keep app taking advantage of Angular v6 and Firebase features. Following this talk, you will learn Angular CLI tips, Angular Best Practices including TypeScript and Modern JavaScript, Material Design for the UI components, AngularFire, and tons of Firebaaaaase awesomeness. In a nutshell, it will cover: 🔒 Authentication with Google ✏️ Notes management using Firestore 🎈 Activity using the Realtime Database 🌈 Cloud Functions for advanced techniques including image thumbnails and sub-collections removal 🖼️ Cloud Storage for the built-in gallery section inside of each note 🌩️ Cloud Messaging to send push notifications when a new collaborator is added to a note 🌟 And of course, Firebase Hosting which provides a fast and secure web hosting Did I mention it is a Progressive Web App? 🚀"
-  track: "Web"
-  speakers: ["juarez-filho"]
-  language: "English"
--
-  id: 121
-  title: "How does your website “sound” like? - How web accessibility can make impaired people use your website."
-  description: "When we develop a new web application, we often put a lot of work on the design, on making it beautiful and usable. In other words, we want our web app to be effective, efficient, and satisfying for the user. But a lot of times we don’t think about the user experience for people with disabilities, including people with age-related impairments.<br>For the web, accessibility means that people with disabilities can perceive, understand, navigate, and interact with websites and tools, and that they can contribute equally without barriers.” (Source: W3C - Web Accessibility Initiative). Our role as frontend and web developers is to create clear interfaces to make people understand and care about data, independently of their disabilities or impairments.<br>In this talk I would love to show the tools we can use to create more accessible web applications, some good practices when we code a new web application and how to test and audit it in the browser thanks to the integrated developer tools."
-  track: "Web"
+  title: "Testing Web Accessibility is Fun"
+  description: "When we develop a new web application, we often put a lot of work on the design, on making it beautiful and usable. In other words, we want our web app to be effective, efficient, and satisfying for the user. But a lot of times we don’t think about the user experience for people with disabilities, including people with age-related impairments.<br>I will show you some testing tools, libraries and techniques to increase the accessibility (<emph>a11y</emph>) test coverage of your code with a simple React application example."
+  track: "Testing"
   speakers: ["adrian-bolonio"]
   language: "English"
 -
-  id: 122
-  title: "What is OWASP?"
-  description: "The Open Web Application Security Project (OWASP) is a worldwide not-for-profit organization focused on improving the security of software. Our mission is to make software security visible, so that individuals and organizations are able to make informed decisions.  Operating as a community of like-minded professionals, OWASP issues software tools and knowledge-based documentation on application security."
-  track: "OWASP"
-  speakers: ["lucas-ferreira"]
+  id: 114
+  title: "DevOps Culture"
+  description: "In order to better support the business and meet the demands of the customers, developers need to often build and release new features. Often, once a feature is released into production, the developers have to move to the next feature and forget all about the released one. For the customer, the story doesn't end here - the feature must be available, correct and reliable. This is the domain of IT-Operations, the teams that need to make sure production is up and running. While developers focus on speed and releasing new features, operations focus on stability and keeping features working.<br>This is clearly a problem if teams optimize for their local goals. In this talk, we will attempt to explain the culture shift required to bring together the dev and ops teams, optimizing for the goals of the company as a whole."
+  track: "Teamwork"
+  speakers: ["damjan-gjurovski", "tamas-neumer"]
   language: "English"
 -
-  id: 123
-  title: "From passphrase to webauthn"
-  description: "This talk will lead you through the pitfalls of web based authentication. It will look at the current situation and the future development to provide you with insights on what architects, developers and UX designers or other interested parties have to consider when implementing secure and future-proof web-applications."
-  track: "OWASP"
-  speakers: ["sebastian-bicchi"]
-  language: "English"
--
-  id: 124
-  title: "Engineering at Bitmovin - how we failed and evolved"
-  description: "How engineering at Bitmovin scaled and what we have been through, how we failed and what we learned along the way of 2 years non stop growth. We will walk through the process of scaling infrastructure from a few engineers hacking on a monolith to multiple teams and departments working on a distributed microservice based platform covering both back- and frontend. Technologies/concepts covered in this talk, among others, are Docker, microservices, kubernetes, react, development process automation."
+  id: 115
+  title: "Google Cloud Spanner"
+  description: "There is a great number of reasons why RDBMS systems are still very popular. For devel-opers it is very convenient to rely on ACID properties of the persistence layers. All entities involved in a transaction are either committed at once or rolled back. At any point in time, client have a consistent view on queried data. Furthermore, there is a broad understanding of relational data modelling and how to query the data with SQL.<br>This is where the project Spanner was born at Google in 2012. It can be described as a globally scalable, relational database system that supports transactional consistency. Today Spanner underpins Gmail, AdWords, Google Photos, the Play Store and 2000 more of Google services. It has been made publicly available as managed cloud database `Cloud Spanner` in 2017 using the marketing term 'NewSQL'."
   track: "Cloud"
-  speakers: ["lukas-kroepfl"]
+  speakers: ["hannes-boesch"]
   language: "English"
 -
-  id: 125
-  title: "Smart apartments with IBM Watson IoT Platform"
-  description: "Smart home products like Amazon Alexa or Philips Hue Bulbs are one of the most selling products in 2018 and the hype will continue. This talk will give you an introduction about available IoT devices and services and how you can control a WiFi plug with a Raspberry Pi and the IBM Watson IoT Platform."
-  track: "AI"
-  speakers: ["markus-danek"]
+  id: 116
+  title: "Build your own Knowledge Graph with Weaviate on GCP"
+  description: "Maybe you've heard of them before, knowledge graphs. But if you haven't, no worries, you are not alone. Knowledge graphs take an entirely new approach to data management. What makes them stand out from other data solutions is that they focus on the meaning and context of data by extracting the purpose of the language.<br>The use cases are almost endless. It allows scientists to automate drug discovery, doctors to search for diseases based on patients' symptoms, to map our complex Internet of Things landscapes, gather insights from billions of financial transactions, and many more things."
+  track: "Development"
+  speakers: ["bob-van-luijt"]
   language: "English"
 -
-  id: 126
-  title: "Privacy by Design - Secure by Default"
-  description: "Experience from the industry, how to manage and implement privacy by design for a large us company in a digital transformation phase? Architecture and business level, a multidisciplinary positive sum approach. How to talk different languages for efficient and goal oriented compliance solutions and make it possible on the technical level?"
-  track: "OWASP"
-  speakers: ["sebyll-onbasi"]
+  id: 117
+  title: "How to cook with RxJS"
+  description: "The trickiest part of learning reactive development is switching your mindset to <emph>think reactively</emph>. With so many operators out there learning Rx on your own is often overwhelming. And no, marbles don't help. But we are living in a reactive world and we can find examples everywhere around us.<br>Join me in unwrapping the ReactiveX down to the basic ingredients and apply this mindset to code a game. After all, in a reactive world, writing code is no more than telling a story."
+  track: "Development"
+  speakers: ["miroslav-jonas"]
   language: "English"
 -
-  id: 127
-  title: "Breaking the Monolith @ Booking.com"
-  description: "We all have heard stories about modularization, faster builds, quicker iterations and all the good things we get through it. But when it comes to actually breaking your legacy into modules, your code can give you a serious run for money. In this talk I will share how 60+ Android Devs at Booking got together to defeat the legacy and modularized the app to get 10 times faster builds. If you attend this talk you will be able to learn the best practices about modularizing your large code bases and avoid the pitfalls that we discovered in this journey."
-  track: "Android"
-  speakers: ["ishan-khanna"]
+  id: 118
+  title: "Actions on Google: personalize for each user and device"
+  description: "What sets apart a good action is personalizing the experience for each user, adapting to their needs and offer the best experience for whichever device the user is currently using. Customizing the responses, storing information and manipulating the medium of the displayed response, can all be achieved by learning how to leverage the AoG SDK. Together we will learn the differences between the DialogFlow SDK and the AoG SDK, how to perform all the above and some best practices that will help you build your action faster and better. The language we're going to use during this talk is Kotlin."
+  track: "Cloud"
+  speakers: ["eliza-camber"]
   language: "English"
 -
-  id: 128
-  title: "Creating ML-powered applications"
-  description: "Each day we are hearing yet another application that announces a new cool feature powered by machine learning. It’s pretty exciting but when the time comes to deep diving into machine learning, it can be intimidating, especially if you don’t have machine learning background. In this session, you will get the gist of newly announced MLKit & Tensorflow Lite. We'll be learning about MLKit features and creating custom Tensorflow model and using it in app via MLKit."
-  track: "Android"
-  speakers: ["busra-deniz"]
+  id: 119
+  title: "Going Secure with Go"
+  description: "Natalie will discuss a broad range of aspects of Go application security by taking on writing secure code, dependency management and Docker images and containers security."
+  track: "Cloud"
+  speakers: ["natalie-pistunovich"]
   language: "English"
 -
-  id: 129
-  title: "A Cultural Shift: The Democratization of User Research"
-  description: "Data has become prevalent in today’s product development process. UXers, PM’s, sales and engineers are all talking to customers in attempts to better understand their wants and needs. This data is used to make user centered decisions, drive product objectives, and ultimately ship products. Democratizing UX research shifts the culture of a researcher from being a methods expert to that of data strategist, with the goal of empowering product development teams to become more empathetic with their end users."
-  speakers: ["andrew-puhl"]
+  id: 120
+  title: "Secure Credential Management with Vault in Kubernetes"
+  description: "Kubernetes is growing day by day - and even though it has generally a good focus on security, it's default credential management with secrets can not be called safe nor easy.<br>Hashicorps Vault supports Kubernetes and improves the 'safety' part - but the management gets even more difficult. Fortunately Kubernetes has webhooks, and with the correct set-up, which you can get from an open-source project of banzaicloud, you can make the vault configuration nearly disappear.<br>We will see how you can get it up and running, what's going on behind the curtains and why the vault is a really safe alternative to secrets."
+  track: "Cloud"
+  speakers: ["filip-nikolic"]
   language: "English"
 -
   id: 200
