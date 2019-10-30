@@ -97,7 +97,6 @@
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group"}
   social:
-    - {name: "facebook", title: "Facebook", link: "https://www.facebook.com/kariem.hussein"}
     - {name: "twitter", title: "Twitter", link: "https://twitter.com/kariem"}
     - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/kariem/"}
 -
