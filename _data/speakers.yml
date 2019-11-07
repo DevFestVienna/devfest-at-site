@@ -14,12 +14,21 @@
   current: true
   thumbnailUrl: "ElizaCamber.jpg"
   bio: "Eliza is an Android developer at Pixplicity, and a Google Developer Expert on the Assistant. She is also the Women Techmakers Lead for the Netherlands, an organizer for the GDG Netherlands and a public speaker. Her big passion is to explore and play with new technologies while she enjoys travelling, and attending conferences and meetups."
+  social:
+   - { name: "twitter", link: "https://twitter.com/ElizaCamber" }
+-
+  id: "sascha-kerbler"
+  name: "Sascha"
+  surname: "Kerbler"
+  current: true
+  thumbnailUrl: "SaschaKerbler.jpg"
+  bio: "Sascha started his career working several years in a large consulting company delivering projects in the area of Emerging Technologies (Big Data & Analytics, Blockchain, Containers & Kubernetes,..). In February 2019 Sascha joined Google as Customer Engineer, where he is now working closely with customers to solve their technical challenges. Besides work, Sascha likes to spend his time mostly hiking and playing ice-hockey."
 -
   id: "filip-nikolic"
   name: "Filip"
   surname: "Nikolic"
   current: true
-  thumbnailUrl: "unknown-male.png"
+  thumbnailUrl: "FilipNikolic.jpg"
   bio: "Filip Nikolic, a former system administrator, knows very well about the pain that comes along with managing different infrastructures. Now as an IT-Consultant at WhizUs, he is trying to ease the pain and automate unnecessary steps."
 -
   id: "miroslav-jonas"
@@ -44,7 +53,7 @@
   name: "Hannes"
   surname: "Bösch"
   current: true
-  thumbnailUrl: "unknown-male.png"
+  thumbnailUrl: "HannesBoesch.jpg"
   bio: "My name is Hannes Bösch and I work as a Software Architect at PRODYNA SE, at the Austrian branch in Vienna. This year we launched a global scale transaction system I have been working on as a tech lead for the past two years that can serve thousands of requests per second and runs in a highly scalable cloud environment. I exercised the organizational and technical tool chain on how to successfully develop and operate software in a “Cloud Native” mindset. I believe that running software in the Cloud is the future and we want to enable businesses to be successful on that path.<br>In my free time I travel a lot and love doing sports like running marathons, swimming and hiking. I graduated in Business Informatics at TU Vienna and I am really excited to be back for this presentation."
   title: "Software Architect"
   company: "PRODYNA"
@@ -89,6 +98,26 @@
   thumbnailUrl: "IonutBalosin.jpg"
   social:
    - { name: "site", link: "http://www.ionutbalosin.com/" }
+-
+  id: "tamas-toth"
+  name: "Tamas"
+  surname: "Toth"
+  current: true
+  thumbnailUrl: "TamasToth.jpg"
+-
+  id: "markus-winand"
+  name: "Markus"
+  surname: "Winand"
+  current: true
+  thumbnailUrl: "MarkusWinand.jpg"
+  bio: "Markus Winand is the SQL Renaissance Ambassador. He is on a mission to introduce developers to the evolution of SQL in the 21st century. His first book “SQL Performance Explained” is available in five languages and can be read for free on his website [use-the-index-luke.com](https://use-the-index-luke.com). Markus is currently working on his second book that is likewise available free of charge online <a href='https://modern-sql.com' target='_blank'>modern-sql.com</a>."
+-
+  id: "merab-tato-kutalia"
+  name: "Merab"
+  surname: "Tato Kutalia"
+  bio: "Merab is an Android developer with a history of building applications with both corporates and startups. His background is in reactive technologies for which he still has a passion. He is a fan of all things Android development, particularly architecture with a penchant for exploring the potentials of the platform. During working life he spends time exploring Android capabilities, trying out different architecture patterns and new stuff around Android. Out of work, Merab maintains an active podcast about work ethics, sometimes writes tech-blogs and is a GDG organizer, /speaker at Tbilisi development meetups(Devfests, OWASP) and beyond. Cares about community and new generation. Alongside his technological pursuits, he is an amateur cyclist and runner, biohacker and spends lots of time on personal development."
+  current: true
+  thumbnailUrl: "MerabTatoKutalia.jpg"
 -
   id: "nicolas-frankel"
   name: "Nicolas"
@@ -527,13 +556,13 @@
     - { name: "twitter", link: "https://twitter.com/johannes_fiala" }
 -
   id: "philipp-krenn"
-  current: false
+  current: true
   name: "Philipp"
   surname: "Krenn"
   rockstar: true
   title: "Developer Advocate"
   company: "Elastic"
-  bio: "Philipp is a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports."
+  bio: "Philipp lives to demo interesting technology. Having worked as a web, infrastructure, and database engineer for over ten years, Philipp is now working as a developer advocate at Elastic — the company behind the Elastic Stack consisting of Elasticsearch, Kibana, Beats, and Logstash. Based in Vienna, Austria, he is constantly traveling Europe and beyond to speak and discuss open source software, search, databases, infrastructure, and security."
   thumbnailUrl: "PhilippKrenn.jpg"
   social:
     - { name: "twitter", link: "https://twitter.com/xeraa" }

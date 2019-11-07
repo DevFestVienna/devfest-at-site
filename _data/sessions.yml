@@ -121,6 +121,41 @@
   speakers: ["filip-nikolic"]
   language: "English"
 -
+  id: 121
+  title: "From Containers to Kubernetes Operators"
+  description: "'Containers are the new ZIP format to distribute software' is a fitting description of today's development world. However, it is not always that easy and this talk highlights the development of Elastic's container strategy over time:<br><ul><li>Docker images: A new distribution model.<li>Docker Compose: Local demos and a little more.<li><li>Helm Chart: Going from demo to production.<li>Kubernetes Operator: Full control with upgrades, scaling,...</ul>Besides the strategy we are also discussing specific technical details and hurdles that appeared during the development. Or why the future will be a combination of Helm Chart and Operator (for now)."
+  track: "Cloud"
+  speakers: ["philipp-krenn"]
+  language: "English"
+-
+  id: 122
+  title: "Will Java become simple, amazingly fast and cloud-native in the future?"
+  description: "The JDK is over 20 years old and was created at a time that had totally different requirements for a programing language from today. The rise of cloud technologies and the need for highly scalable applications made Java's 'write once run anywhere' approach less important. Although there are still many reasons to choose Java for application development, the language faces several challenges in the 'serverless', cloud-native context and handling of concurrency.<br>Due to the relatively high cost of a JVM cold start, interpreted frameworks/languages like Node.js and Python have an advantage in a serverless environment.<br>The great news is that JDK has now shifted to an open development model with short release cycles to improve on a regular base. In addition to that, both of the previously mentioned problems have been addressed by solutions like Graal VM, Quarkus and last but not least, the promising ideas of Project Loom."
+  track: "Programming"
+  speakers: ["tamas-toth"]
+  language: "English"
+-
+  id: 123
+  title: "Cloud Run - Accelerate your way running containers"
+  description: "For more than two years now, everyone talks about Kubernetes and it just recently reached the top of the hype cycle. Even though Kubernetes improves development and operations drastically, management and operational efforts are still necessary.  At Next 2019, Google's annual Cloud conference, <b>Cloud Run</b> was presented as serverless system based on Kubernetes and Google Cloud Platform.<br>The session will highlight the architecture and tooling behind Cloud Run and demonstrate how to run and operate containers on it."
+  track: "Cloud"
+  speakers: ["sascha-kerbler"]
+  language: "English"
+-
+  id: 124
+  title: "More Than a Query Language: SQL in the 21st Century"
+  description: "'Great News–The Relational Model is Dead' was a prominent comment on the release of the new SQL standard in 1999. The message behind the provoking statement was that SQL has evolved beyond the relational model. As much as this move was discussed at that time, it took decades until database vendors caught up with this idiomatic change. Many developers haven’t heard of it until today.<br>This talk provides the big picture on the evolution of SQL and introduces some selected modern SQL features by example. You will see that SQL has changed as much as our requirements have changed over the past decades."
+  track: "Programming"
+  speakers: ["markus-winand"]
+  language: "English"
+-
+  id: 125
+  title: "Defensive Programming x FinTech"
+  description: "Defend against the impossible, because the impossible will happen.<br>How to avoid common errors in the code and how to master this discipline. Will try to show incorrect and correct examples achieving safe and cleaner code. But there is another extreme part of this: overly defensive code, too much defensive code, I'm going to underline the thin line between defensive and extremely defensive code. Bonus: Most FinTech Android applications nowadays do it wrong when it comes to money."
+  track: "Programming"
+  speakers: ["merab-tato-kutalia"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
