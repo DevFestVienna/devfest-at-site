@@ -24,6 +24,27 @@
   thumbnailUrl: "SaschaKerbler.jpg"
   bio: "Sascha started his career working several years in a large consulting company delivering projects in the area of Emerging Technologies (Big Data & Analytics, Blockchain, Containers & Kubernetes,..). In February 2019 Sascha joined Google as Customer Engineer, where he is now working closely with customers to solve their technical challenges. Besides work, Sascha likes to spend his time mostly hiking and playing ice-hockey."
 -
+  id: "dominik-dorn"
+  name: "Dominik"
+  surname: "Dorn"
+  thumbnailUrl: "DominikDorn.jpg"
+  current: true
+  bio: "Dominik Dorn is a Freelance Software Engineer from Vienna. Since 2010 he leads the association Java Student User Group which is known for the 'Java Vienna Meetup' and as a Co-Organizer of the 'DevFest Vienna'. He's been speaking on conferences like JavaOne San Francisco, ConFess, JDD Krakow and Voxxed Days. His special interests are on high-concurrency, high-throughput and event-driven distributed systems based on Java and Scala. You can follow him on twitter: @domdorn"
+  ribbon:
+    - {abbr: "JSUG", title: "Java Vienna"}
+  social:
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/domdorn"}
+    - {name: "site", title: "Blog", link: "https://dominikdorn.com"}
+    - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/dominik-dorn-bb1b4266/"}
+    - {name: "xing", title: "Xing", link: "https://www.xing.com/profile/Dominik_Dorn"}
+-
+  id: "jerome-mouton"
+  name: "Jerome"
+  surname: "Mouton"
+  current: true
+  thumbnailUrl: "JeromeMouton.jpg"
+  bio: "Jerome is the co-founder and CTO at SnapEngage, a customer engagement and live chat solution. He is also a lead for GDG Berlin and a Google Developer Expert for the Google Cloud Platform. He has been using the Google App Engine its launch in 2008."
+-
   id: "filip-nikolic"
   name: "Filip"
   surname: "Nikolic"
@@ -102,8 +123,11 @@
   id: "tamas-toth"
   name: "Tamas"
   surname: "Toth"
+  bio: "My name is Tamas Toth and I'm working more than 4 years in software engineering. Currently I am working for viesure where our focus is not only on Product development, but also on the latest technologie stack :)"
   current: true
   thumbnailUrl: "TamasToth.jpg"
+  social:
+   - { name: "twitter", link: "https://twitter.com/tko0087" }
 -
   id: "markus-winand"
   name: "Markus"

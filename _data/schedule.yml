@@ -5,67 +5,64 @@
   location: "TU Wien"
   locationLink: "/location/#tu-wien"
   rooms:
-    - {title: "Room WhizUs", color: "#90be4e"}
-    - {title: "Room 2", color: "#03a9f4"}
+    - {title: "Room WhizUs (EI 9)", color: "#90be4e"}
+    - {title: "Room 2 (EI 10)", color: "#03a9f4"}
+    - {title: "Room 3 (EI 8)", color: "#4390be"}
   timeslots:
     -
         startTime: "08:30"
-        endTime: "09:00"
+        endTime: "09:15"
         sessionIds: [100]
     -
-        startTime: "09:00"
-        endTime: "09:40"
-        sessionIds: [116, 111]
+        startTime: "09:15"
+        endTime: "10:15"
+        sessionIds: [116, 114, 2]
     -
-        startTime: "09:40"
-        endTime: "10:30"
-        sessionIds: [112, 113]
+        startTime: "10:15"
+        endTime: "11:10"
+        sessionIds: [112, 113, 2]
     -
-        startTime: "10:30"
-        endTime: "11:20"
-        sessionIds: [114, 115]
-    -
-        startTime: "11:20"
-        endTime: "11:40"
+        startTime: "11:10"
+        endTime: "11:30"
         sessionIds: [102]
     -
-        startTime: "11:40"
-        endTime: "12:30"
-        sessionIds: [116, 117]
+        startTime: "11:30"
+        endTime: "12:25"
+        sessionIds: [116, 117, 2]
     -
-        startTime: "12:30"
-        endTime: "13:30"
+        startTime: "12:25"
+        endTime: "13:25"
         sessionIds: [103]
     -
-        startTime: "13:30"
+        startTime: "13:25"
         endTime: "14:20"
-        sessionIds: [118, 118]
+        sessionIds: [118, 122, 99]
     -
         startTime: "14:20"
-        endTime: "15:10"
-        sessionIds: [120, 121]
+        endTime: "14:50"
+        sessionIds: [111, 115, 99]
     -
-        startTime: "15:10"
-        endTime: "15:30"
+        startTime: "14:50"
+        endTime: "15:05"
         sessionIds: [102]
     -
-        startTime: "15:30"
+        startTime: "15:05"
         endTime: "16:00"
-        sessionIds: [1, 1]
+        sessionIds: [121, 119, 123]
     -
         startTime: "16:00"
-        endTime: "16:50"
-        sessionIds: [122, 123]
+        endTime: "16:55"
+        sessionIds: [124, 125, 126]
     -
-        startTime: "16:50"
-        endTime: "17:40"
-        sessionIds: [124, 125]
+        startTime: "16:55"
+        endTime: "17:50"
+        sessionIds: [127, 120, 1]
     -
-        startTime: "17:40"
-        endTime: "17:45"
+        startTime: "17:50"
+        endTime: "18:00"
         sessionIds: [104]
     -
-        startTime: "17:45"
+        startTime: "18:00"
         endTime: "22:00"
         sessionIds: [105]
 -

@@ -38,9 +38,9 @@
   language: English
 -
   id: 2
-  title: "To be announced"
+  title: "Security Tournament"
   track: "OWASP"
-  description: "Stay tuned - details for this <a href='https://www.owasp.org' target='_blank'>OWASP</a>-related talk will be announced soon!"
+  description: "Security Gamified - join our tournament organized by Secure Code Warrior!"
 -
   id: 99
   title: "Lightning Talks"
@@ -154,6 +154,20 @@
   description: "Defend against the impossible, because the impossible will happen.<br>How to avoid common errors in the code and how to master this discipline. Will try to show incorrect and correct examples achieving safe and cleaner code. But there is another extreme part of this: overly defensive code, too much defensive code, I'm going to underline the thin line between defensive and extremely defensive code. Bonus: Most FinTech Android applications nowadays do it wrong when it comes to money."
   track: "Programming"
   speakers: ["merab-tato-kutalia"]
+  language: "English"
+-
+  id: 126
+  title: "Google Cloud Platform in a Practical Way"
+  description: "You are a developer with exciting ideas to launch online, and you want to be all set for success from the start?<br>This session will introduce the Google Cloud Platform key components by replaying the past 10 years at SnapEngage on the Cloud Platform, adding components of the platform one by one to grow from an idea, to a feature and finally to a software as a service serving billions of queries every month. We will cover App Engine, Cloud Storage, BigQuery, Compute Engine, Cloud Functions, Firestore, Cloud Pub/Sub and also mention some interesting non-Google developer products which complement the Cloud Platform."
+  track: "Cloud"
+  speakers: ["jerome-mouton"]
+  language: "English"
+-
+  id: 127
+  title: "Native Java with Graal on AWS-Lambda"
+  description: "You knew that you could use Java for AWS-Lambda, but its coming with slow cold-starts and huge memory requirements. In this talk, I'll show you how you can deploy a Java-App as a Graal Native-Image to AWS Lambda."
+  track: "Cloud"
+  speakers: ["dominik-dorn"]
   language: "English"
 -
   id: 200
