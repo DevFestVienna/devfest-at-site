@@ -20,7 +20,7 @@
   id: "sascha-kerbler"
   name: "Sascha"
   surname: "Kerbler"
-  current: true
+  current: false
   thumbnailUrl: "SaschaKerbler.jpg"
   bio: "Sascha started his career working several years in a large consulting company delivering projects in the area of Emerging Technologies (Big Data & Analytics, Blockchain, Containers & Kubernetes,..). In February 2019 Sascha joined Google as Customer Engineer, where he is now working closely with customers to solve their technical challenges. Besides work, Sascha likes to spend his time mostly hiking and playing ice-hockey."
 -
@@ -44,6 +44,16 @@
   current: true
   thumbnailUrl: "JeromeMouton.jpg"
   bio: "Jerome is the co-founder and CTO at SnapEngage, a customer engagement and live chat solution. He is also a lead for GDG Berlin and a Google Developer Expert for the Google Cloud Platform. He has been using the Google App Engine its launch in 2008."
+-
+  id: "daniel-kienboeck"
+  name: "Daniel"
+  surname: "Kienböck"
+  current: true
+  thumbnailUrl: "DanielKienboeck.jpg"
+  bio: "I am an enterprise architect at ING Austria. Working in Software Development is my daily business, job and passion for round about 15 years now. Hereby it is important to me to stay tuned with new technologies and software development trends. With conferences, talks and meetups I take the opportunity to share my knowledge with others."
+  social:
+    - {name: "linkedin", title: "LinkedIn", link: "https://www.linkedin.com/in/danielkienboeck/"}
+    - {name: "xing", title: "Xing", link: "https://www.xing.com/profile/Daniel_Kienboeck/cv"}
 -
   id: "filip-nikolic"
   name: "Filip"

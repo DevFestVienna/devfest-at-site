@@ -20,7 +20,7 @@
     -
         startTime: "10:15"
         endTime: "11:10"
-        sessionIds: [112, 113, 2]
+        sessionIds: [127, 113, 2]
     -
         startTime: "11:10"
         endTime: "11:30"
@@ -28,7 +28,7 @@
     -
         startTime: "11:30"
         endTime: "12:25"
-        sessionIds: [116, 117, 2]
+        sessionIds: [119, 117, 2]
     -
         startTime: "12:25"
         endTime: "13:25"
@@ -48,15 +48,15 @@
     -
         startTime: "15:05"
         endTime: "16:00"
-        sessionIds: [121, 119, 123]
+        sessionIds: [121, 112, 1]
     -
         startTime: "16:00"
         endTime: "16:55"
-        sessionIds: [124, 125, 126]
+        sessionIds: [124, 125, 128]
     -
         startTime: "16:55"
         endTime: "17:50"
-        sessionIds: [127, 120, 1]
+        sessionIds: [120, 126, 1]
     -
         startTime: "17:50"
         endTime: "18:00"

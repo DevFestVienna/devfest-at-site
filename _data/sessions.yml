@@ -170,6 +170,13 @@
   speakers: ["dominik-dorn"]
   language: "English"
 -
+  id: 128
+  title: "Website Push Notifications - the Death of the Email-Newsletters?"
+  description: "Raymond ('Ray') Tomlinson implemented the first email software on ARPANET in 1971 and is commonly known as the inventor of emailing. Since then the number of sent emails has risen to 200 billion per day (extrapolated; significant amount of junk emails included) handled by about 4 billion email users. Hereby the basic design of emailing has not changed fundamentally which can be seen as an advantage in terms of openness and compatibility but is also problematic. With website push notifications we see a trend for B2C communication which solves a lot of issues we are facing with emails here. In the session we will have a closer look at the technology and will build a solution in a live-coding session while also comparing it with alternative communication channels."
+  track: "Programming"
+  speakers: ["daniel-kienboeck"]
+  language: "English"
+-
   id: 200
   title: "Breakfast"
   service: true
