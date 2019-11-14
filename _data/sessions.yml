@@ -42,6 +42,10 @@
   track: "OWASP"
   description: "Security Gamified - join our tournament organized by Secure Code Warrior!"
 -
+  id: 98
+  title: ""
+  description: "Empty - no talk in this room"
+-
   id: 99
   title: "Lightning Talks"
   description: "This is your time. Anything you want to show to peers, a new library, an API, or some food for thoughts? Bring your lightning talk (5 minutes each) and let us hear!"

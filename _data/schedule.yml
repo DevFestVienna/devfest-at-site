@@ -48,15 +48,15 @@
     -
         startTime: "15:05"
         endTime: "16:00"
-        sessionIds: [121, 112, 1]
+        sessionIds: [121, 112, 128]
     -
         startTime: "16:00"
         endTime: "16:55"
-        sessionIds: [124, 125, 128]
+        sessionIds: [124, 125, 98]
     -
         startTime: "16:55"
         endTime: "17:50"
-        sessionIds: [120, 126, 1]
+        sessionIds: [120, 126, 98]
     -
         startTime: "17:50"
         endTime: "18:00"
