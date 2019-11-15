@@ -26,9 +26,8 @@
 -
   id: 105
   title: "After Party"
-  description: "Join the afterparty - relax, chat & network. Drinks are on us!"
-  place: "TBA"
-  service: true
+  description: "Join the afterparty - relax, chat & network. Drinks are on us!<br><br><a href='https://haferpoint.com' target='_blank'>HaferPoint</a>"
+  place: "HaferPoint - Gußhausstraße 12"
 -
   id: 1
   title: "To be announced"
@@ -40,7 +39,7 @@
   id: 2
   title: "Security Tournament"
   track: "OWASP"
-  description: "Security Gamified - join our tournament organized by Secure Code Warrior!"
+  description: "Security Gamified - join our tournament organized by Secure Code Warrior!<br><br><a href='https://portal.securecodewarrior.com/#/tournaments/list?tournamentId=5dc02a602c4b12005582ccf7' target='_blank'>Online Tournament</a>"
 -
   id: 98
   title: ""
