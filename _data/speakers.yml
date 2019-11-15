@@ -5,6 +5,9 @@
   surname: "Pistunovich"
   thumbnailUrl: "NataliePistunovich.jpg"
   bio: "Natalie Pistunovich is a learner, a Google Developer Expert (GDE) for Go, a public speaker and a sailor. As an Engineering Manager in Fraugster, Berlin, she is leading the observability, and additionally organizing GopherCon Europe. Prior to that she was a Backend Developer at GrayMeta, Los Angeles, a co-founder at Connta, Nairobi, a Backend Developer at adjust, Berlin, and a Silicon Integration Engineer at Intel, Haifa. She graduated with a B.Sc. in Computer and Software Engineering from the Technion in Israel. In her free time, Natalie is co-leading the Berlin chapters of the Go User Group and Women Techmakers."
+  ribbon:
+   - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/golang-users-berlin/"}
+   - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social:
    - { name: "twitter", link: "https://twitter.com/NataliePis" }
 -
@@ -14,6 +17,9 @@
   current: true
   thumbnailUrl: "ElizaCamber.jpg"
   bio: "Eliza is an Android developer at Pixplicity, and a Google Developer Expert on the Assistant. She is also the Women Techmakers Lead for the Netherlands, an organizer for the GDG Netherlands and a public speaker. Her big passion is to explore and play with new technologies while she enjoys travelling, and attending conferences and meetups."
+  ribbon:
+   - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/gdg-nl/"}
+   - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social:
    - { name: "twitter", link: "https://twitter.com/ElizaCamber" }
 -
@@ -43,6 +49,11 @@
   surname: "Mouton"
   current: true
   thumbnailUrl: "JeromeMouton.jpg"
+  ribbon:
+   - { abbr: "GDG", title: "Google Developer Group", url: "https://www.meetup.com/gdg-berlin/"}
+   - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  social:
+    - {name: "twitter", title: "Twitter", link: "https://twitter.com/jlmouton"}
   bio: "Jerome is the co-founder and CTO at SnapEngage, a customer engagement and live chat solution. He is also a lead for GDG Berlin and a Google Developer Expert for the Google Cloud Platform. He has been using the Google App Engine its launch in 2008."
 -
   id: "daniel-kienboeck"
@@ -75,6 +86,8 @@
   current: true
   thumbnailUrl: "BobVanLuijt.jpg"
   bio: "Bob is the founder of SeMI Technologies, which is the business created around the open-source knowledge graph Weaviate. Besides SeMI and Weaviate. Bob is a frequent speaker on the topics of open source, digital technology, software business, and creativity. He has spoken at around 100+ events in Europe, the US, and Russia of which half as a Google Developer Expert."
+  ribbon:
+   - { abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social:
    - { name: "linkedin", link: "https://www.linkedin.com/in/bobvanluijt/" }
    - { name: "twitter", link: "https://twitter.com/bobvanluijt" }
